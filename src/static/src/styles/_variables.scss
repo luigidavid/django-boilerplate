@@ -1,0 +1,26 @@
+// Path fuentes font-awesome.
+$fa-font-path: "../../bower_components/font-awesome/fonts" !default;
+
+// Font roboto.
+$roboto-font-path: "../../bower_components/Materialize/fonts/roboto/" !default;
+
+// Colors.
+$primary-color: color("blue-grey", "darken-2") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+$secondary-color: $primary-color-light !default;
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+$info-color: color("blue", "base") !default;
+$warning-color: color("orange", "base") !default;
+
+// Links
+$link-color: color("light-blue", "darken-1") !default;
+
+// Social colors.
+// https://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+$facebook-color: rgb(59, 89, 152);
+$twitter-color: rgb(85, 172, 238);
+$gplus-color: rgb(221, 75, 57);
+$pinterest-color: rgb(203, 32, 39);
+$linkedin-color: rgb(0, 123, 181);

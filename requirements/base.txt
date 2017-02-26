@@ -1,0 +1,8 @@
+# Archivo requirements base
+
+django-debug-toolbar==1.6.0
+Django==1.11a1
+markdown2==2.3.3
+Pillow==4.0.0
+psycopg2==2.6.2
+pytz==2016.10

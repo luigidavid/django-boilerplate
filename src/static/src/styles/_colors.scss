@@ -1,0 +1,25 @@
+// Backgrounds
+.primary-color { background-color: $primary-color; }
+.primary-color-light { background-color: $primary-color-light; }
+.primary-color-dark { background-color: $primary-color-dark; }
+.secondary-color { background-color: $secondary-color; }
+
+.success-color { background-color: $success-color; }
+.error-color { background-color: $error-color; }
+.info-color { background-color: $info-color; }
+.warning-color { background-color: $warning-color; }
+
+.light-color { background-color: color("grey", "lighten-3"); }
+
+// Color texto
+.primary-color-text { color: $primary-color; }
+.primary-color-light-text { color: $primary-color-light; }
+.primary-color-dark-text { color: $primary-color-dark; }
+.secondary-color-text { color: $secondary-color; }
+
+.success-color-text { color: $success-color; }
+.error-color-text { color: $error-color; }
+.info-color-text { color: $info-color; }
+.warning-color-text { color: $warning-color; }
+
+.light-color-text { color: color("grey", "lighten-3"); }

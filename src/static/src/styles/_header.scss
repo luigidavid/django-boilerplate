@@ -1,0 +1,13 @@
+// Badges en sidenav
+.side-nav li {
+  width: 100%;
+  display: block;
+
+  a {
+    span {
+      &.badge {
+        margin-top: 14px;
+      }
+    }
+  }
+}

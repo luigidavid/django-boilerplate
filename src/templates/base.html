@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% block meta_description %}{% endblock meta_description %}">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+  <title>{{ SITE.name }} {% block head_title %}{% endblock head_title %}</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- default css -->
+  <link href="{% static 'dist/css/main.min.css' %}" rel="stylesheet">
+  {% block extra_heads %}{% endblock extra_heads %}
+</head>
+<body>
+  {% block header %}
+    {% include '_header.html' %}
+  {% endblock header %}
+
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
+
+  {% block footer %}
+    {% include '_footer.html' %}
+  {% endblock footer %}
+
+  <!-- Boton de subir, solo se muestra en resoluciones >= tablets -->
+  <div class="to-top hide-on-small-only"></div>
+
+  <!-- cookieconsent -->
+  {% include '_cookieconsent.html' %}
+
+  <!-- default js -->
+  <script src="{% static 'dist/js/main.min.js' %}"></script>
+
+  {% if messages %}
+    {% include '_messages.html' %}
+  {% endif %}
+
+  {% block scripts %}{% endblock scripts %}
+</body>
+</html>

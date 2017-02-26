@@ -1,0 +1,204 @@
+// Waves primary
+.waves-effect.waves-primary .waves-ripple {
+  background-color: $primary-color;
+}
+
+// Añade 1rem en margin-top por si se montan que tengan un poco
+// de separación.
+.btn-group {
+  a,
+  button,
+  input[type="submit"] {
+    margin-top: 1rem;
+  }
+}
+
+@media #{$small-and-down} {
+  // En small se centran los botones.
+  .btn-group {
+    text-align: center;
+  }
+}
+
+.btn {
+  // Capitaliza los botones.
+  &.btn-capitalize {
+    text-transform: capitalize;
+  }
+
+  // Capitaliza la primera letra.
+  &.btn-ucfirst {
+    text-transform: lowercase;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  // En minúsculas.
+  &.btn-lower {
+    text-transform: lowercase;
+  }
+
+  // Tamaños de los botones.
+  &.btn-small {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+
+    // Iconos en los botones small, los posiciona un poco mejor.
+    i {
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  &.btn-medium {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 0.5rem;
+
+    // Iconos en los botones small, los posiciona un poco mejor.
+    i {
+      position: relative;
+    }
+  }
+
+  // primary color para btn-flat.
+  &.btn-flat-primary {
+    @extend .btn-flat;
+
+    background-color: $primary-color-light;
+    color: #fff;
+  }
+
+  &.btn-flat-primary:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+  // success color para btn-flat.
+  &.btn-flat-success {
+    @extend .btn-flat;
+
+    background-color: $success-color;
+    color: #fff;
+  }
+
+  &.btn-flat-success:hover {
+    background-color: darken($success-color, 10%);
+    color: #fff;
+  }
+
+  // success info para btn-flat.
+  &.btn-flat-info {
+    @extend .btn-flat;
+
+    background-color: $info-color;
+    color: #fff;
+  }
+
+  &.btn-flat-info:hover {
+    background-color: darken($info-color, 10%);
+    color: #fff;
+  }
+
+  // success warning para btn-flat.
+  &.btn-flat-warning {
+    @extend .btn-flat;
+
+    background-color: $warning-color;
+    color: #fff;
+  }
+
+  &.btn-flat-warning:hover {
+    background-color: darken($warning-color, 10%);
+    color: #fff;
+  }
+
+  // success error para btn-flat.
+  &.btn-flat-error {
+    @extend .btn-flat;
+
+    background-color: $error-color;
+    color: #fff;
+  }
+
+  &.btn-flat-error:hover {
+    background-color: darken($error-color, 10%);
+    color: #fff;
+  }
+}
+
+// Botones sociales (share)
+.btn-social {
+  display: inline-block;
+
+  a {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.8rem;
+
+    &.facebook {
+      background-color: $facebook-color;
+      border: 1px solid $facebook-color;
+      padding: 0.2rem 1.1rem;
+    }
+
+    &.twitter {
+      background-color: $twitter-color;
+      border: 1px solid $twitter-color;
+    }
+
+    &.gplus {
+      background-color: $gplus-color;
+      border: 1px solid $gplus-color;
+      padding: 0.2rem 0.5rem;
+    }
+
+    &.linkedin {
+      background-color: $linkedin-color;
+      border: 1px solid $linkedin-color;
+    }
+
+    &.pinterest {
+      background-color: $pinterest-color;
+      border: 1px solid $pinterest-color;
+    }
+
+    &.envelope {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+    }
+
+    &:hover {
+      background-color: transparent;
+
+      &.facebook {
+        color: $facebook-color;
+      }
+
+      &.twitter {
+        color: $twitter-color;
+      }
+
+      &.gplus {
+        color: $gplus-color;
+      }
+
+      &.pinterest {
+        color: $pinterest-color;
+      }
+
+      &.linkedin {
+        color: $linkedin-color;
+      }
+
+      &.envelope {
+        color: $primary-color;
+      }
+    }
+  }
+}

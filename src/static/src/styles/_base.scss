@@ -1,0 +1,22 @@
+html { color: color("grey", "darken-1"); }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// Se le da un ancho max para large.
+main {
+  flex: 1 0 auto;
+  margin: 0 auto !important;
+  max-width: 1300px;
+  width: 100%;
+}
+
+// Margins
+.margin { margin: 1rem !important; }
+.margin-top { margin-top: 1rem !important; }
+.margin-left { margin-left: 1rem !important; }
+.margin-right { margin-right: 1rem !important; }
+.margin-bottom { margin-bottom: 1rem !important; }

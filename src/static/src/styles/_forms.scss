@@ -1,0 +1,57 @@
+// Error a nivel de campo.
+// django-templateforms.
+ul {
+  &.errorlist {
+    margin: 0;
+    padding: 0;
+
+    li {
+      color: darken(red, 15%);
+      font-size: 0.8rem;
+      list-style: none;
+    }
+  }
+}
+
+// Errores a nivel de formulario global.
+// django-templateforms.
+.alert {
+  &.alert-form {
+    margin: 1rem;
+
+    ul {
+      &.errorlist {
+        margin: 0;
+        padding: 0;
+
+        li {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 1rem;
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+// Asterisco required.
+// django-templateforms.
+.input-required {
+  color: $error-color;
+}
+
+// help_text campos checkbox.
+// django-templateforms.
+.in-checkbox {
+  display: block;
+  margin-top: 1rem;
+}
+
+// Help Text.
+// django-templateforms.
+span {
+  &.help_text {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
+  }
+}

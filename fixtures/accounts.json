@@ -1,0 +1,28 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": "1",
+    "fields": {
+      "username": "snicoper",
+      "email": "snicoper@example.com",
+      "password": "pbkdf2_sha256$30000$9pxE2cyFhrQz$4ym0jUlOozpXdovggO3D4R5Kd7MZ981g/87qZ2YRukA=",
+      "first_name": "Salvador",
+      "last_name": "Nicolas",
+      "is_superuser": true,
+      "is_staff": true
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": "2",
+    "fields": {
+      "username": "perico",
+      "email": "perico@example.com",
+      "password": "pbkdf2_sha256$30000$9pxE2cyFhrQz$4ym0jUlOozpXdovggO3D4R5Kd7MZ981g/87qZ2YRukA=",
+      "first_name": "Perico",
+      "last_name": "Palote",
+      "is_superuser": false,
+      "is_staff": false
+    }
+  }
+]
