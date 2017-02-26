@@ -17,13 +17,11 @@ import os
 import sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-DJANGO_APPS = '/home/snicoper/projects/django-apps'
 APPS_DIR = os.path.join(BASE_DIR, 'apps')
 
 # Add BASE_DIR and APPS_DIR to $PYTHONPATH.
 sys.path.insert(0, BASE_DIR)
 sys.path.insert(0, APPS_DIR)
-sys.path.insert(0, DJANGO_APPS)
 
 # Application definition
 DJANGO_APPS = (
@@ -36,16 +34,14 @@ DJANGO_APPS = (
     'django.contrib.staticfiles',
 )
 
-THIRD_PARTY_APPS = (
-    'authentication.apps.AuthenticationConfig',
-    'core.apps.CoreConfig',
-    'templateforms.apps.TemplateformsConfig',
-)
+THIRD_PARTY_APPS = ()
 
 LOCAL_APPS = (
     'accounts.apps.AccountsConfig',
+    'authentication.apps.AuthenticationConfig',
     'home.apps.HomeConfig',
     'pages.apps.PagesConfig',
+    'templateforms.apps.TemplateformsConfig',
     'utils.apps.UtilsConfig',
 )
 

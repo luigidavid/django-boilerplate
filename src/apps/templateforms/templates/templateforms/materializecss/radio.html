@@ -1,0 +1,33 @@
+{% if not col %}
+  <section class="row">
+{% endif %}
+
+<div class="input-field col {{ col|default:'s12' }}">
+  <p>
+    {{ label|default:field.label }}
+    {% if field.field.required and not hidden_required %}<span class="input-required">*</span>{% endif %}
+  </p>
+
+  {% for id, value in field.field.choices %}
+    <p>
+      <input id="{{ field.id_for_label }}{{ forloop.counter }}"
+             type="radio"
+             name="{{ field.name }}"
+             value="{{ id }}"
+             {% if field.value == id %}checked{% endif %}
+             {% if extras %}{{ extras }}{% endif %}
+      >
+      <label for="{{ field.id_for_label }}{{ forloop.counter }}">{{ value }}</label>
+    </p>
+  {% endfor %}
+
+  {% if field.help_text %}
+    <span class="help_text">{{ field.help_text|safe }}</span>
+  {% endif %}
+
+  {{ field.errors|default:'' }}
+</div>
+
+{% if not col %}
+  </section>
+{% endif %}

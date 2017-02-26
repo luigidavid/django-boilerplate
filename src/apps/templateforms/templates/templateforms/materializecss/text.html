@@ -1,0 +1,30 @@
+{% if not col %}
+  <section class="row">
+{% endif %}
+
+<div class="input-field col {{ col|default:'s12' }}">
+  {% if img %}<i class="material-icons prefix">{{ img }}</i>{% endif %}
+  <input id="{{ field.id_for_label }}"
+         class="validate{% if field.errors %} invalid{% endif %} {{ klass|default:'' }}"
+         type="{{ ftype }}"
+         value="{% if not ftype == 'password' and field.value %}{{ field.value }}{% endif %}"
+         name="{{ field.name }}"
+         {% if field.field.required %}required{% endif %}
+         {% if extras %}{{ extras }}{% endif %}
+  >
+
+  <label for="{{ field.id_for_label }}">
+    {{ label|default:field.label }}
+    {% if field.field.required and not hidden_required %}<span class="input-required">*</span>{% endif %}
+  </label>
+
+  {% if field.help_text %}
+    <span class="help_text">{{ field.help_text|safe }}</span>
+  {% endif %}
+
+  {{ field.errors|default:'' }}
+</div>
+
+{% if not col %}
+  </section>
+{% endif %}

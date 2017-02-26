@@ -1,0 +1,35 @@
+{% if not col %}
+  <section class="row">
+{% endif %}
+
+<div class="col {{ col|default:'s12' }}">
+  <p>
+    {{ label|default:field.label }}
+    {% if field.field.required and not hidden_required %}<span class="input-required">*</span>{% endif %}
+  </p>
+
+  <div class="switch">
+    <label>
+      Off
+      <input {% if klass %}class="{{ klass }}"{% endif %}
+             type="checkbox"
+             value="{{ field.value|default:'' }}"
+             name="{{ field.name }}"
+             {% if field.value %}checked{% endif %}
+             {% if extras %}{{ extras }}{% endif %}
+      >
+      <span class="lever"></span>
+      On
+    </label>
+  </div>
+
+  {% if field.help_text %}
+    <span class="help_text in-checkbox">{{ field.help_text|safe }}</span>
+  {% endif %}
+
+  {{ field.errors|default:'' }}
+</div>
+
+{% if not col %}
+  </section>
+{% endif %}

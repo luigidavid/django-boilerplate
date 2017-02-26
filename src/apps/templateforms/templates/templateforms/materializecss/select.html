@@ -1,0 +1,42 @@
+{% load i18n %}
+
+{% if not col %}
+  <section class="row">
+{% endif %}
+
+<div class="input-field col {{ col|default:'s12' }}">
+  <select id="{{ field.id_for_label }}"
+          class="material_select{% if klass %} {{ klass }}{% endif %}"
+          name="{{ field.name }}"
+          {% if multiple %} multiple="multiple"{% endif %}
+          {% if extras %}{{ extras }}{% endif %}
+    >
+    {# Si es multiple, la primera opción es campo vació #}
+    {% if multiple %}
+      <<option value="" selected="selected" disabled="disabled">{% trans 'Selecciona opciones' %}</option>
+    {% endif %}
+
+    {% for key, value in field.field.choices %}
+      {% if multiple %}
+        <option value="{{ key }}"{% if key in field.value %} selected="selected"{% endif %}>{{ value }}</option>
+      {% else %}
+        <option value="{{ key }}"{% if key == field.value %} selected="selected"{% endif %}>{{ value }}</option>
+      {% endif %}
+    {% endfor %}
+  </select>
+
+  <label for="{{ field.id_for_label }}">
+    {{ label|default:field.label }}
+    {% if field.field.required and not hidden_required %}<span class="input-required">*</span>{% endif %}
+  </label>
+
+  {% if field.help_text %}
+    <span class="help_text">{{ field.help_text|safe }}</span>
+  {% endif %}
+
+  {{ field.errors|default:'' }}
+</div>
+
+{% if not col %}
+  </section>
+{% endif %}

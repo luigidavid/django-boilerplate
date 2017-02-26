@@ -1,0 +1,5 @@
+{% load i18n %}{% blocktrans %}{{ username }} gracias por registrarte en {{ site_name }}
+
+Para completar el registro, simplemente visita en el siguiente enlace:{% endblocktrans %}
+
+{{ url_validate_token }}

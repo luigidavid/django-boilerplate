@@ -100,4 +100,3 @@ Ejecutar ``reinstall_dev.sh``.
 En desarrollo usar, ``reload_prod.sh``
 
 TODO: Documentar mejor el README.md
-TODO: Poner django-apps https://github.com/snicoper/django-apps

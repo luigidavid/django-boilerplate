@@ -1,0 +1,33 @@
+{% load i18n %}
+
+{% if not col %}
+  <section class="row">
+{% endif %}
+
+<div class="file-field input-field col {{ col|default:'s12' }}">
+  <div class="btn">
+    <span>{{ label|default:field.label }}</span>
+    <input id="{{ field.id_for_label }}"
+           type="file"
+           name="{{ field.name }}"
+           {% if extras %}{{ extras }}{% endif %}
+    >
+  </div>
+
+  <div class="file-path-wrapper">
+    <input class="file-path validate{% if field.errors %} invalid{% endif %} {{ klass|default:'' }}"
+           placeholder="{% trans 'Selecciona una imagen' %}"
+           type="text"
+    >
+
+    {% if field.help_text %}
+      <span class="help_text">{{ field.help_text|safe }}</span>
+    {% endif %}
+
+    {{ field.errors|default:'' }}
+  </div>
+</div>
+
+{% if not col %}
+  </section>
+{% endif %}

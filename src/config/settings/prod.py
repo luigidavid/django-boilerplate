@@ -1,11 +1,5 @@
 from .base import *
 
-# Directorio compartido de apps.
-DJANGO_APPS = ''
-
-if not DJANGO_APPS:
-    raise NotImplementedError('DJANGO_APPS no implementado en {}'.format(__file__))
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 

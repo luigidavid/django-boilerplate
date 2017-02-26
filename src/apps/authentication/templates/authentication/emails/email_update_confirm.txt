@@ -1,0 +1,5 @@
+{% load i18n %}{% blocktrans %}Este mensaje se ha enviado por que en {{ site_name }} se ha solicitado un cambio de email.
+
+Para validar este email, has de ir al siguiente enlace.{% endblocktrans %}
+
+{{ url_validate_token }}
