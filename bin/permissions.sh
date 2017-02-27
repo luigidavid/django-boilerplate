@@ -26,10 +26,10 @@ find $PROJECT_ROOT -type f ! -path "*/bower_components/*" ! -path "*/node_module
 ####################################################################################################
 # BIN_ROOT
 ####################################################################################################
-echo "${MAGENTA}Cambiando permisos de ejecución a $BIN_ROOT/createapp.sh"
+echo "Cambiando permisos de ejecución a $BIN_ROOT/createapp.sh"
 chmod +x "$BIN_ROOT/createapp.sh"
 
-echo "${MAGENTA}Cambiando permisos de ejecución a $BIN_ROOT/cloc_project.sh"
+echo "Cambiando permisos de ejecución a $BIN_ROOT/cloc_project.sh"
 chmod +x "$BIN_ROOT/cloc_project.sh"
 
 echo "Cambiando permisos de ejecución a $BIN_ROOT/delete_migrations.sh"
@@ -47,7 +47,7 @@ chmod +x "$BIN_ROOT/django_loaddata.sh"
 echo "Cambiando permisos de ejecución a $BIN_ROOT/gunicorn_start.sh"
 chmod +x "$BIN_ROOT/gunicorn_start.sh"
 
-echo "${MAGENTA}Cambiando permisos de ejecución a $BIN_ROOT/permissions.sh"
+echo "Cambiando permisos de ejecución a $BIN_ROOT/permissions.sh"
 chmod +x "$BIN_ROOT/permissions.sh"
 
 echo "Cambiando permisos de ejecución a $BIN_ROOT/reinstall_dev.sh"

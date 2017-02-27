@@ -8,14 +8,14 @@ source _variables.sh
 cd $PROJECT_ROOT
 
 # Restaurar permisos de directorios y archivos.
-read -p "${GREEN}¿Restaurar permisos? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Restaurar permisos? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $BIN_ROOT/permissions.sh
 fi
 
 # Reinstalar node_modules.
-read -p "${GREEN}¿Reinstalar Node? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Reinstalar Node? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $PROJECT_ROOT/node_modules ]
@@ -26,53 +26,53 @@ then
 fi
 
 # Reinstalar bower.
-read -p "${GREEN}¿Reinstalar Bower? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Reinstalar Bower? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/static/bower_components ]
   then
     rm -rf $SRC_ROOT/static/bower_components
-    echo "${RED}Eliminado directorio ${SRC_ROOT}/static/bower_components${RESTORE}"
+    echo "Eliminado directorio ${SRC_ROOT}/static/bower_components"
   fi
   bower install
 fi
 
 # Ejecutar Gulp?
-read -p "${GREEN}¿Ejecutar Gulp? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Ejecutar Gulp? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   gulp
 fi
 
 # Reinstalar la base de datos, requiere ~/.pgpass
-read -p "${GREEN}¿Restaurar la base de datos? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Restaurar la base de datos? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   # Eliminar directorios migrations, quitar cuando se pasa a prod.
-  read -p "${GREEN}¿Eliminar directorios migrations? ${YELLOW}(y/[N]) " yn
+  read -p "¿Eliminar directorios migrations? (y/[N])" yn
   if [ "$yn" == "y" -o "$yn" == "Y" ]
   then
     source $BIN_ROOT/delete_migrations.sh
   fi
 
   psql -U postgres -c "DROP DATABASE IF EXISTS $DATABASE_NAME"
-  echo "${RED}Eliminada base de datos $DATABASE_NAME${RESTORE}"
+  echo "Eliminada base de datos $DATABASE_NAME"
   psql -U postgres -c "CREATE DATABASE $DATABASE_NAME WITH OWNER $DATABASE_USER"
-  echo "${GREEN}Creada base de datos ${YELLOW}$DATABASE_NAME ${GREEN}WITH OWNER ${YELLOW}$DATABASE_USER${RESTORE}"
+  echo "Creada base de datos $DATABASE_NAME WITH OWNER $DATABASE_USER"
 
   $PROJECT_ROOT/manage.py makemigrations
   $PROJECT_ROOT/manage.py migrate
 fi
 
 # Load fixtures
-read -p "${GREEN}¿Load Fixtures? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Load Fixtures? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   source django_loaddata.sh
 fi
 
 # Restore Media?
-read -p "${GREEN}¿Restaurar Media local? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Restaurar Media local? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   rm -rf $SRC_ROOT/media/local
@@ -84,7 +84,7 @@ then
 fi
 
 # Eliminar logs
-read -p "${GREEN}¿Eliminar logs? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Eliminar logs? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   find $PROJECT_ROOT/logs/* ! -name ".keep" -exec rm -r {} \;
@@ -94,7 +94,7 @@ fi
 grep --exclude=*.pyc -rnw $PROJECT_ROOT/src/apps $PROJECT_ROOT/tests -e 'print'
 
 # Iniciar el servidor
-read -p "${GREEN}¿Iniciar el servidor? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Iniciar el servidor? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PROJECT_ROOT/manage.py runserver $SITE_DOMAIN

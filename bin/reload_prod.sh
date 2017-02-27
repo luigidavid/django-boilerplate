@@ -10,28 +10,28 @@ source _variables.sh
 cd $PROJECT_ROOT
 
 # Ejecutar git pull origin prod.
-read -p "${GREEN}git pull origin ${BRANCH_PROD}? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "git pull origin ${BRANCH_PROD}? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   git pull origin $BRANCH_PROD
 fi
 
 # Backup database
-read -p "${GREEN}¿Backup database? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Backup database? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $CRON_ROOT/postgres_db_backup.sh
 fi
 
 # Ejecutar migrate.
-read -p "${GREEN}¿Ejecutar migrate? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Ejecutar migrate? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PROJECT_ROOT/prod_manage.py migrate
 fi
 
 # Reinstalar node_modules.
-read -p "${GREEN}¿Reinstalar Node? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Reinstalar Node? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $PROJECT_ROOT/node_modules ]
@@ -42,19 +42,19 @@ then
 fi
 
 # Reinstalar bower.
-read -p "${GREEN}¿Reinstalar Bower? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Reinstalar Bower? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/static/bower_components ]
   then
     rm -rf $SRC_ROOT/static/bower_components
-    echo "${RED}Eliminado directorio ${SRC_ROOT}/static/bower_components${RESTORE}"
+    echo "Eliminado directorio ${SRC_ROOT}/static/bower_components"
   fi
   bower install
 fi
 
 # Eliminar directorio de collectstatic.
-read -p "${GREEN}¿Eliminar directorio de collectstatic? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Eliminar directorio de collectstatic? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/staticfiles ]
@@ -64,14 +64,14 @@ then
 fi
 
 # Ejecutar collectstatic.
-read -p "${GREEN}¿Ejecutar collectstatic? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Ejecutar collectstatic? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PYTHON_EXEC $PROJECT_ROOT/prod_manage.py collectstatic
 fi
 
 # Reiniciar gunicorn.
-read -p "${GREEN}¿Reiniciar gunicorn? ${YELLOW}(y/[N]) ${RESTORE}" yn
+read -p "¿Reiniciar gunicorn? (y/[N])" yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   sudo systemctl restart gunicorn
