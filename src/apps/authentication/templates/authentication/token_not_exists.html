@@ -12,11 +12,7 @@
 
         {% url 'authentication:register' as url_register  %}
         {% url 'contact:contact' as url_contact  %}
-        {% blocktrans %}
-          <p>La validación no ha sido posible, quizá haya caducado. Intenta en crear de nuevo una
-            <a href="{{ url_register }}">cuenta</a> y si ves que el problema continua, por favor ponte
-            en <a href="{{ url_contact }}">contacto</a> con nosotros.</p>
-        {% endblocktrans %}
+        <p>{% blocktrans %}La validación no ha sido posible, quizá haya caducado. Intenta en crear de nuevo una <a href="{{ url_register }}">cuenta</a> y si ves que el problema continua, por favor ponte en <a href="{{ url_contact }}">contacto</a> con nosotros.{% endblocktrans %}</p>
       </div>
     </div>
   </section>

@@ -12,12 +12,9 @@
 
         {% url 'authentication:email_update' as email_update  %}
         {% url 'contact:contact' as contact  %}
-        {% blocktrans %}
-          <p>La validación para cambiar el email no existe o ha caducado, prueba a hacer una
-            nueva <a href="{{ email_update }}">solicitud</a>.</p>
+        <p>{% blocktrans %}La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva <a href="{{ email_update }}">solicitud</a>.{% endblocktrans %}</p>
 
-          <p>Si el problema persiste, por favor ponte en <a href="{{ contact }}">contacto</a> con nosotros.</p>
-        {% endblocktrans %}
+        <p>{% blocktrans %}Si el problema persiste, por favor ponte en <a href="{{ contact }}">contacto</a> con nosotros.{% endblocktrans %}</p>
       </div>
     </div>
   </section>

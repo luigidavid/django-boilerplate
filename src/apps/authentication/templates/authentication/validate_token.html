@@ -11,9 +11,7 @@
         <h1 class="text-header">{% trans 'Cuenta creada con éxito' %}</h1>
 
         {% url 'authentication:login' as url_login %}
-        {% blocktrans %}
-          <p>La cuenta se ha creado con éxito, ahora ya puedes <a href="{{ url_login }}">Iniciar sesión</a></p>
-        {% endblocktrans %}
+        <p>{% blocktrans %}La cuenta se ha creado con éxito, ahora ya puedes <a href="{{ url_login }}">Iniciar sesión</a>{% endblocktrans %}</p>
       </div>
     </div>
   </section>
