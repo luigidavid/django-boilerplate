@@ -31,6 +31,8 @@ VIRTUALENV=$(basename "$VIRTUAL_ENV")
 ###########################################################
 # PATHS
 
+BACKUPS_DIR="${HOME}/backups/SITENAME.COM"
+
 # Ruta absoluta al directorio src.
 SRC_ROOT="$PROJECT_ROOT/src"
 

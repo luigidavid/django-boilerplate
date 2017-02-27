@@ -38,18 +38,18 @@ then
 fi
 
 # Ejecutar Gulp?
-read -p "¿Ejecutar Gulp? (y/[N])" yn
+read -p "¿Ejecutar Gulp? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   gulp
 fi
 
 # Reinstalar la base de datos, requiere ~/.pgpass
-read -p "¿Restaurar la base de datos? (y/[N])" yn
+read -p "¿Restaurar la base de datos? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   # Eliminar directorios migrations, quitar cuando se pasa a prod.
-  read -p "¿Eliminar directorios migrations? (y/[N])" yn
+  read -p "¿Eliminar directorios migrations? (y/[N]) " yn
   if [ "$yn" == "y" -o "$yn" == "Y" ]
   then
     source $BIN_ROOT/delete_migrations.sh
@@ -65,14 +65,14 @@ then
 fi
 
 # Load fixtures
-read -p "¿Load Fixtures? (y/[N])" yn
+read -p "¿Load Fixtures? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   source django_loaddata.sh
 fi
 
 # Restore Media?
-read -p "¿Restaurar Media local? (y/[N])" yn
+read -p "¿Restaurar Media local? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   rm -rf $SRC_ROOT/media/local
@@ -84,7 +84,7 @@ then
 fi
 
 # Eliminar logs
-read -p "¿Eliminar logs? (y/[N])" yn
+read -p "¿Eliminar logs? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   find $PROJECT_ROOT/logs/* ! -name ".keep" -exec rm -r {} \;
@@ -94,7 +94,7 @@ fi
 grep --exclude=*.pyc -rnw $PROJECT_ROOT/src/apps $PROJECT_ROOT/tests -e 'print'
 
 # Iniciar el servidor
-read -p "¿Iniciar el servidor? (y/[N])" yn
+read -p "¿Iniciar el servidor? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PROJECT_ROOT/manage.py runserver $SITE_DOMAIN

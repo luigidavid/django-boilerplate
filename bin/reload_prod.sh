@@ -10,28 +10,28 @@ source _variables.sh
 cd $PROJECT_ROOT
 
 # Ejecutar git pull origin prod.
-read -p "git pull origin ${BRANCH_PROD}? (y/[N])" yn
+read -p "git pull origin ${BRANCH_PROD}? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   git pull origin $BRANCH_PROD
 fi
 
 # Backup database
-read -p "¿Backup database? (y/[N])" yn
+read -p "¿Backup database? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $CRON_ROOT/postgres_db_backup.sh
 fi
 
 # Ejecutar migrate.
-read -p "¿Ejecutar migrate? (y/[N])" yn
+read -p "¿Ejecutar migrate? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PROJECT_ROOT/prod_manage.py migrate
 fi
 
 # Reinstalar node_modules.
-read -p "¿Reinstalar Node? (y/[N])" yn
+read -p "¿Reinstalar Node? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $PROJECT_ROOT/node_modules ]
@@ -42,7 +42,7 @@ then
 fi
 
 # Reinstalar bower.
-read -p "¿Reinstalar Bower? (y/[N])" yn
+read -p "¿Reinstalar Bower? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/static/bower_components ]
@@ -54,7 +54,7 @@ then
 fi
 
 # Eliminar directorio de collectstatic.
-read -p "¿Eliminar directorio de collectstatic? (y/[N])" yn
+read -p "¿Eliminar directorio de collectstatic? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/staticfiles ]
@@ -64,14 +64,14 @@ then
 fi
 
 # Ejecutar collectstatic.
-read -p "¿Ejecutar collectstatic? (y/[N])" yn
+read -p "¿Ejecutar collectstatic? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $PYTHON_EXEC $PROJECT_ROOT/prod_manage.py collectstatic
 fi
 
 # Reiniciar gunicorn.
-read -p "¿Reiniciar gunicorn? (y/[N])" yn
+read -p "¿Reiniciar gunicorn? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   sudo systemctl restart gunicorn
