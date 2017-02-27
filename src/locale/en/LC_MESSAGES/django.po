@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-27 17:21+0100\n"
+"POT-Creation-Date: 2017-02-27 20:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,34 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: src/apps/accounts/admin.py:18
-msgid "Información personal"
-msgstr "Personal info"
-
-#: src/apps/accounts/admin.py:21
-msgid "Permisos"
-msgstr "Permissions"
-
-#: src/apps/accounts/admin.py:24
-msgid "Fechas importantes"
-msgstr "Important dates"
-
-#: src/apps/accounts/models.py:9
-msgid "Usuario"
-msgstr "User"
-
-#: src/apps/accounts/models.py:10
-msgid "Usuarios"
-msgstr "Users"
-
-#: src/apps/utils/mixins/models.py:45
-msgid "Titulo"
-msgstr "Title"
-
-#: src/apps/utils/mixins/models.py:50
-msgid "Si se quiere auto-generar otro slug, dejarlo en blanco."
-msgstr ""
 
 #: src/templates/_cookieconsent.html:18
 msgid ""
@@ -71,16 +43,29 @@ msgstr "Log in"
 msgid "Intruduce texto y pulsa enter"
 msgstr "Enter text and press enter"
 
-#: src/templates/accounts/profile.html:4 src/templates/accounts/profile.html:5
-#: src/templates/accounts/profile.html:8
-msgid "Perfil de usuario"
-msgstr "User profile"
+#~ msgid "Información personal"
+#~ msgstr "Personal info"
 
-#: src/templates/pages/cookie_consent.html:5
-#: src/templates/pages/cookie_consent.html:6
-msgid "Política de cookies"
-msgstr "Cookies policy"
+#~ msgid "Permisos"
+#~ msgstr "Permissions"
 
-#: src/templates/pages/cookie_consent.html:12
-msgid "Política de cookies en"
-msgstr "Cookies policy on"
+#~ msgid "Fechas importantes"
+#~ msgstr "Important dates"
+
+#~ msgid "Usuario"
+#~ msgstr "User"
+
+#~ msgid "Usuarios"
+#~ msgstr "Users"
+
+#~ msgid "Titulo"
+#~ msgstr "Title"
+
+#~ msgid "Perfil de usuario"
+#~ msgstr "User profile"
+
+#~ msgid "Política de cookies"
+#~ msgstr "Cookies policy"
+
+#~ msgid "Política de cookies en"
+#~ msgstr "Cookies policy on"

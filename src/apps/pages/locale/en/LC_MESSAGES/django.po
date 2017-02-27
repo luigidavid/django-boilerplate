@@ -17,10 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/apps/templateforms/templates/templateforms/materializecss/file.html:19
-msgid "Selecciona una imagen"
-msgstr "Select an image"
+#: src/apps/pages/templates/pages/cookie_consent.html:5
+#: src/apps/pages/templates/pages/cookie_consent.html:6
+msgid "Política de cookies"
+msgstr ""
 
-#: src/apps/templateforms/templates/templateforms/materializecss/select.html:16
-msgid "Selecciona opciones"
-msgstr "Select options"
+#: src/apps/pages/templates/pages/cookie_consent.html:12
+msgid "Política de cookies en"
+msgstr ""

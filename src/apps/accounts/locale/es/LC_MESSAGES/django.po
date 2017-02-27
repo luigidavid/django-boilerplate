@@ -16,11 +16,29 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: src/apps/accounts/admin.py:18
+msgid "Información personal"
+msgstr ""
 
-#: src/apps/templateforms/templates/templateforms/materializecss/file.html:19
-msgid "Selecciona una imagen"
-msgstr "Select an image"
+#: src/apps/accounts/admin.py:21
+msgid "Permisos"
+msgstr ""
 
-#: src/apps/templateforms/templates/templateforms/materializecss/select.html:16
-msgid "Selecciona opciones"
-msgstr "Select options"
+#: src/apps/accounts/admin.py:24
+msgid "Fechas importantes"
+msgstr ""
+
+#: src/apps/accounts/models.py:9
+msgid "Usuario"
+msgstr ""
+
+#: src/apps/accounts/models.py:10
+msgid "Usuarios"
+msgstr ""
+
+#: src/apps/accounts/templates/accounts/profile.html:4
+#: src/apps/accounts/templates/accounts/profile.html:5
+#: src/apps/accounts/templates/accounts/profile.html:8
+msgid "Perfil de usuario"
+msgstr ""
