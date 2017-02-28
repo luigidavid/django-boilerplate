@@ -7,6 +7,13 @@
 
 source _variables.sh
 
+# Probar que se esta en el entorno de producción.
+if [ $VIRTUALENV != $VIRTUAL_ENV_PROD ]
+then
+  echo "reinstall_dev.sh es solo para en entorno '$VIRTUAL_ENV_PROD'"
+  exit
+fi
+
 cd $PROJECT_ROOT
 
 # Ejecutar git pull origin prod.

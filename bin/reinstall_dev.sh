@@ -5,6 +5,13 @@
 
 source _variables.sh
 
+# Probar que se esta en el entorno de desarrollo.
+if [ $VIRTUALENV != $VIRTUAL_ENV_DEV ]
+then
+  echo "reinstall_dev.sh es solo para en entorno '$VIRTUAL_ENV_DEV'"
+  exit
+fi
+
 cd $PROJECT_ROOT
 
 # Restaurar permisos de directorios y archivos.

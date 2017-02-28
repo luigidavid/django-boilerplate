@@ -23,7 +23,7 @@ BRANCH_PROD='prod'
 VIRTUAL_ENV_PROD="myenvprod"
 
 # Desarrollo
-VIRTUAL_ENV_DEV="myenvdev"
+VIRTUAL_ENV_DEV="django-boilerplate"
 
 # Obtener el nombre del entorno virtual.
 VIRTUALENV=$(basename "$VIRTUAL_ENV")
