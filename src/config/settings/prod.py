@@ -42,6 +42,8 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/prod')
 
 # Emails
+DEFAULT_FROM_EMAIL = 'snicoper@snicoper.local'
+
 # Admins
 ADMINS = (
     ('snicoper', 'snicoper@snicoper.local'),

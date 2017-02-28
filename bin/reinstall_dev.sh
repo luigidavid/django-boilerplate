@@ -8,14 +8,14 @@ source _variables.sh
 cd $PROJECT_ROOT
 
 # Restaurar permisos de directorios y archivos.
-read -p "¿Restaurar permisos? (y/[N])" yn
+read -p "¿Restaurar permisos? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   $BIN_ROOT/permissions.sh
 fi
 
 # Reinstalar node_modules.
-read -p "¿Reinstalar Node? (y/[N])" yn
+read -p "¿Reinstalar Node? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $PROJECT_ROOT/node_modules ]
@@ -26,7 +26,7 @@ then
 fi
 
 # Reinstalar bower.
-read -p "¿Reinstalar Bower? (y/[N])" yn
+read -p "¿Reinstalar Bower? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   if [ -d $SRC_ROOT/static/bower_components ]

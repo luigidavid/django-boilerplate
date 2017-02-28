@@ -24,4 +24,3 @@ migrations,\
 node_modules,\
  \
 --exclude-ext=json,coverage
-

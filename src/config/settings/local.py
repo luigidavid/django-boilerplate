@@ -37,6 +37,8 @@ DATABASES = {
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/local')
 
 # Emails
+DEFAULT_FROM_EMAIL = 'snicoper@snicoper.local'
+
 # Admins
 ADMINS = (
     ('snicoper', 'snicoper@snicoper.local'),
