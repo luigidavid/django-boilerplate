@@ -10,7 +10,7 @@ source _variables.sh
 # Probar que se esta en el entorno de producción.
 if [ $VIRTUALENV != $VIRTUAL_ENV_PROD ]
 then
-  echo "reinstall_dev.sh es solo para en entorno '$VIRTUAL_ENV_PROD'"
+  echo "reinstall_dev.sh es solo para el entorno virtual '$VIRTUAL_ENV_PROD'"
   exit
 fi
 
