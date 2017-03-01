@@ -11,7 +11,7 @@
       <div class="card-panel">
         <h1 class="text-header">{% trans 'Política de cookies en' %} {{ SITE.name }}</h1>
 
-        {{ template_md|markdown }}
+        {% markdown template_md safe=True %}
       </div>
     </div>
   </section>

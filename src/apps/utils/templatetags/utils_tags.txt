@@ -1,4 +1,5 @@
 from django import template
+from django.utils.html import escape
 from django.utils.safestring import mark_safe
 
 import markdown2
@@ -6,8 +7,8 @@ import markdown2
 register = template.Library()
 
 
-@register.filter('markdown')
-def markdown_format(text):
+@register.simple_tag(name='markdown')
+def markdown_format(text, safe=False):
     """Devuelve el texto markdown en HTML.
 
     Por defecto, materializecss elimina los 'estilos'
@@ -15,14 +16,25 @@ def markdown_format(text):
     esta usando materializecss.
 
     Example:
-        {{ obj.body|markdown }}
+        Con un texto seguro.
+        {% markdown obj.description safe=True %}
+        {% markdown obj.description True %}
+
+        Con un texto inseguro.
+        {% markdown obj.description safe=False %}
+        {% markdown obj.description False %}
+        {% markdown obj.description %}
 
     Args:
         text (str): Texto markdown
+        safe (bool): El texto es seguro? de lo contrario lo escapa.
 
     Returns:
         str: El markdown convertido en HTML.
     """
+    if not safe:
+        # Si no es safe, el texto siempre se escapa.
+        text = escape(text)
     return mark_safe(
         markdown2.markdown(
             text,
