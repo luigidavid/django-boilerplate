@@ -8,6 +8,14 @@ SECRET_KEY = '{{ secret_key }}'
 
 ALLOWED_HOSTS = ['ip(s) y/o dominio(s), aquí']
 
+# https://docs.djangoproject.com/en/dev/ref/settings/#secure-proxy-ssl-header
+# TODO: Descomentar si es https.
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# Sessions
+# TODO: Añadir dominio.
+# SESSION_COOKIE_DOMAIN = '.example.com'
+
 # Application definition
 THIRD_PARTY_APPS += ()
 
@@ -23,11 +31,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, '../db.sqlite3'),
     }
 }
-
-# https://docs.djangoproject.com/en/dev/ref/settings/#secure-proxy-ssl-header
-# Comentar si no es https
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
 # TEMPLATE CONFIGURATION
 TEMPLATES[0]['OPTIONS']['debug'] = DEBUG
 
