@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$HOME/.bashrc"
+source $HOME/.bashrc
 
 workon "myenvprod"
 

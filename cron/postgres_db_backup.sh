@@ -6,7 +6,7 @@
 # Crea los backups en $backup_dir.
 # Elimina los backups con mas de $number_of_days días
 
-source "$HOME/.bashrc"
+source $HOME/.bashrc
 
 workon "myenvprod"
 
