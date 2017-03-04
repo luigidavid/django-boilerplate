@@ -5,7 +5,7 @@
 
 # PROJECT_ROOT la obtiene de bin/postactivate.sh.
 # Por lo que si no existe, no esta en el entorno virtual.
-if [ ! "$PROJECT_ROOT" ]
+if [ ! $PROJECT_ROOT ]
 then
     echo "Es necesario estar un entorno virtual"
     exit
@@ -31,7 +31,7 @@ VIRTUALENV=$(basename "$VIRTUAL_ENV")
 ###########################################################
 # PATHS
 
-BACKUPS_DIR="${HOME}/backups/SITENAME.COM"
+BACKUPS_DIR="$HOME/backups/SITENAME.COM"
 
 # Ruta absoluta al directorio src.
 SRC_ROOT="$PROJECT_ROOT/src"
@@ -49,7 +49,7 @@ CRON_ROOT="$PROJECT_ROOT/cron"
 BIN_ROOT="$PROJECT_ROOT/bin"
 
 # Ruta absoluta al ejecutable de python.
-PYTHON_EXEC="${VIRTUAL_ENV}/bin/python"
+PYTHON_EXEC="$VIRTUAL_ENV/bin/python"
 
 ###########################################################
 # Database desarrollo "PostgreSQL".
@@ -79,7 +79,7 @@ PROD_DATABASE_USER="userdbprod"
 PROD_DATABASE_NUMBER_OF_DAYS=7
 
 # Location to place backups.
-PROD_BACKUP_DIR="${HOME}/backups/db/${PROD_DATABASE_NAME}/"
+PROD_BACKUP_DIR="$HOME/backups/db/$PROD_DATABASE_NAME/"
 
 # String to append to the name of the backup files.
 PROD_DATABASE_BACKUP_DATE=`date +%Y-%m-%d_%H-%M`
@@ -94,4 +94,5 @@ FIXTURESDIR=~/Downloads/fixtures
 
 APPS=(
   accounts
+  authentication
 )

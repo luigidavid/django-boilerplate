@@ -10,7 +10,7 @@ else
 fi
 
 export OLD_PATH=$PATH
-export PATH=${PROJECT_ROOT}/bin:$OLD_PATH
+export PATH=$PROJECT_ROOT/bin:$OLD_PATH
 
 alias cd_project="cd $PROJECT_ROOT"
 alias cd_apps="cd $PROJECT_ROOT/src/apps"

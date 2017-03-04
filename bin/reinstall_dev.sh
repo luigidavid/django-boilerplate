@@ -39,7 +39,7 @@ then
   if [ -d $SRC_ROOT/static/bower_components ]
   then
     rm -rf $SRC_ROOT/static/bower_components
-    echo "Eliminado directorio ${SRC_ROOT}/static/bower_components"
+    echo "Eliminado directorio $SRC_ROOT/static/bower_components"
   fi
   bower install
 fi
@@ -95,6 +95,8 @@ read -p "¿Eliminar logs? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   find $PROJECT_ROOT/logs/* ! -name ".keep" -exec rm -r {} \;
+
+  echo "Eliminado archivos en ./logs/"
 fi
 
 # Comprueba si hay algun print() en el codigo.

@@ -3,11 +3,11 @@
 
 source _variables.sh
 
-for app in "${APPS[@]}"
+for app in "$APPS[@]"
 do
   # Con 4 bytes esta vacio, solo tiene []
   minsize=4
-  fileseze=$(wc -c < "${PROJECT_ROOT}/fixtures/${app}.json")
+  fileseze=$(wc -c < "$PROJECT_ROOT/fixtures/$app.json")
   if [ $fileseze -gt $minsize ]
   then
     $PROJECT_ROOT/manage.py loaddata $app

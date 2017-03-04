@@ -6,9 +6,10 @@ source _variables.sh
 # makemigrations en cada app en bin/_variables.APPS
 for app in "${APPS[@]}"
 do
-  if [ -d "$APPS_ROOT/$app/migrations" ]
+  echo $app
+  if [ -d $APPS_ROOT/$app/migrations ]
   then
-    rm -rf "$APPS_ROOT/$app/migrations"
+    rm -rf $APPS_ROOT/$app/migrations
   fi
 done
 

@@ -5,15 +5,17 @@
 source _variables.sh
 
 APPNAME=$1
-APPDIR="${APPS_ROOT}/${APPNAME}"
+APPDIR="$APPS_ROOT/$APPNAME"
 
 cd $APPS_ROOT
 django-admin startapp $APPNAME
 
 cd $APPNAME
-rm -rf "${APPDIR}/tests.py"
-touch "${APPDIR}/urls.py"
+rm -rf $APPDIR/tests.py
+touch $APPDIR/urls.py
+mkdir -p $APPDIR/templates/$APPNAME
+touch $APPDIR/templates/$APPNAME/index.html
 
 cd $SRC_ROOT
 
-echo "Creada APP ${APPNAME} en ${APPDIR}"
+echo "Creada APP $APPNAME en $APPDIR"

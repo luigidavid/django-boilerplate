@@ -55,7 +55,7 @@ then
   if [ -d $SRC_ROOT/static/bower_components ]
   then
     rm -rf $SRC_ROOT/static/bower_components
-    echo "Eliminado directorio ${SRC_ROOT}/static/bower_components"
+    echo "Eliminado directorio $SRC_ROOT/static/bower_components"
   fi
   bower install
 fi
