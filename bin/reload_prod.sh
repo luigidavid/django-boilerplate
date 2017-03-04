@@ -17,7 +17,7 @@ fi
 cd $PROJECT_ROOT
 
 # Ejecutar git pull origin prod.
-read -p "git pull origin ${BRANCH_PROD}? (y/[N]) " yn
+read -p "git pull origin $BRANCH_PROD? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   git pull origin $BRANCH_PROD
