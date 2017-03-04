@@ -18,7 +18,7 @@ fi
 
 # Numbers of days you want to keep copie of your databases.
 
-pg_dump -U $PROD_DATABASE_USER --no-password $PROD_DATABASE_NAME > $PROD_BACKUP_DIR$PROD_DATABASE_NAME.$PROD_BACKUP_DATE.psql
+pg_dump -U $PROD_DATABASE_USER --no-password $PROD_DATABASE_NAME > $PROD_BACKUP_DIR$PROD_DATABASE_NAME.$PROD_DATABASE_BACKUP_DATE.psql
 
 # Eliminar copias con mas 'number_of_days' días.
 find $PROD_BACKUP_DIR -type f -prune -mtime +$PROD_DATABASE_NUMBER_OF_DAYS -exec rm -f {} \;

@@ -39,7 +39,7 @@ src/static/dist/js/main.min.js.map
 # Specific files #
 ##################
 .coverage
-/tags
+.vscode/tags
 
 # OS generated files #
 ######################

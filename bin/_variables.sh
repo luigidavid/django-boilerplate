@@ -82,7 +82,7 @@ PROD_DATABASE_NUMBER_OF_DAYS=7
 PROD_BACKUP_DIR="${HOME}/backups/db/${PROD_DATABASE_NAME}/"
 
 # String to append to the name of the backup files.
-PROD_BACKUP_DATE=`date +%Y-%m-%d_%H-%M`
+PROD_DATABASE_BACKUP_DATE=`date +%Y-%m-%d_%H-%M`
 
 ###########################################################
 # Fixtures DIR, directorio donde creara los fixtures.
