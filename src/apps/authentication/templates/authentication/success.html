@@ -14,7 +14,7 @@
 
         <p>{% trans 'Comprueba tu <strong>correo no deseado</strong> si ves que tarda mucho.' %}</p>
 
-        <p>{% blocktrans %}Gracias por registrarte en <strong>{{ SITE.name }}</strong>{% endblocktrans %}</p>
+        <p>{% blocktrans with SITE.name as site_name %}Gracias por registrarte en <strong>{{ site_name }}</strong>{% endblocktrans %}</p>
       </div>
     </div>
   </section>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 07:59+0100\n"
+"POT-Creation-Date: 2017-03-05 18:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,175 +17,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/apps/authentication/forms.py:22
+#: forms.py:22
 msgid "Tu email"
-msgstr ""
+msgstr "You email"
 
-#: src/apps/authentication/forms.py:24
+#: forms.py:24
 msgid "Nombre de usuario o email"
-msgstr ""
+msgstr "Username or email"
 
-#: src/apps/authentication/forms.py:31
-#: src/apps/authentication/templates/authentication/password_reset_confirm.html:31
+#: forms.py:31 templates/authentication/password_reset_confirm.html:31
 msgid "Confirme contraseña"
-msgstr ""
+msgstr "Confirm password"
 
-#: src/apps/authentication/forms.py:42
+#: forms.py:42
 msgid "Solo letras y números, ha de comenzar por una letra"
 msgstr ""
 
-#: src/apps/authentication/forms.py:66
+#: forms.py:66
 msgid "Los dos campos de contraseña no coinciden"
 msgstr ""
 
-#: src/apps/authentication/forms.py:77
+#: forms.py:77
 msgid "El usuario ya existe"
-msgstr ""
+msgstr "User already exists"
 
-#: src/apps/authentication/forms.py:88 src/apps/authentication/forms.py:127
+#: forms.py:88 forms.py:127
 msgid "El email ya existe"
-msgstr ""
+msgstr "Email already exists"
 
-#: src/apps/authentication/forms.py:95 src/apps/authentication/models.py:73
+#: forms.py:95 models.py:73
 msgid "Nuevo email"
-msgstr ""
+msgstr "New email"
 
-#: src/apps/authentication/forms.py:98
+#: forms.py:98
 msgid "Confirma el nuevo email"
-msgstr ""
+msgstr "Confirm new email"
 
-#: src/apps/authentication/forms.py:116
+#: forms.py:116
 msgid "Los emails no coinciden"
 msgstr ""
 
-#: src/apps/authentication/models.py:19
+#: models.py:19
 msgid "Nombre de usuario"
-msgstr ""
+msgstr "Username"
 
-#: src/apps/authentication/models.py:28
+#: models.py:28
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-#: src/apps/authentication/models.py:32
+#: models.py:32
 msgid "Contraseña"
-msgstr ""
+msgstr "Password"
 
-#: src/apps/authentication/models.py:36 src/apps/authentication/models.py:76
+#: models.py:36 models.py:76
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
-#: src/apps/authentication/models.py:40
+#: models.py:40
 msgid "Fecha de registro"
-msgstr ""
+msgstr "Registration date"
 
-#: src/apps/authentication/models.py:45
+#: models.py:45
 msgid "Registro usuario temporal"
 msgstr ""
 
-#: src/apps/authentication/models.py:46
+#: models.py:46
 msgid "Registro usuarios temporales"
 msgstr ""
 
-#: src/apps/authentication/models.py:70
+#: models.py:70
 msgid "Usuario"
-msgstr ""
+msgstr "User"
 
-#: src/apps/authentication/models.py:84
+#: models.py:84
 msgid "Actualizar email"
-msgstr ""
+msgstr "Update email"
 
-#: src/apps/authentication/models.py:85
+#: models.py:85
 msgid "Actualizar emails"
-msgstr ""
+msgstr "Update emails"
 
-#: src/apps/authentication/templates/authentication/email_update.html:5
-#: src/apps/authentication/templates/authentication/email_update.html:6
-#: src/apps/authentication/templates/authentication/email_update.html:12
+#: templates/authentication/email_update.html:5
+#: templates/authentication/email_update.html:6
+#: templates/authentication/email_update.html:12
 msgid "Actualizar email de"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/email_update.html:19
+#: templates/authentication/email_update.html:19
 msgid "Actualizar"
-msgstr ""
+msgstr "Update"
 
-#: src/apps/authentication/templates/authentication/emails/email_update_confirm.txt:1
+#: templates/authentication/emails/email_update_confirm.txt:1
 #, python-format
 msgid ""
 "Este mensaje se ha enviado por que en %(site_name)s se ha solicitado un "
 "cambio de email."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/email_update_confirm.txt:3
+#: templates/authentication/emails/email_update_confirm.txt:3
 msgid "Para validar este email, has de ir al siguiente enlace."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_email.html:2
+#: templates/authentication/emails/password_reset_email.html:2
 #, python-format
 msgid ""
 "Ha recibido este correo electrónico porque ha solicitado restablecer la "
 "contraseña para su cuenta en %(site_name)s."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_email.html:4
+#: templates/authentication/emails/password_reset_email.html:4
 msgid "Por favor, vaya a la página siguiente y escoja una nueva contraseña."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_email.html:8
+#: templates/authentication/emails/password_reset_email.html:8
 msgid "Su nombre de usuario, en caso de haberlo olvidado"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_email.html:10
+#: templates/authentication/emails/password_reset_email.html:10
 msgid "¡Gracias por usar nuestro sitio!"
-msgstr ""
+msgstr "Thank you for using our site!"
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_email.html:12
+#: templates/authentication/emails/password_reset_email.html:12
 #, python-format
 msgid "El equipo de %(site_name)s"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/emails/password_reset_subject.txt:2
+#: templates/authentication/emails/password_reset_subject.txt:2
 #, python-format
 msgid "Contraseña restablecida en %(site_name)s"
-msgstr ""
+msgstr "Password reset in %(site_name)s"
 
-#: src/apps/authentication/templates/authentication/emails/register_success.txt:1
+#: templates/authentication/emails/register_success.txt:1
 #, python-format
 msgid "%(username)s gracias por registrarte en %(site_name)s."
-msgstr ""
+msgstr "%(username)s thanks for registering on %(site_name)s."
 
-#: src/apps/authentication/templates/authentication/emails/register_success.txt:3
+#: templates/authentication/emails/register_success.txt:3
 msgid "Para completar el registro, simplemente visita en el siguiente enlace"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/logged_out.html:13
+#: templates/authentication/logged_out.html:13
 msgid "Gracias por el tiempo que ha dedicado hoy al sitio web."
-msgstr ""
+msgstr "Thanks for spending some quality time with the Web site today."
 
-#: src/apps/authentication/templates/authentication/logged_out.html:15
+#: templates/authentication/logged_out.html:15
 msgid "Iniciar sesión de nuevo"
-msgstr ""
+msgstr "Log in again"
 
-#: src/apps/authentication/templates/authentication/login.html:5
-#: src/apps/authentication/templates/authentication/login.html:6
-#: src/apps/authentication/templates/authentication/login.html:12
-#: src/apps/authentication/templates/authentication/login.html:19
-#: src/apps/authentication/templates/authentication/password_reset_complete.html:15
+#: templates/authentication/login.html:5 templates/authentication/login.html:6
+#: templates/authentication/login.html:12
+#: templates/authentication/login.html:19
+#: templates/authentication/password_reset_complete.html:15
 msgid "Iniciar sesión"
 msgstr "Log in"
 
-#: src/apps/authentication/templates/authentication/login.html:20
+#: templates/authentication/login.html:20
 msgid "Crear cuenta"
 msgstr "Create Account"
 
-#: src/apps/authentication/templates/authentication/login.html:22
+#: templates/authentication/login.html:22
 msgid "¿Ha olvidado su contraseña?"
 msgstr "Forgotten your password?"
 
-#: src/apps/authentication/templates/authentication/password_change_done.html:13
+#: templates/authentication/password_change_done.html:13
 msgid "Su contraseña ha sido cambiada."
 msgstr "Your password was changed."
 
-#: src/apps/authentication/templates/authentication/password_change_form.html:16
+#: templates/authentication/password_change_form.html:16
 msgid ""
 "Por favor, introduzca su contraseña antigua, por seguridad, y después "
 "introduzca la nueva contraseña dos veces para verificar que la ha escrito "
@@ -194,18 +192,18 @@ msgstr ""
 "introduzca la nueva contraseña dos veces para verificar que la ha escrito "
 "correctamente."
 
-#: src/apps/authentication/templates/authentication/password_change_form.html:47
-#: src/apps/authentication/templates/authentication/password_reset_confirm.html:36
+#: templates/authentication/password_change_form.html:47
+#: templates/authentication/password_reset_confirm.html:36
 msgid "Cambiar mi contraseña"
 msgstr "Change my password"
 
-#: src/apps/authentication/templates/authentication/password_reset_complete.html:13
+#: templates/authentication/password_reset_complete.html:13
 msgid ""
 "Su contraseña ha sido establecida. Ahora puede seguir adelante e iniciar "
 "sesión."
 msgstr "Your password has been set.  You may go ahead and log in now."
 
-#: src/apps/authentication/templates/authentication/password_reset_confirm.html:15
+#: templates/authentication/password_reset_confirm.html:15
 msgid ""
 "Por favor, introduzca su contraseña nueva dos veces para verificar que la ha "
 "escrito correctamente."
@@ -213,11 +211,11 @@ msgstr ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
 
-#: src/apps/authentication/templates/authentication/password_reset_confirm.html:23
+#: templates/authentication/password_reset_confirm.html:23
 msgid "Contraseña nueva"
 msgstr "New password"
 
-#: src/apps/authentication/templates/authentication/password_reset_confirm.html:39
+#: templates/authentication/password_reset_confirm.html:39
 msgid ""
 "El enlace de restablecimiento de contraseña era inválido, seguramente porque "
 "se haya usado antes. Por favor, solicite un nuevo restablecimiento de "
@@ -226,7 +224,7 @@ msgstr ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 
-#: src/apps/authentication/templates/authentication/password_reset_done.html:13
+#: templates/authentication/password_reset_done.html:13
 msgid ""
 "Le hemos enviado por email las instrucciones para restablecer la contraseña, "
 "si es que existe una cuenta con la dirección electrónica que indicó. Debería "
@@ -235,7 +233,7 @@ msgstr ""
 "We've emailed you instructions for setting your password, if an account "
 "exists with the email you entered. You should receive them shortly."
 
-#: src/apps/authentication/templates/authentication/password_reset_done.html:15
+#: templates/authentication/password_reset_done.html:15
 msgid ""
 "Si no recibe un correo, por favor asegúrese de que ha introducido la "
 "dirección de correo con la que se registró y verifique su carpeta de spam."
@@ -243,7 +241,7 @@ msgstr ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 
-#: src/apps/authentication/templates/authentication/password_reset_form.html:16
+#: templates/authentication/password_reset_form.html:16
 msgid ""
 "¿Ha olvidado su clave? Introduzca su dirección de correo a continuación y le "
 "enviaremos por correo electrónico las instrucciones para establecer una "
@@ -252,73 +250,73 @@ msgstr ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 
-#: src/apps/authentication/templates/authentication/password_reset_form.html:24
+#: templates/authentication/password_reset_form.html:24
 msgid "Restablecer mi contraseña"
 msgstr "Reset my password"
 
-#: src/apps/authentication/templates/authentication/register.html:5
-#: src/apps/authentication/templates/authentication/register.html:6
-#: src/apps/authentication/templates/authentication/register.html:12
+#: templates/authentication/register.html:5
+#: templates/authentication/register.html:6
+#: templates/authentication/register.html:12
 msgid "Registro nueva cuenta"
 msgstr "Register new account"
 
-#: src/apps/authentication/templates/authentication/register.html:18
+#: templates/authentication/register.html:18
 msgid "Registro"
 msgstr "Register"
 
-#: src/apps/authentication/templates/authentication/register.html:20
+#: templates/authentication/register.html:20
 msgid "¿Tienes una cuenta?"
 msgstr "Have an account?"
 
-#: src/apps/authentication/templates/authentication/success.html:4
-#: src/apps/authentication/templates/authentication/success.html:5
+#: templates/authentication/success.html:4
+#: templates/authentication/success.html:5
 msgid "Nuevo registro correcto"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/success.html:11
+#: templates/authentication/success.html:11
 msgid "¡Solo falta un ultimo paso!"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/success.html:13
+#: templates/authentication/success.html:13
 msgid "En breve recibirás un email para poder confirmar tu correo."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/success.html:15
+#: templates/authentication/success.html:15
 msgid "Comprueba tu <strong>correo no deseado</strong> si ves que tarda mucho."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/success.html:17
+#: templates/authentication/success.html:17
 #, python-format
-msgid "Gracias por registrarte en <strong>%(SITE.name)s</strong>"
+msgid "Gracias por registrarte en <strong>%(site_name)s</strong>"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/token_email_not_exists.html:4
-#: src/apps/authentication/templates/authentication/token_email_not_exists.html:5
-#: src/apps/authentication/templates/authentication/token_email_not_exists.html:11
+#: templates/authentication/token_email_not_exists.html:4
+#: templates/authentication/token_email_not_exists.html:5
+#: templates/authentication/token_email_not_exists.html:11
 msgid "Error cambio de Email"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/token_email_not_exists.html:15
+#: templates/authentication/token_email_not_exists.html:14
 #, python-format
 msgid ""
 "La validación para cambiar el email no existe o ha caducado, prueba a hacer "
 "una nueva <a href=\"%(email_update)s\">solicitud</a>."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/token_email_not_exists.html:17
+#: templates/authentication/token_email_not_exists.html:17
 #, python-format
 msgid ""
 "Si el problema persiste, por favor ponte en <a href=\"%(contact)s"
 "\">contacto</a> con nosotros."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/token_not_exists.html:4
-#: src/apps/authentication/templates/authentication/token_not_exists.html:5
-#: src/apps/authentication/templates/authentication/token_not_exists.html:11
+#: templates/authentication/token_not_exists.html:4
+#: templates/authentication/token_not_exists.html:5
+#: templates/authentication/token_not_exists.html:11
 msgid "Fallo en la validación"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/token_not_exists.html:15
+#: templates/authentication/token_not_exists.html:15
 #, python-format
 msgid ""
 "La validación no ha sido posible, quizá haya caducado. Intenta en crear de "
@@ -327,31 +325,31 @@ msgid ""
 "nosotros."
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/validate_token.html:4
-#: src/apps/authentication/templates/authentication/validate_token.html:5
-#: src/apps/authentication/templates/authentication/validate_token.html:11
+#: templates/authentication/validate_token.html:4
+#: templates/authentication/validate_token.html:5
+#: templates/authentication/validate_token.html:11
 msgid "Cuenta creada con éxito"
 msgstr ""
 
-#: src/apps/authentication/templates/authentication/validate_token.html:14
+#: templates/authentication/validate_token.html:14
 #, python-format
 msgid ""
 "La cuenta se ha creado con éxito, ahora ya puedes <a href=\"%(url_login)s"
 "\">Iniciar sesión</a>"
 msgstr ""
 
-#: src/apps/authentication/views.py:55
+#: views.py:55
 msgid "Validación de email en {}"
 msgstr ""
 
-#: src/apps/authentication/views.py:153
+#: views.py:153
 msgid "Se ha enviado un email a la nueva dirección para la confirmación"
 msgstr ""
 
-#: src/apps/authentication/views.py:190
+#: views.py:190
 msgid "Confirmación cambio de email"
 msgstr ""
 
-#: src/apps/authentication/views.py:217
+#: views.py:217
 msgid "Se ha actualizado el email"
 msgstr ""
