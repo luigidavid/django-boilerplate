@@ -1,9 +1,5 @@
 {% load i18n %}
 
-{% if not col %}
-  <section class="row">
-{% endif %}
-
 <div class="file-field input-field col {{ col|default:'s12' }}">
   <div class="btn">
     <span>{{ label|default:field.label }}</span>
@@ -26,7 +22,3 @@
     {{ field.errors|default:'' }}
   </div>
 </div>
-
-{% if not col %}
-  </section>
-{% endif %}

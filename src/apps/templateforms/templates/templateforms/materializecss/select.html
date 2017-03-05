@@ -1,9 +1,5 @@
 {% load i18n %}
 
-{% if not col %}
-  <section class="row">
-{% endif %}
-
 <div class="input-field col {{ col|default:'s12' }}">
   <select id="{{ field.id_for_label }}"
           class="material_select{% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
@@ -35,7 +31,3 @@
 
   {{ field.errors|default:'' }}
 </div>
-
-{% if not col %}
-  </section>
-{% endif %}
