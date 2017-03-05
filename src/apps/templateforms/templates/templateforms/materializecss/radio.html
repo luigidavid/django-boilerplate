@@ -11,7 +11,7 @@
   {% for id, value in field.field.choices %}
     <p>
       <input id="{{ field.id_for_label }}{{ forloop.counter }}"
-             class="{% if field.field.widget.attrs.class %}{{ field.field.widget.attrs.class }}{% endif %}"
+             {% if field.field.widget.attrs.class %}class="{{ field.field.widget.attrs.class }}"{% endif %}
              type="radio"
              name="{{ field.name }}"
              value="{{ id }}"
