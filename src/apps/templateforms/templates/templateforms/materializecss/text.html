@@ -5,12 +5,12 @@
 <div class="input-field col {{ col|default:'s12' }}">
   {% if img %}<i class="material-icons prefix">{{ img }}</i>{% endif %}
   <input id="{{ field.id_for_label }}"
-         class="validate{% if field.errors %} invalid{% endif %} {{ klass|default:'' }}"
+         class="validate{% if field.errors %} invalid{% endif %}{% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
          type="{{ ftype }}"
          value="{% if not ftype == 'password' and field.value %}{{ field.value }}{% endif %}"
          name="{{ field.name }}"
+         {% include 'templateforms/materializecss/attrs.html' with field=field %}
          {% if field.field.required %}required{% endif %}
-         {% if extras %}{{ extras }}{% endif %}
   >
 
   <label for="{{ field.id_for_label }}">

@@ -11,12 +11,12 @@
   <div class="switch">
     <label>
       Off
-      <input {% if klass %}class="{{ klass }}"{% endif %}
+      <input id="{{ field.id_for_label }}"
+             class="{% if field.field.widget.attrs.class %}class="{{ field.field.widget.attrs.class }}"{% endif %}"
              type="checkbox"
              value="{{ field.value|default:'' }}"
              name="{{ field.name }}"
              {% if field.value %}checked{% endif %}
-             {% if extras %}{{ extras }}{% endif %}
       >
       <span class="lever"></span>
       On

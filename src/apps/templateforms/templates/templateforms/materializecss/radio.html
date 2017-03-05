@@ -11,11 +11,12 @@
   {% for id, value in field.field.choices %}
     <p>
       <input id="{{ field.id_for_label }}{{ forloop.counter }}"
+             class="{% if field.field.widget.attrs.class %}{{ field.field.widget.attrs.class }}{% endif %}"
              type="radio"
              name="{{ field.name }}"
              value="{{ id }}"
              {% if field.value == id %}checked{% endif %}
-             {% if extras %}{{ extras }}{% endif %}
+             {% include 'templateforms/materializecss/attrs.html' with field=field %}
       >
       <label for="{{ field.id_for_label }}{{ forloop.counter }}">{{ value }}</label>
     </p>

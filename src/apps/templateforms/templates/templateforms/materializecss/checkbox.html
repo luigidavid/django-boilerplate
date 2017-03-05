@@ -4,11 +4,10 @@
 
 <div class="col {{ col|default:'s12' }}">
   <input id="{{ field.id_for_label }}"
-         {% if klass %}class="{{ klass }}"{% endif %}
+         class="{% if field.field.widget.attrs.class %}class="{{ field.field.widget.attrs.class }}"{% endif %}"
          type="checkbox"
          name="{{ field.name }}"
          {% if field.value %}checked{% endif %}
-         {% if extras %}{{ extras }}{% endif %}
   >
 
   <label for="{{ field.id_for_label }}">

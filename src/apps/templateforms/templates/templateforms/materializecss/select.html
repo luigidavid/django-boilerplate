@@ -6,10 +6,9 @@
 
 <div class="input-field col {{ col|default:'s12' }}">
   <select id="{{ field.id_for_label }}"
-          class="material_select{% if klass %} {{ klass }}{% endif %}"
+          class="material_select{% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
           name="{{ field.name }}"
           {% if multiple %} multiple="multiple"{% endif %}
-          {% if extras %}{{ extras }}{% endif %}
     >
     {# Si es multiple, la primera opción es campo vació #}
     {% if multiple %}

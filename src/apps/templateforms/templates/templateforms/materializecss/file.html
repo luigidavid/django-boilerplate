@@ -10,14 +10,13 @@
     <input id="{{ field.id_for_label }}"
            type="file"
            name="{{ field.name }}"
-           {% if extras %}{{ extras }}{% endif %}
     >
   </div>
 
   <div class="file-path-wrapper">
-    <input class="file-path validate{% if field.errors %} invalid{% endif %} {{ klass|default:'' }}"
-           placeholder="{% trans 'Selecciona una imagen' %}"
+    <input class="file-path validate{% if field.errors %} invalid{% endif %}{% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
            type="text"
+           {% include 'templateforms/materializecss/attrs.html' with field=field %}
     >
 
     {% if field.help_text %}

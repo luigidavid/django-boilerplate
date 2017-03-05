@@ -4,10 +4,10 @@
 
 <div class="input-field col {{ col|default:'s12' }}">
   <textarea id="{{ field.id_for_label }}"
-            class="materialize-textarea {% if field.errors %}invalid{% endif %} validate {{ klass|default:'' }}"
+            class="materialize-textarea {% if field.errors %}invalid{% endif %} {% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
             name="{{ field.name }}"
             {% if field.field.required %}required{% endif %}
-            {% if extras %}{{ extras }}{% endif %}
+            {% include 'templateforms/materializecss/attrs.html' with field=field %}
   >{{ field.value|default:'' }}</textarea>
 
   <label for="{{ field.id_for_label }}">

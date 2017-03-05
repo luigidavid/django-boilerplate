@@ -123,9 +123,10 @@ def form_field(field, **kwargs):
             kwargs['ftype'] = 'number'
         elif widget_type == 'DateInput':
             kwargs['ftype'] = 'date'
-            kwargs['klass'] = 'datepicker'
         elif widget_type == 'DateTimeInput':
-            kwargs['ftype'] = 'date'
+            kwargs['ftype'] = 'datetime'
+        elif widget_type == 'TimeInput':
+            kwargs['ftype'] = 'time'
         elif widget_type == 'PasswordInput':
             kwargs['ftype'] = 'password'
         elif widget_type == 'URLInput':
