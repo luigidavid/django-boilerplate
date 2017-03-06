@@ -4,6 +4,9 @@ $fa-font-path: "../../bower_components/font-awesome/fonts" !default;
 // Font roboto.
 $roboto-font-path: "../../bower_components/Materialize/fonts/roboto/" !default;
 
+// Font Materialize Icons
+$materializeicons-font-path: "../../dist/fonts/" !default;
+
 // Colors.
 $primary-color: color("blue-grey", "darken-2") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
