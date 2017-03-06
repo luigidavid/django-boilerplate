@@ -8,7 +8,7 @@
     >
     {# Si es multiple, la primera opción es campo vació #}
     {% if multiple %}
-      <<option value="" selected="selected" disabled="disabled">{% trans 'Selecciona opciones' %}</option>
+      <option value="" selected="selected" disabled="disabled">{% trans 'Selecciona opciones' %}</option>
     {% endif %}
 
     {% for key, value in field.field.choices %}
