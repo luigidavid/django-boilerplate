@@ -10,7 +10,7 @@ else
   rm -r $FIXTURESDIR/*
 fi
 
-for app in "$APPS[@]"
+for app in "${APPS[@]}"
 do
   $PROJECT_ROOT/manage.py dumpdata --indent=2 $app > "$FIXTURESDIR/$app.json"
   echo "dumpdata $FIXTURESDIR/$app.json"

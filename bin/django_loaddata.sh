@@ -3,7 +3,7 @@
 
 source _variables.sh
 
-for app in "$APPS[@]"
+for app in "${APPS[@]}"
 do
   # Con 4 bytes esta vacio, solo tiene []
   minsize=4
