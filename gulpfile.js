@@ -7,24 +7,27 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 
-// Files and folders
+// Styles
 var stylesWatch = ['./src/static/src/styles/**/*'];
-
 var stylesSrc = [
   './src/static/bower_components/cookieconsent/build/cookieconsent.min.css',
   './src/static/src/styles/main.scss'
 ];
+var stylesDest = './src/static/dist/css/';
 
+/**
+ * Scripts.
+ * Se dividen en 2 para que los watches no tarden tanto.
+ */
+// Scripts locales.
 var scriptsWatch = ['./src/static/src/scripts/**/*.js'];
-
-var scriptsSrc = [
+var scriptsSrc = ['./src/static/src/scripts/**/*.js'];
+// Scrtips de terceros (No tiene watch).
+var scriptsVendorSrc = [
   './src/static/bower_components/jquery/dist/jquery.js',
   './src/static/bower_components/Materialize/dist/js/materialize.js',
   './src/static/bower_components/cookieconsent/build/cookieconsent.min.js',
-  './src/static/src/scripts/**/*.js'
 ];
-
-var stylesDest = './src/static/dist/css/';
 var scriptsDest = './src/static/dist/js/';
 
 // Sass
@@ -37,12 +40,26 @@ gulp.task('styles', function() {
     .pipe(gulp.dest(stylesDest));
 });
 
-// Javascript
+// Javascript locales.
 gulp.task('scripts', function() {
   return gulp.src(scriptsSrc)
     .pipe(sourcemaps.init())
       .pipe(concat('main.min.js'))
       .pipe(uglify())
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest(scriptsDest));
+});
+
+// Javascript de terceros.
+gulp.task('scripts:vendor', function() {
+  return gulp.src(scriptsVendorSrc)
+    .pipe(sourcemaps.init())
+      .pipe(concat('vendor.min.js'))
+      .pipe(uglify({
+        output: {
+          max_line_len: 100000
+        }
+      }))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(scriptsDest));
 });
@@ -64,4 +81,4 @@ gulp.task('watches', function() {
 });
 
 // Default
-gulp.task('default', ['styles', 'scripts']);
+gulp.task('default', ['styles', 'scripts:vendor', 'scripts']);
