@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 18:55+0100\n"
+"POT-Creation-Date: 2017-03-16 09:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,6 +170,9 @@ msgid "Iniciar sesión de nuevo"
 msgstr "Iniciar sesión de nuevo"
 
 #: templates/authentication/login.html:5 templates/authentication/login.html:6
+msgid "Iniciar sesión en"
+msgstr "Iniciar sesión en"
+
 #: templates/authentication/login.html:12
 #: templates/authentication/login.html:19
 #: templates/authentication/password_reset_complete.html:15
@@ -266,6 +269,9 @@ msgid "Restablecer mi contraseña"
 msgstr "Restablecer mi contraseña"
 
 #: templates/authentication/register.html:5
+msgid "Registro nueva cuenta en"
+msgstr "Registro nueva cuenta en"
+
 #: templates/authentication/register.html:6
 #: templates/authentication/register.html:12
 msgid "Registro nueva cuenta"

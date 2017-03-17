@@ -2,18 +2,13 @@
 
 source _variables.sh
 
-# Eliminar todos los directorios 'migrations' y luego ejecuta
-# makemigrations en cada app en bin/_variables.APPS
-for app in "${APPS[@]}"
-do
-  echo $app
-  if [ -d $APPS_ROOT/$app/migrations ]
-  then
-    rm -rf $APPS_ROOT/$app/migrations
-  fi
-done
+# Probar que se esta en el entorno de desarrollo.
+if [ $VIRTUALENV != $VIRTUAL_ENV_DEV ]
+then
+  echo "delete_migrations.sh es solo para el entorno virtual '$VIRTUAL_ENV_DEV'"
+  exit
+fi
 
-for app in "${APPS[@]}"
-do
-  $PROJECT_ROOT/manage.py makemigrations $app
-done
+find $APPS_ROOT -path "*/migrations/*.py" -not -name "__init__.py" -delete
+
+$PYTHON_EXEC $PROJECT_ROOT/manage.py makemigrations

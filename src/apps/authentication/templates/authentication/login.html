@@ -2,8 +2,8 @@
 {% load i18n %}
 {% load templateforms %}
 
-{% block meta_description %}{% trans 'Iniciar sesión' %}{% endblock meta_description %}
-{% block head_title %}- {% trans 'Iniciar sesión' %}{% endblock head_title %}
+{% block meta_description %}{% trans 'Iniciar sesión en' %} {{ SITE.name }}{% endblock meta_description %}
+{% block head_title %}- {% trans 'Iniciar sesión en' %} {{ SITE.name }}{% endblock head_title %}
 
 {% block content %}
   <section class="row">

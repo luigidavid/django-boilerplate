@@ -9,6 +9,8 @@ ul {
       color: darken(red, 15%);
       font-size: 0.8rem;
       list-style: none;
+      position: relative;
+      top: -1rem;
     }
   }
 }
@@ -53,5 +55,7 @@ span {
   &.help_text {
     color: rgba(0, 0, 0, 0.3);
     font-size: 0.8rem;
+    position: relative;
+    top: -1rem;
   }
 }

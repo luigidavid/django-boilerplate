@@ -14,19 +14,18 @@
 }
 
 @media #{$small-and-down} {
-  // En small se centran los botones.
   .btn-group {
     text-align: center;
   }
 }
 
 .btn {
-  // Capitaliza los botones.
+  // Capitaliza los botones
   &.btn-capitalize {
     text-transform: capitalize;
   }
 
-  // Capitaliza la primera letra.
+  // Capitaliza la primera letra
   &.btn-ucfirst {
     text-transform: lowercase;
 
@@ -35,18 +34,18 @@
     }
   }
 
-  // En minúsculas.
+  // En minúsculas
   &.btn-lower {
     text-transform: lowercase;
   }
 
-  // Tamaños de los botones.
+  // Tamaños de los botones
   &.btn-small {
     height: 24px;
     line-height: 24px;
     padding: 0 0.5rem;
 
-    // Iconos en los botones small, los posiciona un poco mejor.
+    // Iconos en los botones small, los posiciona un poco mejor
     i {
       position: relative;
       top: -1px;
@@ -58,75 +57,110 @@
     line-height: 34px;
     padding: 0 0.5rem;
 
-    // Iconos en los botones small, los posiciona un poco mejor.
+    // Iconos en los botones small, los posiciona un poco mejor
     i {
       position: relative;
     }
   }
 
-  // primary color para btn-flat.
+  &.btn-primary {
+    background-color: $primary-color-light;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+
+  &.btn-success {
+    background-color: $success-color;
+
+    &:hover {
+      background-color: darken($success-color, 10%);
+    }
+  }
+
+  &.btn-info {
+    background-color: $info-color;
+
+    &:hover {
+      background-color: darken($info-color, 10%);
+    }
+  }
+
+  &.btn-warning {
+    background-color: $warning-color;
+
+    &:hover {
+      background-color: darken($warning-color, 10%);
+    }
+  }
+
+  &.btn-error {
+    background-color: $error-color;
+
+    &:hover {
+      background-color: darken($error-color, 10%);
+    }
+  }
+
+  // primary color para btn-flat
   &.btn-flat-primary {
     @extend .btn-flat;
 
     background-color: $primary-color-light;
     color: #fff;
+
+    &:hover {
+      background-color: $primary-color;
+    }
   }
 
-  &.btn-flat-primary:hover {
-    background-color: $primary-color;
-    color: #fff;
-  }
-
-  // success color para btn-flat.
+  // success color para btn-flat
   &.btn-flat-success {
     @extend .btn-flat;
 
     background-color: $success-color;
     color: #fff;
+
+    &:hover {
+      background-color: darken($success-color, 10%);
+    }
   }
 
-  &.btn-flat-success:hover {
-    background-color: darken($success-color, 10%);
-    color: #fff;
-  }
-
-  // success info para btn-flat.
+  // success info para btn-flat
   &.btn-flat-info {
     @extend .btn-flat;
 
     background-color: $info-color;
     color: #fff;
+
+    &:hover {
+      background-color: darken($info-color, 10%);
+    }
   }
 
-  &.btn-flat-info:hover {
-    background-color: darken($info-color, 10%);
-    color: #fff;
-  }
-
-  // success warning para btn-flat.
+  // success warning para btn-flat
   &.btn-flat-warning {
     @extend .btn-flat;
 
     background-color: $warning-color;
     color: #fff;
+
+    &:hover {
+      background-color: darken($warning-color, 10%);
+    }
   }
 
-  &.btn-flat-warning:hover {
-    background-color: darken($warning-color, 10%);
-    color: #fff;
-  }
-
-  // success error para btn-flat.
+  // success error para btn-flat
   &.btn-flat-error {
     @extend .btn-flat;
 
     background-color: $error-color;
     color: #fff;
-  }
 
-  &.btn-flat-error:hover {
-    background-color: darken($error-color, 10%);
-    color: #fff;
+    &:hover {
+      background-color: darken($error-color, 10%);
+    }
   }
 }
 
@@ -140,6 +174,7 @@
     display: block;
     font-size: 1.1rem;
     padding: 0.2rem 0.8rem;
+    border-radius: 1px;
 
     &.facebook {
       background-color: $facebook-color;
@@ -169,8 +204,8 @@
     }
 
     &.envelope {
-      background-color: $primary-color;
-      border: 1px solid $primary-color;
+      background-color: $secondary-color;
+      border: 1px solid $secondary-color;
     }
 
     &:hover {

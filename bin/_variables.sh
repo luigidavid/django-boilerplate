@@ -90,7 +90,7 @@ PROD_DATABASE_BACKUP_DATE=`date +%Y-%m-%d_%H-%M`
 FIXTURESDIR=~/Downloads/fixtures
 
 ###########################################################
-# Añadir las apps que requieren makemigrations (El orden importa).
+# Añadir las apps que requieren load fixtures. (El orden importa).
 
 APPS=(
   accounts
