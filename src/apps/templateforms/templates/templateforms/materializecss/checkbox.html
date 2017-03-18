@@ -1,3 +1,4 @@
+{% if not col %}<section class="row">{% endif %}
 <div class="col {{ col|default:'s12' }}">
   <input id="{{ field.id_for_label }}"
          {% if field.field.widget.attrs.class %}class="{{ field.field.widget.attrs.class }}"{% endif %}
@@ -17,3 +18,4 @@
 
   {{ field.errors|default:'' }}
 </div>
+{% if not col %}</section>{% endif %}

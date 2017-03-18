@@ -1,3 +1,4 @@
+{% if not col %}<section class="row">{% endif %}
 <div class="input-field col {{ col|default:'s12' }}">
   {% if img %}<i class="material-icons prefix">{{ img }}</i>{% endif %}
   <input id="{{ field.id_for_label }}"
@@ -20,3 +21,4 @@
 
   {{ field.errors|default:'' }}
 </div>
+{% if not col %}</section>{% endif %}

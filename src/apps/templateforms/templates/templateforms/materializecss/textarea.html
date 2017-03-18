@@ -1,3 +1,4 @@
+{% if not col %}<section class="row">{% endif %}
 <div class="input-field col {{ col|default:'s12' }}">
   <textarea id="{{ field.id_for_label }}"
             class="materialize-textarea {% if field.errors %}invalid{% endif %} {% if field.field.widget.attrs.class %} {{ field.field.widget.attrs.class }}{% endif %}"
@@ -17,3 +18,4 @@
 
   {{ field.errors|default:'' }}
 </div>
+{% if not col %}</section>{% endif %}

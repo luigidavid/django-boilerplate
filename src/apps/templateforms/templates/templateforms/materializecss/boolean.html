@@ -1,3 +1,4 @@
+{% if not col %}<section class="row">{% endif %}
 <div class="col {{ col|default:'s12' }}">
   <p>
     {{ label|default:field.label }}
@@ -25,3 +26,4 @@
 
   {{ field.errors|default:'' }}
 </div>
+{% if not col %}</section>{% endif %}
