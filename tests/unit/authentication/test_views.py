@@ -1,7 +1,7 @@
 from django.contrib.auth.hashers import make_password
 from django.contrib.sites.models import Site
 from django.core import mail
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils import timezone
 
 from config.settings import local as settings_local

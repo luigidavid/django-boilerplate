@@ -6,7 +6,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
     "htmlhint": "^0.9.13",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0"

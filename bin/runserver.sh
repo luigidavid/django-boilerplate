@@ -5,4 +5,4 @@
 
 source _variables.sh
 
-$PROJECT_ROOT/manage.py runserver $*
+$PYTHON_EXEC -Wd $PROJECT_ROOT/manage.py runserver $*

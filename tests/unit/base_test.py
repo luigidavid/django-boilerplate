@@ -2,8 +2,8 @@ import json
 import os
 
 from django.contrib.auth import get_user_model
-from django.core.urlresolvers import reverse
 from django.test import TestCase
+from django.urls import reverse
 
 UserModel = get_user_model()
 

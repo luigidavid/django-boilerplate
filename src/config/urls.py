@@ -24,7 +24,7 @@ urlpatterns = [
     url(r'^pages/', include('pages.urls')),
 
     # /admin/*
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', admin.site.urls),
 ]
 
 if settings.DEBUG:

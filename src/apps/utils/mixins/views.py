@@ -11,7 +11,7 @@ class AnonymousRequiredMixin(object):
         Si no es un usuario anónimo, lo redirecciona a la
         pagina LOGIN_REDIRECT_URL.
         """
-        if request.user.is_authenticated():
+        if request.user.is_authenticated:
             return redirect(settings.LOGIN_REDIRECT_URL)
         return super().dispatch(request, *args, **kwargs)
 
