@@ -15,39 +15,31 @@ class BaseTestCase(TestCase):
         fixtures (list): Nombres de fixtures a leer, incluida la extensión.
     """
     fixtures = [
-        'accounts.json',
-        'sites.json'
+        'accounts',
+        'sites'
     ]
 
     def setUp(self):
         super().setUp()
         self.user_model = UserModel
-
-    def resolve_url(self, urlconf, *args, **kwargs):
-        """Optener el reverse de un URLConf.
-
-        Args:
-            urlconf (str): El string del URLConf.
-            *args: Lista de argumentos para reverse.
-            **kwargs: Diccionario para reverse.
-        """
-        return reverse(urlconf, *args, **kwargs)
+        self.user = self.user_model.objects.get(pk=1)
 
     def login(self, username=None, password=None):
         """Login de usuario.
 
-        Si no se pasa username y password usara por defecto
-        snicoper y 123 respectivamente.
+        Si no se pasan username y password usara por defecto self.user.username
+        y 123 respectivamente.
 
         Args:
             username (str): Nombre de usuario.
             password (str): Password de usuario.
-        """
-        username = 'snicoper' if username is None else username
-        password = '123' if password is None else password
-        login = self.client.login(username=username, password=password)
 
-        self.assertTrue(login)
+        Returns:
+            bool: True si loguea, False en caso contrario.
+        """
+        username = self.user.username if username is None else username
+        password = '123' if password is None else password
+        return self.client.login(username=username, password=password)
 
     def logout(self):
         self.client.logout()

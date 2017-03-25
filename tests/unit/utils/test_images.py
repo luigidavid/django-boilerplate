@@ -4,7 +4,7 @@ from unittest import TestCase
 from PIL import Image
 
 from tests.unit.images import create_image, delete_image, get_image_path
-from core.images import ImageResize
+from utils.images import ImageResize
 
 
 class ImageResizeTest(TestCase):

@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from core import text
+from utils import text
 
 
 class UtilsTextTest(TestCase):

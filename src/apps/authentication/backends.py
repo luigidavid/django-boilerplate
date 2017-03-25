@@ -26,10 +26,10 @@ class EmailOrUsernameModelBackend(ModelBackend):
         try:
             if auth_type == 'both':
                 user = UserModel.objects.get(
-                    Q(username__iexact=username) | Q(email__iexact=username)
+                    Q(username__exact=username) | Q(email__exact=username)
                 )
             else:
-                user = UserModel.objects.get(email__iexact=username)
+                user = UserModel.objects.get(email__exact=username)
             if user.check_password(password):
                 return user
         except UserModel.DoesNotExist:

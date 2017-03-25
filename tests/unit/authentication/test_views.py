@@ -62,8 +62,8 @@ class RegisterUserFormViewTest(BaseAuthTest):
         self.assertEqual(self.register_model.objects.count(), 0)
 
     def test_nuevo_registro(self):
-        """Crea un registro y verifica que se ha creado en la db,
-        que se ha enviado un Email y el get_success_url.
+        """Crea un registro y verifica que se ha creado en la db, que se ha
+        enviado un email y el get_success_url.
         """
         form_data = {
             'username': 'newtestuser',
@@ -238,7 +238,6 @@ class UserEmailUpdateViewTest(BaseAuthTest):
 
     def setUp(self):
         super().setUp()
-        self.user = self.user_model.objects.get(pk=1)
         self.urlconf = 'authentication:email_update'
         self.url = reverse(self.urlconf)
         self.login()
@@ -335,7 +334,6 @@ class UserEmailUpdateValidateViewTest(BaseAuthTest):
 
     def setUp(self):
         super().setUp()
-        self.user = self.user_model.objects.get(pk=1)
         self.login()
 
         # Es necesario generar un token

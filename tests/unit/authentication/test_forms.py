@@ -8,8 +8,7 @@ from tests.unit.authentication.base_auth import BaseAuthTest
 class AuthenticationFormTest(BaseAuthTest):
     """Este form solo comprueba los campos.
 
-    Los validators, etc, son los de Django y eso no
-    se prueba.
+    Los validators, etc, son los de Django y eso no se prueba.
     """
 
     def setUp(self):
@@ -84,8 +83,8 @@ class RegisterUserFormTest(BaseAuthTest):
     def test_username_existe(self):
         """Username existe en accounts.User.
 
-        En models.RegisterUser ya prueba que no exista, por ser
-        un campo unique y se prueba en test_models.py
+        En models.RegisterUser ya prueba que no exista, por ser un campo unique
+        y se prueba en test_models.py
         """
         self.form_data['username'] = self.user_model.objects.get(pk=1).username
         form = self.get_form()
@@ -95,8 +94,9 @@ class RegisterUserFormTest(BaseAuthTest):
     def test_email_existe(self):
         """Username existe en accounts.User.
 
-        En models.RegisterUser ya prueba que no exista, por ser
-        un campo unique y se prueba en test_models.py"""
+        En models.RegisterUser ya prueba que no exista, por ser un campo unique
+        y se prueba en test_models.py
+        """
         self.form_data['email'] = self.user_model.objects.get(pk=1).email
         form = self.get_form()
 
@@ -107,7 +107,6 @@ class UserEmailUpdateFormTest(BaseAuthTest):
 
     def setUp(self):
         super().setUp()
-        self.user = self.user_model.objects.get(pk=1)
         self.form = forms.UserEmailUpdateForm
         self.form_data = {
             'user': self.user,
@@ -145,5 +144,5 @@ class UserEmailUpdateFormTest(BaseAuthTest):
         self.assertFalse(form.is_valid())
         self.assertEqual(
             form.errors['new_email'][0],
-            'El email ya existe'
+            'Email already exists'
         )
