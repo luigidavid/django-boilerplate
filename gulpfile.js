@@ -38,7 +38,9 @@ const scriptsVendorSrc = [
   './src/static/bower_components/cookieconsent/src/cookieconsent.js',
 ];
 
-/*****************************************************************************/
+/******************************************************************************
+ * Styles.
+ */
 
 /**
  * Sass desarrollo.
@@ -62,7 +64,9 @@ gulp.task('styles:prod', () => {
     .pipe(gulp.dest(stylesDest));
 });
 
-/*****************************************************************************/
+/*****************************************************************************
+ * Javascript locales.
+ */
 
 /**
  * Javascript locales, desarrollo.
@@ -91,7 +95,9 @@ gulp.task('scripts:local:prod', () => {
     .pipe(gulp.dest(scriptsDest));
 });
 
-/*****************************************************************************/
+/******************************************************************************
+ * Javascript terceros.
+ */
 
 /**
  * Javascript terceros, desarrollo.
@@ -118,8 +124,9 @@ gulp.task('scripts:third:prod', () => {
     .pipe(gulp.dest(scriptsDest));
 });
 
-/*****************************************************************************/
-// Los Watch solo son para archivos locales y desarrollo.
+/******************************************************************************
+ * Los Watch solo son para archivos locales y desarrollo.
+ */
 
 // Watch styles
 gulp.task('watch:styles', () => {
@@ -142,3 +149,6 @@ gulp.task('prod', ['styles:prod', 'scripts:third:prod', 'scripts:local:prod']);
 
 // Desarrollo.
 gulp.task('dev', ['styles:dev', 'scripts:third:dev', 'scripts:local:dev']);
+
+// Default.
+gulp.task('default', ['prod', 'dev']);

@@ -97,11 +97,12 @@ Editar `./package.json` para los paquetes de **nodejs**
 
 ### gulpfile.js
 
+* `gulp`: Unifica y minifica los archivos `.js` y `.scss` desarrollo y producción.
 * `gulp dev`: Unifica y minifica los archivos `.js` y `.scss` en desarrollo.
 * `gulp prod`: Unifica y minifica los archivos `.js` y `.scss` en producción.
-* `gulp watches`: Unifica, minifica y escucha archivos `.js` y `.scss` locales.
-* `gulp watch:styles`: Unifica, minifica y escucha archivos `.scss` locales.
-* `gulp watch:scripts`: Unifica, minifica y escucha archivos `.js` locales.
+* `gulp watches`: Unifica, minifica y escucha archivos `.js` y `.scss` en desarrollo locales.
+* `gulp watch:styles`: Unifica, minifica y escucha archivos `.scss` en desarrollo locales.
+* `gulp watch:scripts`: Unifica, minifica y escucha archivos `.js` en desarrollo locales.
 
 ## Bower
 
