@@ -28,10 +28,6 @@ src/media/local/*
 src/media/test/*
 !src/media/test/.keep
 
-# Eliminar los maps para producción.
-src/static/dist/css/main.min.css.map
-src/static/dist/js/main.min.js.map
-
 # Editors and IDEs #
 ####################
 .idea/

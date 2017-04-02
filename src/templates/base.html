@@ -11,21 +11,30 @@
   <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
   <title>{{ SITE.name }} {% block head_title %}{% endblock head_title %}</title>
   <!-- default css -->
-  <link href="{% static 'dist/css/main.min.css' %}" rel="stylesheet">
+  {% if debug %}
+    <link href="{% static 'dist/css/main.css' %}" rel="stylesheet">
+  {% else %}
+    <link href="{% static 'dist/css/main.min.css' %}" rel="stylesheet">
+  {% endif %}
+
+  <!-- extras en header -->
   {% block extra_heads %}{% endblock extra_heads %}
 </head>
 <body>
+  <!-- header -->
   {% block header %}
     {% include '_header.html' %}
-  {% endblock header %}
+  {% endblock header %}<!-- end header -->
 
+  <!-- content -->
   <main>
     {% block content %}{% endblock content %}
-  </main>
+  </main><!-- end content -->
 
+  <!-- footer -->
   {% block footer %}
     {% include '_footer.html' %}
-  {% endblock footer %}
+  {% endblock footer %}<!-- end footer -->
 
   <!-- Boton de subir, solo se muestra en resoluciones >= tablets -->
   <div class="to-top hide-on-small-only"></div>
@@ -34,13 +43,20 @@
   {% include '_cookieconsent.html' %}
 
   <!-- default js -->
-  <script src="{% static 'dist/js/vendor.min.js' %}"></script>
-  <script src="{% static 'dist/js/main.min.js' %}"></script>
+  {% if debug %}
+    <script src="{% static 'dist/js/vendor.js' %}"></script>
+    <script src="{% static 'dist/js/main.js' %}"></script>
+  {% else %}
+    <script src="{% static 'dist/js/vendor.min.js' %}"></script>
+    <script src="{% static 'dist/js/main.min.js' %}"></script>
+  {% endif %}
 
+  <!-- mensajes -->
   {% if messages %}
     {% include '_messages.html' %}
   {% endif %}
 
+  <!-- scripts -->
   {% block scripts %}{% endblock scripts %}
 </body>
 </html>

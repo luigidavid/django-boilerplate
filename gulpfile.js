@@ -1,84 +1,144 @@
 'use strict';
 
-// Load npm modules
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var sourcemaps = require('gulp-sourcemaps');
+/**
+ * Load npm modules
+ */
+const gulp = require('gulp');
+const babel = require('gulp-babel');
+const concat = require('gulp-concat');
+const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps');
+const uglify = require('gulp-uglify');
 
-// Styles
-var stylesWatch = ['./src/static/src/styles/**/*'];
-var stylesSrc = [
-  './src/static/bower_components/cookieconsent/build/cookieconsent.min.css',
-  './src/static/src/styles/main.scss'
-];
-var stylesDest = './src/static/dist/css/';
+/*****************************************************************************/
 
 /**
- * Scripts.
- * Se dividen en 2 para que los watches no tarden tanto.
+ * Styles.
  */
-// Scripts locales.
-var scriptsWatch = ['./src/static/src/scripts/**/*.js'];
-var scriptsSrc = ['./src/static/src/scripts/**/*.js'];
-// Scrtips de terceros (No tiene watch).
-var scriptsVendorSrc = [
+const stylesWatch = ['./src/static/src/styles/**/*'];
+const stylesSrc = [
+  './src/static/bower_components/cookieconsent/src/styles/**/*.css',
+  './src/static/src/styles/main.scss',
+];
+const stylesDest = './src/static/dist/css/';
+
+/**
+ * Scripts locales.
+ */
+const scriptsWatch = ['./src/static/src/scripts/**/*.js'];
+const scriptsSrc = ['./src/static/src/scripts/**/*.js'];
+const scriptsDest = './src/static/dist/js/';
+
+/**
+ * Scrtips de terceros.
+ */
+const scriptsVendorSrc = [
   './src/static/bower_components/jquery/dist/jquery.js',
   './src/static/bower_components/Materialize/dist/js/materialize.js',
-  './src/static/bower_components/cookieconsent/build/cookieconsent.min.js',
+  './src/static/bower_components/cookieconsent/src/cookieconsent.js',
 ];
-var scriptsDest = './src/static/dist/js/';
 
-// Sass
-gulp.task('styles', function() {
-  return gulp.src(stylesSrc)
-    .pipe(concat('main.min.css'))
+/*****************************************************************************/
+
+/**
+ * Sass desarrollo.
+ */
+gulp.task('styles:dev', () => {
+  gulp.src(stylesSrc)
+    .pipe(concat('main.css'))
     .pipe(sourcemaps.init())
-      .pipe(sass({outputStyle: 'compressed'}))
+      .pipe(sass())
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(stylesDest));
 });
 
-// Javascript locales.
-gulp.task('scripts', function() {
-  return gulp.src(scriptsSrc)
-    .pipe(sourcemaps.init())
-      .pipe(concat('main.min.js'))
-      .pipe(uglify())
-    .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest(scriptsDest));
+/**
+ * Sass producción.
+ */
+gulp.task('styles:prod', () => {
+  gulp.src(stylesSrc)
+    .pipe(concat('main.min.css'))
+    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(gulp.dest(stylesDest));
 });
 
-// Javascript de terceros.
-gulp.task('scripts:vendor', function() {
-  return gulp.src(scriptsVendorSrc)
+/*****************************************************************************/
+
+/**
+ * Javascript locales, desarrollo.
+ */
+gulp.task('scripts:local:dev', () => {
+  gulp.src(scriptsSrc)
+    .pipe(concat('main.js'))
     .pipe(sourcemaps.init())
-      .pipe(concat('vendor.min.js'))
-      .pipe(uglify({
-        output: {
-          max_line_len: 100000
-        }
+      .pipe(babel({
+        presets: ['es2015']
       }))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(scriptsDest));
 });
 
+/**
+ * Javascript locales, producción.
+ */
+gulp.task('scripts:local:prod', () => {
+  gulp.src(scriptsSrc)
+    .pipe(concat('main.min.js'))
+    .pipe(babel({
+      presets: ['es2015']
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest(scriptsDest));
+});
+
+/*****************************************************************************/
+
+/**
+ * Javascript terceros, desarrollo.
+ */
+gulp.task('scripts:third:dev', () => {
+  gulp.src(scriptsVendorSrc)
+    .pipe(concat('vendor.js'))
+    .pipe(sourcemaps.init())
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest(scriptsDest));
+});
+
+/**
+ * Javascript terceros, producción.
+ */
+gulp.task('scripts:third:prod', () => {
+  gulp.src(scriptsVendorSrc)
+    .pipe(concat('vendor.min.js'))
+    .pipe(uglify({
+      output: {
+        max_line_len: 100000
+      }
+    }))
+    .pipe(gulp.dest(scriptsDest));
+});
+
+/*****************************************************************************/
+// Los Watch solo son para archivos locales y desarrollo.
+
 // Watch styles
-gulp.task('watch:styles', function() {
-  gulp.watch(stylesWatch, ['styles']);
+gulp.task('watch:styles', () => {
+  gulp.watch(stylesWatch, ['styles:dev']);
 });
 
 // Watch scripts
-gulp.task('watch:scripts', function() {
-  gulp.watch(scriptsWatch, ['scripts']);
+gulp.task('watch:scripts', () => {
+  gulp.watch(scriptsWatch, ['scripts:local:dev']);
 });
 
 // Watches
-gulp.task('watches', function() {
-  gulp.watch(stylesWatch, ['styles']);
-  gulp.watch(scriptsWatch, ['scripts']);
+gulp.task('watches', () => {
+  gulp.watch(stylesWatch, ['styles:dev']);
+  gulp.watch(scriptsWatch, ['scripts:local:dev']);
 });
 
-// Default
-gulp.task('default', ['styles', 'scripts:vendor', 'scripts']);
+// Producción.
+gulp.task('prod', ['styles:prod', 'scripts:third:prod', 'scripts:local:prod']);
+
+// Desarrollo.
+gulp.task('dev', ['styles:dev', 'scripts:third:dev', 'scripts:local:dev']);
