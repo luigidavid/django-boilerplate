@@ -1,9 +1,9 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load i18n %}
 
-{% block meta_description %}{% trans 'Perfil de usuario' %}{% endblock meta_description %}
-{% block title %}- {% trans 'Perfil de usuario' %}{% endblock title %}
+{% block meta_description %}{% trans "Perfil de usuario" %}{% endblock meta_description %}
+{% block title %}- {% trans "Perfil de usuario" %}{% endblock title %}
 
 {% block content %}
-  <h1>{% trans 'Perfil de usuario' %} {{ user.username }}</h1>
+  <h1>{% trans "Perfil de usuario" %} {{ user.username }}</h1>
 {% endblock content %}

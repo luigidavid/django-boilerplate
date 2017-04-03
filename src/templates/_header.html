@@ -23,9 +23,9 @@
 
           {# Usuarios logueados #}
           {% if user.is_authenticated %}
-            <li><a href="{% url 'authentication:logout' %}">{% trans 'Terminar sesión' %}</a></li>
+            <li><a href="{% url 'authentication:logout' %}">{% trans "Terminar sesión" %}</a></li>
           {% else %}
-            <li><a href="{% url 'authentication:login' %}">{% trans 'Iniciar sesión' %}</a></li>
+            <li><a href="{% url 'authentication:login' %}">{% trans "Iniciar sesión" %}</a></li>
           {% endif %}
         </ul>
       </div>
@@ -49,8 +49,8 @@
 <ul id="slide-out" class="side-nav">
   {# Usuarios logueados #}
   {% if user.is_authenticated %}
-    <li><a href="{% url 'authentication:logout' %}">{% trans 'Terminar sesión' %}</a></li>
+    <li><a href="{% url 'authentication:logout' %}">{% trans "Terminar sesión" %}</a></li>
   {% else %}
-    <li><a href="{% url 'authentication:login' %}">{% trans 'Iniciar sesión' %}</a></li>
+    <li><a href="{% url 'authentication:login' %}">{% trans "Iniciar sesión" %}</a></li>
   {% endif %}
 </ul><!-- end SideNav lateral en <= medium -->

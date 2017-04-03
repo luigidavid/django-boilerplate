@@ -1,19 +1,19 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load i18n %}
 
-{% block meta_description %}{% trans 'Error cambio de Email' %}{% endblock meta_description %}
-{% block head_title %}- {% trans 'Error cambio de Email' %}{% endblock head_title %}
+{% block meta_description %}{% trans "Error cambio de Email" %}{% endblock meta_description %}
+{% block head_title %}- {% trans "Error cambio de Email" %}{% endblock head_title %}
 
 {% block content %}
   <section class="row">
     <div class="col s12 m8 l6 offset-m2 offset-l3">
       <div class="card-panel">
-        <h1 class="text-header">{% trans 'Error cambio de Email' %}</h1>
+        <h1 class="text-header">{% trans "Error cambio de Email" %}</h1>
 
-        {% url 'authentication:email_update' as email_update  %}
+        {% url "authentication:email_update" as email_update  %}
         <p>{% blocktrans %}La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva <a href="{{ email_update }}">solicitud</a>.{% endblocktrans %}</p>
 
-        {% url 'contact:contact' as contact  %}
+        {% url "contact:contact" as contact  %}
         <p>{% blocktrans %}Si el problema persiste, por favor ponte en <a href="{{ contact }}">contacto</a> con nosotros.{% endblocktrans %}</p>
       </div>
     </div>

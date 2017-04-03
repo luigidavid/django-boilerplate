@@ -23,7 +23,7 @@
 <body>
   <!-- header -->
   {% block header %}
-    {% include '_header.html' %}
+    {% include "_header.html" %}
   {% endblock header %}<!-- end header -->
 
   <!-- content -->
@@ -33,14 +33,14 @@
 
   <!-- footer -->
   {% block footer %}
-    {% include '_footer.html' %}
+    {% include "_footer.html" %}
   {% endblock footer %}<!-- end footer -->
 
   <!-- Boton de subir, solo se muestra en resoluciones >= tablets -->
   <div class="to-top hide-on-small-only"></div>
 
   <!-- cookieconsent -->
-  {% include '_cookieconsent.html' %}
+  {% include "_cookieconsent.html" %}
 
   <!-- default js -->
   {% if debug %}
@@ -53,7 +53,7 @@
 
   <!-- mensajes -->
   {% if messages %}
-    {% include '_messages.html' %}
+    {% include "_messages.html" %}
   {% endif %}
 
   <!-- scripts -->

@@ -1,25 +1,25 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load i18n %}
 {% load templateforms %}
 
-{% block meta_description %}{% trans 'Iniciar sesión en' %} {{ SITE.name }}{% endblock meta_description %}
-{% block head_title %}- {% trans 'Iniciar sesión en' %} {{ SITE.name }}{% endblock head_title %}
+{% block meta_description %}{% trans "Iniciar sesión en" %} {{ SITE.name }}{% endblock meta_description %}
+{% block head_title %}- {% trans "Iniciar sesión en" %} {{ SITE.name }}{% endblock head_title %}
 
 {% block content %}
   <section class="row">
     <div class="col s12 m8 l6 offset-m2 offset-l3">
       <div class="card-panel">
-        <h1 class="text-header">{% trans 'Iniciar sesión' %}</h1>
+        <h1 class="text-header">{% trans "Iniciar sesión" %}</h1>
 
         <form method="post" action="">
           {% csrf_token %}
           {% form form %}
 
           <div class="btn-group">
-            <button class="btn waves-effect" type="submit">{% trans 'Iniciar sesión' %}</button>
-            <a class="btn waves-effect" href="{% url 'authentication:register' %}">{% trans 'Crear cuenta' %}</a>
+            <button class="btn waves-effect" type="submit">{% trans "Iniciar sesión" %}</button>
+            <a class="btn waves-effect" href="{% url 'authentication:register' %}">{% trans "Crear cuenta" %}</a>
             <a class="btn waves-effect" href="{% url 'authentication:password_reset' %}">
-              {% trans '¿Ha olvidado su contraseña?' %}
+              {% trans "¿Ha olvidado su contraseña?" %}
             </a>
           </div>
         </form>

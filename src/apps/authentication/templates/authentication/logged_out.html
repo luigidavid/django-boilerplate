@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load i18n %}
 
 {% block meta_description %}{{ title }}{% endblock meta_description %}
@@ -12,7 +12,7 @@
 
         <p>{% trans "Gracias por el tiempo que ha dedicado hoy al sitio web." %}</p>
 
-        <p><a class="btn waves-effect" href="{% url 'authentication:login' %}">{% trans 'Iniciar sesión de nuevo' %}</a></p>
+        <p><a class="btn waves-effect" href="{% url 'authentication:login' %}">{% trans "Iniciar sesión de nuevo" %}</a></p>
       </div>
     </div>
   </section>
