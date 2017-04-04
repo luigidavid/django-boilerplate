@@ -71,13 +71,6 @@ then
   $PROJECT_ROOT/manage.py migrate
 fi
 
-# Load fixtures
-read -p "¿Load Fixtures? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  source django_loaddata.sh
-fi
-
 # Restore Media?
 read -p "¿Restaurar Media local? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
@@ -88,6 +81,13 @@ then
   # Test pone los mismos que los de local
   rm -rf $SRC_ROOT/media/test
   cp -r $PROJECT_ROOT/compose/media/local $SRC_ROOT/media/test
+fi
+
+# Load fixtures
+read -p "¿Load Fixtures? (y/[N]) " yn
+if [ "$yn" == "y" -o "$yn" == "Y" ]
+then
+  source django_loaddata.sh
 fi
 
 # Eliminar logs
