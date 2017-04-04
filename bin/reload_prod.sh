@@ -37,6 +37,13 @@ then
   $PROJECT_ROOT/prod_manage.py migrate
 fi
 
+# Actualizar pip.
+read -p "¿Actualizar pip? (y/[N]) " yn
+if [ "$yn" == "y" -o "$yn" == "Y" ]
+then
+  pip install -r $PROJECT_ROOT/requirements/prod.txt
+fi
+
 # Reinstalar node_modules.
 read -p "¿Reinstalar Node? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
