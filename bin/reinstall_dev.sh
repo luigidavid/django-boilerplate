@@ -29,8 +29,12 @@ then
   then
     rm -rf $PROJECT_ROOT/node_modules
   fi
-  npm install
-fi
+
+  # Si yarn esta instalado, ejecutarlo, de lo contrario usar npm.
+  if ! yarn install 2>/dev/null
+  then
+    npm install
+  fi
 
 # Reinstalar bower.
 read -p "¿Reinstalar Bower? (y/[N]) " yn
