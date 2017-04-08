@@ -3,6 +3,6 @@
 django-debug-toolbar==1.7.0
 Django==1.11
 markdown2==2.3.3
-Pillow==4.0.0
+Pillow==4.1.0
 psycopg2==2.7.1
 pytz==2017.2
