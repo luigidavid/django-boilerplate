@@ -44,29 +44,6 @@ then
   pip install -r $PROJECT_ROOT/requirements/prod.txt
 fi
 
-# Reinstalar node_modules.
-read -p "¿Reinstalar Node? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  if [ -d $PROJECT_ROOT/node_modules ]
-  then
-    rm -rf $PROJECT_ROOT/node_modules
-  fi
-  npm install
-fi
-
-# Reinstalar bower.
-read -p "¿Reinstalar Bower? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  if [ -d $SRC_ROOT/static/bower_components ]
-  then
-    rm -rf $SRC_ROOT/static/bower_components
-    echo "Eliminado directorio $SRC_ROOT/static/bower_components"
-  fi
-  bower install
-fi
-
 # Eliminar directorio de collectstatic.
 read -p "¿Eliminar directorio de collectstatic? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]

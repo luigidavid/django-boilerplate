@@ -36,10 +36,10 @@ fi
 read -p "¿Reinstalar Bower? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
-  if [ -d $SRC_ROOT/static/bower_components ]
+  if [ -d $PROJECT_ROOT/bower_components ]
   then
-    rm -rf $SRC_ROOT/static/bower_components
-    echo "Eliminado directorio $SRC_ROOT/static/bower_components"
+    rm -rf $PROJECT_ROOT/bower_components
+    echo "Eliminado directorio $PROJECT_ROOT/bower_components"
   fi
   bower install
 fi

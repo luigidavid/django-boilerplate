@@ -1,11 +1,11 @@
-// Path fuentes font-awesome.
-$fa-font-path: "../../bower_components/font-awesome/fonts" !default;
+// Font font-awesome.
+$fa-font-path: "../fonts/font-awesome/" !default;
 
-// Font roboto.
-$roboto-font-path: "../../bower_components/Materialize/fonts/roboto/" !default;
+// Font fonts Roboto.
+$roboto-font-path: "../fonts/roboto/" !default;
 
 // Font Materialize Icons
-$materializeicons-font-path: "../../dist/fonts/" !default;
+$materializeicons-font-path: "../fonts/materialize/" !default;
 
 // Colors.
 $primary-color: color("blue-grey", "darken-2") !default;

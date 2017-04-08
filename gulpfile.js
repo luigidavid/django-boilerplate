@@ -39,6 +39,32 @@ const scriptsVendorSrc = [
 ];
 
 /******************************************************************************
+ * Copy files.
+ */
+gulp.task('copy', () => {
+  /**
+   * Fuentes.
+   *
+   * Material icons se ha de descargar manualmente.
+   * @ver: src/static/src/styles/_material-icons.scss.
+   */
+  // Roboto de materialize.
+  gulp.src(['./bower_components/Materialize/fonts/**/*'])
+    .pipe(gulp.dest('./src/static/dist/fonts'));
+
+  // font-awesome.
+  gulp.src(['./bower_components/font-awesome/fonts/**/*'])
+    .pipe(gulp.dest('./src/static/dist/fonts/font-awesome'));
+
+  /**
+   * Imágenes.
+   */
+  // Imágenes del proyecto.
+  gulp.src(['./src/static/src/img/**/*'])
+    .pipe(gulp.dest('./src/static/dist/img'));
+});
+
+/******************************************************************************
  * Styles.
  */
 
@@ -151,4 +177,4 @@ gulp.task('prod', ['styles:prod', 'scripts:third:prod', 'scripts:local:prod']);
 gulp.task('dev', ['styles:dev', 'scripts:third:dev', 'scripts:local:dev']);
 
 // Default.
-gulp.task('default', ['prod', 'dev']);
+gulp.task('default', ['copy', 'prod', 'dev']);
