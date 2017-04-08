@@ -15,27 +15,27 @@ const uglify = require('gulp-uglify');
 /**
  * Styles.
  */
-const stylesWatch = ['./src/static/src/styles/**/*'];
+const stylesWatch = ['./src/static/src/sass/**/*'];
 const stylesSrc = [
-  './src/static/bower_components/cookieconsent/src/styles/**/*.css',
-  './src/static/src/styles/main.scss',
+  './bower_components/cookieconsent/src/styles/**/*.css',
+  './src/static/src/sass/main.scss',
 ];
 const stylesDest = './src/static/dist/css/';
 
 /**
  * Scripts locales.
  */
-const scriptsWatch = ['./src/static/src/scripts/**/*.js'];
-const scriptsSrc = ['./src/static/src/scripts/**/*.js'];
+const scriptsWatch = ['./src/static/src/js/**/*.js'];
+const scriptsSrc = ['./src/static/src/js/**/*.js'];
 const scriptsDest = './src/static/dist/js/';
 
 /**
  * Scrtips de terceros.
  */
 const scriptsVendorSrc = [
-  './src/static/bower_components/jquery/dist/jquery.js',
-  './src/static/bower_components/Materialize/dist/js/materialize.js',
-  './src/static/bower_components/cookieconsent/src/cookieconsent.js',
+  './bower_components/jquery/dist/jquery.js',
+  './bower_components/Materialize/dist/js/materialize.js',
+  './bower_components/cookieconsent/src/cookieconsent.js',
 ];
 
 /******************************************************************************
@@ -45,8 +45,10 @@ gulp.task('copy', () => {
   /**
    * Fuentes.
    *
+   * Copia archivos de bower_components u otros sitios a src/static/dist/xx
+   *
    * Material icons se ha de descargar manualmente.
-   * @ver: src/static/src/styles/_material-icons.scss.
+   * @ver: src/static/src/sass/_material-icons.scss.
    */
   // Roboto de materialize.
   gulp.src(['./bower_components/Materialize/fonts/**/*'])
@@ -59,9 +61,7 @@ gulp.task('copy', () => {
   /**
    * Imágenes.
    */
-  // Imágenes del proyecto.
-  gulp.src(['./src/static/src/img/**/*'])
-    .pipe(gulp.dest('./src/static/dist/img'));
+  // ...
 });
 
 /******************************************************************************
