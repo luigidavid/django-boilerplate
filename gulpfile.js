@@ -6,14 +6,13 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
+const imagemin = require('gulp-imagemin');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 
-/*****************************************************************************/
-
 /**
- * Styles.
+ * Paths Styles.
  */
 const stylesWatch = ['./src/static/src/sass/**/*'];
 const stylesSrc = [
@@ -23,24 +22,31 @@ const stylesSrc = [
 const stylesDest = './src/static/dist/css/';
 
 /**
- * Scripts locales.
+ * Paths scripts.
  */
 const scriptsWatch = ['./src/static/src/js/**/*.js'];
 const scriptsSrc = ['./src/static/src/js/**/*.js'];
 const scriptsDest = './src/static/dist/js/';
 
 /**
- * Scrtips de terceros.
+ * Paths scripts de terceros.
  */
-const scriptsVendorSrc = [
+const scriptsThirdSrc = [
   './bower_components/jquery/dist/jquery.js',
   './bower_components/Materialize/dist/js/materialize.js',
   './bower_components/cookieconsent/src/cookieconsent.js',
 ];
 
-/******************************************************************************
- * Copy files.
+/**
+ * Paths Images.
  */
+const imagesSrc = ['./src/static/src/img/**/*']
+const imageDest = './src/static/dist/img'
+const imagesWatch = imagesSrc;
+
+/******************************************************************************
+ * Tareas Copy files.
+ *****************************************************************************/
 gulp.task('copy', () => {
   /**
    * Fuentes.
@@ -60,16 +66,21 @@ gulp.task('copy', () => {
 
   /**
    * Imágenes.
+   *
+   * Copiar imágenes que no requieran compresión.
+   * Si requieren de compresión, usar gulp.task('images', () => {})
    */
   // ...
 });
 
 /******************************************************************************
- * Styles.
- */
+ * Tareas Styles.
+ *****************************************************************************/
 
 /**
  * Sass desarrollo.
+ *
+ * No minifica el archivo main.css.
  */
 gulp.task('styles:dev', () => {
   gulp.src(stylesSrc)
@@ -82,6 +93,8 @@ gulp.task('styles:dev', () => {
 
 /**
  * Sass producción.
+ *
+ * Minifica el archivo main.css.
  */
 gulp.task('styles:prod', () => {
   gulp.src(stylesSrc)
@@ -91,11 +104,13 @@ gulp.task('styles:prod', () => {
 });
 
 /*****************************************************************************
- * Javascript locales.
- */
+ * Tareas Javascript locales.
+ *****************************************************************************/
 
 /**
  * Javascript locales, desarrollo.
+ *
+ * Archivos locales no minificados.
  */
 gulp.task('scripts:local:dev', () => {
   gulp.src(scriptsSrc)
@@ -110,6 +125,8 @@ gulp.task('scripts:local:dev', () => {
 
 /**
  * Javascript locales, producción.
+ *
+ * Archivos locales minificados.
  */
 gulp.task('scripts:local:prod', () => {
   gulp.src(scriptsSrc)
@@ -122,14 +139,17 @@ gulp.task('scripts:local:prod', () => {
 });
 
 /******************************************************************************
- * Javascript terceros.
- */
-
+ * Tareas Javascript terceros.
+ *****************************************************************************/
 /**
  * Javascript terceros, desarrollo.
+ *
+ * Archivos de terceros no minificados.
+ *
+ * Vue.js y axios.js los carga dinamicamente.
  */
 gulp.task('scripts:third:dev', () => {
-  gulp.src(scriptsVendorSrc)
+  gulp.src(scriptsThirdSrc)
     .pipe(concat('vendor.js'))
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.write('./'))
@@ -138,9 +158,11 @@ gulp.task('scripts:third:dev', () => {
 
 /**
  * Javascript terceros, producción.
+ *
+ * Archivos de terceros minificados.
  */
 gulp.task('scripts:third:prod', () => {
-  gulp.src(scriptsVendorSrc)
+  gulp.src(scriptsThirdSrc)
     .pipe(concat('vendor.min.js'))
     .pipe(uglify({
       output: {
@@ -151,30 +173,56 @@ gulp.task('scripts:third:prod', () => {
 });
 
 /******************************************************************************
- * Los Watch solo son para archivos locales y desarrollo.
- */
+ * Tareas images.
+ *****************************************************************************/
+gulp.task('images', () => {
+  gulp.src(imagesSrc)
+    .pipe(imagemin())
+    .pipe(gulp.dest(imageDest));
+});
 
-// Watch styles
+/******************************************************************************
+ * Watches.
+ *
+ * Solo son para archivos locales y desarrollo.
+ *****************************************************************************/
+
+// Watch styles.
 gulp.task('watch:styles', () => {
   gulp.watch(stylesWatch, ['styles:dev']);
 });
 
-// Watch scripts
+// Watch scripts.
 gulp.task('watch:scripts', () => {
   gulp.watch(scriptsWatch, ['scripts:local:dev']);
+});
+
+// Watch images.
+gulp.task('watch:images', () => {
+  gulp.watch(imagesWatch, ['images']);
 });
 
 // Watches
 gulp.task('watches', () => {
   gulp.watch(stylesWatch, ['styles:dev']);
   gulp.watch(scriptsWatch, ['scripts:local:dev']);
+  gulp.watch(imagesWatch, ['images']);
 });
 
-// Producción.
-gulp.task('prod', ['styles:prod', 'scripts:third:prod', 'scripts:local:prod']);
-
-// Desarrollo.
-gulp.task('dev', ['styles:dev', 'scripts:third:dev', 'scripts:local:dev']);
-
-// Default.
-gulp.task('default', ['copy', 'prod', 'dev']);
+/******************************************************************************
+ * Commands.
+ *****************************************************************************/
+/**
+ * Genera archivos para desarrollo y producción.
+ * copy no tiene watch, por lo que se ha de generar al menos una vez.
+ */
+gulp.task('default', [
+  'copy',
+  'images',
+  'styles:prod',
+  'styles:dev',
+  'scripts:third:prod',
+  'scripts:third:dev',
+  'scripts:local:prod',
+  'scripts:local:dev'
+]);
