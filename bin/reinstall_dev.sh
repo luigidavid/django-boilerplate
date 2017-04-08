@@ -31,10 +31,13 @@ then
   fi
 
   # Si yarn esta instalado, ejecutarlo, de lo contrario usar npm.
-  if ! yarn install 2>/dev/null
+  if hash yarn 2>/dev/null
   then
+    yarn install
+  else
     npm install
   fi
+fi
 
 # Reinstalar bower.
 read -p "¿Reinstalar Bower? (y/[N]) " yn
