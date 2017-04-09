@@ -40,8 +40,8 @@ const scriptsThirdSrc = [
 /**
  * Paths Images.
  */
-const imagesSrc = ['./src/static/src/img/**/*']
-const imageDest = './src/static/dist/img'
+const imagesSrc = ['./src/static/src/img/**/*'];
+const imageDest = './src/static/dist/img';
 const imagesWatch = imagesSrc;
 
 /******************************************************************************
@@ -117,7 +117,7 @@ gulp.task('scripts:local:dev', () => {
     .pipe(concat('main.js'))
     .pipe(sourcemaps.init())
       .pipe(babel({
-        presets: ['es2015']
+        presets: ['es2015'],
       }))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(scriptsDest));
@@ -132,7 +132,7 @@ gulp.task('scripts:local:prod', () => {
   gulp.src(scriptsSrc)
     .pipe(concat('main.min.js'))
     .pipe(babel({
-      presets: ['es2015']
+      presets: ['es2015'],
     }))
     .pipe(uglify())
     .pipe(gulp.dest(scriptsDest));
@@ -166,8 +166,8 @@ gulp.task('scripts:third:prod', () => {
     .pipe(concat('vendor.min.js'))
     .pipe(uglify({
       output: {
-        max_line_len: 100000
-      }
+        max_line_len: 100000,
+      },
     }))
     .pipe(gulp.dest(scriptsDest));
 });
@@ -224,5 +224,5 @@ gulp.task('default', [
   'scripts:third:prod',
   'scripts:third:dev',
   'scripts:local:prod',
-  'scripts:local:dev'
+  'scripts:local:dev',
 ]);
