@@ -1,9 +1,7 @@
-'use strict';
-
 // to-top
 (function() {
-  var offset = 220;
-  var duration = 500;
+  const offset = 220;
+  const duration = 500;
 
   jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {

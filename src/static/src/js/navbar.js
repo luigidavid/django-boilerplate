@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Campo del buscador en la barra de navegacion superior.
  */
@@ -9,10 +7,10 @@ $(document).ready(function() {
 
   // Al hacer scroll hacia abajo, esconde la barra.
   // Al subir la muestra.
-  var position = $(window).scrollTop();
+  let position = $(window).scrollTop();
 
   $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+    const scroll = $(window).scrollTop();
 
     if (scroll > position) {
       $('#navbar-main').removeClass('navbar-fixed');

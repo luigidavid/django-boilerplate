@@ -11,11 +11,7 @@ $(document).ready(function () {
   })();
 });
 
-'use strict';
-
 $(document).ready(function () {});
-
-'use strict';
 
 /**
  * Campo del buscador en la barra de navegacion superior.
@@ -62,8 +58,6 @@ $(document).on('click', '#toast-container .toast', function () {
     $(this).remove();
   });
 });
-
-'use strict';
 
 // to-top
 (function () {
