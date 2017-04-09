@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 // Colors from materialize, importante antes que las variables por si se sobre escriben.
-@import "../../../../bower_components/Materialize/sass/components/color";
+@import "../../../../bower_components/materialize/sass/components/color";
 
 // variables
 @import "variables";
 
 // Import FontAwesome
-@import "../../../../bower_components/font-awesome/scss/font-awesome";
+@import "../../../../bower_components/components-font-awesome/scss/font-awesome";
 
 // Import Materializecss
-@import "../../../../bower_components/Materialize/sass/materialize";
+@import "../../../../bower_components/materialize/sass/materialize";
 
 // Importante, base el primero
 @import "base";

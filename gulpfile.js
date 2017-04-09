@@ -33,7 +33,7 @@ const scriptsDest = './src/static/dist/js/';
  */
 const scriptsThirdSrc = [
   './bower_components/jquery/dist/jquery.js',
-  './bower_components/Materialize/dist/js/materialize.js',
+  './bower_components/materialize/dist/js/materialize.js',
   './bower_components/cookieconsent/src/cookieconsent.js',
 ];
 
@@ -57,11 +57,11 @@ gulp.task('copy', () => {
    * @ver: src/static/src/sass/_material-icons.scss.
    */
   // Roboto de materialize.
-  gulp.src(['./bower_components/Materialize/fonts/**/*'])
+  gulp.src(['./bower_components/materialize/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts'));
 
   // font-awesome.
-  gulp.src(['./bower_components/font-awesome/fonts/**/*'])
+  gulp.src(['./bower_components/components-font-awesome/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts/font-awesome'));
 
   /**
