@@ -12,7 +12,6 @@
   },
   "rules": {
     // Possible Errors
-    "comma-dangle": ["warn", "always-multiline"],
 
     // Best Practices
     "curly": ["error", "all"],
