@@ -1,36 +1,36 @@
 .card-flat {
   @extend .card-panel;
+  @extend .z-depth-0;
 
-  box-shadow: none;
   border: 1px solid color("grey", "lighten-3");
 
   &.card-flat-primary {
-    border: 1px solid lighten($primary-color, 35%);
     background-color: $secondary-primary-color;
+    border: 1px solid lighten($primary-color, 35%);
     color: darken($primary-color, 20%);
   }
 
   &.card-flat-success {
-    border: 1px solid lighten($success-color, 35%);
     background-color: $secondary-success-color;
+    border: 1px solid lighten($success-color, 35%);
     color: darken($success-color, 20%);
   }
 
   &.card-flat-info {
-    border: 1px solid lighten($info-color, 35%);
     background-color: $secondary-info-color;
+    border: 1px solid lighten($info-color, 35%);
     color: darken($info-color, 20%);
   }
 
   &.card-flat-warning {
-    border: 1px solid lighten($warning-color, 35%);
     background-color: $secondary-warning-color;
+    border: 1px solid lighten($warning-color, 35%);
     color: darken($warning-color, 20%);
   }
 
   &.card-flat-error {
-    border: 1px solid lighten($error-color, 35%);
     background-color: $secondary-error-color;
+    border: 1px solid lighten($error-color, 35%);
     color: darken($error-color, 20%);
   }
 }
@@ -52,8 +52,8 @@
     }
 
     .card-panel {
-      padding: 10px;
       margin: 0.5rem 0;
+      padding: 10px;
     }
   }
 

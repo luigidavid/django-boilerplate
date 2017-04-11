@@ -6198,7 +6198,7 @@ a {
 .clearfix {
   clear: both; }
 
-.z-depth-0 {
+.z-depth-0, .card-flat {
   box-shadow: none !important; }
 
 .z-depth-1, nav, .card-panel, .card-flat, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
@@ -11181,27 +11181,26 @@ main {
       background-color: #F44336; }
 
 .card-flat {
-  box-shadow: none;
   border: 1px solid #eeeeee; }
   .card-flat.card-flat-primary {
-    border: 1px solid #9fb3bd;
     background-color: #eaeff1;
+    border: 1px solid #9fb3bd;
     color: #1b2428; }
   .card-flat.card-flat-success {
-    border: 1px solid #c7e7c8;
     background-color: #eaf6eb;
+    border: 1px solid #c7e7c8;
     color: #2d682f; }
   .card-flat.card-flat-info {
-    border: 1px solid #cae6fc;
     background-color: #ecf6fe;
+    border: 1px solid #cae6fc;
     color: #0960a5; }
   .card-flat.card-flat-warning {
-    border: 1px solid #ffe0b3;
     background-color: #fff5e6;
+    border: 1px solid #ffe0b3;
     color: #995b00; }
   .card-flat.card-flat-error {
-    border: 1px solid #fde1df;
     background-color: #fff8f7;
+    border: 1px solid #fde1df;
     color: #ba160a; }
 
 @media only screen and (max-width: 992px) {
@@ -11212,8 +11211,8 @@ main {
     .col .input-field.col label {
       left: 0; }
     .col .card-panel, .col .card-flat {
-      padding: 10px;
-      margin: 0.5rem 0; }
+      margin: 0.5rem 0;
+      padding: 10px; }
   .card-flat {
     margin: 0.8rem auto; } }
 
