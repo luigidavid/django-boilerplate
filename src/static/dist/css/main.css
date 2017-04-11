@@ -11185,19 +11185,24 @@ main {
   border: 1px solid #eeeeee; }
   .card-flat.card-flat-primary {
     border: 1px solid #9fb3bd;
-    background-color: #eaeff1; }
+    background-color: #eaeff1;
+    color: #1b2428; }
   .card-flat.card-flat-success {
     border: 1px solid #c7e7c8;
-    background-color: #eaf6eb; }
+    background-color: #eaf6eb;
+    color: #2d682f; }
   .card-flat.card-flat-info {
     border: 1px solid #cae6fc;
-    background-color: #ecf6fe; }
+    background-color: #ecf6fe;
+    color: #0960a5; }
   .card-flat.card-flat-warning {
     border: 1px solid #ffe0b3;
-    background-color: #fff5e6; }
+    background-color: #fff5e6;
+    color: #995b00; }
   .card-flat.card-flat-error {
     border: 1px solid #fde1df;
-    background-color: #fff8f7; }
+    background-color: #fff8f7;
+    color: #ba160a; }
 
 @media only screen and (max-width: 992px) {
   .col {
