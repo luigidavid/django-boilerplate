@@ -1,32 +1,8 @@
-@media #{$medium-and-down} {
-  // En small, se reducen los margins y paddins.
-  .col {
-    padding: 0.1rem !important;
-
-    // Importante, o en small tendrá scroll lateral.
-    // @override: src/static/bower_components/Materialize/sass/components/forms/_input-fields.scss
-    // linea 108 aprox.
-    .validate + label {
-      width: auto !important;
-    }
-
-    .input-field.col label {
-      left: 0;
-    }
-
-    .card-panel {
-      padding: 10px;
-      margin: 0.5rem 0;
-    }
-  }
-}
-
-// Un simple elemento con border.
-// TODO: Buscar otro nombre, no es una card...
 .card-flat {
+  @extend .card-panel;
+
+  box-shadow: none;
   border: 1px solid color("grey", "lighten-3");
-  padding: 0.8rem;
-  margin: 0.8rem;
 
   &.card-flat-primary {
     border: 1px solid lighten($primary-color, 35%);
@@ -50,6 +26,27 @@
 }
 
 @media #{$medium-and-down} {
+  // En small, se reducen los margins y paddins.
+  .col {
+    padding: 0.1rem !important;
+
+    // Importante, o en small tendrá scroll lateral.
+    // @override: src/static/bower_components/Materialize/sass/components/forms/_input-fields.scss
+    // linea 108 aprox.
+    .validate + label {
+      width: auto !important;
+    }
+
+    .input-field.col label {
+      left: 0;
+    }
+
+    .card-panel {
+      padding: 10px;
+      margin: 0.5rem 0;
+    }
+  }
+
   .card-flat {
     margin: 0.8rem auto;
   }
