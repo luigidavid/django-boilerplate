@@ -6201,7 +6201,7 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card-flat, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
@@ -7527,7 +7527,7 @@ small {
   .scale-transition.scale-in {
     transform: scale(1); }
 
-.card-panel {
+.card-panel, .card-flat {
   transition: box-shadow .25s;
   padding: 24px;
   margin: 0.5rem 0 1rem 0;
@@ -11180,16 +11180,37 @@ main {
     .button.outline-error:hover {
       background-color: #F44336; }
 
-@media only screen and (max-width: 600px) {
+.card-flat {
+  box-shadow: none;
+  border: 1px solid #eeeeee; }
+  .card-flat.card-flat-primary {
+    border: 1px solid #9fb3bd;
+    background-color: #eaeff1; }
+  .card-flat.card-flat-success {
+    border: 1px solid #c7e7c8;
+    background-color: #eaf6eb; }
+  .card-flat.card-flat-info {
+    border: 1px solid #cae6fc;
+    background-color: #ecf6fe; }
+  .card-flat.card-flat-warning {
+    border: 1px solid #ffe0b3;
+    background-color: #fff5e6; }
+  .card-flat.card-flat-error {
+    border: 1px solid #fde1df;
+    background-color: #fff8f7; }
+
+@media only screen and (max-width: 992px) {
   .col {
     padding: 0.1rem !important; }
     .col .validate + label {
       width: auto !important; }
     .col .input-field.col label {
       left: 0; }
-    .col .card-panel {
+    .col .card-panel, .col .card-flat {
       padding: 10px;
-      margin: 0.5rem 0; } }
+      margin: 0.5rem 0; }
+  .card-flat {
+    margin: 0.8rem auto; } }
 
 .chip.chip-small {
   height: auto;
