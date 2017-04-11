@@ -10892,6 +10892,15 @@ main {
   max-width: 1300px;
   width: 100%; }
 
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 96%;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 92%; } }
+
 .margin {
   margin: 1rem !important; }
 
@@ -11211,10 +11220,12 @@ main {
     .col .input-field.col label {
       left: 0; }
     .col .card-panel, .col .card-flat {
-      margin: 0.5rem 0;
-      padding: 10px; }
-  .card-flat {
-    margin: 0.8rem auto; } }
+      margin: 0.5rem;
+      padding: 0.5rem; } }
+
+@media only screen and (max-width: 600px) {
+  .col .card-panel, .col .card-flat {
+    margin: 0.5rem 0; } }
 
 .chip.chip-small {
   height: auto;

@@ -14,6 +14,21 @@ main {
   width: 100%;
 }
 
+// En medium reduce los margenes laterales de .container.
+@media #{$medium-and-down} {
+  .container {
+    width: 96%;
+    margin: auto;
+  }
+}
+
+// En small reduce los margenes laterales de .container.
+@media #{$small-and-down} {
+  .container {
+    width: 92%;
+  }
+}
+
 // Margins
 .margin { margin: 1rem !important; }
 .margin-top { margin-top: 1rem !important; }

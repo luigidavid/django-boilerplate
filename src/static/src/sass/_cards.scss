@@ -36,7 +36,7 @@
 }
 
 @media #{$medium-and-down} {
-  // En small, se reducen los margins y paddins.
+  // En medium, se reducen los margins y paddins.
   .col {
     padding: 0.1rem !important;
 
@@ -52,12 +52,17 @@
     }
 
     .card-panel {
-      margin: 0.5rem 0;
-      padding: 10px;
+      margin: 0.5rem;
+      padding: 0.5rem;
     }
   }
+}
 
-  .card-flat {
-    margin: 0.8rem auto;
+@media #{$small-and-down} {
+  // En small se elimina del todo los margins laterales.
+  .col {
+    .card-panel {
+      margin: 0.5rem 0;
+    }
   }
 }
