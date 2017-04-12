@@ -11102,15 +11102,15 @@ main {
  */
 .button {
   background-color: #fff;
+  border-radius: 2px;
   border-style: solid;
   border-width: 1px;
   color: #000;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  font-weight: 500;
   margin: 0.2rem;
-  padding: 0.4rem 2.4rem;
+  padding: 0.5rem 2.4rem;
   text-align: center;
   text-decoration: none;
   vertical-align: middle; }
@@ -11123,6 +11123,14 @@ main {
   .button.button-block {
     display: block;
     width: 100%; }
+  @media only screen and (max-width: 600px) {
+    .button.button-s-block {
+      display: block;
+      width: 100%; } }
+  @media only screen and (max-width: 992px) {
+    .button.button-m-block {
+      display: block;
+      width: 100%; } }
   .button.button-small {
     font-size: 0.9rem;
     padding: 0.2rem 0.6rem; }
@@ -11138,12 +11146,18 @@ main {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important;
     border: none; }
+  .button.button-ligth {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    color: #000; }
+    .button.button-ligth:hover {
+      background-color: #d5d5d5; }
   .button.button-primary {
-    background-color: #455a64;
-    border-color: #455a64;
+    background-color: #648391;
+    border-color: #648391;
     color: #fff; }
     .button.button-primary:hover {
-      background-color: #303f46; }
+      background-color: #4f6873; }
   .button.button-success {
     background-color: #4CAF50;
     border-color: #4CAF50;
@@ -11278,6 +11292,9 @@ main {
 .secondary-color-text {
   color: #648391; }
 
+.ligth-color-text {
+  color: #eeeeee; }
+
 .success-color-text {
   color: #4CAF50; }
 
@@ -11290,7 +11307,7 @@ main {
 .warning-color-text {
   color: #ff9800; }
 
-.light-color-text {
+.ligth-color-text {
   color: #eeeeee; }
 
 ul.errorlist {

@@ -12,6 +12,7 @@ $primary-color: color("blue-grey", "darken-2") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 $secondary-color: $primary-color-light !default;
+$ligth-color: color("grey", "lighten-3");
 
 // Alertas
 $success-color: color("green", "base") !default;
