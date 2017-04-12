@@ -11110,7 +11110,7 @@ main {
   font-size: 1rem;
   font-weight: 500;
   margin: 0.2rem;
-  padding: 0.6rem 1rem;
+  padding: 0.4rem 1rem;
   text-align: center;
   text-decoration: none;
   vertical-align: middle; }
@@ -11214,7 +11214,7 @@ main {
 
 @media only screen and (max-width: 992px) {
   .col {
-    padding: 0.1rem !important; }
+    padding: 0.4rem !important; }
     .col .validate + label {
       width: auto !important; }
     .col .input-field.col label {
