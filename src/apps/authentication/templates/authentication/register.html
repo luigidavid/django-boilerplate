@@ -7,16 +7,16 @@
 
 {% block content %}
   <section class="row">
-    <div class="col s12 m8 l6 offset-m2 offset-l3">
-      <div class="card-panel">
+    <div class="col s12 m8 offset-m2">
+      <div class="card-flat">
         <h1 class="text-header">{% trans "Registro nueva cuenta" %}</h1>
 
         <form method="post" action="">
           {% csrf_token %}
           {% form form %}
 
-          <button class="btn waves-effect margin-top" type="submit">{% trans "Registro" %}</button>
-          <a class="btn waves-effect margin-top" href="{% url 'authentication:login' %}">
+          <button class="btn btn-flat-primary btn-small-block waves-effect margin-top" type="submit">{% trans "Registro" %}</button>
+          <a class="btn btn-flat-primary btn-small-block waves-effect margin-top" href="{% url 'authentication:login' %}">
             {% trans "¿Tienes una cuenta?" %}
           </a>
         </form>

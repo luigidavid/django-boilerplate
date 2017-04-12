@@ -7,8 +7,8 @@
 
 {% block content %}
   <section class="row">
-    <div class="col s12 m8 l6 offset-m2 offset-l3">
-      <div class="card-panel">
+    <div class="col s12 m8 offset-m2">
+      <div class="card-flat">
         <h1 class="text-header">{% trans "Actualizar email de" %} {{ user.username }}</h1>
 
         <form method="post" action="">
@@ -16,7 +16,7 @@
           {% form form %}
 
           <div class="btn-group">
-            <button class="btn waves-effect green" type="submit">{% trans "Actualizar" %}</button>
+            <button class="btn btn-flat-success waves-effect" type="submit">{% trans "Actualizar" %}</button>
           </div>
         </form>
       </div>
