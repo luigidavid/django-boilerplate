@@ -30,15 +30,8 @@ $secondary-error-color: lighten($error-color, 40%);
 // Links
 $link-color: color("light-blue", "darken-1") !default;
 
-// Buttons.
-$button-border: none !default;
-$button-background-focus: lighten($secondary-color, 4%) !default;
+// Buttons
 $button-font-size: 1.1rem !default;
-$button-height: 0 !default;
-$button-padding: 1.4rem 2rem !default;
-$button-small-padding: 0.9rem 2rem !default;
-$button-large-padding: 2rem 2rem !default;
-$button-radius: 2px !default;
 
 // Social colors.
 // https://designpieces.com/2012/12/social-media-colours-hex-and-rgb/

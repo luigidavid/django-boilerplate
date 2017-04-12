@@ -7833,9 +7833,9 @@ small {
   border: none;
   border-radius: 2px;
   display: inline-block;
-  height: 0;
-  line-height: 0;
-  padding: 1.4rem 2rem;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
   text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
@@ -8208,8 +8208,8 @@ button.btn-floating {
     cursor: default; }
 
 .btn-large {
-  height: 0;
-  line-height: 0; }
+  height: 54px;
+  line-height: 54px; }
   .btn-large i {
     font-size: 1.6rem; }
 
@@ -11087,15 +11087,6 @@ main {
 .btn, .btn-large {
   font-size: 1.1rem;
   text-transform: inherit !important; }
-  .btn .text-middle, .btn-large .text-middle, .btn i, .btn .btn-large i, .btn-large .btn i, .btn-large i {
-    position: relative;
-    top: -2px; }
-  .btn i, .btn-large i {
-    font-size: 1.35rem; }
-    .btn i.left, .btn-large i.left {
-      margin-right: 2.2rem; }
-    .btn i.right, .btn-large i.right {
-      margin-left: 2.2rem; }
   .btn.btn-capitalize, .btn-capitalize.btn-large {
     text-transform: capitalize; }
   .btn.btn-ucfirst, .btn-ucfirst.btn-large {
@@ -11108,11 +11099,9 @@ main {
   .btn.btn-unformat, .btn-unformat.btn-large {
     text-transform: inherit; }
   .btn.btn-small, .btn-small.btn-large {
-    padding: 0.9rem 2rem; }
-  .btn.btn-large, .btn-large {
-    padding: 2rem 2rem; }
-    .btn.btn-large i, .btn-large i {
-      font-size: 1.6rem; }
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem; }
   .btn.btn-block, .btn-block.btn-large {
     display: block;
     width: 100%; }
@@ -11493,7 +11482,7 @@ code {
 .text-small {
   font-size: 0.8rem; }
 
-.text-middle, .btn i, .btn-large i {
+.text-middle {
   vertical-align: middle !important; }
 
 @media only screen and (min-width: 993px) {
