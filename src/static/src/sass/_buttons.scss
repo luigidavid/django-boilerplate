@@ -20,6 +20,12 @@
 }
 
 .btn {
+  @extend .waves-effect;
+
+  // Eliminar uppercase.
+  text-transform: inherit !important;
+  font-size: 1rem;
+
   // Capitaliza los botones
   &.btn-capitalize {
     text-transform: capitalize;
@@ -63,11 +69,39 @@
     }
   }
 
-  &.btn-primary {
-    background-color: $primary-color-light;
+  &.btn-block {
+    display: block;
+    width: 100%;
+  }
+
+  &.btn-small-block {
+    @media #{$small-and-down} {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &.btn-medium-block {
+    @media #{$medium-and-down} {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &.btn-ligth {
+    background-color: $ligth-color;
+    color: #000;
 
     &:hover {
-      background-color: $primary-color;
+      background-color: darken($ligth-color, 10%);
+    }
+  }
+
+  &.btn-primary {
+    background-color: $secondary-color;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
     }
   }
 
@@ -103,15 +137,27 @@
     }
   }
 
+  // ligth color para btn-flat
+  &.btn-flat-ligth {
+    @extend .btn-flat;
+
+    background-color: $ligth-color;
+    color: #000;
+
+    &:hover {
+      background-color: darken($ligth-color, 10%);
+    }
+  }
+
   // primary color para btn-flat
   &.btn-flat-primary {
     @extend .btn-flat;
 
-    background-color: $primary-color-light;
+    background-color: $secondary-color;
     color: #fff;
 
     &:hover {
-      background-color: $primary-color;
+      background-color: darken($secondary-color, 10%);
     }
   }
 
@@ -160,6 +206,84 @@
 
     &:hover {
       background-color: darken($error-color, 10%);
+    }
+  }
+
+  // Outline primary (btn outline-primary)
+
+  &.outline-ligth {
+    @extend .btn-flat;
+
+    border: 1px solid $ligth-color;
+
+    &:hover {
+      background-color: $ligth-color;
+      color: #fff;
+    }
+  }
+
+  // Outline primary (btn outline-primary)
+
+  &.outline-primary {
+    @extend .btn-flat;
+
+    border: 1px solid $primary-color;
+
+    &:hover {
+      background-color: $primary-color;
+      color: #fff;
+    }
+  }
+
+  // Outline success (button outline-success)
+
+  &.outline-success {
+    @extend .btn-flat;
+
+    border: 1px solid $success-color;
+
+    &:hover {
+      background-color: $success-color;
+      color: #fff;
+    }
+  }
+
+  // Outline info (button outline-info)
+
+  &.outline-info {
+    @extend .btn-flat;
+
+    border: 1px solid $info-color;
+
+    &:hover {
+      background-color: $info-color;
+      color: #fff;
+    }
+  }
+
+  // Outline warning (button outline-warning)
+
+  &.outline-warning {
+    @extend .btn-flat;
+
+    border: 1px solid $warning-color;
+
+    &:hover {
+      background-color: $warning-color;
+      color: #fff;
+    }
+  }
+
+  // Outline error (button outline-error)
+
+  &.outline-error {
+    @extend .btn-flat;
+
+    border: 1px solid $error-color;
+
+    &:hover {
+      background-color: $error-color;
+      color: #fff;
     }
   }
 }
@@ -234,217 +358,6 @@
       &.envelope {
         color: $primary-color;
       }
-    }
-  }
-}
-
-/******************************************************************************
- * Alternativa a los botones de materialize-css.
- */
-.button {
-  background-color: #fff;
-  border-radius: 2px;
-  border-style: solid;
-  border-width: 1px;
-  color: #000;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  margin: 0.2rem;
-  padding: 0.5rem 2.4rem;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-
-  &:hover {
-    border-style: solid;
-    border-width: 1px;
-    color: #fff;
-  }
-
-  // Rounded (button button-rounded)
-
-  &.button-rounded {
-    border-radius: 30px;
-  }
-
-  // Block (button button-block)
-
-  &.button-block {
-    display: block;
-    width: 100%;
-  }
-
-  // Block en <= small (button button-s-block)
-
-  &.button-s-block {
-    @media #{$small-and-down} {
-      display: block;
-      width: 100%;
-    }
-  }
-
-  // Block en <= medium (button button-s-block)
-
-  &.button-m-block {
-    @media #{$medium-and-down} {
-      display: block;
-      width: 100%;
-    }
-  }
-
-  // Small (button button-small)
-
-  &.button-small {
-    font-size: 0.9rem;
-    padding: 0.2rem 0.6rem;
-  }
-
-  // Large (button button-small)
-
-  &.button-large {
-    font-size: 1.4rem;
-  }
-
-  // Flat (button button-flat)
-
-  &.button-flat {
-    border: none;
-
-    &:hover {
-      background-color: color("grey", "lighten-2") !important;
-      color: #000 !important;
-    }
-  }
-
-  // Disabled (button button-disabled)
-
-  &.button-disabled {
-    pointer-events: none;
-    background-color: $button-disabled-background !important;
-    color: $button-disabled-color !important;
-    border: none;
-  }
-
-  // Primary (button button-ligth)
-
-  &.button-ligth {
-    background-color: $ligth-color;
-    border-color: $ligth-color;
-    color: #000;
-
-    &:hover {
-      background-color: darken($ligth-color, 10%);
-    }
-  }
-
-  // Primary (button button-primary)
-
-  &.button-primary {
-    background-color: $secondary-color;
-    border-color: $secondary-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($secondary-color, 10%);
-    }
-  }
-
-  // Success (button button-success)
-
-  &.button-success {
-    background-color: $success-color;
-    border-color: $success-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($success-color, 10%);
-    }
-  }
-
-  // Warning (button button-warning)
-
-  &.button-warning {
-    background-color: $warning-color;
-    border-color: $warning-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($warning-color, 10%);
-    }
-  }
-
-  // Info (button button-info)
-
-  &.button-info {
-    background-color: $info-color;
-    border-color: $info-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($info-color, 10%);
-    }
-  }
-
-  // Error (button button-error)
-
-  &.button-error {
-    background-color: $error-color;
-    border-color: $error-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($error-color, 10%);
-    }
-  }
-
-  // Outline primary (button outline-primary)
-
-  &.outline-primary {
-    border-color: $primary-color;
-
-    &:hover {
-      background-color: $primary-color;
-    }
-  }
-
-  // Outline success (button outline-success)
-
-  &.outline-success {
-    border-color: $success-color;
-
-    &:hover {
-      background-color: $success-color;
-    }
-  }
-
-  // Outline info (button outline-info)
-
-  &.outline-info {
-    border-color: $info-color;
-
-    &:hover {
-      background-color: $info-color;
-    }
-  }
-
-  // Outline warning (button outline-warning)
-
-  &.outline-warning {
-    border-color: $warning-color;
-
-    &:hover {
-      background-color: $warning-color;
-    }
-  }
-
-  // Outline error (button outline-error)
-
-  &.outline-error {
-    border-color: $error-color;
-
-    &:hover {
-      background-color: $error-color;
     }
   }
 }
