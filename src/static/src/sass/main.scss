@@ -12,6 +12,9 @@
 // Import Materializecss
 @import "../../../../bower_components/materialize/sass/materialize";
 
+// Mixins.
+@import "mixins/main";
+
 // Importante, base el primero
 @import "base";
 

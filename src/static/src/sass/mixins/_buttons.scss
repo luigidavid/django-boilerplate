@@ -1,0 +1,33 @@
+// Botones materialize con un color predetermindo.
+@mixin button-variat($background, $color: #fff) {
+  background-color: $background;
+  color: $color;
+
+  &:hover {
+    background-color: darken($background, 10%);
+  }
+}
+
+// Botones flat materialize con un color predeterminado.
+@mixin button-flat-variat($background, $color: #fff) {
+  @extend .btn-flat;
+
+  background-color: $background;
+  color: $color;
+
+  &:hover {
+    background-color: darken($background, 10%);
+  }
+}
+
+// Botones flat con border con un color predetermindo.
+@mixin button-outline-variat($background, $color: #fff) {
+  @extend .btn-flat;
+
+  border: 1px solid $background;
+
+  &:hover {
+    background-color: $background;
+    color: $color;
+  }
+}

@@ -20,60 +20,68 @@
 }
 
 .btn {
-  @extend .waves-effect;
-
-  // Eliminar uppercase.
+  font-size: $button-font-size;
   text-transform: inherit !important;
-  font-size: 1rem;
 
-  // Capitaliza los botones
+  .text-middle {
+    position: relative;
+    top: -2px;
+  }
+
+  i {
+    @extend .text-middle;
+
+    font-size: $button-font-size + 0.25rem;
+
+    &.left {
+      margin-right: 2.2rem;
+    }
+
+    &.right {
+      margin-left: 2.2rem;
+    }
+  }
+
   &.btn-capitalize {
     text-transform: capitalize;
   }
 
-  // Capitaliza la primera letra
   &.btn-ucfirst {
     text-transform: lowercase;
 
     &::first-letter {
       text-transform: capitalize;
+      vertical-align: middle;
     }
   }
 
-  // En minúsculas
   &.btn-lower {
     text-transform: lowercase;
   }
 
-  // Tamaños de los botones
+  &.btn-unformat {
+    text-transform: inherit;
+  }
+
   &.btn-small {
-    height: 24px;
-    line-height: 24px;
-    padding: 0 0.5rem;
+    padding: $button-small-padding;
+  }
 
-    // Iconos en los botones small, los posiciona un poco mejor
+  &.btn-large {
+    padding: $button-large-padding;
+
     i {
-      position: relative;
-      top: -1px;
+      font-size: $button-font-size + 0.5rem;
     }
   }
 
-  &.btn-medium {
-    height: 34px;
-    line-height: 34px;
-    padding: 0 0.5rem;
-
-    // Iconos en los botones small, los posiciona un poco mejor
-    i {
-      position: relative;
-    }
-  }
-
+  // Bloque para cualquier tamaño.
   &.btn-block {
     display: block;
     width: 100%;
   }
 
+  // Bloque para <= small.
   &.btn-small-block {
     @media #{$small-and-down} {
       display: block;
@@ -81,6 +89,7 @@
     }
   }
 
+  // Bloque para <= medium.
   &.btn-medium-block {
     @media #{$medium-and-down} {
       display: block;
@@ -89,202 +98,75 @@
   }
 
   &.btn-ligth {
-    background-color: $ligth-color;
-    color: #000;
-
-    &:hover {
-      background-color: darken($ligth-color, 10%);
-    }
+    @include button-variat($ligth-color, #000);
   }
 
   &.btn-primary {
-    background-color: $secondary-color;
-
-    &:hover {
-      background-color: darken($secondary-color, 10%);
-    }
+    @include button-variat($secondary-color);
   }
 
   &.btn-success {
-    background-color: $success-color;
-
-    &:hover {
-      background-color: darken($success-color, 10%);
-    }
+    @include button-variat($success-color);
   }
 
   &.btn-info {
-    background-color: $info-color;
-
-    &:hover {
-      background-color: darken($info-color, 10%);
-    }
+    @include button-variat($info-color);
   }
 
   &.btn-warning {
-    background-color: $warning-color;
-
-    &:hover {
-      background-color: darken($warning-color, 10%);
-    }
+    @include button-variat($warning-color);
   }
 
   &.btn-error {
-    background-color: $error-color;
-
-    &:hover {
-      background-color: darken($error-color, 10%);
-    }
+    @include button-variat($error-color);
   }
 
-  // ligth color para btn-flat
   &.btn-flat-ligth {
-    @extend .btn-flat;
-
-    background-color: $ligth-color;
-    color: #000;
-
-    &:hover {
-      background-color: darken($ligth-color, 10%);
-    }
+    @include button-flat-variat($ligth-color, #000);
   }
 
-  // primary color para btn-flat
   &.btn-flat-primary {
-    @extend .btn-flat;
-
-    background-color: $secondary-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($secondary-color, 10%);
-    }
+    @include button-flat-variat($secondary-color);
   }
 
-  // success color para btn-flat
   &.btn-flat-success {
-    @extend .btn-flat;
-
-    background-color: $success-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($success-color, 10%);
-    }
+    @include button-flat-variat($success-color);
   }
 
-  // success info para btn-flat
   &.btn-flat-info {
-    @extend .btn-flat;
-
-    background-color: $info-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($info-color, 10%);
-    }
+    @include button-flat-variat($info-color);
   }
 
-  // success warning para btn-flat
   &.btn-flat-warning {
-    @extend .btn-flat;
-
-    background-color: $warning-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($warning-color, 10%);
-    }
+    @include button-flat-variat($warning-color);
   }
 
-  // success error para btn-flat
   &.btn-flat-error {
-    @extend .btn-flat;
-
-    background-color: $error-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($error-color, 10%);
-    }
+    @include button-flat-variat($error-color);
   }
 
-  // Outline primary (btn outline-primary)
-
-  &.outline-ligth {
-    @extend .btn-flat;
-
-    border: 1px solid $ligth-color;
-
-    &:hover {
-      background-color: $ligth-color;
-      color: #fff;
-    }
+  &.btn-outline-ligth {
+    @include button-outline-variat($ligth-color, #000);
   }
 
-  // Outline primary (btn outline-primary)
-
-  &.outline-primary {
-    @extend .btn-flat;
-
-    border: 1px solid $primary-color;
-
-    &:hover {
-      background-color: $primary-color;
-      color: #fff;
-    }
+  &.btn-outline-primary {
+    @include button-outline-variat($primary-color);
   }
 
-  // Outline success (button outline-success)
-
-  &.outline-success {
-    @extend .btn-flat;
-
-    border: 1px solid $success-color;
-
-    &:hover {
-      background-color: $success-color;
-      color: #fff;
-    }
+  &.btn-outline-success {
+    @include button-outline-variat($success-color);
   }
 
-  // Outline info (button outline-info)
-
-  &.outline-info {
-    @extend .btn-flat;
-
-    border: 1px solid $info-color;
-
-    &:hover {
-      background-color: $info-color;
-      color: #fff;
-    }
+  &.btn-outline-info {
+    @include button-outline-variat($info-color);
   }
 
-  // Outline warning (button outline-warning)
-
-  &.outline-warning {
-    @extend .btn-flat;
-
-    border: 1px solid $warning-color;
-
-    &:hover {
-      background-color: $warning-color;
-      color: #fff;
-    }
+  &.btn-outline-warning {
+    @include button-outline-variat($warning-color);
   }
 
-  // Outline error (button outline-error)
-
-  &.outline-error {
-    @extend .btn-flat;
-
-    border: 1px solid $error-color;
-
-    &:hover {
-      background-color: $error-color;
-      color: #fff;
-    }
+  &.btn-outline-error {
+    @include button-outline-variat($error-color);
   }
 }
 
@@ -333,7 +215,7 @@
     }
 
     &:hover {
-      background-color: transparent;
+      background-color: #fff;
 
       &.facebook {
         color: $facebook-color;
