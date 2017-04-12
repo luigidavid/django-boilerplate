@@ -243,15 +243,15 @@
  */
 .button {
   background-color: #fff;
+  border-radius: 2px;
   border-style: solid;
   border-width: 1px;
   color: #000;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  font-weight: 500;
   margin: 0.2rem;
-  padding: 0.4rem 2.4rem;
+  padding: 0.5rem 2.4rem;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -273,6 +273,24 @@
   &.button-block {
     display: block;
     width: 100%;
+  }
+
+  // Block en <= small (button button-s-block)
+
+  &.button-s-block {
+    @media #{$small-and-down} {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  // Block en <= medium (button button-s-block)
+
+  &.button-m-block {
+    @media #{$medium-and-down} {
+      display: block;
+      width: 100%;
+    }
   }
 
   // Small (button button-small)
@@ -311,12 +329,12 @@
   // Primary (button button-primary)
 
   &.button-primary {
-    background-color: $primary-color;
-    border-color: $primary-color;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
     color: #fff;
 
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: darken($secondary-color, 10%);
     }
   }
 
