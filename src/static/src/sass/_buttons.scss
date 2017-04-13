@@ -50,6 +50,10 @@
     padding: 0 0.5rem;
   }
 
+  &.btn-large {
+    @extend .btn-large;
+  }
+
   // Bloque para cualquier tamaño.
   &.btn-block {
     display: block;
