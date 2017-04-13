@@ -11646,6 +11646,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
+/**
+ * Genera una card-flat card-flat-xxxx, la diferencia a class="card-flat color color-text"
+ * es que genera un border y el texto es legible, de todas formas en class=""
+ * se puede ajustar el fondo y el texto.
+ */
 html {
   color: #757575; }
 
@@ -12240,25 +12245,109 @@ main {
 .card-flat {
   border: 1px solid #eeeeee; }
   .card-flat.card-flat-primary {
-    background-color: #eaeff1;
-    border: 1px solid #9fb3bd;
+    background-color: #728f9d;
+    border: 1px solid #5a7582;
     color: #1b2428; }
+  .card-flat.card-flat-secondary {
+    background-color: #9fb3bd;
+    border: 1px solid #819ba8;
+    color: #3b4c55; }
   .card-flat.card-flat-success {
-    background-color: #eaf6eb;
-    border: 1px solid #c7e7c8;
+    background-color: #92cf94;
+    border: 1px solid #6ec071;
     color: #2d682f; }
   .card-flat.card-flat-info {
-    background-color: #ecf6fe;
-    border: 1px solid #cae6fc;
+    background-color: #82c4f8;
+    border: 1px solid #51adf6;
     color: #0960a5; }
   .card-flat.card-flat-warning {
-    background-color: #fff5e6;
-    border: 1px solid #ffe0b3;
+    background-color: #ffc166;
+    border: 1px solid #ffad33;
     color: #995b00; }
   .card-flat.card-flat-error {
-    background-color: #fff8f7;
-    border: 1px solid #fde1df;
+    background-color: #f99d97;
+    border: 1px solid #f77066;
     color: #ba160a; }
+  .card-flat.card-flat-red {
+    background-color: #f99d97;
+    border: 1px solid #f77066;
+    color: #ba160a; }
+  .card-flat.card-flat-pink {
+    background-color: #f27ba3;
+    border: 1px solid #ee4c83;
+    color: #930e3b; }
+  .card-flat.card-flat-purple {
+    background-color: #ca61dc;
+    border: 1px solid #bc37d3;
+    color: #52145d; }
+  .card-flat.card-flat-deep-purple {
+    background-color: #9f80d7;
+    border: 1px solid #8259cb;
+    color: #3b216a; }
+  .card-flat.card-flat-indigo {
+    background-color: #8591d5;
+    border: 1px solid #606fc7;
+    color: #252f69; }
+  .card-flat.card-flat-blue {
+    background-color: #82c4f8;
+    border: 1px solid #51adf6;
+    color: #0960a5; }
+  .card-flat.card-flat-light-blue {
+    background-color: #60ccfd;
+    border: 1px solid #2ebcfc;
+    color: #02638f; }
+  .card-flat.card-flat-cyan {
+    background-color: #3be9ff;
+    border: 1px solid #08e3ff;
+    color: #00626e; }
+  .card-flat.card-flat-teal {
+    background-color: #00fce4;
+    border: 1px solid #00c9b6;
+    color: #00302c; }
+  .card-flat.card-flat-green {
+    background-color: #92cf94;
+    border: 1px solid #6ec071;
+    color: #2d682f; }
+  .card-flat.card-flat-light-green {
+    background-color: #bcdc97;
+    border: 1px solid #a4d070;
+    color: #577d2a; }
+  .card-flat.card-flat-lime {
+    background-color: #e3eb90;
+    border: 1px solid #d8e464;
+    color: #89951a; }
+  .card-flat.card-flat-yellow {
+    background-color: #fff5a1;
+    border: 1px solid #fff06e;
+    color: #d4be00; }
+  .card-flat.card-flat-amber {
+    background-color: #ffdb6d;
+    border: 1px solid #ffce3a;
+    color: #a07800; }
+  .card-flat.card-flat-orange {
+    background-color: #ffc166;
+    border: 1px solid #ffad33;
+    color: #995b00; }
+  .card-flat.card-flat-deep-orange {
+    background-color: #ffa588;
+    border: 1px solid #ff7e55;
+    color: #bb2d00; }
+  .card-flat.card-flat-brown {
+    background-color: #af8778;
+    border: 1px solid #996b5b;
+    color: #392822; }
+  .card-flat.card-flat-grey {
+    background-color: #d1d1d1;
+    border: 1px solid #b8b8b8;
+    color: #6b6b6b; }
+  .card-flat.card-flat-blue-grey {
+    background-color: #99aeb8;
+    border: 1px solid #7b96a3;
+    color: #36474f; }
+  .card-flat.card-flat-black {
+    background-color: #333333;
+    border: 1px solid #1a1a1a;
+    color: #cccccc; }
 
 @media only screen and (max-width: 992px) {
   .col {

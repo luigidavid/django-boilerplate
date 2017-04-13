@@ -5,33 +5,107 @@
   border: 1px solid color("grey", "lighten-3");
 
   &.card-flat-primary {
-    background-color: $secondary-primary-color;
-    border: 1px solid lighten($primary-color, 35%);
-    color: darken($primary-color, 20%);
+    @include card-flat-variat($primary-color);
+  }
+
+  &.card-flat-secondary {
+    @include card-flat-variat($secondary-color);
   }
 
   &.card-flat-success {
-    background-color: $secondary-success-color;
-    border: 1px solid lighten($success-color, 35%);
-    color: darken($success-color, 20%);
+    @include card-flat-variat($success-color);
   }
 
   &.card-flat-info {
-    background-color: $secondary-info-color;
-    border: 1px solid lighten($info-color, 35%);
-    color: darken($info-color, 20%);
+    @include card-flat-variat($info-color);
   }
 
   &.card-flat-warning {
-    background-color: $secondary-warning-color;
-    border: 1px solid lighten($warning-color, 35%);
-    color: darken($warning-color, 20%);
+    @include card-flat-variat($warning-color);
   }
 
   &.card-flat-error {
-    background-color: $secondary-error-color;
-    border: 1px solid lighten($error-color, 35%);
-    color: darken($error-color, 20%);
+    @include card-flat-variat($error-color);
+  }
+
+  &.card-flat-red {
+    @include card-flat-variat(#f44336);
+  }
+
+  &.card-flat-pink {
+    @include card-flat-variat(#e91e63);
+  }
+
+  &.card-flat-purple {
+    @include card-flat-variat(#9c27b0);
+  }
+
+  &.card-flat-deep-purple {
+    @include card-flat-variat(#673ab7);
+  }
+
+  &.card-flat-indigo {
+    @include card-flat-variat(#3f51b5);
+  }
+
+  &.card-flat-blue {
+    @include card-flat-variat(#2196f3);
+  }
+
+  &.card-flat-light-blue {
+    @include card-flat-variat(#03a9f4);
+  }
+
+  &.card-flat-cyan {
+    @include card-flat-variat(#00bcd4);
+  }
+
+  &.card-flat-teal {
+    @include card-flat-variat(#009688);
+  }
+
+  &.card-flat-green {
+    @include card-flat-variat(#4caf50);
+  }
+
+  &.card-flat-light-green {
+    @include card-flat-variat(#8bc34a);
+  }
+
+  &.card-flat-lime {
+    @include card-flat-variat(#cddc39);
+  }
+
+  &.card-flat-yellow {
+    @include card-flat-variat(#ffeb3b);
+  }
+
+  &.card-flat-amber {
+    @include card-flat-variat(#ffc107);
+  }
+
+  &.card-flat-orange {
+    @include card-flat-variat(#ff9800);
+  }
+
+  &.card-flat-deep-orange {
+    @include card-flat-variat(#ff5722);
+  }
+
+  &.card-flat-brown {
+    @include card-flat-variat(#795548);
+  }
+
+  &.card-flat-grey {
+    @include card-flat-variat(#9e9e9e);
+  }
+
+  &.card-flat-blue-grey {
+    @include card-flat-variat(#607d8b);
+  }
+
+  &.card-flat-black {
+    @include card-flat-variat(#000000);
   }
 }
 
