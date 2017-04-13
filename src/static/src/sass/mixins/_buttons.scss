@@ -27,6 +27,7 @@
   @extend .btn-flat;
 
   border: 1px solid $background;
+  color: $background;
 
   &:hover,
   &:focus {

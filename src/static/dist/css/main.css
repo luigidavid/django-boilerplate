@@ -7301,11 +7301,11 @@ nav {
       display: block;
       padding: 0 15px;
       cursor: pointer; }
-      nav ul a.btn, nav ul a.btn-large, nav ul a.btn.btn-large, nav ul a.btn.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn.btn-flat-ligth, nav ul a.btn-flat-ligth.btn-large, nav ul a.btn.btn-flat-primary, nav ul a.btn-flat-primary.btn-large, nav ul a.btn.btn-flat-success, nav ul a.btn-flat-success.btn-large, nav ul a.btn.btn-flat-info, nav ul a.btn-flat-info.btn-large, nav ul a.btn.btn-flat-warning, nav ul a.btn-flat-warning.btn-large, nav ul a.btn.btn-flat-error, nav ul a.btn-flat-error.btn-large, nav ul a.btn.btn-outline-ligth, nav ul a.btn-outline-ligth.btn-large, nav ul a.btn.btn-outline-primary, nav ul a.btn-outline-primary.btn-large, nav ul a.btn.btn-outline-success, nav ul a.btn-outline-success.btn-large, nav ul a.btn.btn-outline-info, nav ul a.btn-outline-info.btn-large, nav ul a.btn.btn-outline-warning, nav ul a.btn-outline-warning.btn-large, nav ul a.btn.btn-outline-error, nav ul a.btn-outline-error.btn-large, nav ul a.btn-floating {
+      nav ul a.btn, nav ul a.btn-large, nav ul a.btn.btn-large, nav ul a.btn.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn.btn-flat, nav ul a.btn-flat.btn-large, nav ul a.btn.btn-flat-light, nav ul a.btn-flat-light.btn-large, nav ul a.btn.btn-flat-primary, nav ul a.btn-flat-primary.btn-large, nav ul a.btn.btn-flat-success, nav ul a.btn-flat-success.btn-large, nav ul a.btn.btn-flat-info, nav ul a.btn-flat-info.btn-large, nav ul a.btn.btn-flat-warning, nav ul a.btn-flat-warning.btn-large, nav ul a.btn.btn-flat-error, nav ul a.btn-flat-error.btn-large, nav ul a.btn.btn-flat-red, nav ul a.btn-flat-red.btn-large, nav ul a.btn.btn-flat-pink, nav ul a.btn-flat-pink.btn-large, nav ul a.btn.btn-flat-purple, nav ul a.btn-flat-purple.btn-large, nav ul a.btn.btn-flat-deep-purple, nav ul a.btn-flat-deep-purple.btn-large, nav ul a.btn.btn-flat-indigo, nav ul a.btn-flat-indigo.btn-large, nav ul a.btn.btn-flat-blue, nav ul a.btn-flat-blue.btn-large, nav ul a.btn.btn-flat-light-blue, nav ul a.btn-flat-light-blue.btn-large, nav ul a.btn.btn-flat-cyan, nav ul a.btn-flat-cyan.btn-large, nav ul a.btn.btn-flat-teal, nav ul a.btn-flat-teal.btn-large, nav ul a.btn.btn-flat-green, nav ul a.btn-flat-green.btn-large, nav ul a.btn.btn-flat-light-green, nav ul a.btn-flat-light-green.btn-large, nav ul a.btn.btn-flat-lime, nav ul a.btn-flat-lime.btn-large, nav ul a.btn.btn-flat-yellow, nav ul a.btn-flat-yellow.btn-large, nav ul a.btn.btn-flat-amber, nav ul a.btn-flat-amber.btn-large, nav ul a.btn.btn-flat-orange, nav ul a.btn-flat-orange.btn-large, nav ul a.btn.btn-flat-deep-orange, nav ul a.btn-flat-deep-orange.btn-large, nav ul a.btn.btn-flat-brown, nav ul a.btn-flat-brown.btn-large, nav ul a.btn.btn-flat-grey, nav ul a.btn-flat-grey.btn-large, nav ul a.btn.btn-flat-blue-grey, nav ul a.btn-flat-blue-grey.btn-large, nav ul a.btn.btn-flat-black, nav ul a.btn-flat-black.btn-large, nav ul a.btn.btn-outline-light, nav ul a.btn-outline-light.btn-large, nav ul a.btn.btn-outline-primary, nav ul a.btn-outline-primary.btn-large, nav ul a.btn.btn-outline-success, nav ul a.btn-outline-success.btn-large, nav ul a.btn.btn-outline-info, nav ul a.btn-outline-info.btn-large, nav ul a.btn.btn-outline-warning, nav ul a.btn-outline-warning.btn-large, nav ul a.btn.btn-outline-error, nav ul a.btn-outline-error.btn-large, nav ul a.btn.btn-outline-red, nav ul a.btn-outline-red.btn-large, nav ul a.btn.btn-outline-pink, nav ul a.btn-outline-pink.btn-large, nav ul a.btn.btn-outline-purple, nav ul a.btn-outline-purple.btn-large, nav ul a.btn.btn-outline-deep-purple, nav ul a.btn-outline-deep-purple.btn-large, nav ul a.btn.btn-outline-indigo, nav ul a.btn-outline-indigo.btn-large, nav ul a.btn.btn-outline-blue, nav ul a.btn-outline-blue.btn-large, nav ul a.btn.btn-outline-light-blue, nav ul a.btn-outline-light-blue.btn-large, nav ul a.btn.btn-outline-cyan, nav ul a.btn-outline-cyan.btn-large, nav ul a.btn.btn-outline-teal, nav ul a.btn-outline-teal.btn-large, nav ul a.btn.btn-outline-green, nav ul a.btn-outline-green.btn-large, nav ul a.btn.btn-outline-light-green, nav ul a.btn-outline-light-green.btn-large, nav ul a.btn.btn-outline-lime, nav ul a.btn-outline-lime.btn-large, nav ul a.btn.btn-outline-yellow, nav ul a.btn-outline-yellow.btn-large, nav ul a.btn.btn-outline-amber, nav ul a.btn-outline-amber.btn-large, nav ul a.btn.btn-outline-orange, nav ul a.btn-outline-orange.btn-large, nav ul a.btn.btn-outline-deep-orange, nav ul a.btn-outline-deep-orange.btn-large, nav ul a.btn.btn-outline-brown, nav ul a.btn-outline-brown.btn-large, nav ul a.btn.btn-outline-grey, nav ul a.btn-outline-grey.btn-large, nav ul a.btn.btn-outline-blue-grey, nav ul a.btn-outline-blue-grey.btn-large, nav ul a.btn.btn-outline-black, nav ul a.btn-outline-black.btn-large, nav ul a.btn-floating {
         margin-top: -2px;
         margin-left: 15px;
         margin-right: 15px; }
-        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn.btn-flat-ligth > .material-icons, nav ul a.btn-flat-ligth.btn-large > .material-icons, nav ul a.btn.btn-flat-primary > .material-icons, nav ul a.btn-flat-primary.btn-large > .material-icons, nav ul a.btn.btn-flat-success > .material-icons, nav ul a.btn-flat-success.btn-large > .material-icons, nav ul a.btn.btn-flat-info > .material-icons, nav ul a.btn-flat-info.btn-large > .material-icons, nav ul a.btn.btn-flat-warning > .material-icons, nav ul a.btn-flat-warning.btn-large > .material-icons, nav ul a.btn.btn-flat-error > .material-icons, nav ul a.btn-flat-error.btn-large > .material-icons, nav ul a.btn.btn-outline-ligth > .material-icons, nav ul a.btn-outline-ligth.btn-large > .material-icons, nav ul a.btn.btn-outline-primary > .material-icons, nav ul a.btn-outline-primary.btn-large > .material-icons, nav ul a.btn.btn-outline-success > .material-icons, nav ul a.btn-outline-success.btn-large > .material-icons, nav ul a.btn.btn-outline-info > .material-icons, nav ul a.btn-outline-info.btn-large > .material-icons, nav ul a.btn.btn-outline-warning > .material-icons, nav ul a.btn-outline-warning.btn-large > .material-icons, nav ul a.btn.btn-outline-error > .material-icons, nav ul a.btn-outline-error.btn-large > .material-icons, nav ul a.btn-floating > .material-icons {
+        nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn.btn-flat > .material-icons, nav ul a.btn-flat.btn-large > .material-icons, nav ul a.btn.btn-flat-light > .material-icons, nav ul a.btn-flat-light.btn-large > .material-icons, nav ul a.btn.btn-flat-primary > .material-icons, nav ul a.btn-flat-primary.btn-large > .material-icons, nav ul a.btn.btn-flat-success > .material-icons, nav ul a.btn-flat-success.btn-large > .material-icons, nav ul a.btn.btn-flat-info > .material-icons, nav ul a.btn-flat-info.btn-large > .material-icons, nav ul a.btn.btn-flat-warning > .material-icons, nav ul a.btn-flat-warning.btn-large > .material-icons, nav ul a.btn.btn-flat-error > .material-icons, nav ul a.btn-flat-error.btn-large > .material-icons, nav ul a.btn.btn-flat-red > .material-icons, nav ul a.btn-flat-red.btn-large > .material-icons, nav ul a.btn.btn-flat-pink > .material-icons, nav ul a.btn-flat-pink.btn-large > .material-icons, nav ul a.btn.btn-flat-purple > .material-icons, nav ul a.btn-flat-purple.btn-large > .material-icons, nav ul a.btn.btn-flat-deep-purple > .material-icons, nav ul a.btn-flat-deep-purple.btn-large > .material-icons, nav ul a.btn.btn-flat-indigo > .material-icons, nav ul a.btn-flat-indigo.btn-large > .material-icons, nav ul a.btn.btn-flat-blue > .material-icons, nav ul a.btn-flat-blue.btn-large > .material-icons, nav ul a.btn.btn-flat-light-blue > .material-icons, nav ul a.btn-flat-light-blue.btn-large > .material-icons, nav ul a.btn.btn-flat-cyan > .material-icons, nav ul a.btn-flat-cyan.btn-large > .material-icons, nav ul a.btn.btn-flat-teal > .material-icons, nav ul a.btn-flat-teal.btn-large > .material-icons, nav ul a.btn.btn-flat-green > .material-icons, nav ul a.btn-flat-green.btn-large > .material-icons, nav ul a.btn.btn-flat-light-green > .material-icons, nav ul a.btn-flat-light-green.btn-large > .material-icons, nav ul a.btn.btn-flat-lime > .material-icons, nav ul a.btn-flat-lime.btn-large > .material-icons, nav ul a.btn.btn-flat-yellow > .material-icons, nav ul a.btn-flat-yellow.btn-large > .material-icons, nav ul a.btn.btn-flat-amber > .material-icons, nav ul a.btn-flat-amber.btn-large > .material-icons, nav ul a.btn.btn-flat-orange > .material-icons, nav ul a.btn-flat-orange.btn-large > .material-icons, nav ul a.btn.btn-flat-deep-orange > .material-icons, nav ul a.btn-flat-deep-orange.btn-large > .material-icons, nav ul a.btn.btn-flat-brown > .material-icons, nav ul a.btn-flat-brown.btn-large > .material-icons, nav ul a.btn.btn-flat-grey > .material-icons, nav ul a.btn-flat-grey.btn-large > .material-icons, nav ul a.btn.btn-flat-blue-grey > .material-icons, nav ul a.btn-flat-blue-grey.btn-large > .material-icons, nav ul a.btn.btn-flat-black > .material-icons, nav ul a.btn-flat-black.btn-large > .material-icons, nav ul a.btn.btn-outline-light > .material-icons, nav ul a.btn-outline-light.btn-large > .material-icons, nav ul a.btn.btn-outline-primary > .material-icons, nav ul a.btn-outline-primary.btn-large > .material-icons, nav ul a.btn.btn-outline-success > .material-icons, nav ul a.btn-outline-success.btn-large > .material-icons, nav ul a.btn.btn-outline-info > .material-icons, nav ul a.btn-outline-info.btn-large > .material-icons, nav ul a.btn.btn-outline-warning > .material-icons, nav ul a.btn-outline-warning.btn-large > .material-icons, nav ul a.btn.btn-outline-error > .material-icons, nav ul a.btn-outline-error.btn-large > .material-icons, nav ul a.btn.btn-outline-red > .material-icons, nav ul a.btn-outline-red.btn-large > .material-icons, nav ul a.btn.btn-outline-pink > .material-icons, nav ul a.btn-outline-pink.btn-large > .material-icons, nav ul a.btn.btn-outline-purple > .material-icons, nav ul a.btn-outline-purple.btn-large > .material-icons, nav ul a.btn.btn-outline-deep-purple > .material-icons, nav ul a.btn-outline-deep-purple.btn-large > .material-icons, nav ul a.btn.btn-outline-indigo > .material-icons, nav ul a.btn-outline-indigo.btn-large > .material-icons, nav ul a.btn.btn-outline-blue > .material-icons, nav ul a.btn-outline-blue.btn-large > .material-icons, nav ul a.btn.btn-outline-light-blue > .material-icons, nav ul a.btn-outline-light-blue.btn-large > .material-icons, nav ul a.btn.btn-outline-cyan > .material-icons, nav ul a.btn-outline-cyan.btn-large > .material-icons, nav ul a.btn.btn-outline-teal > .material-icons, nav ul a.btn-outline-teal.btn-large > .material-icons, nav ul a.btn.btn-outline-green > .material-icons, nav ul a.btn-outline-green.btn-large > .material-icons, nav ul a.btn.btn-outline-light-green > .material-icons, nav ul a.btn-outline-light-green.btn-large > .material-icons, nav ul a.btn.btn-outline-lime > .material-icons, nav ul a.btn-outline-lime.btn-large > .material-icons, nav ul a.btn.btn-outline-yellow > .material-icons, nav ul a.btn-outline-yellow.btn-large > .material-icons, nav ul a.btn.btn-outline-amber > .material-icons, nav ul a.btn-outline-amber.btn-large > .material-icons, nav ul a.btn.btn-outline-orange > .material-icons, nav ul a.btn-outline-orange.btn-large > .material-icons, nav ul a.btn.btn-outline-deep-orange > .material-icons, nav ul a.btn-outline-deep-orange.btn-large > .material-icons, nav ul a.btn.btn-outline-brown > .material-icons, nav ul a.btn-outline-brown.btn-large > .material-icons, nav ul a.btn.btn-outline-grey > .material-icons, nav ul a.btn-outline-grey.btn-large > .material-icons, nav ul a.btn.btn-outline-blue-grey > .material-icons, nav ul a.btn-outline-blue-grey.btn-large > .material-icons, nav ul a.btn.btn-outline-black > .material-icons, nav ul a.btn-outline-black.btn-large > .material-icons, nav ul a.btn-floating > .material-icons {
           height: inherit;
           line-height: inherit; }
       nav ul a:hover {
@@ -7688,7 +7688,7 @@ small {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .toast .btn, .toast .btn-large, .toast .btn-flat, .toast .btn.btn-flat-ligth, .toast .btn-flat-ligth.btn-large, .toast .btn.btn-flat-primary, .toast .btn-flat-primary.btn-large, .toast .btn.btn-flat-success, .toast .btn-flat-success.btn-large, .toast .btn.btn-flat-info, .toast .btn-flat-info.btn-large, .toast .btn.btn-flat-warning, .toast .btn-flat-warning.btn-large, .toast .btn.btn-flat-error, .toast .btn-flat-error.btn-large, .toast .btn.btn-outline-ligth, .toast .btn-outline-ligth.btn-large, .toast .btn.btn-outline-primary, .toast .btn-outline-primary.btn-large, .toast .btn.btn-outline-success, .toast .btn-outline-success.btn-large, .toast .btn.btn-outline-info, .toast .btn-outline-info.btn-large, .toast .btn.btn-outline-warning, .toast .btn-outline-warning.btn-large, .toast .btn.btn-outline-error, .toast .btn-outline-error.btn-large {
+  .toast .btn, .toast .btn-large, .toast .btn-flat, .toast .btn.btn-flat, .toast .btn-flat.btn-large, .toast .btn.btn-flat-light, .toast .btn-flat-light.btn-large, .toast .btn.btn-flat-primary, .toast .btn-flat-primary.btn-large, .toast .btn.btn-flat-success, .toast .btn-flat-success.btn-large, .toast .btn.btn-flat-info, .toast .btn-flat-info.btn-large, .toast .btn.btn-flat-warning, .toast .btn-flat-warning.btn-large, .toast .btn.btn-flat-error, .toast .btn-flat-error.btn-large, .toast .btn.btn-flat-red, .toast .btn-flat-red.btn-large, .toast .btn.btn-flat-pink, .toast .btn-flat-pink.btn-large, .toast .btn.btn-flat-purple, .toast .btn-flat-purple.btn-large, .toast .btn.btn-flat-deep-purple, .toast .btn-flat-deep-purple.btn-large, .toast .btn.btn-flat-indigo, .toast .btn-flat-indigo.btn-large, .toast .btn.btn-flat-blue, .toast .btn-flat-blue.btn-large, .toast .btn.btn-flat-light-blue, .toast .btn-flat-light-blue.btn-large, .toast .btn.btn-flat-cyan, .toast .btn-flat-cyan.btn-large, .toast .btn.btn-flat-teal, .toast .btn-flat-teal.btn-large, .toast .btn.btn-flat-green, .toast .btn-flat-green.btn-large, .toast .btn.btn-flat-light-green, .toast .btn-flat-light-green.btn-large, .toast .btn.btn-flat-lime, .toast .btn-flat-lime.btn-large, .toast .btn.btn-flat-yellow, .toast .btn-flat-yellow.btn-large, .toast .btn.btn-flat-amber, .toast .btn-flat-amber.btn-large, .toast .btn.btn-flat-orange, .toast .btn-flat-orange.btn-large, .toast .btn.btn-flat-deep-orange, .toast .btn-flat-deep-orange.btn-large, .toast .btn.btn-flat-brown, .toast .btn-flat-brown.btn-large, .toast .btn.btn-flat-grey, .toast .btn-flat-grey.btn-large, .toast .btn.btn-flat-blue-grey, .toast .btn-flat-blue-grey.btn-large, .toast .btn.btn-flat-black, .toast .btn-flat-black.btn-large, .toast .btn.btn-outline-light, .toast .btn-outline-light.btn-large, .toast .btn.btn-outline-primary, .toast .btn-outline-primary.btn-large, .toast .btn.btn-outline-success, .toast .btn-outline-success.btn-large, .toast .btn.btn-outline-info, .toast .btn-outline-info.btn-large, .toast .btn.btn-outline-warning, .toast .btn-outline-warning.btn-large, .toast .btn.btn-outline-error, .toast .btn-outline-error.btn-large, .toast .btn.btn-outline-red, .toast .btn-outline-red.btn-large, .toast .btn.btn-outline-pink, .toast .btn-outline-pink.btn-large, .toast .btn.btn-outline-purple, .toast .btn-outline-purple.btn-large, .toast .btn.btn-outline-deep-purple, .toast .btn-outline-deep-purple.btn-large, .toast .btn.btn-outline-indigo, .toast .btn-outline-indigo.btn-large, .toast .btn.btn-outline-blue, .toast .btn-outline-blue.btn-large, .toast .btn.btn-outline-light-blue, .toast .btn-outline-light-blue.btn-large, .toast .btn.btn-outline-cyan, .toast .btn-outline-cyan.btn-large, .toast .btn.btn-outline-teal, .toast .btn-outline-teal.btn-large, .toast .btn.btn-outline-green, .toast .btn-outline-green.btn-large, .toast .btn.btn-outline-light-green, .toast .btn-outline-light-green.btn-large, .toast .btn.btn-outline-lime, .toast .btn-outline-lime.btn-large, .toast .btn.btn-outline-yellow, .toast .btn-outline-yellow.btn-large, .toast .btn.btn-outline-amber, .toast .btn-outline-amber.btn-large, .toast .btn.btn-outline-orange, .toast .btn-outline-orange.btn-large, .toast .btn.btn-outline-deep-orange, .toast .btn-outline-deep-orange.btn-large, .toast .btn.btn-outline-brown, .toast .btn-outline-brown.btn-large, .toast .btn.btn-outline-grey, .toast .btn-outline-grey.btn-large, .toast .btn.btn-outline-blue-grey, .toast .btn-outline-blue-grey.btn-large, .toast .btn.btn-outline-black, .toast .btn-outline-black.btn-large {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
@@ -7806,8 +7806,10 @@ small {
 
 .btn, .btn-large, .btn.btn-large,
 .btn-flat,
-.btn.btn-flat-ligth,
-.btn-flat-ligth.btn-large,
+.btn.btn-flat,
+.btn-flat.btn-large,
+.btn.btn-flat-light,
+.btn-flat-light.btn-large,
 .btn.btn-flat-primary,
 .btn-flat-primary.btn-large,
 .btn.btn-flat-success,
@@ -7818,8 +7820,48 @@ small {
 .btn-flat-warning.btn-large,
 .btn.btn-flat-error,
 .btn-flat-error.btn-large,
-.btn.btn-outline-ligth,
-.btn-outline-ligth.btn-large,
+.btn.btn-flat-red,
+.btn-flat-red.btn-large,
+.btn.btn-flat-pink,
+.btn-flat-pink.btn-large,
+.btn.btn-flat-purple,
+.btn-flat-purple.btn-large,
+.btn.btn-flat-deep-purple,
+.btn-flat-deep-purple.btn-large,
+.btn.btn-flat-indigo,
+.btn-flat-indigo.btn-large,
+.btn.btn-flat-blue,
+.btn-flat-blue.btn-large,
+.btn.btn-flat-light-blue,
+.btn-flat-light-blue.btn-large,
+.btn.btn-flat-cyan,
+.btn-flat-cyan.btn-large,
+.btn.btn-flat-teal,
+.btn-flat-teal.btn-large,
+.btn.btn-flat-green,
+.btn-flat-green.btn-large,
+.btn.btn-flat-light-green,
+.btn-flat-light-green.btn-large,
+.btn.btn-flat-lime,
+.btn-flat-lime.btn-large,
+.btn.btn-flat-yellow,
+.btn-flat-yellow.btn-large,
+.btn.btn-flat-amber,
+.btn-flat-amber.btn-large,
+.btn.btn-flat-orange,
+.btn-flat-orange.btn-large,
+.btn.btn-flat-deep-orange,
+.btn-flat-deep-orange.btn-large,
+.btn.btn-flat-brown,
+.btn-flat-brown.btn-large,
+.btn.btn-flat-grey,
+.btn-flat-grey.btn-large,
+.btn.btn-flat-blue-grey,
+.btn-flat-blue-grey.btn-large,
+.btn.btn-flat-black,
+.btn-flat-black.btn-large,
+.btn.btn-outline-light,
+.btn-outline-light.btn-large,
 .btn.btn-outline-primary,
 .btn-outline-primary.btn-large,
 .btn.btn-outline-success,
@@ -7829,12 +7871,52 @@ small {
 .btn.btn-outline-warning,
 .btn-outline-warning.btn-large,
 .btn.btn-outline-error,
-.btn-outline-error.btn-large {
+.btn-outline-error.btn-large,
+.btn.btn-outline-red,
+.btn-outline-red.btn-large,
+.btn.btn-outline-pink,
+.btn-outline-pink.btn-large,
+.btn.btn-outline-purple,
+.btn-outline-purple.btn-large,
+.btn.btn-outline-deep-purple,
+.btn-outline-deep-purple.btn-large,
+.btn.btn-outline-indigo,
+.btn-outline-indigo.btn-large,
+.btn.btn-outline-blue,
+.btn-outline-blue.btn-large,
+.btn.btn-outline-light-blue,
+.btn-outline-light-blue.btn-large,
+.btn.btn-outline-cyan,
+.btn-outline-cyan.btn-large,
+.btn.btn-outline-teal,
+.btn-outline-teal.btn-large,
+.btn.btn-outline-green,
+.btn-outline-green.btn-large,
+.btn.btn-outline-light-green,
+.btn-outline-light-green.btn-large,
+.btn.btn-outline-lime,
+.btn-outline-lime.btn-large,
+.btn.btn-outline-yellow,
+.btn-outline-yellow.btn-large,
+.btn.btn-outline-amber,
+.btn-outline-amber.btn-large,
+.btn.btn-outline-orange,
+.btn-outline-orange.btn-large,
+.btn.btn-outline-deep-orange,
+.btn-outline-deep-orange.btn-large,
+.btn.btn-outline-brown,
+.btn-outline-brown.btn-large,
+.btn.btn-outline-grey,
+.btn-outline-grey.btn-large,
+.btn.btn-outline-blue-grey,
+.btn-outline-blue-grey.btn-large,
+.btn.btn-outline-black,
+.btn-outline-black.btn-large {
   border: none;
   border-radius: 2px;
   display: inline-block;
-  height: 36px;
-  line-height: 36px;
+  height: 40px;
+  line-height: 40px;
   padding: 0 2rem;
   text-transform: uppercase;
   vertical-align: middle;
@@ -7844,8 +7926,10 @@ small {
 .btn-floating.disabled,
 .disabled.btn-large,
 .btn-flat.disabled,
-.disabled.btn.btn-flat-ligth,
-.disabled.btn-flat-ligth.btn-large,
+.disabled.btn.btn-flat,
+.disabled.btn-flat.btn-large,
+.disabled.btn.btn-flat-light,
+.disabled.btn-flat-light.btn-large,
 .disabled.btn.btn-flat-primary,
 .disabled.btn-flat-primary.btn-large,
 .disabled.btn.btn-flat-success,
@@ -7856,8 +7940,48 @@ small {
 .disabled.btn-flat-warning.btn-large,
 .disabled.btn.btn-flat-error,
 .disabled.btn-flat-error.btn-large,
-.disabled.btn.btn-outline-ligth,
-.disabled.btn-outline-ligth.btn-large,
+.disabled.btn.btn-flat-red,
+.disabled.btn-flat-red.btn-large,
+.disabled.btn.btn-flat-pink,
+.disabled.btn-flat-pink.btn-large,
+.disabled.btn.btn-flat-purple,
+.disabled.btn-flat-purple.btn-large,
+.disabled.btn.btn-flat-deep-purple,
+.disabled.btn-flat-deep-purple.btn-large,
+.disabled.btn.btn-flat-indigo,
+.disabled.btn-flat-indigo.btn-large,
+.disabled.btn.btn-flat-blue,
+.disabled.btn-flat-blue.btn-large,
+.disabled.btn.btn-flat-light-blue,
+.disabled.btn-flat-light-blue.btn-large,
+.disabled.btn.btn-flat-cyan,
+.disabled.btn-flat-cyan.btn-large,
+.disabled.btn.btn-flat-teal,
+.disabled.btn-flat-teal.btn-large,
+.disabled.btn.btn-flat-green,
+.disabled.btn-flat-green.btn-large,
+.disabled.btn.btn-flat-light-green,
+.disabled.btn-flat-light-green.btn-large,
+.disabled.btn.btn-flat-lime,
+.disabled.btn-flat-lime.btn-large,
+.disabled.btn.btn-flat-yellow,
+.disabled.btn-flat-yellow.btn-large,
+.disabled.btn.btn-flat-amber,
+.disabled.btn-flat-amber.btn-large,
+.disabled.btn.btn-flat-orange,
+.disabled.btn-flat-orange.btn-large,
+.disabled.btn.btn-flat-deep-orange,
+.disabled.btn-flat-deep-orange.btn-large,
+.disabled.btn.btn-flat-brown,
+.disabled.btn-flat-brown.btn-large,
+.disabled.btn.btn-flat-grey,
+.disabled.btn-flat-grey.btn-large,
+.disabled.btn.btn-flat-blue-grey,
+.disabled.btn-flat-blue-grey.btn-large,
+.disabled.btn.btn-flat-black,
+.disabled.btn-flat-black.btn-large,
+.disabled.btn.btn-outline-light,
+.disabled.btn-outline-light.btn-large,
 .disabled.btn.btn-outline-primary,
 .disabled.btn-outline-primary.btn-large,
 .disabled.btn.btn-outline-success,
@@ -7868,13 +7992,55 @@ small {
 .disabled.btn-outline-warning.btn-large,
 .disabled.btn.btn-outline-error,
 .disabled.btn-outline-error.btn-large,
+.disabled.btn.btn-outline-red,
+.disabled.btn-outline-red.btn-large,
+.disabled.btn.btn-outline-pink,
+.disabled.btn-outline-pink.btn-large,
+.disabled.btn.btn-outline-purple,
+.disabled.btn-outline-purple.btn-large,
+.disabled.btn.btn-outline-deep-purple,
+.disabled.btn-outline-deep-purple.btn-large,
+.disabled.btn.btn-outline-indigo,
+.disabled.btn-outline-indigo.btn-large,
+.disabled.btn.btn-outline-blue,
+.disabled.btn-outline-blue.btn-large,
+.disabled.btn.btn-outline-light-blue,
+.disabled.btn-outline-light-blue.btn-large,
+.disabled.btn.btn-outline-cyan,
+.disabled.btn-outline-cyan.btn-large,
+.disabled.btn.btn-outline-teal,
+.disabled.btn-outline-teal.btn-large,
+.disabled.btn.btn-outline-green,
+.disabled.btn-outline-green.btn-large,
+.disabled.btn.btn-outline-light-green,
+.disabled.btn-outline-light-green.btn-large,
+.disabled.btn.btn-outline-lime,
+.disabled.btn-outline-lime.btn-large,
+.disabled.btn.btn-outline-yellow,
+.disabled.btn-outline-yellow.btn-large,
+.disabled.btn.btn-outline-amber,
+.disabled.btn-outline-amber.btn-large,
+.disabled.btn.btn-outline-orange,
+.disabled.btn-outline-orange.btn-large,
+.disabled.btn.btn-outline-deep-orange,
+.disabled.btn-outline-deep-orange.btn-large,
+.disabled.btn.btn-outline-brown,
+.disabled.btn-outline-brown.btn-large,
+.disabled.btn.btn-outline-grey,
+.disabled.btn-outline-grey.btn-large,
+.disabled.btn.btn-outline-blue-grey,
+.disabled.btn-outline-blue-grey.btn-large,
+.disabled.btn.btn-outline-black,
+.disabled.btn-outline-black.btn-large,
 .btn:disabled,
 .btn-large:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 .btn-flat:disabled,
-.btn.btn-flat-ligth:disabled,
-.btn-flat-ligth.btn-large:disabled,
+.btn.btn-flat:disabled,
+.btn-flat.btn-large:disabled,
+.btn.btn-flat-light:disabled,
+.btn-flat-light.btn-large:disabled,
 .btn.btn-flat-primary:disabled,
 .btn-flat-primary.btn-large:disabled,
 .btn.btn-flat-success:disabled,
@@ -7885,8 +8051,48 @@ small {
 .btn-flat-warning.btn-large:disabled,
 .btn.btn-flat-error:disabled,
 .btn-flat-error.btn-large:disabled,
-.btn.btn-outline-ligth:disabled,
-.btn-outline-ligth.btn-large:disabled,
+.btn.btn-flat-red:disabled,
+.btn-flat-red.btn-large:disabled,
+.btn.btn-flat-pink:disabled,
+.btn-flat-pink.btn-large:disabled,
+.btn.btn-flat-purple:disabled,
+.btn-flat-purple.btn-large:disabled,
+.btn.btn-flat-deep-purple:disabled,
+.btn-flat-deep-purple.btn-large:disabled,
+.btn.btn-flat-indigo:disabled,
+.btn-flat-indigo.btn-large:disabled,
+.btn.btn-flat-blue:disabled,
+.btn-flat-blue.btn-large:disabled,
+.btn.btn-flat-light-blue:disabled,
+.btn-flat-light-blue.btn-large:disabled,
+.btn.btn-flat-cyan:disabled,
+.btn-flat-cyan.btn-large:disabled,
+.btn.btn-flat-teal:disabled,
+.btn-flat-teal.btn-large:disabled,
+.btn.btn-flat-green:disabled,
+.btn-flat-green.btn-large:disabled,
+.btn.btn-flat-light-green:disabled,
+.btn-flat-light-green.btn-large:disabled,
+.btn.btn-flat-lime:disabled,
+.btn-flat-lime.btn-large:disabled,
+.btn.btn-flat-yellow:disabled,
+.btn-flat-yellow.btn-large:disabled,
+.btn.btn-flat-amber:disabled,
+.btn-flat-amber.btn-large:disabled,
+.btn.btn-flat-orange:disabled,
+.btn-flat-orange.btn-large:disabled,
+.btn.btn-flat-deep-orange:disabled,
+.btn-flat-deep-orange.btn-large:disabled,
+.btn.btn-flat-brown:disabled,
+.btn-flat-brown.btn-large:disabled,
+.btn.btn-flat-grey:disabled,
+.btn-flat-grey.btn-large:disabled,
+.btn.btn-flat-blue-grey:disabled,
+.btn-flat-blue-grey.btn-large:disabled,
+.btn.btn-flat-black:disabled,
+.btn-flat-black.btn-large:disabled,
+.btn.btn-outline-light:disabled,
+.btn-outline-light.btn-large:disabled,
 .btn.btn-outline-primary:disabled,
 .btn-outline-primary.btn-large:disabled,
 .btn.btn-outline-success:disabled,
@@ -7897,13 +8103,55 @@ small {
 .btn-outline-warning.btn-large:disabled,
 .btn.btn-outline-error:disabled,
 .btn-outline-error.btn-large:disabled,
+.btn.btn-outline-red:disabled,
+.btn-outline-red.btn-large:disabled,
+.btn.btn-outline-pink:disabled,
+.btn-outline-pink.btn-large:disabled,
+.btn.btn-outline-purple:disabled,
+.btn-outline-purple.btn-large:disabled,
+.btn.btn-outline-deep-purple:disabled,
+.btn-outline-deep-purple.btn-large:disabled,
+.btn.btn-outline-indigo:disabled,
+.btn-outline-indigo.btn-large:disabled,
+.btn.btn-outline-blue:disabled,
+.btn-outline-blue.btn-large:disabled,
+.btn.btn-outline-light-blue:disabled,
+.btn-outline-light-blue.btn-large:disabled,
+.btn.btn-outline-cyan:disabled,
+.btn-outline-cyan.btn-large:disabled,
+.btn.btn-outline-teal:disabled,
+.btn-outline-teal.btn-large:disabled,
+.btn.btn-outline-green:disabled,
+.btn-outline-green.btn-large:disabled,
+.btn.btn-outline-light-green:disabled,
+.btn-outline-light-green.btn-large:disabled,
+.btn.btn-outline-lime:disabled,
+.btn-outline-lime.btn-large:disabled,
+.btn.btn-outline-yellow:disabled,
+.btn-outline-yellow.btn-large:disabled,
+.btn.btn-outline-amber:disabled,
+.btn-outline-amber.btn-large:disabled,
+.btn.btn-outline-orange:disabled,
+.btn-outline-orange.btn-large:disabled,
+.btn.btn-outline-deep-orange:disabled,
+.btn-outline-deep-orange.btn-large:disabled,
+.btn.btn-outline-brown:disabled,
+.btn-outline-brown.btn-large:disabled,
+.btn.btn-outline-grey:disabled,
+.btn-outline-grey.btn-large:disabled,
+.btn.btn-outline-blue-grey:disabled,
+.btn-outline-blue-grey.btn-large:disabled,
+.btn.btn-outline-black:disabled,
+.btn-outline-black.btn-large:disabled,
 .btn[disabled],
 [disabled].btn-large,
 .btn-floating[disabled],
 [disabled].btn-large,
 .btn-flat[disabled],
-[disabled].btn.btn-flat-ligth,
-[disabled].btn-flat-ligth.btn-large,
+[disabled].btn.btn-flat,
+[disabled].btn-flat.btn-large,
+[disabled].btn.btn-flat-light,
+[disabled].btn-flat-light.btn-large,
 [disabled].btn.btn-flat-primary,
 [disabled].btn-flat-primary.btn-large,
 [disabled].btn.btn-flat-success,
@@ -7914,8 +8162,48 @@ small {
 [disabled].btn-flat-warning.btn-large,
 [disabled].btn.btn-flat-error,
 [disabled].btn-flat-error.btn-large,
-[disabled].btn.btn-outline-ligth,
-[disabled].btn-outline-ligth.btn-large,
+[disabled].btn.btn-flat-red,
+[disabled].btn-flat-red.btn-large,
+[disabled].btn.btn-flat-pink,
+[disabled].btn-flat-pink.btn-large,
+[disabled].btn.btn-flat-purple,
+[disabled].btn-flat-purple.btn-large,
+[disabled].btn.btn-flat-deep-purple,
+[disabled].btn-flat-deep-purple.btn-large,
+[disabled].btn.btn-flat-indigo,
+[disabled].btn-flat-indigo.btn-large,
+[disabled].btn.btn-flat-blue,
+[disabled].btn-flat-blue.btn-large,
+[disabled].btn.btn-flat-light-blue,
+[disabled].btn-flat-light-blue.btn-large,
+[disabled].btn.btn-flat-cyan,
+[disabled].btn-flat-cyan.btn-large,
+[disabled].btn.btn-flat-teal,
+[disabled].btn-flat-teal.btn-large,
+[disabled].btn.btn-flat-green,
+[disabled].btn-flat-green.btn-large,
+[disabled].btn.btn-flat-light-green,
+[disabled].btn-flat-light-green.btn-large,
+[disabled].btn.btn-flat-lime,
+[disabled].btn-flat-lime.btn-large,
+[disabled].btn.btn-flat-yellow,
+[disabled].btn-flat-yellow.btn-large,
+[disabled].btn.btn-flat-amber,
+[disabled].btn-flat-amber.btn-large,
+[disabled].btn.btn-flat-orange,
+[disabled].btn-flat-orange.btn-large,
+[disabled].btn.btn-flat-deep-orange,
+[disabled].btn-flat-deep-orange.btn-large,
+[disabled].btn.btn-flat-brown,
+[disabled].btn-flat-brown.btn-large,
+[disabled].btn.btn-flat-grey,
+[disabled].btn-flat-grey.btn-large,
+[disabled].btn.btn-flat-blue-grey,
+[disabled].btn-flat-blue-grey.btn-large,
+[disabled].btn.btn-flat-black,
+[disabled].btn-flat-black.btn-large,
+[disabled].btn.btn-outline-light,
+[disabled].btn-outline-light.btn-large,
 [disabled].btn.btn-outline-primary,
 [disabled].btn-outline-primary.btn-large,
 [disabled].btn.btn-outline-success,
@@ -7925,7 +8213,47 @@ small {
 [disabled].btn.btn-outline-warning,
 [disabled].btn-outline-warning.btn-large,
 [disabled].btn.btn-outline-error,
-[disabled].btn-outline-error.btn-large {
+[disabled].btn-outline-error.btn-large,
+[disabled].btn.btn-outline-red,
+[disabled].btn-outline-red.btn-large,
+[disabled].btn.btn-outline-pink,
+[disabled].btn-outline-pink.btn-large,
+[disabled].btn.btn-outline-purple,
+[disabled].btn-outline-purple.btn-large,
+[disabled].btn.btn-outline-deep-purple,
+[disabled].btn-outline-deep-purple.btn-large,
+[disabled].btn.btn-outline-indigo,
+[disabled].btn-outline-indigo.btn-large,
+[disabled].btn.btn-outline-blue,
+[disabled].btn-outline-blue.btn-large,
+[disabled].btn.btn-outline-light-blue,
+[disabled].btn-outline-light-blue.btn-large,
+[disabled].btn.btn-outline-cyan,
+[disabled].btn-outline-cyan.btn-large,
+[disabled].btn.btn-outline-teal,
+[disabled].btn-outline-teal.btn-large,
+[disabled].btn.btn-outline-green,
+[disabled].btn-outline-green.btn-large,
+[disabled].btn.btn-outline-light-green,
+[disabled].btn-outline-light-green.btn-large,
+[disabled].btn.btn-outline-lime,
+[disabled].btn-outline-lime.btn-large,
+[disabled].btn.btn-outline-yellow,
+[disabled].btn-outline-yellow.btn-large,
+[disabled].btn.btn-outline-amber,
+[disabled].btn-outline-amber.btn-large,
+[disabled].btn.btn-outline-orange,
+[disabled].btn-outline-orange.btn-large,
+[disabled].btn.btn-outline-deep-orange,
+[disabled].btn-outline-deep-orange.btn-large,
+[disabled].btn.btn-outline-brown,
+[disabled].btn-outline-brown.btn-large,
+[disabled].btn.btn-outline-grey,
+[disabled].btn-outline-grey.btn-large,
+[disabled].btn.btn-outline-blue-grey,
+[disabled].btn-outline-blue-grey.btn-large,
+[disabled].btn.btn-outline-black,
+[disabled].btn-outline-black.btn-large {
   pointer-events: none;
   background-color: #DFDFDF !important;
   box-shadow: none;
@@ -7935,8 +8263,10 @@ small {
   .btn-floating.disabled:hover,
   .disabled.btn-large:hover,
   .btn-flat.disabled:hover,
-  .disabled.btn.btn-flat-ligth:hover,
-  .disabled.btn-flat-ligth.btn-large:hover,
+  .disabled.btn.btn-flat:hover,
+  .disabled.btn-flat.btn-large:hover,
+  .disabled.btn.btn-flat-light:hover,
+  .disabled.btn-flat-light.btn-large:hover,
   .disabled.btn.btn-flat-primary:hover,
   .disabled.btn-flat-primary.btn-large:hover,
   .disabled.btn.btn-flat-success:hover,
@@ -7947,8 +8277,48 @@ small {
   .disabled.btn-flat-warning.btn-large:hover,
   .disabled.btn.btn-flat-error:hover,
   .disabled.btn-flat-error.btn-large:hover,
-  .disabled.btn.btn-outline-ligth:hover,
-  .disabled.btn-outline-ligth.btn-large:hover,
+  .disabled.btn.btn-flat-red:hover,
+  .disabled.btn-flat-red.btn-large:hover,
+  .disabled.btn.btn-flat-pink:hover,
+  .disabled.btn-flat-pink.btn-large:hover,
+  .disabled.btn.btn-flat-purple:hover,
+  .disabled.btn-flat-purple.btn-large:hover,
+  .disabled.btn.btn-flat-deep-purple:hover,
+  .disabled.btn-flat-deep-purple.btn-large:hover,
+  .disabled.btn.btn-flat-indigo:hover,
+  .disabled.btn-flat-indigo.btn-large:hover,
+  .disabled.btn.btn-flat-blue:hover,
+  .disabled.btn-flat-blue.btn-large:hover,
+  .disabled.btn.btn-flat-light-blue:hover,
+  .disabled.btn-flat-light-blue.btn-large:hover,
+  .disabled.btn.btn-flat-cyan:hover,
+  .disabled.btn-flat-cyan.btn-large:hover,
+  .disabled.btn.btn-flat-teal:hover,
+  .disabled.btn-flat-teal.btn-large:hover,
+  .disabled.btn.btn-flat-green:hover,
+  .disabled.btn-flat-green.btn-large:hover,
+  .disabled.btn.btn-flat-light-green:hover,
+  .disabled.btn-flat-light-green.btn-large:hover,
+  .disabled.btn.btn-flat-lime:hover,
+  .disabled.btn-flat-lime.btn-large:hover,
+  .disabled.btn.btn-flat-yellow:hover,
+  .disabled.btn-flat-yellow.btn-large:hover,
+  .disabled.btn.btn-flat-amber:hover,
+  .disabled.btn-flat-amber.btn-large:hover,
+  .disabled.btn.btn-flat-orange:hover,
+  .disabled.btn-flat-orange.btn-large:hover,
+  .disabled.btn.btn-flat-deep-orange:hover,
+  .disabled.btn-flat-deep-orange.btn-large:hover,
+  .disabled.btn.btn-flat-brown:hover,
+  .disabled.btn-flat-brown.btn-large:hover,
+  .disabled.btn.btn-flat-grey:hover,
+  .disabled.btn-flat-grey.btn-large:hover,
+  .disabled.btn.btn-flat-blue-grey:hover,
+  .disabled.btn-flat-blue-grey.btn-large:hover,
+  .disabled.btn.btn-flat-black:hover,
+  .disabled.btn-flat-black.btn-large:hover,
+  .disabled.btn.btn-outline-light:hover,
+  .disabled.btn-outline-light.btn-large:hover,
   .disabled.btn.btn-outline-primary:hover,
   .disabled.btn-outline-primary.btn-large:hover,
   .disabled.btn.btn-outline-success:hover,
@@ -7959,13 +8329,55 @@ small {
   .disabled.btn-outline-warning.btn-large:hover,
   .disabled.btn.btn-outline-error:hover,
   .disabled.btn-outline-error.btn-large:hover,
+  .disabled.btn.btn-outline-red:hover,
+  .disabled.btn-outline-red.btn-large:hover,
+  .disabled.btn.btn-outline-pink:hover,
+  .disabled.btn-outline-pink.btn-large:hover,
+  .disabled.btn.btn-outline-purple:hover,
+  .disabled.btn-outline-purple.btn-large:hover,
+  .disabled.btn.btn-outline-deep-purple:hover,
+  .disabled.btn-outline-deep-purple.btn-large:hover,
+  .disabled.btn.btn-outline-indigo:hover,
+  .disabled.btn-outline-indigo.btn-large:hover,
+  .disabled.btn.btn-outline-blue:hover,
+  .disabled.btn-outline-blue.btn-large:hover,
+  .disabled.btn.btn-outline-light-blue:hover,
+  .disabled.btn-outline-light-blue.btn-large:hover,
+  .disabled.btn.btn-outline-cyan:hover,
+  .disabled.btn-outline-cyan.btn-large:hover,
+  .disabled.btn.btn-outline-teal:hover,
+  .disabled.btn-outline-teal.btn-large:hover,
+  .disabled.btn.btn-outline-green:hover,
+  .disabled.btn-outline-green.btn-large:hover,
+  .disabled.btn.btn-outline-light-green:hover,
+  .disabled.btn-outline-light-green.btn-large:hover,
+  .disabled.btn.btn-outline-lime:hover,
+  .disabled.btn-outline-lime.btn-large:hover,
+  .disabled.btn.btn-outline-yellow:hover,
+  .disabled.btn-outline-yellow.btn-large:hover,
+  .disabled.btn.btn-outline-amber:hover,
+  .disabled.btn-outline-amber.btn-large:hover,
+  .disabled.btn.btn-outline-orange:hover,
+  .disabled.btn-outline-orange.btn-large:hover,
+  .disabled.btn.btn-outline-deep-orange:hover,
+  .disabled.btn-outline-deep-orange.btn-large:hover,
+  .disabled.btn.btn-outline-brown:hover,
+  .disabled.btn-outline-brown.btn-large:hover,
+  .disabled.btn.btn-outline-grey:hover,
+  .disabled.btn-outline-grey.btn-large:hover,
+  .disabled.btn.btn-outline-blue-grey:hover,
+  .disabled.btn-outline-blue-grey.btn-large:hover,
+  .disabled.btn.btn-outline-black:hover,
+  .disabled.btn-outline-black.btn-large:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
-  .btn.btn-flat-ligth:disabled:hover,
-  .btn-flat-ligth.btn-large:disabled:hover,
+  .btn.btn-flat:disabled:hover,
+  .btn-flat.btn-large:disabled:hover,
+  .btn.btn-flat-light:disabled:hover,
+  .btn-flat-light.btn-large:disabled:hover,
   .btn.btn-flat-primary:disabled:hover,
   .btn-flat-primary.btn-large:disabled:hover,
   .btn.btn-flat-success:disabled:hover,
@@ -7976,8 +8388,48 @@ small {
   .btn-flat-warning.btn-large:disabled:hover,
   .btn.btn-flat-error:disabled:hover,
   .btn-flat-error.btn-large:disabled:hover,
-  .btn.btn-outline-ligth:disabled:hover,
-  .btn-outline-ligth.btn-large:disabled:hover,
+  .btn.btn-flat-red:disabled:hover,
+  .btn-flat-red.btn-large:disabled:hover,
+  .btn.btn-flat-pink:disabled:hover,
+  .btn-flat-pink.btn-large:disabled:hover,
+  .btn.btn-flat-purple:disabled:hover,
+  .btn-flat-purple.btn-large:disabled:hover,
+  .btn.btn-flat-deep-purple:disabled:hover,
+  .btn-flat-deep-purple.btn-large:disabled:hover,
+  .btn.btn-flat-indigo:disabled:hover,
+  .btn-flat-indigo.btn-large:disabled:hover,
+  .btn.btn-flat-blue:disabled:hover,
+  .btn-flat-blue.btn-large:disabled:hover,
+  .btn.btn-flat-light-blue:disabled:hover,
+  .btn-flat-light-blue.btn-large:disabled:hover,
+  .btn.btn-flat-cyan:disabled:hover,
+  .btn-flat-cyan.btn-large:disabled:hover,
+  .btn.btn-flat-teal:disabled:hover,
+  .btn-flat-teal.btn-large:disabled:hover,
+  .btn.btn-flat-green:disabled:hover,
+  .btn-flat-green.btn-large:disabled:hover,
+  .btn.btn-flat-light-green:disabled:hover,
+  .btn-flat-light-green.btn-large:disabled:hover,
+  .btn.btn-flat-lime:disabled:hover,
+  .btn-flat-lime.btn-large:disabled:hover,
+  .btn.btn-flat-yellow:disabled:hover,
+  .btn-flat-yellow.btn-large:disabled:hover,
+  .btn.btn-flat-amber:disabled:hover,
+  .btn-flat-amber.btn-large:disabled:hover,
+  .btn.btn-flat-orange:disabled:hover,
+  .btn-flat-orange.btn-large:disabled:hover,
+  .btn.btn-flat-deep-orange:disabled:hover,
+  .btn-flat-deep-orange.btn-large:disabled:hover,
+  .btn.btn-flat-brown:disabled:hover,
+  .btn-flat-brown.btn-large:disabled:hover,
+  .btn.btn-flat-grey:disabled:hover,
+  .btn-flat-grey.btn-large:disabled:hover,
+  .btn.btn-flat-blue-grey:disabled:hover,
+  .btn-flat-blue-grey.btn-large:disabled:hover,
+  .btn.btn-flat-black:disabled:hover,
+  .btn-flat-black.btn-large:disabled:hover,
+  .btn.btn-outline-light:disabled:hover,
+  .btn-outline-light.btn-large:disabled:hover,
   .btn.btn-outline-primary:disabled:hover,
   .btn-outline-primary.btn-large:disabled:hover,
   .btn.btn-outline-success:disabled:hover,
@@ -7988,13 +8440,55 @@ small {
   .btn-outline-warning.btn-large:disabled:hover,
   .btn.btn-outline-error:disabled:hover,
   .btn-outline-error.btn-large:disabled:hover,
+  .btn.btn-outline-red:disabled:hover,
+  .btn-outline-red.btn-large:disabled:hover,
+  .btn.btn-outline-pink:disabled:hover,
+  .btn-outline-pink.btn-large:disabled:hover,
+  .btn.btn-outline-purple:disabled:hover,
+  .btn-outline-purple.btn-large:disabled:hover,
+  .btn.btn-outline-deep-purple:disabled:hover,
+  .btn-outline-deep-purple.btn-large:disabled:hover,
+  .btn.btn-outline-indigo:disabled:hover,
+  .btn-outline-indigo.btn-large:disabled:hover,
+  .btn.btn-outline-blue:disabled:hover,
+  .btn-outline-blue.btn-large:disabled:hover,
+  .btn.btn-outline-light-blue:disabled:hover,
+  .btn-outline-light-blue.btn-large:disabled:hover,
+  .btn.btn-outline-cyan:disabled:hover,
+  .btn-outline-cyan.btn-large:disabled:hover,
+  .btn.btn-outline-teal:disabled:hover,
+  .btn-outline-teal.btn-large:disabled:hover,
+  .btn.btn-outline-green:disabled:hover,
+  .btn-outline-green.btn-large:disabled:hover,
+  .btn.btn-outline-light-green:disabled:hover,
+  .btn-outline-light-green.btn-large:disabled:hover,
+  .btn.btn-outline-lime:disabled:hover,
+  .btn-outline-lime.btn-large:disabled:hover,
+  .btn.btn-outline-yellow:disabled:hover,
+  .btn-outline-yellow.btn-large:disabled:hover,
+  .btn.btn-outline-amber:disabled:hover,
+  .btn-outline-amber.btn-large:disabled:hover,
+  .btn.btn-outline-orange:disabled:hover,
+  .btn-outline-orange.btn-large:disabled:hover,
+  .btn.btn-outline-deep-orange:disabled:hover,
+  .btn-outline-deep-orange.btn-large:disabled:hover,
+  .btn.btn-outline-brown:disabled:hover,
+  .btn-outline-brown.btn-large:disabled:hover,
+  .btn.btn-outline-grey:disabled:hover,
+  .btn-outline-grey.btn-large:disabled:hover,
+  .btn.btn-outline-blue-grey:disabled:hover,
+  .btn-outline-blue-grey.btn-large:disabled:hover,
+  .btn.btn-outline-black:disabled:hover,
+  .btn-outline-black.btn-large:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   .btn-floating[disabled]:hover,
   [disabled].btn-large:hover,
   .btn-flat[disabled]:hover,
-  [disabled].btn.btn-flat-ligth:hover,
-  [disabled].btn-flat-ligth.btn-large:hover,
+  [disabled].btn.btn-flat:hover,
+  [disabled].btn-flat.btn-large:hover,
+  [disabled].btn.btn-flat-light:hover,
+  [disabled].btn-flat-light.btn-large:hover,
   [disabled].btn.btn-flat-primary:hover,
   [disabled].btn-flat-primary.btn-large:hover,
   [disabled].btn.btn-flat-success:hover,
@@ -8005,8 +8499,48 @@ small {
   [disabled].btn-flat-warning.btn-large:hover,
   [disabled].btn.btn-flat-error:hover,
   [disabled].btn-flat-error.btn-large:hover,
-  [disabled].btn.btn-outline-ligth:hover,
-  [disabled].btn-outline-ligth.btn-large:hover,
+  [disabled].btn.btn-flat-red:hover,
+  [disabled].btn-flat-red.btn-large:hover,
+  [disabled].btn.btn-flat-pink:hover,
+  [disabled].btn-flat-pink.btn-large:hover,
+  [disabled].btn.btn-flat-purple:hover,
+  [disabled].btn-flat-purple.btn-large:hover,
+  [disabled].btn.btn-flat-deep-purple:hover,
+  [disabled].btn-flat-deep-purple.btn-large:hover,
+  [disabled].btn.btn-flat-indigo:hover,
+  [disabled].btn-flat-indigo.btn-large:hover,
+  [disabled].btn.btn-flat-blue:hover,
+  [disabled].btn-flat-blue.btn-large:hover,
+  [disabled].btn.btn-flat-light-blue:hover,
+  [disabled].btn-flat-light-blue.btn-large:hover,
+  [disabled].btn.btn-flat-cyan:hover,
+  [disabled].btn-flat-cyan.btn-large:hover,
+  [disabled].btn.btn-flat-teal:hover,
+  [disabled].btn-flat-teal.btn-large:hover,
+  [disabled].btn.btn-flat-green:hover,
+  [disabled].btn-flat-green.btn-large:hover,
+  [disabled].btn.btn-flat-light-green:hover,
+  [disabled].btn-flat-light-green.btn-large:hover,
+  [disabled].btn.btn-flat-lime:hover,
+  [disabled].btn-flat-lime.btn-large:hover,
+  [disabled].btn.btn-flat-yellow:hover,
+  [disabled].btn-flat-yellow.btn-large:hover,
+  [disabled].btn.btn-flat-amber:hover,
+  [disabled].btn-flat-amber.btn-large:hover,
+  [disabled].btn.btn-flat-orange:hover,
+  [disabled].btn-flat-orange.btn-large:hover,
+  [disabled].btn.btn-flat-deep-orange:hover,
+  [disabled].btn-flat-deep-orange.btn-large:hover,
+  [disabled].btn.btn-flat-brown:hover,
+  [disabled].btn-flat-brown.btn-large:hover,
+  [disabled].btn.btn-flat-grey:hover,
+  [disabled].btn-flat-grey.btn-large:hover,
+  [disabled].btn.btn-flat-blue-grey:hover,
+  [disabled].btn-flat-blue-grey.btn-large:hover,
+  [disabled].btn.btn-flat-black:hover,
+  [disabled].btn-flat-black.btn-large:hover,
+  [disabled].btn.btn-outline-light:hover,
+  [disabled].btn-outline-light.btn-large:hover,
   [disabled].btn.btn-outline-primary:hover,
   [disabled].btn-outline-primary.btn-large:hover,
   [disabled].btn.btn-outline-success:hover,
@@ -8016,7 +8550,47 @@ small {
   [disabled].btn.btn-outline-warning:hover,
   [disabled].btn-outline-warning.btn-large:hover,
   [disabled].btn.btn-outline-error:hover,
-  [disabled].btn-outline-error.btn-large:hover {
+  [disabled].btn-outline-error.btn-large:hover,
+  [disabled].btn.btn-outline-red:hover,
+  [disabled].btn-outline-red.btn-large:hover,
+  [disabled].btn.btn-outline-pink:hover,
+  [disabled].btn-outline-pink.btn-large:hover,
+  [disabled].btn.btn-outline-purple:hover,
+  [disabled].btn-outline-purple.btn-large:hover,
+  [disabled].btn.btn-outline-deep-purple:hover,
+  [disabled].btn-outline-deep-purple.btn-large:hover,
+  [disabled].btn.btn-outline-indigo:hover,
+  [disabled].btn-outline-indigo.btn-large:hover,
+  [disabled].btn.btn-outline-blue:hover,
+  [disabled].btn-outline-blue.btn-large:hover,
+  [disabled].btn.btn-outline-light-blue:hover,
+  [disabled].btn-outline-light-blue.btn-large:hover,
+  [disabled].btn.btn-outline-cyan:hover,
+  [disabled].btn-outline-cyan.btn-large:hover,
+  [disabled].btn.btn-outline-teal:hover,
+  [disabled].btn-outline-teal.btn-large:hover,
+  [disabled].btn.btn-outline-green:hover,
+  [disabled].btn-outline-green.btn-large:hover,
+  [disabled].btn.btn-outline-light-green:hover,
+  [disabled].btn-outline-light-green.btn-large:hover,
+  [disabled].btn.btn-outline-lime:hover,
+  [disabled].btn-outline-lime.btn-large:hover,
+  [disabled].btn.btn-outline-yellow:hover,
+  [disabled].btn-outline-yellow.btn-large:hover,
+  [disabled].btn.btn-outline-amber:hover,
+  [disabled].btn-outline-amber.btn-large:hover,
+  [disabled].btn.btn-outline-orange:hover,
+  [disabled].btn-outline-orange.btn-large:hover,
+  [disabled].btn.btn-outline-deep-orange:hover,
+  [disabled].btn-outline-deep-orange.btn-large:hover,
+  [disabled].btn.btn-outline-brown:hover,
+  [disabled].btn-outline-brown.btn-large:hover,
+  [disabled].btn.btn-outline-grey:hover,
+  [disabled].btn-outline-grey.btn-large:hover,
+  [disabled].btn.btn-outline-blue-grey:hover,
+  [disabled].btn-outline-blue-grey.btn-large:hover,
+  [disabled].btn.btn-outline-black:hover,
+  [disabled].btn-outline-black.btn-large:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
@@ -8025,8 +8599,10 @@ small {
 .btn.btn-large,
 .btn-large,
 .btn-flat,
-.btn.btn-flat-ligth,
-.btn-flat-ligth.btn-large,
+.btn.btn-flat,
+.btn-flat.btn-large,
+.btn.btn-flat-light,
+.btn-flat-light.btn-large,
 .btn.btn-flat-primary,
 .btn-flat-primary.btn-large,
 .btn.btn-flat-success,
@@ -8037,8 +8613,48 @@ small {
 .btn-flat-warning.btn-large,
 .btn.btn-flat-error,
 .btn-flat-error.btn-large,
-.btn.btn-outline-ligth,
-.btn-outline-ligth.btn-large,
+.btn.btn-flat-red,
+.btn-flat-red.btn-large,
+.btn.btn-flat-pink,
+.btn-flat-pink.btn-large,
+.btn.btn-flat-purple,
+.btn-flat-purple.btn-large,
+.btn.btn-flat-deep-purple,
+.btn-flat-deep-purple.btn-large,
+.btn.btn-flat-indigo,
+.btn-flat-indigo.btn-large,
+.btn.btn-flat-blue,
+.btn-flat-blue.btn-large,
+.btn.btn-flat-light-blue,
+.btn-flat-light-blue.btn-large,
+.btn.btn-flat-cyan,
+.btn-flat-cyan.btn-large,
+.btn.btn-flat-teal,
+.btn-flat-teal.btn-large,
+.btn.btn-flat-green,
+.btn-flat-green.btn-large,
+.btn.btn-flat-light-green,
+.btn-flat-light-green.btn-large,
+.btn.btn-flat-lime,
+.btn-flat-lime.btn-large,
+.btn.btn-flat-yellow,
+.btn-flat-yellow.btn-large,
+.btn.btn-flat-amber,
+.btn-flat-amber.btn-large,
+.btn.btn-flat-orange,
+.btn-flat-orange.btn-large,
+.btn.btn-flat-deep-orange,
+.btn-flat-deep-orange.btn-large,
+.btn.btn-flat-brown,
+.btn-flat-brown.btn-large,
+.btn.btn-flat-grey,
+.btn-flat-grey.btn-large,
+.btn.btn-flat-blue-grey,
+.btn-flat-blue-grey.btn-large,
+.btn.btn-flat-black,
+.btn-flat-black.btn-large,
+.btn.btn-outline-light,
+.btn-outline-light.btn-large,
 .btn.btn-outline-primary,
 .btn-outline-primary.btn-large,
 .btn.btn-outline-success,
@@ -8048,11 +8664,51 @@ small {
 .btn.btn-outline-warning,
 .btn-outline-warning.btn-large,
 .btn.btn-outline-error,
-.btn-outline-error.btn-large {
+.btn-outline-error.btn-large,
+.btn.btn-outline-red,
+.btn-outline-red.btn-large,
+.btn.btn-outline-pink,
+.btn-outline-pink.btn-large,
+.btn.btn-outline-purple,
+.btn-outline-purple.btn-large,
+.btn.btn-outline-deep-purple,
+.btn-outline-deep-purple.btn-large,
+.btn.btn-outline-indigo,
+.btn-outline-indigo.btn-large,
+.btn.btn-outline-blue,
+.btn-outline-blue.btn-large,
+.btn.btn-outline-light-blue,
+.btn-outline-light-blue.btn-large,
+.btn.btn-outline-cyan,
+.btn-outline-cyan.btn-large,
+.btn.btn-outline-teal,
+.btn-outline-teal.btn-large,
+.btn.btn-outline-green,
+.btn-outline-green.btn-large,
+.btn.btn-outline-light-green,
+.btn-outline-light-green.btn-large,
+.btn.btn-outline-lime,
+.btn-outline-lime.btn-large,
+.btn.btn-outline-yellow,
+.btn-outline-yellow.btn-large,
+.btn.btn-outline-amber,
+.btn-outline-amber.btn-large,
+.btn.btn-outline-orange,
+.btn-outline-orange.btn-large,
+.btn.btn-outline-deep-orange,
+.btn-outline-deep-orange.btn-large,
+.btn.btn-outline-brown,
+.btn-outline-brown.btn-large,
+.btn.btn-outline-grey,
+.btn-outline-grey.btn-large,
+.btn.btn-outline-blue-grey,
+.btn-outline-blue-grey.btn-large,
+.btn.btn-outline-black,
+.btn-outline-black.btn-large {
   outline: 0; }
   .btn i, .btn-large i, .btn.btn-large i,
   .btn-floating i, .btn.btn-large i, .btn-large i,
-  .btn-flat i, .btn.btn-flat-ligth i, .btn-flat-ligth.btn-large i, .btn.btn-flat-primary i, .btn-flat-primary.btn-large i, .btn.btn-flat-success i, .btn-flat-success.btn-large i, .btn.btn-flat-info i, .btn-flat-info.btn-large i, .btn.btn-flat-warning i, .btn-flat-warning.btn-large i, .btn.btn-flat-error i, .btn-flat-error.btn-large i, .btn.btn-outline-ligth i, .btn-outline-ligth.btn-large i, .btn.btn-outline-primary i, .btn-outline-primary.btn-large i, .btn.btn-outline-success i, .btn-outline-success.btn-large i, .btn.btn-outline-info i, .btn-outline-info.btn-large i, .btn.btn-outline-warning i, .btn-outline-warning.btn-large i, .btn.btn-outline-error i, .btn-outline-error.btn-large i {
+  .btn-flat i, .btn.btn-flat i, .btn-flat.btn-large i, .btn.btn-flat-light i, .btn-flat-light.btn-large i, .btn.btn-flat-primary i, .btn-flat-primary.btn-large i, .btn.btn-flat-success i, .btn-flat-success.btn-large i, .btn.btn-flat-info i, .btn-flat-info.btn-large i, .btn.btn-flat-warning i, .btn-flat-warning.btn-large i, .btn.btn-flat-error i, .btn-flat-error.btn-large i, .btn.btn-flat-red i, .btn-flat-red.btn-large i, .btn.btn-flat-pink i, .btn-flat-pink.btn-large i, .btn.btn-flat-purple i, .btn-flat-purple.btn-large i, .btn.btn-flat-deep-purple i, .btn-flat-deep-purple.btn-large i, .btn.btn-flat-indigo i, .btn-flat-indigo.btn-large i, .btn.btn-flat-blue i, .btn-flat-blue.btn-large i, .btn.btn-flat-light-blue i, .btn-flat-light-blue.btn-large i, .btn.btn-flat-cyan i, .btn-flat-cyan.btn-large i, .btn.btn-flat-teal i, .btn-flat-teal.btn-large i, .btn.btn-flat-green i, .btn-flat-green.btn-large i, .btn.btn-flat-light-green i, .btn-flat-light-green.btn-large i, .btn.btn-flat-lime i, .btn-flat-lime.btn-large i, .btn.btn-flat-yellow i, .btn-flat-yellow.btn-large i, .btn.btn-flat-amber i, .btn-flat-amber.btn-large i, .btn.btn-flat-orange i, .btn-flat-orange.btn-large i, .btn.btn-flat-deep-orange i, .btn-flat-deep-orange.btn-large i, .btn.btn-flat-brown i, .btn-flat-brown.btn-large i, .btn.btn-flat-grey i, .btn-flat-grey.btn-large i, .btn.btn-flat-blue-grey i, .btn-flat-blue-grey.btn-large i, .btn.btn-flat-black i, .btn-flat-black.btn-large i, .btn.btn-outline-light i, .btn-outline-light.btn-large i, .btn.btn-outline-primary i, .btn-outline-primary.btn-large i, .btn.btn-outline-success i, .btn-outline-success.btn-large i, .btn.btn-outline-info i, .btn-outline-info.btn-large i, .btn.btn-outline-warning i, .btn-outline-warning.btn-large i, .btn.btn-outline-error i, .btn-outline-error.btn-large i, .btn.btn-outline-red i, .btn-outline-red.btn-large i, .btn.btn-outline-pink i, .btn-outline-pink.btn-large i, .btn.btn-outline-purple i, .btn-outline-purple.btn-large i, .btn.btn-outline-deep-purple i, .btn-outline-deep-purple.btn-large i, .btn.btn-outline-indigo i, .btn-outline-indigo.btn-large i, .btn.btn-outline-blue i, .btn-outline-blue.btn-large i, .btn.btn-outline-light-blue i, .btn-outline-light-blue.btn-large i, .btn.btn-outline-cyan i, .btn-outline-cyan.btn-large i, .btn.btn-outline-teal i, .btn-outline-teal.btn-large i, .btn.btn-outline-green i, .btn-outline-green.btn-large i, .btn.btn-outline-light-green i, .btn-outline-light-green.btn-large i, .btn.btn-outline-lime i, .btn-outline-lime.btn-large i, .btn.btn-outline-yellow i, .btn-outline-yellow.btn-large i, .btn.btn-outline-amber i, .btn-outline-amber.btn-large i, .btn.btn-outline-orange i, .btn-outline-orange.btn-large i, .btn.btn-outline-deep-orange i, .btn-outline-deep-orange.btn-large i, .btn.btn-outline-brown i, .btn-outline-brown.btn-large i, .btn.btn-outline-grey i, .btn-outline-grey.btn-large i, .btn.btn-outline-blue-grey i, .btn-outline-blue-grey.btn-large i, .btn.btn-outline-black i, .btn-outline-black.btn-large i {
     font-size: 1.1rem;
     line-height: inherit; }
 
@@ -8189,27 +8845,27 @@ button.btn-floating {
     border-radius: 50%;
     transform: scale(0); }
 
-.btn-flat, .btn.btn-flat-ligth, .btn-flat-ligth.btn-large, .btn.btn-flat-primary, .btn-flat-primary.btn-large, .btn.btn-flat-success, .btn-flat-success.btn-large, .btn.btn-flat-info, .btn-flat-info.btn-large, .btn.btn-flat-warning, .btn-flat-warning.btn-large, .btn.btn-flat-error, .btn-flat-error.btn-large, .btn.btn-outline-ligth, .btn-outline-ligth.btn-large, .btn.btn-outline-primary, .btn-outline-primary.btn-large, .btn.btn-outline-success, .btn-outline-success.btn-large, .btn.btn-outline-info, .btn-outline-info.btn-large, .btn.btn-outline-warning, .btn-outline-warning.btn-large, .btn.btn-outline-error, .btn-outline-error.btn-large {
+.btn-flat, .btn.btn-flat, .btn-flat.btn-large, .btn.btn-flat-light, .btn-flat-light.btn-large, .btn.btn-flat-primary, .btn-flat-primary.btn-large, .btn.btn-flat-success, .btn-flat-success.btn-large, .btn.btn-flat-info, .btn-flat-info.btn-large, .btn.btn-flat-warning, .btn-flat-warning.btn-large, .btn.btn-flat-error, .btn-flat-error.btn-large, .btn.btn-flat-red, .btn-flat-red.btn-large, .btn.btn-flat-pink, .btn-flat-pink.btn-large, .btn.btn-flat-purple, .btn-flat-purple.btn-large, .btn.btn-flat-deep-purple, .btn-flat-deep-purple.btn-large, .btn.btn-flat-indigo, .btn-flat-indigo.btn-large, .btn.btn-flat-blue, .btn-flat-blue.btn-large, .btn.btn-flat-light-blue, .btn-flat-light-blue.btn-large, .btn.btn-flat-cyan, .btn-flat-cyan.btn-large, .btn.btn-flat-teal, .btn-flat-teal.btn-large, .btn.btn-flat-green, .btn-flat-green.btn-large, .btn.btn-flat-light-green, .btn-flat-light-green.btn-large, .btn.btn-flat-lime, .btn-flat-lime.btn-large, .btn.btn-flat-yellow, .btn-flat-yellow.btn-large, .btn.btn-flat-amber, .btn-flat-amber.btn-large, .btn.btn-flat-orange, .btn-flat-orange.btn-large, .btn.btn-flat-deep-orange, .btn-flat-deep-orange.btn-large, .btn.btn-flat-brown, .btn-flat-brown.btn-large, .btn.btn-flat-grey, .btn-flat-grey.btn-large, .btn.btn-flat-blue-grey, .btn-flat-blue-grey.btn-large, .btn.btn-flat-black, .btn-flat-black.btn-large, .btn.btn-outline-light, .btn-outline-light.btn-large, .btn.btn-outline-primary, .btn-outline-primary.btn-large, .btn.btn-outline-success, .btn-outline-success.btn-large, .btn.btn-outline-info, .btn-outline-info.btn-large, .btn.btn-outline-warning, .btn-outline-warning.btn-large, .btn.btn-outline-error, .btn-outline-error.btn-large, .btn.btn-outline-red, .btn-outline-red.btn-large, .btn.btn-outline-pink, .btn-outline-pink.btn-large, .btn.btn-outline-purple, .btn-outline-purple.btn-large, .btn.btn-outline-deep-purple, .btn-outline-deep-purple.btn-large, .btn.btn-outline-indigo, .btn-outline-indigo.btn-large, .btn.btn-outline-blue, .btn-outline-blue.btn-large, .btn.btn-outline-light-blue, .btn-outline-light-blue.btn-large, .btn.btn-outline-cyan, .btn-outline-cyan.btn-large, .btn.btn-outline-teal, .btn-outline-teal.btn-large, .btn.btn-outline-green, .btn-outline-green.btn-large, .btn.btn-outline-light-green, .btn-outline-light-green.btn-large, .btn.btn-outline-lime, .btn-outline-lime.btn-large, .btn.btn-outline-yellow, .btn-outline-yellow.btn-large, .btn.btn-outline-amber, .btn-outline-amber.btn-large, .btn.btn-outline-orange, .btn-outline-orange.btn-large, .btn.btn-outline-deep-orange, .btn-outline-deep-orange.btn-large, .btn.btn-outline-brown, .btn-outline-brown.btn-large, .btn.btn-outline-grey, .btn-outline-grey.btn-large, .btn.btn-outline-blue-grey, .btn-outline-blue-grey.btn-large, .btn.btn-outline-black, .btn-outline-black.btn-large {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  .btn-flat:focus, .btn.btn-flat-ligth:focus, .btn-flat-ligth.btn-large:focus, .btn.btn-flat-primary:focus, .btn-flat-primary.btn-large:focus, .btn.btn-flat-success:focus, .btn-flat-success.btn-large:focus, .btn.btn-flat-info:focus, .btn-flat-info.btn-large:focus, .btn.btn-flat-warning:focus, .btn-flat-warning.btn-large:focus, .btn.btn-flat-error:focus, .btn-flat-error.btn-large:focus, .btn.btn-outline-ligth:focus, .btn-outline-ligth.btn-large:focus, .btn.btn-outline-primary:focus, .btn-outline-primary.btn-large:focus, .btn.btn-outline-success:focus, .btn-outline-success.btn-large:focus, .btn.btn-outline-info:focus, .btn-outline-info.btn-large:focus, .btn.btn-outline-warning:focus, .btn-outline-warning.btn-large:focus, .btn.btn-outline-error:focus, .btn-outline-error.btn-large:focus, .btn-flat:active, .btn.btn-flat-ligth:active, .btn-flat-ligth.btn-large:active, .btn.btn-flat-primary:active, .btn-flat-primary.btn-large:active, .btn.btn-flat-success:active, .btn-flat-success.btn-large:active, .btn.btn-flat-info:active, .btn-flat-info.btn-large:active, .btn.btn-flat-warning:active, .btn-flat-warning.btn-large:active, .btn.btn-flat-error:active, .btn-flat-error.btn-large:active, .btn.btn-outline-ligth:active, .btn-outline-ligth.btn-large:active, .btn.btn-outline-primary:active, .btn-outline-primary.btn-large:active, .btn.btn-outline-success:active, .btn-outline-success.btn-large:active, .btn.btn-outline-info:active, .btn-outline-info.btn-large:active, .btn.btn-outline-warning:active, .btn-outline-warning.btn-large:active, .btn.btn-outline-error:active, .btn-outline-error.btn-large:active {
+  .btn-flat:focus, .btn.btn-flat:focus, .btn-flat.btn-large:focus, .btn.btn-flat-light:focus, .btn-flat-light.btn-large:focus, .btn.btn-flat-primary:focus, .btn-flat-primary.btn-large:focus, .btn.btn-flat-success:focus, .btn-flat-success.btn-large:focus, .btn.btn-flat-info:focus, .btn-flat-info.btn-large:focus, .btn.btn-flat-warning:focus, .btn-flat-warning.btn-large:focus, .btn.btn-flat-error:focus, .btn-flat-error.btn-large:focus, .btn.btn-flat-red:focus, .btn-flat-red.btn-large:focus, .btn.btn-flat-pink:focus, .btn-flat-pink.btn-large:focus, .btn.btn-flat-purple:focus, .btn-flat-purple.btn-large:focus, .btn.btn-flat-deep-purple:focus, .btn-flat-deep-purple.btn-large:focus, .btn.btn-flat-indigo:focus, .btn-flat-indigo.btn-large:focus, .btn.btn-flat-blue:focus, .btn-flat-blue.btn-large:focus, .btn.btn-flat-light-blue:focus, .btn-flat-light-blue.btn-large:focus, .btn.btn-flat-cyan:focus, .btn-flat-cyan.btn-large:focus, .btn.btn-flat-teal:focus, .btn-flat-teal.btn-large:focus, .btn.btn-flat-green:focus, .btn-flat-green.btn-large:focus, .btn.btn-flat-light-green:focus, .btn-flat-light-green.btn-large:focus, .btn.btn-flat-lime:focus, .btn-flat-lime.btn-large:focus, .btn.btn-flat-yellow:focus, .btn-flat-yellow.btn-large:focus, .btn.btn-flat-amber:focus, .btn-flat-amber.btn-large:focus, .btn.btn-flat-orange:focus, .btn-flat-orange.btn-large:focus, .btn.btn-flat-deep-orange:focus, .btn-flat-deep-orange.btn-large:focus, .btn.btn-flat-brown:focus, .btn-flat-brown.btn-large:focus, .btn.btn-flat-grey:focus, .btn-flat-grey.btn-large:focus, .btn.btn-flat-blue-grey:focus, .btn-flat-blue-grey.btn-large:focus, .btn.btn-flat-black:focus, .btn-flat-black.btn-large:focus, .btn.btn-outline-light:focus, .btn-outline-light.btn-large:focus, .btn.btn-outline-primary:focus, .btn-outline-primary.btn-large:focus, .btn.btn-outline-success:focus, .btn-outline-success.btn-large:focus, .btn.btn-outline-info:focus, .btn-outline-info.btn-large:focus, .btn.btn-outline-warning:focus, .btn-outline-warning.btn-large:focus, .btn.btn-outline-error:focus, .btn-outline-error.btn-large:focus, .btn.btn-outline-red:focus, .btn-outline-red.btn-large:focus, .btn.btn-outline-pink:focus, .btn-outline-pink.btn-large:focus, .btn.btn-outline-purple:focus, .btn-outline-purple.btn-large:focus, .btn.btn-outline-deep-purple:focus, .btn-outline-deep-purple.btn-large:focus, .btn.btn-outline-indigo:focus, .btn-outline-indigo.btn-large:focus, .btn.btn-outline-blue:focus, .btn-outline-blue.btn-large:focus, .btn.btn-outline-light-blue:focus, .btn-outline-light-blue.btn-large:focus, .btn.btn-outline-cyan:focus, .btn-outline-cyan.btn-large:focus, .btn.btn-outline-teal:focus, .btn-outline-teal.btn-large:focus, .btn.btn-outline-green:focus, .btn-outline-green.btn-large:focus, .btn.btn-outline-light-green:focus, .btn-outline-light-green.btn-large:focus, .btn.btn-outline-lime:focus, .btn-outline-lime.btn-large:focus, .btn.btn-outline-yellow:focus, .btn-outline-yellow.btn-large:focus, .btn.btn-outline-amber:focus, .btn-outline-amber.btn-large:focus, .btn.btn-outline-orange:focus, .btn-outline-orange.btn-large:focus, .btn.btn-outline-deep-orange:focus, .btn-outline-deep-orange.btn-large:focus, .btn.btn-outline-brown:focus, .btn-outline-brown.btn-large:focus, .btn.btn-outline-grey:focus, .btn-outline-grey.btn-large:focus, .btn.btn-outline-blue-grey:focus, .btn-outline-blue-grey.btn-large:focus, .btn.btn-outline-black:focus, .btn-outline-black.btn-large:focus, .btn-flat:active, .btn.btn-flat:active, .btn-flat.btn-large:active, .btn.btn-flat-light:active, .btn-flat-light.btn-large:active, .btn.btn-flat-primary:active, .btn-flat-primary.btn-large:active, .btn.btn-flat-success:active, .btn-flat-success.btn-large:active, .btn.btn-flat-info:active, .btn-flat-info.btn-large:active, .btn.btn-flat-warning:active, .btn-flat-warning.btn-large:active, .btn.btn-flat-error:active, .btn-flat-error.btn-large:active, .btn.btn-flat-red:active, .btn-flat-red.btn-large:active, .btn.btn-flat-pink:active, .btn-flat-pink.btn-large:active, .btn.btn-flat-purple:active, .btn-flat-purple.btn-large:active, .btn.btn-flat-deep-purple:active, .btn-flat-deep-purple.btn-large:active, .btn.btn-flat-indigo:active, .btn-flat-indigo.btn-large:active, .btn.btn-flat-blue:active, .btn-flat-blue.btn-large:active, .btn.btn-flat-light-blue:active, .btn-flat-light-blue.btn-large:active, .btn.btn-flat-cyan:active, .btn-flat-cyan.btn-large:active, .btn.btn-flat-teal:active, .btn-flat-teal.btn-large:active, .btn.btn-flat-green:active, .btn-flat-green.btn-large:active, .btn.btn-flat-light-green:active, .btn-flat-light-green.btn-large:active, .btn.btn-flat-lime:active, .btn-flat-lime.btn-large:active, .btn.btn-flat-yellow:active, .btn-flat-yellow.btn-large:active, .btn.btn-flat-amber:active, .btn-flat-amber.btn-large:active, .btn.btn-flat-orange:active, .btn-flat-orange.btn-large:active, .btn.btn-flat-deep-orange:active, .btn-flat-deep-orange.btn-large:active, .btn.btn-flat-brown:active, .btn-flat-brown.btn-large:active, .btn.btn-flat-grey:active, .btn-flat-grey.btn-large:active, .btn.btn-flat-blue-grey:active, .btn-flat-blue-grey.btn-large:active, .btn.btn-flat-black:active, .btn-flat-black.btn-large:active, .btn.btn-outline-light:active, .btn-outline-light.btn-large:active, .btn.btn-outline-primary:active, .btn-outline-primary.btn-large:active, .btn.btn-outline-success:active, .btn-outline-success.btn-large:active, .btn.btn-outline-info:active, .btn-outline-info.btn-large:active, .btn.btn-outline-warning:active, .btn-outline-warning.btn-large:active, .btn.btn-outline-error:active, .btn-outline-error.btn-large:active, .btn.btn-outline-red:active, .btn-outline-red.btn-large:active, .btn.btn-outline-pink:active, .btn-outline-pink.btn-large:active, .btn.btn-outline-purple:active, .btn-outline-purple.btn-large:active, .btn.btn-outline-deep-purple:active, .btn-outline-deep-purple.btn-large:active, .btn.btn-outline-indigo:active, .btn-outline-indigo.btn-large:active, .btn.btn-outline-blue:active, .btn-outline-blue.btn-large:active, .btn.btn-outline-light-blue:active, .btn-outline-light-blue.btn-large:active, .btn.btn-outline-cyan:active, .btn-outline-cyan.btn-large:active, .btn.btn-outline-teal:active, .btn-outline-teal.btn-large:active, .btn.btn-outline-green:active, .btn-outline-green.btn-large:active, .btn.btn-outline-light-green:active, .btn-outline-light-green.btn-large:active, .btn.btn-outline-lime:active, .btn-outline-lime.btn-large:active, .btn.btn-outline-yellow:active, .btn-outline-yellow.btn-large:active, .btn.btn-outline-amber:active, .btn-outline-amber.btn-large:active, .btn.btn-outline-orange:active, .btn-outline-orange.btn-large:active, .btn.btn-outline-deep-orange:active, .btn-outline-deep-orange.btn-large:active, .btn.btn-outline-brown:active, .btn-outline-brown.btn-large:active, .btn.btn-outline-grey:active, .btn-outline-grey.btn-large:active, .btn.btn-outline-blue-grey:active, .btn-outline-blue-grey.btn-large:active, .btn.btn-outline-black:active, .btn-outline-black.btn-large:active {
     background-color: transparent; }
-  .btn-flat:focus, .btn.btn-flat-ligth:focus, .btn-flat-ligth.btn-large:focus, .btn.btn-flat-primary:focus, .btn-flat-primary.btn-large:focus, .btn.btn-flat-success:focus, .btn-flat-success.btn-large:focus, .btn.btn-flat-info:focus, .btn-flat-info.btn-large:focus, .btn.btn-flat-warning:focus, .btn-flat-warning.btn-large:focus, .btn.btn-flat-error:focus, .btn-flat-error.btn-large:focus, .btn.btn-outline-ligth:focus, .btn-outline-ligth.btn-large:focus, .btn.btn-outline-primary:focus, .btn-outline-primary.btn-large:focus, .btn.btn-outline-success:focus, .btn-outline-success.btn-large:focus, .btn.btn-outline-info:focus, .btn-outline-info.btn-large:focus, .btn.btn-outline-warning:focus, .btn-outline-warning.btn-large:focus, .btn.btn-outline-error:focus, .btn-outline-error.btn-large:focus, .btn-flat:hover, .btn.btn-flat-ligth:hover, .btn-flat-ligth.btn-large:hover, .btn.btn-flat-primary:hover, .btn-flat-primary.btn-large:hover, .btn.btn-flat-success:hover, .btn-flat-success.btn-large:hover, .btn.btn-flat-info:hover, .btn-flat-info.btn-large:hover, .btn.btn-flat-warning:hover, .btn-flat-warning.btn-large:hover, .btn.btn-flat-error:hover, .btn-flat-error.btn-large:hover, .btn.btn-outline-ligth:hover, .btn-outline-ligth.btn-large:hover, .btn.btn-outline-primary:hover, .btn-outline-primary.btn-large:hover, .btn.btn-outline-success:hover, .btn-outline-success.btn-large:hover, .btn.btn-outline-info:hover, .btn-outline-info.btn-large:hover, .btn.btn-outline-warning:hover, .btn-outline-warning.btn-large:hover, .btn.btn-outline-error:hover, .btn-outline-error.btn-large:hover {
+  .btn-flat:focus, .btn.btn-flat:focus, .btn-flat.btn-large:focus, .btn.btn-flat-light:focus, .btn-flat-light.btn-large:focus, .btn.btn-flat-primary:focus, .btn-flat-primary.btn-large:focus, .btn.btn-flat-success:focus, .btn-flat-success.btn-large:focus, .btn.btn-flat-info:focus, .btn-flat-info.btn-large:focus, .btn.btn-flat-warning:focus, .btn-flat-warning.btn-large:focus, .btn.btn-flat-error:focus, .btn-flat-error.btn-large:focus, .btn.btn-flat-red:focus, .btn-flat-red.btn-large:focus, .btn.btn-flat-pink:focus, .btn-flat-pink.btn-large:focus, .btn.btn-flat-purple:focus, .btn-flat-purple.btn-large:focus, .btn.btn-flat-deep-purple:focus, .btn-flat-deep-purple.btn-large:focus, .btn.btn-flat-indigo:focus, .btn-flat-indigo.btn-large:focus, .btn.btn-flat-blue:focus, .btn-flat-blue.btn-large:focus, .btn.btn-flat-light-blue:focus, .btn-flat-light-blue.btn-large:focus, .btn.btn-flat-cyan:focus, .btn-flat-cyan.btn-large:focus, .btn.btn-flat-teal:focus, .btn-flat-teal.btn-large:focus, .btn.btn-flat-green:focus, .btn-flat-green.btn-large:focus, .btn.btn-flat-light-green:focus, .btn-flat-light-green.btn-large:focus, .btn.btn-flat-lime:focus, .btn-flat-lime.btn-large:focus, .btn.btn-flat-yellow:focus, .btn-flat-yellow.btn-large:focus, .btn.btn-flat-amber:focus, .btn-flat-amber.btn-large:focus, .btn.btn-flat-orange:focus, .btn-flat-orange.btn-large:focus, .btn.btn-flat-deep-orange:focus, .btn-flat-deep-orange.btn-large:focus, .btn.btn-flat-brown:focus, .btn-flat-brown.btn-large:focus, .btn.btn-flat-grey:focus, .btn-flat-grey.btn-large:focus, .btn.btn-flat-blue-grey:focus, .btn-flat-blue-grey.btn-large:focus, .btn.btn-flat-black:focus, .btn-flat-black.btn-large:focus, .btn.btn-outline-light:focus, .btn-outline-light.btn-large:focus, .btn.btn-outline-primary:focus, .btn-outline-primary.btn-large:focus, .btn.btn-outline-success:focus, .btn-outline-success.btn-large:focus, .btn.btn-outline-info:focus, .btn-outline-info.btn-large:focus, .btn.btn-outline-warning:focus, .btn-outline-warning.btn-large:focus, .btn.btn-outline-error:focus, .btn-outline-error.btn-large:focus, .btn.btn-outline-red:focus, .btn-outline-red.btn-large:focus, .btn.btn-outline-pink:focus, .btn-outline-pink.btn-large:focus, .btn.btn-outline-purple:focus, .btn-outline-purple.btn-large:focus, .btn.btn-outline-deep-purple:focus, .btn-outline-deep-purple.btn-large:focus, .btn.btn-outline-indigo:focus, .btn-outline-indigo.btn-large:focus, .btn.btn-outline-blue:focus, .btn-outline-blue.btn-large:focus, .btn.btn-outline-light-blue:focus, .btn-outline-light-blue.btn-large:focus, .btn.btn-outline-cyan:focus, .btn-outline-cyan.btn-large:focus, .btn.btn-outline-teal:focus, .btn-outline-teal.btn-large:focus, .btn.btn-outline-green:focus, .btn-outline-green.btn-large:focus, .btn.btn-outline-light-green:focus, .btn-outline-light-green.btn-large:focus, .btn.btn-outline-lime:focus, .btn-outline-lime.btn-large:focus, .btn.btn-outline-yellow:focus, .btn-outline-yellow.btn-large:focus, .btn.btn-outline-amber:focus, .btn-outline-amber.btn-large:focus, .btn.btn-outline-orange:focus, .btn-outline-orange.btn-large:focus, .btn.btn-outline-deep-orange:focus, .btn-outline-deep-orange.btn-large:focus, .btn.btn-outline-brown:focus, .btn-outline-brown.btn-large:focus, .btn.btn-outline-grey:focus, .btn-outline-grey.btn-large:focus, .btn.btn-outline-blue-grey:focus, .btn-outline-blue-grey.btn-large:focus, .btn.btn-outline-black:focus, .btn-outline-black.btn-large:focus, .btn-flat:hover, .btn.btn-flat:hover, .btn-flat.btn-large:hover, .btn.btn-flat-light:hover, .btn-flat-light.btn-large:hover, .btn.btn-flat-primary:hover, .btn-flat-primary.btn-large:hover, .btn.btn-flat-success:hover, .btn-flat-success.btn-large:hover, .btn.btn-flat-info:hover, .btn-flat-info.btn-large:hover, .btn.btn-flat-warning:hover, .btn-flat-warning.btn-large:hover, .btn.btn-flat-error:hover, .btn-flat-error.btn-large:hover, .btn.btn-flat-red:hover, .btn-flat-red.btn-large:hover, .btn.btn-flat-pink:hover, .btn-flat-pink.btn-large:hover, .btn.btn-flat-purple:hover, .btn-flat-purple.btn-large:hover, .btn.btn-flat-deep-purple:hover, .btn-flat-deep-purple.btn-large:hover, .btn.btn-flat-indigo:hover, .btn-flat-indigo.btn-large:hover, .btn.btn-flat-blue:hover, .btn-flat-blue.btn-large:hover, .btn.btn-flat-light-blue:hover, .btn-flat-light-blue.btn-large:hover, .btn.btn-flat-cyan:hover, .btn-flat-cyan.btn-large:hover, .btn.btn-flat-teal:hover, .btn-flat-teal.btn-large:hover, .btn.btn-flat-green:hover, .btn-flat-green.btn-large:hover, .btn.btn-flat-light-green:hover, .btn-flat-light-green.btn-large:hover, .btn.btn-flat-lime:hover, .btn-flat-lime.btn-large:hover, .btn.btn-flat-yellow:hover, .btn-flat-yellow.btn-large:hover, .btn.btn-flat-amber:hover, .btn-flat-amber.btn-large:hover, .btn.btn-flat-orange:hover, .btn-flat-orange.btn-large:hover, .btn.btn-flat-deep-orange:hover, .btn-flat-deep-orange.btn-large:hover, .btn.btn-flat-brown:hover, .btn-flat-brown.btn-large:hover, .btn.btn-flat-grey:hover, .btn-flat-grey.btn-large:hover, .btn.btn-flat-blue-grey:hover, .btn-flat-blue-grey.btn-large:hover, .btn.btn-flat-black:hover, .btn-flat-black.btn-large:hover, .btn.btn-outline-light:hover, .btn-outline-light.btn-large:hover, .btn.btn-outline-primary:hover, .btn-outline-primary.btn-large:hover, .btn.btn-outline-success:hover, .btn-outline-success.btn-large:hover, .btn.btn-outline-info:hover, .btn-outline-info.btn-large:hover, .btn.btn-outline-warning:hover, .btn-outline-warning.btn-large:hover, .btn.btn-outline-error:hover, .btn-outline-error.btn-large:hover, .btn.btn-outline-red:hover, .btn-outline-red.btn-large:hover, .btn.btn-outline-pink:hover, .btn-outline-pink.btn-large:hover, .btn.btn-outline-purple:hover, .btn-outline-purple.btn-large:hover, .btn.btn-outline-deep-purple:hover, .btn-outline-deep-purple.btn-large:hover, .btn.btn-outline-indigo:hover, .btn-outline-indigo.btn-large:hover, .btn.btn-outline-blue:hover, .btn-outline-blue.btn-large:hover, .btn.btn-outline-light-blue:hover, .btn-outline-light-blue.btn-large:hover, .btn.btn-outline-cyan:hover, .btn-outline-cyan.btn-large:hover, .btn.btn-outline-teal:hover, .btn-outline-teal.btn-large:hover, .btn.btn-outline-green:hover, .btn-outline-green.btn-large:hover, .btn.btn-outline-light-green:hover, .btn-outline-light-green.btn-large:hover, .btn.btn-outline-lime:hover, .btn-outline-lime.btn-large:hover, .btn.btn-outline-yellow:hover, .btn-outline-yellow.btn-large:hover, .btn.btn-outline-amber:hover, .btn-outline-amber.btn-large:hover, .btn.btn-outline-orange:hover, .btn-outline-orange.btn-large:hover, .btn.btn-outline-deep-orange:hover, .btn-outline-deep-orange.btn-large:hover, .btn.btn-outline-brown:hover, .btn-outline-brown.btn-large:hover, .btn.btn-outline-grey:hover, .btn-outline-grey.btn-large:hover, .btn.btn-outline-blue-grey:hover, .btn-outline-blue-grey.btn-large:hover, .btn.btn-outline-black:hover, .btn-outline-black.btn-large:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
-  .btn-flat:active, .btn.btn-flat-ligth:active, .btn-flat-ligth.btn-large:active, .btn.btn-flat-primary:active, .btn-flat-primary.btn-large:active, .btn.btn-flat-success:active, .btn-flat-success.btn-large:active, .btn.btn-flat-info:active, .btn-flat-info.btn-large:active, .btn.btn-flat-warning:active, .btn-flat-warning.btn-large:active, .btn.btn-flat-error:active, .btn-flat-error.btn-large:active, .btn.btn-outline-ligth:active, .btn-outline-ligth.btn-large:active, .btn.btn-outline-primary:active, .btn-outline-primary.btn-large:active, .btn.btn-outline-success:active, .btn-outline-success.btn-large:active, .btn.btn-outline-info:active, .btn-outline-info.btn-large:active, .btn.btn-outline-warning:active, .btn-outline-warning.btn-large:active, .btn.btn-outline-error:active, .btn-outline-error.btn-large:active {
+  .btn-flat:active, .btn.btn-flat:active, .btn-flat.btn-large:active, .btn.btn-flat-light:active, .btn-flat-light.btn-large:active, .btn.btn-flat-primary:active, .btn-flat-primary.btn-large:active, .btn.btn-flat-success:active, .btn-flat-success.btn-large:active, .btn.btn-flat-info:active, .btn-flat-info.btn-large:active, .btn.btn-flat-warning:active, .btn-flat-warning.btn-large:active, .btn.btn-flat-error:active, .btn-flat-error.btn-large:active, .btn.btn-flat-red:active, .btn-flat-red.btn-large:active, .btn.btn-flat-pink:active, .btn-flat-pink.btn-large:active, .btn.btn-flat-purple:active, .btn-flat-purple.btn-large:active, .btn.btn-flat-deep-purple:active, .btn-flat-deep-purple.btn-large:active, .btn.btn-flat-indigo:active, .btn-flat-indigo.btn-large:active, .btn.btn-flat-blue:active, .btn-flat-blue.btn-large:active, .btn.btn-flat-light-blue:active, .btn-flat-light-blue.btn-large:active, .btn.btn-flat-cyan:active, .btn-flat-cyan.btn-large:active, .btn.btn-flat-teal:active, .btn-flat-teal.btn-large:active, .btn.btn-flat-green:active, .btn-flat-green.btn-large:active, .btn.btn-flat-light-green:active, .btn-flat-light-green.btn-large:active, .btn.btn-flat-lime:active, .btn-flat-lime.btn-large:active, .btn.btn-flat-yellow:active, .btn-flat-yellow.btn-large:active, .btn.btn-flat-amber:active, .btn-flat-amber.btn-large:active, .btn.btn-flat-orange:active, .btn-flat-orange.btn-large:active, .btn.btn-flat-deep-orange:active, .btn-flat-deep-orange.btn-large:active, .btn.btn-flat-brown:active, .btn-flat-brown.btn-large:active, .btn.btn-flat-grey:active, .btn-flat-grey.btn-large:active, .btn.btn-flat-blue-grey:active, .btn-flat-blue-grey.btn-large:active, .btn.btn-flat-black:active, .btn-flat-black.btn-large:active, .btn.btn-outline-light:active, .btn-outline-light.btn-large:active, .btn.btn-outline-primary:active, .btn-outline-primary.btn-large:active, .btn.btn-outline-success:active, .btn-outline-success.btn-large:active, .btn.btn-outline-info:active, .btn-outline-info.btn-large:active, .btn.btn-outline-warning:active, .btn-outline-warning.btn-large:active, .btn.btn-outline-error:active, .btn-outline-error.btn-large:active, .btn.btn-outline-red:active, .btn-outline-red.btn-large:active, .btn.btn-outline-pink:active, .btn-outline-pink.btn-large:active, .btn.btn-outline-purple:active, .btn-outline-purple.btn-large:active, .btn.btn-outline-deep-purple:active, .btn-outline-deep-purple.btn-large:active, .btn.btn-outline-indigo:active, .btn-outline-indigo.btn-large:active, .btn.btn-outline-blue:active, .btn-outline-blue.btn-large:active, .btn.btn-outline-light-blue:active, .btn-outline-light-blue.btn-large:active, .btn.btn-outline-cyan:active, .btn-outline-cyan.btn-large:active, .btn.btn-outline-teal:active, .btn-outline-teal.btn-large:active, .btn.btn-outline-green:active, .btn-outline-green.btn-large:active, .btn.btn-outline-light-green:active, .btn-outline-light-green.btn-large:active, .btn.btn-outline-lime:active, .btn-outline-lime.btn-large:active, .btn.btn-outline-yellow:active, .btn-outline-yellow.btn-large:active, .btn.btn-outline-amber:active, .btn-outline-amber.btn-large:active, .btn.btn-outline-orange:active, .btn-outline-orange.btn-large:active, .btn.btn-outline-deep-orange:active, .btn-outline-deep-orange.btn-large:active, .btn.btn-outline-brown:active, .btn-outline-brown.btn-large:active, .btn.btn-outline-grey:active, .btn-outline-grey.btn-large:active, .btn.btn-outline-blue-grey:active, .btn-outline-blue-grey.btn-large:active, .btn.btn-outline-black:active, .btn-outline-black.btn-large:active {
     background-color: rgba(0, 0, 0, 0.2); }
-  .btn-flat.disabled, .disabled.btn.btn-flat-ligth, .disabled.btn-flat-ligth.btn-large, .disabled.btn.btn-flat-primary, .disabled.btn-flat-primary.btn-large, .disabled.btn.btn-flat-success, .disabled.btn-flat-success.btn-large, .disabled.btn.btn-flat-info, .disabled.btn-flat-info.btn-large, .disabled.btn.btn-flat-warning, .disabled.btn-flat-warning.btn-large, .disabled.btn.btn-flat-error, .disabled.btn-flat-error.btn-large, .disabled.btn.btn-outline-ligth, .disabled.btn-outline-ligth.btn-large, .disabled.btn.btn-outline-primary, .disabled.btn-outline-primary.btn-large, .disabled.btn.btn-outline-success, .disabled.btn-outline-success.btn-large, .disabled.btn.btn-outline-info, .disabled.btn-outline-info.btn-large, .disabled.btn.btn-outline-warning, .disabled.btn-outline-warning.btn-large, .disabled.btn.btn-outline-error, .disabled.btn-outline-error.btn-large {
+  .btn-flat.disabled, .disabled.btn.btn-flat, .disabled.btn-flat.btn-large, .disabled.btn.btn-flat-light, .disabled.btn-flat-light.btn-large, .disabled.btn.btn-flat-primary, .disabled.btn-flat-primary.btn-large, .disabled.btn.btn-flat-success, .disabled.btn-flat-success.btn-large, .disabled.btn.btn-flat-info, .disabled.btn-flat-info.btn-large, .disabled.btn.btn-flat-warning, .disabled.btn-flat-warning.btn-large, .disabled.btn.btn-flat-error, .disabled.btn-flat-error.btn-large, .disabled.btn.btn-flat-red, .disabled.btn-flat-red.btn-large, .disabled.btn.btn-flat-pink, .disabled.btn-flat-pink.btn-large, .disabled.btn.btn-flat-purple, .disabled.btn-flat-purple.btn-large, .disabled.btn.btn-flat-deep-purple, .disabled.btn-flat-deep-purple.btn-large, .disabled.btn.btn-flat-indigo, .disabled.btn-flat-indigo.btn-large, .disabled.btn.btn-flat-blue, .disabled.btn-flat-blue.btn-large, .disabled.btn.btn-flat-light-blue, .disabled.btn-flat-light-blue.btn-large, .disabled.btn.btn-flat-cyan, .disabled.btn-flat-cyan.btn-large, .disabled.btn.btn-flat-teal, .disabled.btn-flat-teal.btn-large, .disabled.btn.btn-flat-green, .disabled.btn-flat-green.btn-large, .disabled.btn.btn-flat-light-green, .disabled.btn-flat-light-green.btn-large, .disabled.btn.btn-flat-lime, .disabled.btn-flat-lime.btn-large, .disabled.btn.btn-flat-yellow, .disabled.btn-flat-yellow.btn-large, .disabled.btn.btn-flat-amber, .disabled.btn-flat-amber.btn-large, .disabled.btn.btn-flat-orange, .disabled.btn-flat-orange.btn-large, .disabled.btn.btn-flat-deep-orange, .disabled.btn-flat-deep-orange.btn-large, .disabled.btn.btn-flat-brown, .disabled.btn-flat-brown.btn-large, .disabled.btn.btn-flat-grey, .disabled.btn-flat-grey.btn-large, .disabled.btn.btn-flat-blue-grey, .disabled.btn-flat-blue-grey.btn-large, .disabled.btn.btn-flat-black, .disabled.btn-flat-black.btn-large, .disabled.btn.btn-outline-light, .disabled.btn-outline-light.btn-large, .disabled.btn.btn-outline-primary, .disabled.btn-outline-primary.btn-large, .disabled.btn.btn-outline-success, .disabled.btn-outline-success.btn-large, .disabled.btn.btn-outline-info, .disabled.btn-outline-info.btn-large, .disabled.btn.btn-outline-warning, .disabled.btn-outline-warning.btn-large, .disabled.btn.btn-outline-error, .disabled.btn-outline-error.btn-large, .disabled.btn.btn-outline-red, .disabled.btn-outline-red.btn-large, .disabled.btn.btn-outline-pink, .disabled.btn-outline-pink.btn-large, .disabled.btn.btn-outline-purple, .disabled.btn-outline-purple.btn-large, .disabled.btn.btn-outline-deep-purple, .disabled.btn-outline-deep-purple.btn-large, .disabled.btn.btn-outline-indigo, .disabled.btn-outline-indigo.btn-large, .disabled.btn.btn-outline-blue, .disabled.btn-outline-blue.btn-large, .disabled.btn.btn-outline-light-blue, .disabled.btn-outline-light-blue.btn-large, .disabled.btn.btn-outline-cyan, .disabled.btn-outline-cyan.btn-large, .disabled.btn.btn-outline-teal, .disabled.btn-outline-teal.btn-large, .disabled.btn.btn-outline-green, .disabled.btn-outline-green.btn-large, .disabled.btn.btn-outline-light-green, .disabled.btn-outline-light-green.btn-large, .disabled.btn.btn-outline-lime, .disabled.btn-outline-lime.btn-large, .disabled.btn.btn-outline-yellow, .disabled.btn-outline-yellow.btn-large, .disabled.btn.btn-outline-amber, .disabled.btn-outline-amber.btn-large, .disabled.btn.btn-outline-orange, .disabled.btn-outline-orange.btn-large, .disabled.btn.btn-outline-deep-orange, .disabled.btn-outline-deep-orange.btn-large, .disabled.btn.btn-outline-brown, .disabled.btn-outline-brown.btn-large, .disabled.btn.btn-outline-grey, .disabled.btn-outline-grey.btn-large, .disabled.btn.btn-outline-blue-grey, .disabled.btn-outline-blue-grey.btn-large, .disabled.btn.btn-outline-black, .disabled.btn-outline-black.btn-large {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
 
 .btn.btn-large, .btn-large {
-  height: 54px;
-  line-height: 54px; }
+  height: 60px;
+  line-height: 60px; }
   .btn.btn-large i, .btn-large i {
     font-size: 1.6rem; }
 
@@ -8379,7 +9035,7 @@ button.btn-floating {
     padding: 4px 6px;
     height: 56px;
     width: 100%; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat, .modal .modal-footer .btn.btn-flat-ligth, .modal .modal-footer .btn-flat-ligth.btn-large, .modal .modal-footer .btn.btn-flat-primary, .modal .modal-footer .btn-flat-primary.btn-large, .modal .modal-footer .btn.btn-flat-success, .modal .modal-footer .btn-flat-success.btn-large, .modal .modal-footer .btn.btn-flat-info, .modal .modal-footer .btn-flat-info.btn-large, .modal .modal-footer .btn.btn-flat-warning, .modal .modal-footer .btn-flat-warning.btn-large, .modal .modal-footer .btn.btn-flat-error, .modal .modal-footer .btn-flat-error.btn-large, .modal .modal-footer .btn.btn-outline-ligth, .modal .modal-footer .btn-outline-ligth.btn-large, .modal .modal-footer .btn.btn-outline-primary, .modal .modal-footer .btn-outline-primary.btn-large, .modal .modal-footer .btn.btn-outline-success, .modal .modal-footer .btn-outline-success.btn-large, .modal .modal-footer .btn.btn-outline-info, .modal .modal-footer .btn-outline-info.btn-large, .modal .modal-footer .btn.btn-outline-warning, .modal .modal-footer .btn-outline-warning.btn-large, .modal .modal-footer .btn.btn-outline-error, .modal .modal-footer .btn-outline-error.btn-large {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat, .modal .modal-footer .btn.btn-flat, .modal .modal-footer .btn-flat.btn-large, .modal .modal-footer .btn.btn-flat-light, .modal .modal-footer .btn-flat-light.btn-large, .modal .modal-footer .btn.btn-flat-primary, .modal .modal-footer .btn-flat-primary.btn-large, .modal .modal-footer .btn.btn-flat-success, .modal .modal-footer .btn-flat-success.btn-large, .modal .modal-footer .btn.btn-flat-info, .modal .modal-footer .btn-flat-info.btn-large, .modal .modal-footer .btn.btn-flat-warning, .modal .modal-footer .btn-flat-warning.btn-large, .modal .modal-footer .btn.btn-flat-error, .modal .modal-footer .btn-flat-error.btn-large, .modal .modal-footer .btn.btn-flat-red, .modal .modal-footer .btn-flat-red.btn-large, .modal .modal-footer .btn.btn-flat-pink, .modal .modal-footer .btn-flat-pink.btn-large, .modal .modal-footer .btn.btn-flat-purple, .modal .modal-footer .btn-flat-purple.btn-large, .modal .modal-footer .btn.btn-flat-deep-purple, .modal .modal-footer .btn-flat-deep-purple.btn-large, .modal .modal-footer .btn.btn-flat-indigo, .modal .modal-footer .btn-flat-indigo.btn-large, .modal .modal-footer .btn.btn-flat-blue, .modal .modal-footer .btn-flat-blue.btn-large, .modal .modal-footer .btn.btn-flat-light-blue, .modal .modal-footer .btn-flat-light-blue.btn-large, .modal .modal-footer .btn.btn-flat-cyan, .modal .modal-footer .btn-flat-cyan.btn-large, .modal .modal-footer .btn.btn-flat-teal, .modal .modal-footer .btn-flat-teal.btn-large, .modal .modal-footer .btn.btn-flat-green, .modal .modal-footer .btn-flat-green.btn-large, .modal .modal-footer .btn.btn-flat-light-green, .modal .modal-footer .btn-flat-light-green.btn-large, .modal .modal-footer .btn.btn-flat-lime, .modal .modal-footer .btn-flat-lime.btn-large, .modal .modal-footer .btn.btn-flat-yellow, .modal .modal-footer .btn-flat-yellow.btn-large, .modal .modal-footer .btn.btn-flat-amber, .modal .modal-footer .btn-flat-amber.btn-large, .modal .modal-footer .btn.btn-flat-orange, .modal .modal-footer .btn-flat-orange.btn-large, .modal .modal-footer .btn.btn-flat-deep-orange, .modal .modal-footer .btn-flat-deep-orange.btn-large, .modal .modal-footer .btn.btn-flat-brown, .modal .modal-footer .btn-flat-brown.btn-large, .modal .modal-footer .btn.btn-flat-grey, .modal .modal-footer .btn-flat-grey.btn-large, .modal .modal-footer .btn.btn-flat-blue-grey, .modal .modal-footer .btn-flat-blue-grey.btn-large, .modal .modal-footer .btn.btn-flat-black, .modal .modal-footer .btn-flat-black.btn-large, .modal .modal-footer .btn.btn-outline-light, .modal .modal-footer .btn-outline-light.btn-large, .modal .modal-footer .btn.btn-outline-primary, .modal .modal-footer .btn-outline-primary.btn-large, .modal .modal-footer .btn.btn-outline-success, .modal .modal-footer .btn-outline-success.btn-large, .modal .modal-footer .btn.btn-outline-info, .modal .modal-footer .btn-outline-info.btn-large, .modal .modal-footer .btn.btn-outline-warning, .modal .modal-footer .btn-outline-warning.btn-large, .modal .modal-footer .btn.btn-outline-error, .modal .modal-footer .btn-outline-error.btn-large, .modal .modal-footer .btn.btn-outline-red, .modal .modal-footer .btn-outline-red.btn-large, .modal .modal-footer .btn.btn-outline-pink, .modal .modal-footer .btn-outline-pink.btn-large, .modal .modal-footer .btn.btn-outline-purple, .modal .modal-footer .btn-outline-purple.btn-large, .modal .modal-footer .btn.btn-outline-deep-purple, .modal .modal-footer .btn-outline-deep-purple.btn-large, .modal .modal-footer .btn.btn-outline-indigo, .modal .modal-footer .btn-outline-indigo.btn-large, .modal .modal-footer .btn.btn-outline-blue, .modal .modal-footer .btn-outline-blue.btn-large, .modal .modal-footer .btn.btn-outline-light-blue, .modal .modal-footer .btn-outline-light-blue.btn-large, .modal .modal-footer .btn.btn-outline-cyan, .modal .modal-footer .btn-outline-cyan.btn-large, .modal .modal-footer .btn.btn-outline-teal, .modal .modal-footer .btn-outline-teal.btn-large, .modal .modal-footer .btn.btn-outline-green, .modal .modal-footer .btn-outline-green.btn-large, .modal .modal-footer .btn.btn-outline-light-green, .modal .modal-footer .btn-outline-light-green.btn-large, .modal .modal-footer .btn.btn-outline-lime, .modal .modal-footer .btn-outline-lime.btn-large, .modal .modal-footer .btn.btn-outline-yellow, .modal .modal-footer .btn-outline-yellow.btn-large, .modal .modal-footer .btn.btn-outline-amber, .modal .modal-footer .btn-outline-amber.btn-large, .modal .modal-footer .btn.btn-outline-orange, .modal .modal-footer .btn-outline-orange.btn-large, .modal .modal-footer .btn.btn-outline-deep-orange, .modal .modal-footer .btn-outline-deep-orange.btn-large, .modal .modal-footer .btn.btn-outline-brown, .modal .modal-footer .btn-outline-brown.btn-large, .modal .modal-footer .btn.btn-outline-grey, .modal .modal-footer .btn-outline-grey.btn-large, .modal .modal-footer .btn.btn-outline-blue-grey, .modal .modal-footer .btn-outline-blue-grey.btn-large, .modal .modal-footer .btn.btn-outline-black, .modal .modal-footer .btn-outline-black.btn-large {
       float: right;
       margin: 6px 0; }
 
@@ -9638,11 +10294,11 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0 32px; }
     .side-nav li > a:hover {
       background-color: rgba(0, 0, 0, 0.05); }
-    .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn.btn-flat-ligth, .side-nav li > a.btn-flat-ligth.btn-large, .side-nav li > a.btn.btn-flat-primary, .side-nav li > a.btn-flat-primary.btn-large, .side-nav li > a.btn.btn-flat-success, .side-nav li > a.btn-flat-success.btn-large, .side-nav li > a.btn.btn-flat-info, .side-nav li > a.btn-flat-info.btn-large, .side-nav li > a.btn.btn-flat-warning, .side-nav li > a.btn-flat-warning.btn-large, .side-nav li > a.btn.btn-flat-error, .side-nav li > a.btn-flat-error.btn-large, .side-nav li > a.btn.btn-outline-ligth, .side-nav li > a.btn-outline-ligth.btn-large, .side-nav li > a.btn.btn-outline-primary, .side-nav li > a.btn-outline-primary.btn-large, .side-nav li > a.btn.btn-outline-success, .side-nav li > a.btn-outline-success.btn-large, .side-nav li > a.btn.btn-outline-info, .side-nav li > a.btn-outline-info.btn-large, .side-nav li > a.btn.btn-outline-warning, .side-nav li > a.btn-outline-warning.btn-large, .side-nav li > a.btn.btn-outline-error, .side-nav li > a.btn-outline-error.btn-large, .side-nav li > a.btn-floating {
+    .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn.btn-flat, .side-nav li > a.btn-flat.btn-large, .side-nav li > a.btn.btn-flat-light, .side-nav li > a.btn-flat-light.btn-large, .side-nav li > a.btn.btn-flat-primary, .side-nav li > a.btn-flat-primary.btn-large, .side-nav li > a.btn.btn-flat-success, .side-nav li > a.btn-flat-success.btn-large, .side-nav li > a.btn.btn-flat-info, .side-nav li > a.btn-flat-info.btn-large, .side-nav li > a.btn.btn-flat-warning, .side-nav li > a.btn-flat-warning.btn-large, .side-nav li > a.btn.btn-flat-error, .side-nav li > a.btn-flat-error.btn-large, .side-nav li > a.btn.btn-flat-red, .side-nav li > a.btn-flat-red.btn-large, .side-nav li > a.btn.btn-flat-pink, .side-nav li > a.btn-flat-pink.btn-large, .side-nav li > a.btn.btn-flat-purple, .side-nav li > a.btn-flat-purple.btn-large, .side-nav li > a.btn.btn-flat-deep-purple, .side-nav li > a.btn-flat-deep-purple.btn-large, .side-nav li > a.btn.btn-flat-indigo, .side-nav li > a.btn-flat-indigo.btn-large, .side-nav li > a.btn.btn-flat-blue, .side-nav li > a.btn-flat-blue.btn-large, .side-nav li > a.btn.btn-flat-light-blue, .side-nav li > a.btn-flat-light-blue.btn-large, .side-nav li > a.btn.btn-flat-cyan, .side-nav li > a.btn-flat-cyan.btn-large, .side-nav li > a.btn.btn-flat-teal, .side-nav li > a.btn-flat-teal.btn-large, .side-nav li > a.btn.btn-flat-green, .side-nav li > a.btn-flat-green.btn-large, .side-nav li > a.btn.btn-flat-light-green, .side-nav li > a.btn-flat-light-green.btn-large, .side-nav li > a.btn.btn-flat-lime, .side-nav li > a.btn-flat-lime.btn-large, .side-nav li > a.btn.btn-flat-yellow, .side-nav li > a.btn-flat-yellow.btn-large, .side-nav li > a.btn.btn-flat-amber, .side-nav li > a.btn-flat-amber.btn-large, .side-nav li > a.btn.btn-flat-orange, .side-nav li > a.btn-flat-orange.btn-large, .side-nav li > a.btn.btn-flat-deep-orange, .side-nav li > a.btn-flat-deep-orange.btn-large, .side-nav li > a.btn.btn-flat-brown, .side-nav li > a.btn-flat-brown.btn-large, .side-nav li > a.btn.btn-flat-grey, .side-nav li > a.btn-flat-grey.btn-large, .side-nav li > a.btn.btn-flat-blue-grey, .side-nav li > a.btn-flat-blue-grey.btn-large, .side-nav li > a.btn.btn-flat-black, .side-nav li > a.btn-flat-black.btn-large, .side-nav li > a.btn.btn-outline-light, .side-nav li > a.btn-outline-light.btn-large, .side-nav li > a.btn.btn-outline-primary, .side-nav li > a.btn-outline-primary.btn-large, .side-nav li > a.btn.btn-outline-success, .side-nav li > a.btn-outline-success.btn-large, .side-nav li > a.btn.btn-outline-info, .side-nav li > a.btn-outline-info.btn-large, .side-nav li > a.btn.btn-outline-warning, .side-nav li > a.btn-outline-warning.btn-large, .side-nav li > a.btn.btn-outline-error, .side-nav li > a.btn-outline-error.btn-large, .side-nav li > a.btn.btn-outline-red, .side-nav li > a.btn-outline-red.btn-large, .side-nav li > a.btn.btn-outline-pink, .side-nav li > a.btn-outline-pink.btn-large, .side-nav li > a.btn.btn-outline-purple, .side-nav li > a.btn-outline-purple.btn-large, .side-nav li > a.btn.btn-outline-deep-purple, .side-nav li > a.btn-outline-deep-purple.btn-large, .side-nav li > a.btn.btn-outline-indigo, .side-nav li > a.btn-outline-indigo.btn-large, .side-nav li > a.btn.btn-outline-blue, .side-nav li > a.btn-outline-blue.btn-large, .side-nav li > a.btn.btn-outline-light-blue, .side-nav li > a.btn-outline-light-blue.btn-large, .side-nav li > a.btn.btn-outline-cyan, .side-nav li > a.btn-outline-cyan.btn-large, .side-nav li > a.btn.btn-outline-teal, .side-nav li > a.btn-outline-teal.btn-large, .side-nav li > a.btn.btn-outline-green, .side-nav li > a.btn-outline-green.btn-large, .side-nav li > a.btn.btn-outline-light-green, .side-nav li > a.btn-outline-light-green.btn-large, .side-nav li > a.btn.btn-outline-lime, .side-nav li > a.btn-outline-lime.btn-large, .side-nav li > a.btn.btn-outline-yellow, .side-nav li > a.btn-outline-yellow.btn-large, .side-nav li > a.btn.btn-outline-amber, .side-nav li > a.btn-outline-amber.btn-large, .side-nav li > a.btn.btn-outline-orange, .side-nav li > a.btn-outline-orange.btn-large, .side-nav li > a.btn.btn-outline-deep-orange, .side-nav li > a.btn-outline-deep-orange.btn-large, .side-nav li > a.btn.btn-outline-brown, .side-nav li > a.btn-outline-brown.btn-large, .side-nav li > a.btn.btn-outline-grey, .side-nav li > a.btn-outline-grey.btn-large, .side-nav li > a.btn.btn-outline-blue-grey, .side-nav li > a.btn-outline-blue-grey.btn-large, .side-nav li > a.btn.btn-outline-black, .side-nav li > a.btn-outline-black.btn-large, .side-nav li > a.btn-floating {
       margin: 10px 15px; }
     .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-floating {
       color: #fff; }
-    .side-nav li > a.btn-flat, .side-nav li > a.btn.btn-flat-ligth, .side-nav li > a.btn-flat-ligth.btn-large, .side-nav li > a.btn.btn-flat-primary, .side-nav li > a.btn-flat-primary.btn-large, .side-nav li > a.btn.btn-flat-success, .side-nav li > a.btn-flat-success.btn-large, .side-nav li > a.btn.btn-flat-info, .side-nav li > a.btn-flat-info.btn-large, .side-nav li > a.btn.btn-flat-warning, .side-nav li > a.btn-flat-warning.btn-large, .side-nav li > a.btn.btn-flat-error, .side-nav li > a.btn-flat-error.btn-large, .side-nav li > a.btn.btn-outline-ligth, .side-nav li > a.btn-outline-ligth.btn-large, .side-nav li > a.btn.btn-outline-primary, .side-nav li > a.btn-outline-primary.btn-large, .side-nav li > a.btn.btn-outline-success, .side-nav li > a.btn-outline-success.btn-large, .side-nav li > a.btn.btn-outline-info, .side-nav li > a.btn-outline-info.btn-large, .side-nav li > a.btn.btn-outline-warning, .side-nav li > a.btn-outline-warning.btn-large, .side-nav li > a.btn.btn-outline-error, .side-nav li > a.btn-outline-error.btn-large {
+    .side-nav li > a.btn-flat, .side-nav li > a.btn.btn-flat, .side-nav li > a.btn-flat.btn-large, .side-nav li > a.btn.btn-flat-light, .side-nav li > a.btn-flat-light.btn-large, .side-nav li > a.btn.btn-flat-primary, .side-nav li > a.btn-flat-primary.btn-large, .side-nav li > a.btn.btn-flat-success, .side-nav li > a.btn-flat-success.btn-large, .side-nav li > a.btn.btn-flat-info, .side-nav li > a.btn-flat-info.btn-large, .side-nav li > a.btn.btn-flat-warning, .side-nav li > a.btn-flat-warning.btn-large, .side-nav li > a.btn.btn-flat-error, .side-nav li > a.btn-flat-error.btn-large, .side-nav li > a.btn.btn-flat-red, .side-nav li > a.btn-flat-red.btn-large, .side-nav li > a.btn.btn-flat-pink, .side-nav li > a.btn-flat-pink.btn-large, .side-nav li > a.btn.btn-flat-purple, .side-nav li > a.btn-flat-purple.btn-large, .side-nav li > a.btn.btn-flat-deep-purple, .side-nav li > a.btn-flat-deep-purple.btn-large, .side-nav li > a.btn.btn-flat-indigo, .side-nav li > a.btn-flat-indigo.btn-large, .side-nav li > a.btn.btn-flat-blue, .side-nav li > a.btn-flat-blue.btn-large, .side-nav li > a.btn.btn-flat-light-blue, .side-nav li > a.btn-flat-light-blue.btn-large, .side-nav li > a.btn.btn-flat-cyan, .side-nav li > a.btn-flat-cyan.btn-large, .side-nav li > a.btn.btn-flat-teal, .side-nav li > a.btn-flat-teal.btn-large, .side-nav li > a.btn.btn-flat-green, .side-nav li > a.btn-flat-green.btn-large, .side-nav li > a.btn.btn-flat-light-green, .side-nav li > a.btn-flat-light-green.btn-large, .side-nav li > a.btn.btn-flat-lime, .side-nav li > a.btn-flat-lime.btn-large, .side-nav li > a.btn.btn-flat-yellow, .side-nav li > a.btn-flat-yellow.btn-large, .side-nav li > a.btn.btn-flat-amber, .side-nav li > a.btn-flat-amber.btn-large, .side-nav li > a.btn.btn-flat-orange, .side-nav li > a.btn-flat-orange.btn-large, .side-nav li > a.btn.btn-flat-deep-orange, .side-nav li > a.btn-flat-deep-orange.btn-large, .side-nav li > a.btn.btn-flat-brown, .side-nav li > a.btn-flat-brown.btn-large, .side-nav li > a.btn.btn-flat-grey, .side-nav li > a.btn-flat-grey.btn-large, .side-nav li > a.btn.btn-flat-blue-grey, .side-nav li > a.btn-flat-blue-grey.btn-large, .side-nav li > a.btn.btn-flat-black, .side-nav li > a.btn-flat-black.btn-large, .side-nav li > a.btn.btn-outline-light, .side-nav li > a.btn-outline-light.btn-large, .side-nav li > a.btn.btn-outline-primary, .side-nav li > a.btn-outline-primary.btn-large, .side-nav li > a.btn.btn-outline-success, .side-nav li > a.btn-outline-success.btn-large, .side-nav li > a.btn.btn-outline-info, .side-nav li > a.btn-outline-info.btn-large, .side-nav li > a.btn.btn-outline-warning, .side-nav li > a.btn-outline-warning.btn-large, .side-nav li > a.btn.btn-outline-error, .side-nav li > a.btn-outline-error.btn-large, .side-nav li > a.btn.btn-outline-red, .side-nav li > a.btn-outline-red.btn-large, .side-nav li > a.btn.btn-outline-pink, .side-nav li > a.btn-outline-pink.btn-large, .side-nav li > a.btn.btn-outline-purple, .side-nav li > a.btn-outline-purple.btn-large, .side-nav li > a.btn.btn-outline-deep-purple, .side-nav li > a.btn-outline-deep-purple.btn-large, .side-nav li > a.btn.btn-outline-indigo, .side-nav li > a.btn-outline-indigo.btn-large, .side-nav li > a.btn.btn-outline-blue, .side-nav li > a.btn-outline-blue.btn-large, .side-nav li > a.btn.btn-outline-light-blue, .side-nav li > a.btn-outline-light-blue.btn-large, .side-nav li > a.btn.btn-outline-cyan, .side-nav li > a.btn-outline-cyan.btn-large, .side-nav li > a.btn.btn-outline-teal, .side-nav li > a.btn-outline-teal.btn-large, .side-nav li > a.btn.btn-outline-green, .side-nav li > a.btn-outline-green.btn-large, .side-nav li > a.btn.btn-outline-light-green, .side-nav li > a.btn-outline-light-green.btn-large, .side-nav li > a.btn.btn-outline-lime, .side-nav li > a.btn-outline-lime.btn-large, .side-nav li > a.btn.btn-outline-yellow, .side-nav li > a.btn-outline-yellow.btn-large, .side-nav li > a.btn.btn-outline-amber, .side-nav li > a.btn-outline-amber.btn-large, .side-nav li > a.btn.btn-outline-orange, .side-nav li > a.btn-outline-orange.btn-large, .side-nav li > a.btn.btn-outline-deep-orange, .side-nav li > a.btn-outline-deep-orange.btn-large, .side-nav li > a.btn.btn-outline-brown, .side-nav li > a.btn-outline-brown.btn-large, .side-nav li > a.btn.btn-outline-grey, .side-nav li > a.btn-outline-grey.btn-large, .side-nav li > a.btn.btn-outline-blue-grey, .side-nav li > a.btn-outline-blue-grey.btn-large, .side-nav li > a.btn.btn-outline-black, .side-nav li > a.btn-outline-black.btn-large {
       color: #343434; }
     .side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
       background-color: #728f9d; }
@@ -11101,7 +11757,10 @@ main {
   .btn.btn-small, .btn-small.btn-large {
     height: 24px;
     line-height: 24px;
-    padding: 0 0.5rem; }
+    padding: 0 0.5rem;
+    font-size: 0.8rem; }
+  .btn-large, .btn.btn-large {
+    font-size: 1.4rem; }
   .btn.btn-block, .btn-block.btn-large {
     display: block;
     width: 100%; }
@@ -11113,10 +11772,12 @@ main {
     .btn.btn-medium-block, .btn-medium-block.btn-large {
       display: block;
       width: 100%; } }
-  .btn.btn-ligth, .btn-ligth.btn-large {
+  .btn.btn-rounded, .btn-rounded.btn-large {
+    border-radius: 45px; }
+  .btn.btn-light, .btn-light.btn-large {
     background-color: #eeeeee;
-    color: #000; }
-    .btn.btn-ligth:hover, .btn-ligth.btn-large:hover, .btn.btn-ligth:focus, .btn-ligth.btn-large:focus {
+    color: #757575; }
+    .btn.btn-light:hover, .btn-light.btn-large:hover, .btn.btn-light:focus, .btn-light.btn-large:focus {
       background-color: #d5d5d5; }
   .btn.btn-primary, .btn-primary.btn-large {
     background-color: #648391;
@@ -11143,10 +11804,112 @@ main {
     color: #fff; }
     .btn.btn-error:hover, .btn-error.btn-large:hover, .btn.btn-error:focus, .btn-error.btn-large:focus {
       background-color: #ea1c0d; }
-  .btn.btn-flat-ligth, .btn-flat-ligth.btn-large {
+  .btn.btn-red, .btn-red.btn-large {
+    background-color: #f44336;
+    color: #fff; }
+    .btn.btn-red:hover, .btn-red.btn-large:hover, .btn.btn-red:focus, .btn-red.btn-large:focus {
+      background-color: #ea1c0d; }
+  .btn.btn-pink, .btn-pink.btn-large {
+    background-color: #e91e63;
+    color: #fff; }
+    .btn.btn-pink:hover, .btn-pink.btn-large:hover, .btn.btn-pink:focus, .btn-pink.btn-large:focus {
+      background-color: #c1134e; }
+  .btn.btn-purple, .btn-purple.btn-large {
+    background-color: #9c27b0;
+    color: #fff; }
+    .btn.btn-purple:hover, .btn-purple.btn-large:hover, .btn.btn-purple:focus, .btn-purple.btn-large:focus {
+      background-color: #771e86; }
+  .btn.btn-deep-purple, .btn-deep-purple.btn-large {
+    background-color: #673ab7;
+    color: #fff; }
+    .btn.btn-deep-purple:hover, .btn-deep-purple.btn-large:hover, .btn.btn-deep-purple:focus, .btn-deep-purple.btn-large:focus {
+      background-color: #512e90; }
+  .btn.btn-indigo, .btn-indigo.btn-large {
+    background-color: #3f51b5;
+    color: #fff; }
+    .btn.btn-indigo:hover, .btn-indigo.btn-large:hover, .btn.btn-indigo:focus, .btn-indigo.btn-large:focus {
+      background-color: #32408f; }
+  .btn.btn-blue, .btn-blue.btn-large {
+    background-color: #2196f3;
+    color: #fff; }
+    .btn.btn-blue:hover, .btn-blue.btn-large:hover, .btn.btn-blue:focus, .btn-blue.btn-large:focus {
+      background-color: #0c7cd5; }
+  .btn.btn-light-blue, .btn-light-blue.btn-large {
+    background-color: #03a9f4;
+    color: #fff; }
+    .btn.btn-light-blue:hover, .btn-light-blue.btn-large:hover, .btn.btn-light-blue:focus, .btn-light-blue.btn-large:focus {
+      background-color: #0286c2; }
+  .btn.btn-cyan, .btn-cyan.btn-large {
+    background-color: #00bcd4;
+    color: #fff; }
+    .btn.btn-cyan:hover, .btn-cyan.btn-large:hover, .btn.btn-cyan:focus, .btn-cyan.btn-large:focus {
+      background-color: #008fa1; }
+  .btn.btn-teal, .btn-teal.btn-large {
+    background-color: #009688;
+    color: #fff; }
+    .btn.btn-teal:hover, .btn-teal.btn-large:hover, .btn.btn-teal:focus, .btn-teal.btn-large:focus {
+      background-color: #00635a; }
+  .btn.btn-green, .btn-green.btn-large {
+    background-color: #4caf50;
+    color: #fff; }
+    .btn.btn-green:hover, .btn-green.btn-large:hover, .btn.btn-green:focus, .btn-green.btn-large:focus {
+      background-color: #3d8b40; }
+  .btn.btn-light-green, .btn-light-green.btn-large {
+    background-color: #8bc34a;
+    color: #fff; }
+    .btn.btn-light-green:hover, .btn-light-green.btn-large:hover, .btn.btn-light-green:focus, .btn-light-green.btn-large:focus {
+      background-color: #71a436; }
+  .btn.btn-lime, .btn-lime.btn-large {
+    background-color: #cddc39;
+    color: #fff; }
+    .btn.btn-lime:hover, .btn-lime.btn-large:hover, .btn.btn-lime:focus, .btn-lime.btn-large:focus {
+      background-color: #b2c022; }
+  .btn.btn-yellow, .btn-yellow.btn-large {
+    background-color: #ffeb3b;
+    color: #757575; }
+    .btn.btn-yellow:hover, .btn-yellow.btn-large:hover, .btn.btn-yellow:focus, .btn-yellow.btn-large:focus {
+      background-color: #ffe608; }
+  .btn.btn-amber, .btn-amber.btn-large {
+    background-color: #ffc107;
+    color: #fff; }
+    .btn.btn-amber:hover, .btn-amber.btn-large:hover, .btn.btn-amber:focus, .btn-amber.btn-large:focus {
+      background-color: #d39e00; }
+  .btn.btn-orange, .btn-orange.btn-large {
+    background-color: #ff9800;
+    color: #fff; }
+    .btn.btn-orange:hover, .btn-orange.btn-large:hover, .btn.btn-orange:focus, .btn-orange.btn-large:focus {
+      background-color: #cc7a00; }
+  .btn.btn-deep-orange, .btn-deep-orange.btn-large {
+    background-color: #ff5722;
+    color: #fff; }
+    .btn.btn-deep-orange:hover, .btn-deep-orange.btn-large:hover, .btn.btn-deep-orange:focus, .btn-deep-orange.btn-large:focus {
+      background-color: #ee3900; }
+  .btn.btn-brown, .btn-brown.btn-large {
+    background-color: #795548;
+    color: #fff; }
+    .btn.btn-brown:hover, .btn-brown.btn-large:hover, .btn.btn-brown:focus, .btn-brown.btn-large:focus {
+      background-color: #593f35; }
+  .btn.btn-grey, .btn-grey.btn-large {
+    background-color: #9e9e9e;
+    color: #fff; }
+    .btn.btn-grey:hover, .btn-grey.btn-large:hover, .btn.btn-grey:focus, .btn-grey.btn-large:focus {
+      background-color: #858585; }
+  .btn.btn-blue-grey, .btn-blue-grey.btn-large {
+    background-color: #607d8b;
+    color: #fff; }
+    .btn.btn-blue-grey:hover, .btn-blue-grey.btn-large:hover, .btn.btn-blue-grey:focus, .btn-blue-grey.btn-large:focus {
+      background-color: #4b626d; }
+  .btn.btn-black, .btn-black.btn-large {
+    background-color: #000000;
+    color: #fff; }
+    .btn.btn-black:hover, .btn-black.btn-large:hover, .btn.btn-black:focus, .btn-black.btn-large:focus {
+      background-color: black; }
+  .btn.btn-flat, .btn-flat.btn-large, .btn.btn-large.btn-flat-light, .btn.btn-large.btn-flat-primary, .btn.btn-large.btn-flat-success, .btn.btn-large.btn-flat-info, .btn.btn-large.btn-flat-warning, .btn.btn-large.btn-flat-error, .btn.btn-large.btn-flat-red, .btn.btn-large.btn-flat-pink, .btn.btn-large.btn-flat-purple, .btn.btn-large.btn-flat-deep-purple, .btn.btn-large.btn-flat-indigo, .btn.btn-large.btn-flat-blue, .btn.btn-large.btn-flat-light-blue, .btn.btn-large.btn-flat-cyan, .btn.btn-large.btn-flat-teal, .btn.btn-large.btn-flat-green, .btn.btn-large.btn-flat-light-green, .btn.btn-large.btn-flat-lime, .btn.btn-large.btn-flat-yellow, .btn.btn-large.btn-flat-amber, .btn.btn-large.btn-flat-orange, .btn.btn-large.btn-flat-deep-orange, .btn.btn-large.btn-flat-brown, .btn.btn-large.btn-flat-grey, .btn.btn-large.btn-flat-blue-grey, .btn.btn-large.btn-flat-black, .btn.btn-large.btn-outline-light, .btn.btn-large.btn-outline-primary, .btn.btn-large.btn-outline-success, .btn.btn-large.btn-outline-info, .btn.btn-large.btn-outline-warning, .btn.btn-large.btn-outline-error, .btn.btn-large.btn-outline-red, .btn.btn-large.btn-outline-pink, .btn.btn-large.btn-outline-purple, .btn.btn-large.btn-outline-deep-purple, .btn.btn-large.btn-outline-indigo, .btn.btn-large.btn-outline-blue, .btn.btn-large.btn-outline-light-blue, .btn.btn-large.btn-outline-cyan, .btn.btn-large.btn-outline-teal, .btn.btn-large.btn-outline-green, .btn.btn-large.btn-outline-light-green, .btn.btn-large.btn-outline-lime, .btn.btn-large.btn-outline-yellow, .btn.btn-large.btn-outline-amber, .btn.btn-large.btn-outline-orange, .btn.btn-large.btn-outline-deep-orange, .btn.btn-large.btn-outline-brown, .btn.btn-large.btn-outline-grey, .btn.btn-large.btn-outline-blue-grey, .btn.btn-large.btn-outline-black, .btn.btn-flat, .btn.btn-flat-light, .btn-flat-light.btn-large, .btn.btn-flat-primary, .btn-flat-primary.btn-large, .btn.btn-flat-success, .btn-flat-success.btn-large, .btn.btn-flat-info, .btn-flat-info.btn-large, .btn.btn-flat-warning, .btn-flat-warning.btn-large, .btn.btn-flat-error, .btn-flat-error.btn-large, .btn.btn-flat-red, .btn-flat-red.btn-large, .btn.btn-flat-pink, .btn-flat-pink.btn-large, .btn.btn-flat-purple, .btn-flat-purple.btn-large, .btn.btn-flat-deep-purple, .btn-flat-deep-purple.btn-large, .btn.btn-flat-indigo, .btn-flat-indigo.btn-large, .btn.btn-flat-blue, .btn-flat-blue.btn-large, .btn.btn-flat-light-blue, .btn-flat-light-blue.btn-large, .btn.btn-flat-cyan, .btn-flat-cyan.btn-large, .btn.btn-flat-teal, .btn-flat-teal.btn-large, .btn.btn-flat-green, .btn-flat-green.btn-large, .btn.btn-flat-light-green, .btn-flat-light-green.btn-large, .btn.btn-flat-lime, .btn-flat-lime.btn-large, .btn.btn-flat-yellow, .btn-flat-yellow.btn-large, .btn.btn-flat-amber, .btn-flat-amber.btn-large, .btn.btn-flat-orange, .btn-flat-orange.btn-large, .btn.btn-flat-deep-orange, .btn-flat-deep-orange.btn-large, .btn.btn-flat-brown, .btn-flat-brown.btn-large, .btn.btn-flat-grey, .btn-flat-grey.btn-large, .btn.btn-flat-blue-grey, .btn-flat-blue-grey.btn-large, .btn.btn-flat-black, .btn-flat-black.btn-large, .btn.btn-outline-light, .btn-outline-light.btn-large, .btn.btn-outline-primary, .btn-outline-primary.btn-large, .btn.btn-outline-success, .btn-outline-success.btn-large, .btn.btn-outline-info, .btn-outline-info.btn-large, .btn.btn-outline-warning, .btn-outline-warning.btn-large, .btn.btn-outline-error, .btn-outline-error.btn-large, .btn.btn-outline-red, .btn-outline-red.btn-large, .btn.btn-outline-pink, .btn-outline-pink.btn-large, .btn.btn-outline-purple, .btn-outline-purple.btn-large, .btn.btn-outline-deep-purple, .btn-outline-deep-purple.btn-large, .btn.btn-outline-indigo, .btn-outline-indigo.btn-large, .btn.btn-outline-blue, .btn-outline-blue.btn-large, .btn.btn-outline-light-blue, .btn-outline-light-blue.btn-large, .btn.btn-outline-cyan, .btn-outline-cyan.btn-large, .btn.btn-outline-teal, .btn-outline-teal.btn-large, .btn.btn-outline-green, .btn-outline-green.btn-large, .btn.btn-outline-light-green, .btn-outline-light-green.btn-large, .btn.btn-outline-lime, .btn-outline-lime.btn-large, .btn.btn-outline-yellow, .btn-outline-yellow.btn-large, .btn.btn-outline-amber, .btn-outline-amber.btn-large, .btn.btn-outline-orange, .btn-outline-orange.btn-large, .btn.btn-outline-deep-orange, .btn-outline-deep-orange.btn-large, .btn.btn-outline-brown, .btn-outline-brown.btn-large, .btn.btn-outline-grey, .btn-outline-grey.btn-large, .btn.btn-outline-blue-grey, .btn-outline-blue-grey.btn-large, .btn.btn-outline-black, .btn-outline-black.btn-large {
+    color: #757575; }
+  .btn.btn-flat-light, .btn-flat-light.btn-large {
     background-color: #eeeeee;
-    color: #000; }
-    .btn.btn-flat-ligth:hover, .btn-flat-ligth.btn-large:hover, .btn.btn-flat-ligth:focus, .btn-flat-ligth.btn-large:focus {
+    color: #757575; }
+    .btn.btn-flat-light:hover, .btn-flat-light.btn-large:hover, .btn.btn-flat-light:focus, .btn-flat-light.btn-large:focus {
       background-color: #d5d5d5; }
   .btn.btn-flat-primary, .btn-flat-primary.btn-large {
     background-color: #648391;
@@ -11173,35 +11936,261 @@ main {
     color: #fff; }
     .btn.btn-flat-error:hover, .btn-flat-error.btn-large:hover, .btn.btn-flat-error:focus, .btn-flat-error.btn-large:focus {
       background-color: #ea1c0d; }
-  .btn.btn-outline-ligth, .btn-outline-ligth.btn-large {
-    border: 1px solid #eeeeee; }
-    .btn.btn-outline-ligth:hover, .btn-outline-ligth.btn-large:hover, .btn.btn-outline-ligth:focus, .btn-outline-ligth.btn-large:focus {
+  .btn.btn-flat-red, .btn-flat-red.btn-large {
+    background-color: #f44336;
+    color: #fff; }
+    .btn.btn-flat-red:hover, .btn-flat-red.btn-large:hover, .btn.btn-flat-red:focus, .btn-flat-red.btn-large:focus {
+      background-color: #ea1c0d; }
+  .btn.btn-flat-pink, .btn-flat-pink.btn-large {
+    background-color: #e91e63;
+    color: #fff; }
+    .btn.btn-flat-pink:hover, .btn-flat-pink.btn-large:hover, .btn.btn-flat-pink:focus, .btn-flat-pink.btn-large:focus {
+      background-color: #c1134e; }
+  .btn.btn-flat-purple, .btn-flat-purple.btn-large {
+    background-color: #9c27b0;
+    color: #fff; }
+    .btn.btn-flat-purple:hover, .btn-flat-purple.btn-large:hover, .btn.btn-flat-purple:focus, .btn-flat-purple.btn-large:focus {
+      background-color: #771e86; }
+  .btn.btn-flat-deep-purple, .btn-flat-deep-purple.btn-large {
+    background-color: #673ab7;
+    color: #fff; }
+    .btn.btn-flat-deep-purple:hover, .btn-flat-deep-purple.btn-large:hover, .btn.btn-flat-deep-purple:focus, .btn-flat-deep-purple.btn-large:focus {
+      background-color: #512e90; }
+  .btn.btn-flat-indigo, .btn-flat-indigo.btn-large {
+    background-color: #3f51b5;
+    color: #fff; }
+    .btn.btn-flat-indigo:hover, .btn-flat-indigo.btn-large:hover, .btn.btn-flat-indigo:focus, .btn-flat-indigo.btn-large:focus {
+      background-color: #32408f; }
+  .btn.btn-flat-blue, .btn-flat-blue.btn-large {
+    background-color: #2196f3;
+    color: #fff; }
+    .btn.btn-flat-blue:hover, .btn-flat-blue.btn-large:hover, .btn.btn-flat-blue:focus, .btn-flat-blue.btn-large:focus {
+      background-color: #0c7cd5; }
+  .btn.btn-flat-light-blue, .btn-flat-light-blue.btn-large {
+    background-color: #03a9f4;
+    color: #fff; }
+    .btn.btn-flat-light-blue:hover, .btn-flat-light-blue.btn-large:hover, .btn.btn-flat-light-blue:focus, .btn-flat-light-blue.btn-large:focus {
+      background-color: #0286c2; }
+  .btn.btn-flat-cyan, .btn-flat-cyan.btn-large {
+    background-color: #00bcd4;
+    color: #fff; }
+    .btn.btn-flat-cyan:hover, .btn-flat-cyan.btn-large:hover, .btn.btn-flat-cyan:focus, .btn-flat-cyan.btn-large:focus {
+      background-color: #008fa1; }
+  .btn.btn-flat-teal, .btn-flat-teal.btn-large {
+    background-color: #009688;
+    color: #fff; }
+    .btn.btn-flat-teal:hover, .btn-flat-teal.btn-large:hover, .btn.btn-flat-teal:focus, .btn-flat-teal.btn-large:focus {
+      background-color: #00635a; }
+  .btn.btn-flat-green, .btn-flat-green.btn-large {
+    background-color: #4caf50;
+    color: #fff; }
+    .btn.btn-flat-green:hover, .btn-flat-green.btn-large:hover, .btn.btn-flat-green:focus, .btn-flat-green.btn-large:focus {
+      background-color: #3d8b40; }
+  .btn.btn-flat-light-green, .btn-flat-light-green.btn-large {
+    background-color: #8bc34a;
+    color: #fff; }
+    .btn.btn-flat-light-green:hover, .btn-flat-light-green.btn-large:hover, .btn.btn-flat-light-green:focus, .btn-flat-light-green.btn-large:focus {
+      background-color: #71a436; }
+  .btn.btn-flat-lime, .btn-flat-lime.btn-large {
+    background-color: #cddc39;
+    color: #fff; }
+    .btn.btn-flat-lime:hover, .btn-flat-lime.btn-large:hover, .btn.btn-flat-lime:focus, .btn-flat-lime.btn-large:focus {
+      background-color: #b2c022; }
+  .btn.btn-flat-yellow, .btn-flat-yellow.btn-large {
+    background-color: #ffeb3b;
+    color: #757575; }
+    .btn.btn-flat-yellow:hover, .btn-flat-yellow.btn-large:hover, .btn.btn-flat-yellow:focus, .btn-flat-yellow.btn-large:focus {
+      background-color: #ffe608; }
+  .btn.btn-flat-amber, .btn-flat-amber.btn-large {
+    background-color: #ffc107;
+    color: #fff; }
+    .btn.btn-flat-amber:hover, .btn-flat-amber.btn-large:hover, .btn.btn-flat-amber:focus, .btn-flat-amber.btn-large:focus {
+      background-color: #d39e00; }
+  .btn.btn-flat-orange, .btn-flat-orange.btn-large {
+    background-color: #ff9800;
+    color: #fff; }
+    .btn.btn-flat-orange:hover, .btn-flat-orange.btn-large:hover, .btn.btn-flat-orange:focus, .btn-flat-orange.btn-large:focus {
+      background-color: #cc7a00; }
+  .btn.btn-flat-deep-orange, .btn-flat-deep-orange.btn-large {
+    background-color: #ff5722;
+    color: #fff; }
+    .btn.btn-flat-deep-orange:hover, .btn-flat-deep-orange.btn-large:hover, .btn.btn-flat-deep-orange:focus, .btn-flat-deep-orange.btn-large:focus {
+      background-color: #ee3900; }
+  .btn.btn-flat-brown, .btn-flat-brown.btn-large {
+    background-color: #795548;
+    color: #fff; }
+    .btn.btn-flat-brown:hover, .btn-flat-brown.btn-large:hover, .btn.btn-flat-brown:focus, .btn-flat-brown.btn-large:focus {
+      background-color: #593f35; }
+  .btn.btn-flat-grey, .btn-flat-grey.btn-large {
+    background-color: #9e9e9e;
+    color: #fff; }
+    .btn.btn-flat-grey:hover, .btn-flat-grey.btn-large:hover, .btn.btn-flat-grey:focus, .btn-flat-grey.btn-large:focus {
+      background-color: #858585; }
+  .btn.btn-flat-blue-grey, .btn-flat-blue-grey.btn-large {
+    background-color: #607d8b;
+    color: #fff; }
+    .btn.btn-flat-blue-grey:hover, .btn-flat-blue-grey.btn-large:hover, .btn.btn-flat-blue-grey:focus, .btn-flat-blue-grey.btn-large:focus {
+      background-color: #4b626d; }
+  .btn.btn-flat-black, .btn-flat-black.btn-large {
+    background-color: #000000;
+    color: #fff; }
+    .btn.btn-flat-black:hover, .btn-flat-black.btn-large:hover, .btn.btn-flat-black:focus, .btn-flat-black.btn-large:focus {
+      background-color: black; }
+  .btn.btn-outline-light, .btn-outline-light.btn-large {
+    border: 1px solid #eeeeee;
+    color: #eeeeee; }
+    .btn.btn-outline-light:hover, .btn-outline-light.btn-large:hover, .btn.btn-outline-light:focus, .btn-outline-light.btn-large:focus {
       background-color: #eeeeee;
-      color: #000; }
+      color: #757575; }
   .btn.btn-outline-primary, .btn-outline-primary.btn-large {
-    border: 1px solid #455a64; }
+    border: 1px solid #455a64;
+    color: #455a64; }
     .btn.btn-outline-primary:hover, .btn-outline-primary.btn-large:hover, .btn.btn-outline-primary:focus, .btn-outline-primary.btn-large:focus {
       background-color: #455a64;
       color: #fff; }
   .btn.btn-outline-success, .btn-outline-success.btn-large {
-    border: 1px solid #4CAF50; }
+    border: 1px solid #4CAF50;
+    color: #4CAF50; }
     .btn.btn-outline-success:hover, .btn-outline-success.btn-large:hover, .btn.btn-outline-success:focus, .btn-outline-success.btn-large:focus {
       background-color: #4CAF50;
       color: #fff; }
   .btn.btn-outline-info, .btn-outline-info.btn-large {
-    border: 1px solid #2196F3; }
+    border: 1px solid #2196F3;
+    color: #2196F3; }
     .btn.btn-outline-info:hover, .btn-outline-info.btn-large:hover, .btn.btn-outline-info:focus, .btn-outline-info.btn-large:focus {
       background-color: #2196F3;
       color: #fff; }
   .btn.btn-outline-warning, .btn-outline-warning.btn-large {
-    border: 1px solid #ff9800; }
+    border: 1px solid #ff9800;
+    color: #ff9800; }
     .btn.btn-outline-warning:hover, .btn-outline-warning.btn-large:hover, .btn.btn-outline-warning:focus, .btn-outline-warning.btn-large:focus {
       background-color: #ff9800;
       color: #fff; }
   .btn.btn-outline-error, .btn-outline-error.btn-large {
-    border: 1px solid #F44336; }
+    border: 1px solid #F44336;
+    color: #F44336; }
     .btn.btn-outline-error:hover, .btn-outline-error.btn-large:hover, .btn.btn-outline-error:focus, .btn-outline-error.btn-large:focus {
       background-color: #F44336;
+      color: #fff; }
+  .btn.btn-outline-red, .btn-outline-red.btn-large {
+    border: 1px solid #f44336;
+    color: #f44336; }
+    .btn.btn-outline-red:hover, .btn-outline-red.btn-large:hover, .btn.btn-outline-red:focus, .btn-outline-red.btn-large:focus {
+      background-color: #f44336;
+      color: #fff; }
+  .btn.btn-outline-pink, .btn-outline-pink.btn-large {
+    border: 1px solid #e91e63;
+    color: #e91e63; }
+    .btn.btn-outline-pink:hover, .btn-outline-pink.btn-large:hover, .btn.btn-outline-pink:focus, .btn-outline-pink.btn-large:focus {
+      background-color: #e91e63;
+      color: #fff; }
+  .btn.btn-outline-purple, .btn-outline-purple.btn-large {
+    border: 1px solid #9c27b0;
+    color: #9c27b0; }
+    .btn.btn-outline-purple:hover, .btn-outline-purple.btn-large:hover, .btn.btn-outline-purple:focus, .btn-outline-purple.btn-large:focus {
+      background-color: #9c27b0;
+      color: #fff; }
+  .btn.btn-outline-deep-purple, .btn-outline-deep-purple.btn-large {
+    border: 1px solid #673ab7;
+    color: #673ab7; }
+    .btn.btn-outline-deep-purple:hover, .btn-outline-deep-purple.btn-large:hover, .btn.btn-outline-deep-purple:focus, .btn-outline-deep-purple.btn-large:focus {
+      background-color: #673ab7;
+      color: #fff; }
+  .btn.btn-outline-indigo, .btn-outline-indigo.btn-large {
+    border: 1px solid #3f51b5;
+    color: #3f51b5; }
+    .btn.btn-outline-indigo:hover, .btn-outline-indigo.btn-large:hover, .btn.btn-outline-indigo:focus, .btn-outline-indigo.btn-large:focus {
+      background-color: #3f51b5;
+      color: #fff; }
+  .btn.btn-outline-blue, .btn-outline-blue.btn-large {
+    border: 1px solid #2196f3;
+    color: #2196f3; }
+    .btn.btn-outline-blue:hover, .btn-outline-blue.btn-large:hover, .btn.btn-outline-blue:focus, .btn-outline-blue.btn-large:focus {
+      background-color: #2196f3;
+      color: #fff; }
+  .btn.btn-outline-light-blue, .btn-outline-light-blue.btn-large {
+    border: 1px solid #03a9f4;
+    color: #03a9f4; }
+    .btn.btn-outline-light-blue:hover, .btn-outline-light-blue.btn-large:hover, .btn.btn-outline-light-blue:focus, .btn-outline-light-blue.btn-large:focus {
+      background-color: #03a9f4;
+      color: #fff; }
+  .btn.btn-outline-cyan, .btn-outline-cyan.btn-large {
+    border: 1px solid #00bcd4;
+    color: #00bcd4; }
+    .btn.btn-outline-cyan:hover, .btn-outline-cyan.btn-large:hover, .btn.btn-outline-cyan:focus, .btn-outline-cyan.btn-large:focus {
+      background-color: #00bcd4;
+      color: #fff; }
+  .btn.btn-outline-teal, .btn-outline-teal.btn-large {
+    border: 1px solid #009688;
+    color: #009688; }
+    .btn.btn-outline-teal:hover, .btn-outline-teal.btn-large:hover, .btn.btn-outline-teal:focus, .btn-outline-teal.btn-large:focus {
+      background-color: #009688;
+      color: #fff; }
+  .btn.btn-outline-green, .btn-outline-green.btn-large {
+    border: 1px solid #4caf50;
+    color: #4caf50; }
+    .btn.btn-outline-green:hover, .btn-outline-green.btn-large:hover, .btn.btn-outline-green:focus, .btn-outline-green.btn-large:focus {
+      background-color: #4caf50;
+      color: #fff; }
+  .btn.btn-outline-light-green, .btn-outline-light-green.btn-large {
+    border: 1px solid #8bc34a;
+    color: #8bc34a; }
+    .btn.btn-outline-light-green:hover, .btn-outline-light-green.btn-large:hover, .btn.btn-outline-light-green:focus, .btn-outline-light-green.btn-large:focus {
+      background-color: #8bc34a;
+      color: #fff; }
+  .btn.btn-outline-lime, .btn-outline-lime.btn-large {
+    border: 1px solid #cddc39;
+    color: #cddc39; }
+    .btn.btn-outline-lime:hover, .btn-outline-lime.btn-large:hover, .btn.btn-outline-lime:focus, .btn-outline-lime.btn-large:focus {
+      background-color: #cddc39;
+      color: #fff; }
+  .btn.btn-outline-yellow, .btn-outline-yellow.btn-large {
+    border: 1px solid #ffeb3b;
+    color: #ffeb3b; }
+    .btn.btn-outline-yellow:hover, .btn-outline-yellow.btn-large:hover, .btn.btn-outline-yellow:focus, .btn-outline-yellow.btn-large:focus {
+      background-color: #ffeb3b;
+      color: #757575; }
+  .btn.btn-outline-amber, .btn-outline-amber.btn-large {
+    border: 1px solid #ffc107;
+    color: #ffc107; }
+    .btn.btn-outline-amber:hover, .btn-outline-amber.btn-large:hover, .btn.btn-outline-amber:focus, .btn-outline-amber.btn-large:focus {
+      background-color: #ffc107;
+      color: #fff; }
+  .btn.btn-outline-orange, .btn-outline-orange.btn-large {
+    border: 1px solid #ff9800;
+    color: #ff9800; }
+    .btn.btn-outline-orange:hover, .btn-outline-orange.btn-large:hover, .btn.btn-outline-orange:focus, .btn-outline-orange.btn-large:focus {
+      background-color: #ff9800;
+      color: #fff; }
+  .btn.btn-outline-deep-orange, .btn-outline-deep-orange.btn-large {
+    border: 1px solid #ff5722;
+    color: #ff5722; }
+    .btn.btn-outline-deep-orange:hover, .btn-outline-deep-orange.btn-large:hover, .btn.btn-outline-deep-orange:focus, .btn-outline-deep-orange.btn-large:focus {
+      background-color: #ff5722;
+      color: #fff; }
+  .btn.btn-outline-brown, .btn-outline-brown.btn-large {
+    border: 1px solid #795548;
+    color: #795548; }
+    .btn.btn-outline-brown:hover, .btn-outline-brown.btn-large:hover, .btn.btn-outline-brown:focus, .btn-outline-brown.btn-large:focus {
+      background-color: #795548;
+      color: #fff; }
+  .btn.btn-outline-grey, .btn-outline-grey.btn-large {
+    border: 1px solid #9e9e9e;
+    color: #9e9e9e; }
+    .btn.btn-outline-grey:hover, .btn-outline-grey.btn-large:hover, .btn.btn-outline-grey:focus, .btn-outline-grey.btn-large:focus {
+      background-color: #9e9e9e;
+      color: #fff; }
+  .btn.btn-outline-blue-grey, .btn-outline-blue-grey.btn-large {
+    border: 1px solid #607d8b;
+    color: #607d8b; }
+    .btn.btn-outline-blue-grey:hover, .btn-outline-blue-grey.btn-large:hover, .btn.btn-outline-blue-grey:focus, .btn-outline-blue-grey.btn-large:focus {
+      background-color: #607d8b;
+      color: #fff; }
+  .btn.btn-outline-black, .btn-outline-black.btn-large {
+    border: 1px solid #000000;
+    color: #000000; }
+    .btn.btn-outline-black:hover, .btn-outline-black.btn-large:hover, .btn.btn-outline-black:focus, .btn-outline-black.btn-large:focus {
+      background-color: #000000;
       color: #fff; }
 
 .btn-social {
@@ -11337,7 +12326,7 @@ main {
 .secondary-color-text {
   color: #648391; }
 
-.ligth-color-text {
+.light-color-text {
   color: #eeeeee; }
 
 .success-color-text {
@@ -11352,7 +12341,7 @@ main {
 .warning-color-text {
   color: #ff9800; }
 
-.ligth-color-text {
+.light-color-text {
   color: #eeeeee; }
 
 ul.errorlist {
