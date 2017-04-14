@@ -3,30 +3,21 @@
 // Colors from materialize, importante antes que las variables por si se sobre escriben.
 @import "../../../../bower_components/materialize/sass/components/color";
 
-// variables
+// Variables
 @import "variables";
+
+// Import Materializecss
+@import "../../../../bower_components/materialize/sass/materialize";
+@import "materialize/main";
 
 // Import FontAwesome
 @import "../../../../bower_components/components-font-awesome/scss/font-awesome";
 
-// Import Materializecss
-@import "../../../../bower_components/materialize/sass/materialize";
-
-// Mixins.
-@import "mixins/main";
-
 // Importante, base el primero
 @import "base";
 
-// Components
-@import "alerts";
-@import "buttons";
-@import "cards";
-@import "chips";
+// Global
 @import "colors";
-@import "forms";
-@import "header";
-@import "material-icons";
-@import "text";
-@import "toast";
-@import "totop";
+
+// Components
+@import "components/main";
