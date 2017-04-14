@@ -2,7 +2,9 @@
   @extend .card-panel;
   @extend .z-depth-0;
 
-  border: 1px solid color("grey", "lighten-3");
+  border: 1px solid $light-color;
+  margin: 1rem 0;
+  padding: 0.5rem;
 
   &.card-flat-primary {
     @include card-flat-variat($primary-color);

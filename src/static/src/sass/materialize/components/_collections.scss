@@ -1,0 +1,14 @@
+.collection {
+  // Eliminar el padding si card-panel esta con collection.
+  // Queda mas compacto y aprovecha el espacio,
+  &.card-panel {
+    padding: 0;
+  }
+
+  // Con card-flat, en collection-item ajustar tamaños del padding.
+  &.card-flat {
+    .collection-item {
+      padding: 0.8rem 0.25rem 0.8rem 0.8rem;
+    }
+  }
+}

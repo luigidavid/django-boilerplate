@@ -9788,7 +9788,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       color: #fff; }
 
 .card-flat {
-  border: 1px solid #eeeeee; }
+  border: 1px solid #eeeeee;
+  margin: 1rem 0;
+  padding: 0.5rem; }
   .card-flat.card-flat-primary {
     background-color: #728f9d;
     border: 1px solid #5a7582;
@@ -9920,6 +9922,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding: 1.2rem;
   font-size: 1.2rem;
   line-height: 0; }
+
+.collection.card-panel, .collection.card-flat {
+  padding: 0; }
+
+.collection.card-flat .collection-item {
+  padding: 0.8rem 0.25rem 0.8rem 0.8rem; }
 
 @media only screen and (min-width: 993px) {
   #toast-container {
