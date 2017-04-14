@@ -7,7 +7,7 @@
 
     // List of paths to libraries and the like that need to be imported by auto complete engine. E.g. when using Google App SDK, the paths are not in system path, hence need to be added into this list.
     "python.autoComplete.extraPaths": [
-        "${env.HOME}/.virtualenvs/django-boilerplate/lib/python3.5/",
-        "${env.HOME}/.virtualenvs/django-boilerplate/lib/python3.5/site-packages"
+        "${env.HOME}/.virtualenvs/django-boilerplate/lib/python3.6/",
+        "${env.HOME}/.virtualenvs/django-boilerplate/lib/python3.6/site-packages"
     ]
 }
