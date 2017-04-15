@@ -4181,17 +4181,17 @@ td, th {
   border-radius: 2px;
   overflow: hidden;
   position: relative; }
-  .collection .collection-item {
+  .collection .collection-item, .collection .collection-title {
     background-color: #fff;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0; }
-    .collection .collection-item.avatar {
+    .collection .collection-item.avatar, .collection .avatar.collection-title {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      .collection .collection-item.avatar .circle {
+      .collection .collection-item.avatar .circle, .collection .avatar.collection-title .circle {
         position: absolute;
         width: 42px;
         height: 42px;
@@ -4199,40 +4199,40 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      .collection .collection-item.avatar i.circle {
+      .collection .collection-item.avatar i.circle, .collection .avatar.collection-title i.circle {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
         background-color: #999;
         text-align: center; }
-      .collection .collection-item.avatar .title {
+      .collection .collection-item.avatar .title, .collection .avatar.collection-title .title {
         font-size: 16px; }
-      .collection .collection-item.avatar p {
+      .collection .collection-item.avatar p, .collection .avatar.collection-title p {
         margin: 0; }
-      .collection .collection-item.avatar .secondary-content {
+      .collection .collection-item.avatar .secondary-content, .collection .avatar.collection-title .secondary-content {
         position: absolute;
         top: 16px;
         right: 16px; }
-    .collection .collection-item:last-child {
+    .collection .collection-item:last-child, .collection .collection-title:last-child {
       border-bottom: none; }
-    .collection .collection-item.active {
+    .collection .collection-item.active, .collection .active.collection-title {
       background-color: #648391;
       color: white; }
-      .collection .collection-item.active .secondary-content {
+      .collection .collection-item.active .secondary-content, .collection .active.collection-title .secondary-content {
         color: #fff; }
-  .collection a.collection-item {
+  .collection a.collection-item, .collection a.collection-title {
     display: block;
     transition: .25s;
     color: #648391; }
-    .collection a.collection-item:not(.active):hover {
+    .collection a.collection-item:not(.active):hover, .collection a.collection-title:not(.active):hover {
       background-color: #ddd; }
   .collection.with-header .collection-header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 20px; }
-  .collection.with-header .collection-item {
+  .collection.with-header .collection-item, .collection.with-header .collection-title {
     padding-left: 30px; }
-  .collection.with-header .collection-item.avatar {
+  .collection.with-header .collection-item.avatar, .collection.with-header .avatar.collection-title {
     padding-left: 72px; }
 
 .secondary-content {
@@ -4391,7 +4391,7 @@ nav ul a span.badge {
   line-height: 22px;
   height: 22px; }
 
-.collection-item span.badge {
+.collection-item span.badge, .collection .collection-title span.badge {
   margin-top: calc(0.75rem - 11px); }
 
 .collapsible span.badge {
@@ -9893,109 +9893,109 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 1rem 0;
   padding: 0.5rem; }
   .card-flat.card-flat-primary {
-    background-color: #728f9d;
+    background-color: #5e7b88;
     border: 1px solid #5a7582;
-    color: #1b2428; }
+    color: #aebfc7; }
   .card-flat.card-flat-secondary {
-    background-color: #9fb3bd;
+    background-color: #87a0ac;
     border: 1px solid #819ba8;
-    color: #3b4c55; }
+    color: #dbe3e6; }
   .card-flat.card-flat-success {
-    background-color: #92cf94;
+    background-color: #75c378;
     border: 1px solid #6ec071;
-    color: #2d682f; }
+    color: #d9eeda; }
   .card-flat.card-flat-info {
-    background-color: #82c4f8;
+    background-color: #5bb1f6;
     border: 1px solid #51adf6;
-    color: #0960a5; }
+    color: #e3f2fd; }
   .card-flat.card-flat-warning {
-    background-color: #ffc166;
+    background-color: #ffb13d;
     border: 1px solid #ffad33;
-    color: #995b00; }
+    color: #ffeacc; }
   .card-flat.card-flat-error {
-    background-color: #f99d97;
+    background-color: #f77970;
     border: 1px solid #f77066;
-    color: #ba160a; }
+    color: #fff8f7; }
   .card-flat.card-flat-red {
-    background-color: #f99d97;
+    background-color: #f77970;
     border: 1px solid #f77066;
-    color: #ba160a; }
+    color: #fff8f7; }
   .card-flat.card-flat-pink {
-    background-color: #f27ba3;
+    background-color: #ee568a;
     border: 1px solid #ee4c83;
-    color: #930e3b; }
+    color: #fbd8e4; }
   .card-flat.card-flat-purple {
-    background-color: #ca61dc;
+    background-color: #bf40d5;
     border: 1px solid #bc37d3;
-    color: #52145d; }
+    color: #e6b5ee; }
   .card-flat.card-flat-deep-purple {
-    background-color: #9f80d7;
+    background-color: #8861cd;
     border: 1px solid #8259cb;
-    color: #3b216a; }
+    color: #daceef; }
   .card-flat.card-flat-indigo {
-    background-color: #8591d5;
+    background-color: #6776ca;
     border: 1px solid #606fc7;
-    color: #252f69; }
+    color: #d1d6ef; }
   .card-flat.card-flat-blue {
-    background-color: #82c4f8;
+    background-color: #5bb1f6;
     border: 1px solid #51adf6;
-    color: #0960a5; }
+    color: #e3f2fd; }
   .card-flat.card-flat-light-blue {
-    background-color: #60ccfd;
+    background-color: #38bffd;
     border: 1px solid #2ebcfc;
-    color: #02638f; }
+    color: #c5ecfe; }
   .card-flat.card-flat-cyan {
-    background-color: #3be9ff;
+    background-color: #12e4ff;
     border: 1px solid #08e3ff;
-    color: #00626e; }
+    color: #a1f4ff; }
   .card-flat.card-flat-teal {
-    background-color: #00fce4;
+    background-color: #00d3bf;
     border: 1px solid #00c9b6;
-    color: #00302c; }
+    color: #63fff0; }
   .card-flat.card-flat-green {
-    background-color: #92cf94;
+    background-color: #75c378;
     border: 1px solid #6ec071;
-    color: #2d682f; }
+    color: #d9eeda; }
   .card-flat.card-flat-light-green {
-    background-color: #bcdc97;
+    background-color: #a8d278;
     border: 1px solid #a4d070;
-    color: #577d2a; }
+    color: #edf6e3; }
   .card-flat.card-flat-lime {
-    background-color: #e3eb90;
+    background-color: #dae56d;
     border: 1px solid #d8e464;
-    color: #89951a; }
+    color: #f9fbe6; }
   .card-flat.card-flat-yellow {
-    background-color: #fff5a1;
+    background-color: #fff178;
     border: 1px solid #fff06e;
-    color: #d4be00; }
+    color: white; }
   .card-flat.card-flat-amber {
-    background-color: #ffdb6d;
+    background-color: #ffd044;
     border: 1px solid #ffce3a;
-    color: #a07800; }
+    color: #fff4d3; }
   .card-flat.card-flat-orange {
-    background-color: #ffc166;
+    background-color: #ffb13d;
     border: 1px solid #ffad33;
-    color: #995b00; }
+    color: #ffeacc; }
   .card-flat.card-flat-deep-orange {
-    background-color: #ffa588;
+    background-color: #ff865f;
     border: 1px solid #ff7e55;
-    color: #bb2d00; }
+    color: #fff2ee; }
   .card-flat.card-flat-brown {
-    background-color: #af8778;
+    background-color: #9f705f;
     border: 1px solid #996b5b;
-    color: #392822; }
+    color: #d5c0b8; }
   .card-flat.card-flat-grey {
-    background-color: #d1d1d1;
+    background-color: #bdbdbd;
     border: 1px solid #b8b8b8;
-    color: #6b6b6b; }
+    color: white; }
   .card-flat.card-flat-blue-grey {
-    background-color: #99aeb8;
+    background-color: #819ba8;
     border: 1px solid #7b96a3;
-    color: #36474f; }
+    color: #d5dee2; }
   .card-flat.card-flat-black {
-    background-color: #333333;
+    background-color: #1f1f1f;
     border: 1px solid #1a1a1a;
-    color: #cccccc; }
+    color: white; }
 
 @media only screen and (max-width: 992px) {
   .col {
@@ -10027,8 +10027,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .collection.card-panel, .collection.card-flat {
   padding: 0; }
 
-.collection.card-flat .collection-item {
+.collection.card-flat .collection-item, .collection.card-flat .collection-title {
   padding: 0.8rem 0.25rem 0.8rem 0.4rem; }
+
+.collection .collection-title {
+  background-color: #648391;
+  border-color: #648391;
+  color: #fff; }
 
 @media only screen and (min-width: 993px) {
   #toast-container {

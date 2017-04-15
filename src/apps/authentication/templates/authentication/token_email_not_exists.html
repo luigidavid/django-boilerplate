@@ -7,9 +7,9 @@
 {% block content %}
   <section class="row">
     <div class="col s12 m8 offset-m2">
-      <div class="card-flat">
-        <h1 class="text-header">{% trans "Error cambio de Email" %}</h1>
+      <h1 class="text-header">{% trans "Error cambio de Email" %}</h1>
 
+      <div class="card-flat">
         {% url "authentication:email_update" as email_update  %}
         <p>{% blocktrans %}La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva <a href="{{ email_update }}">solicitud</a>.{% endblocktrans %}</p>
 

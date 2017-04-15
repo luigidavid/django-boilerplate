@@ -7,9 +7,9 @@
 {% block content %}
   <section class="row">
     <div class="col s12 m8 offset-m2">
-      <div class="card-flat">
-        <h1 class="text-header">{% trans "Cuenta creada con éxito" %}</h1>
+      <h1 class="text-header">{% trans "Cuenta creada con éxito" %}</h1>
 
+      <div class="card-flat">
         {% url "authentication:login" as url_login %}
         <p>{% blocktrans %}La cuenta se ha creado con éxito, ahora ya puedes <a href="{{ url_login }}">Iniciar sesión</a>{% endblocktrans %}</p>
       </div>

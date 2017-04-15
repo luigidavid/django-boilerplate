@@ -8,9 +8,9 @@
 {% block content %}
   <section class="row">
     <div class="col s12 m8 offset-m2">
-      <div class="card-flat">
-        <h1 class="text-header">{% trans "Registro nueva cuenta" %}</h1>
+      <h1 class="text-header">{% trans "Registro nueva cuenta" %}</h1>
 
+      <div class="card-flat">
         <form method="post" action="">
           {% csrf_token %}
           {% form form %}

@@ -11,4 +11,12 @@
       padding: 0.8rem 0.25rem 0.8rem 0.4rem;
     }
   }
+
+  .collection-title {
+    @extend .collection-item;
+
+    background-color: $primary-color-light;
+    border-color: $primary-color-light;
+    color: #fff;
+  }
 }
