@@ -4,7 +4,7 @@
   "dependencies": {
     "jquery": "~3.2.1",
     "components-font-awesome": "^4.7.0",
-    "materialize": "^0.98.1",
+    "materialize": "^0.98.2",
     "cookieconsent": "^3.0.4"
   }
 }
