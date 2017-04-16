@@ -1,15 +1,16 @@
-@media #{$medium-and-down} {
-  // En medium, se reducen los margins y paddins.
-  .col {
-    // Importante, o en small tendrá scroll lateral.
-    // @override: src/static/bower_components/Materialize/sass/components/forms/_input-fields.scss
-    // linea 108 aprox.
-    .validate + label {
-      width: auto !important;
-    }
+.input-field.col label {
+  left: 0;
+}
 
-    .input-field.col label {
-      left: 0;
-    }
+@media #{$medium-and-down} {
+  // Importante, o en small tendrá scroll lateral.
+  // @override: src/static/bower_components/Materialize/sass/components/forms/_input-fields.scss
+  // linea 108 aprox.
+  .validate + label {
+    width: auto !important;
+  }
+
+  .input-field.col label {
+    left: 0;
   }
 }
