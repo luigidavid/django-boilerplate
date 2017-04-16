@@ -9889,116 +9889,88 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       color: #fff; }
 
 .card-panel, .card-flat {
-  margin: 0.25rem 0;
+  margin: 0.7rem 0;
   padding: 1rem; }
 
 .card-flat {
-  border: 1px solid #eeeeee;
-  margin: 0.25rem 0;
-  padding: 1rem; }
+  border: 1px solid #eeeeee; }
   .card-flat.card-flat-primary {
-    background-color: #5e7b88;
-    border: 1px solid #5a7582;
+    background-color: #455a64;
     color: #aebfc7; }
   .card-flat.card-flat-secondary {
-    background-color: #87a0ac;
-    border: 1px solid #819ba8;
+    background-color: #648391;
     color: #dbe3e6; }
   .card-flat.card-flat-success {
-    background-color: #75c378;
-    border: 1px solid #6ec071;
+    background-color: #4CAF50;
     color: #d9eeda; }
   .card-flat.card-flat-info {
-    background-color: #5bb1f6;
-    border: 1px solid #51adf6;
+    background-color: #2196F3;
     color: #e3f2fd; }
   .card-flat.card-flat-warning {
-    background-color: #ffb13d;
-    border: 1px solid #ffad33;
+    background-color: #ff9800;
     color: #ffeacc; }
   .card-flat.card-flat-error {
-    background-color: #f77970;
-    border: 1px solid #f77066;
+    background-color: #F44336;
     color: #fff8f7; }
   .card-flat.card-flat-red {
-    background-color: #f77970;
-    border: 1px solid #f77066;
+    background-color: #f44336;
     color: #fff8f7; }
   .card-flat.card-flat-pink {
-    background-color: #ee568a;
-    border: 1px solid #ee4c83;
+    background-color: #e91e63;
     color: #fbd8e4; }
   .card-flat.card-flat-purple {
-    background-color: #bf40d5;
-    border: 1px solid #bc37d3;
+    background-color: #9c27b0;
     color: #e6b5ee; }
   .card-flat.card-flat-deep-purple {
-    background-color: #8861cd;
-    border: 1px solid #8259cb;
+    background-color: #673ab7;
     color: #daceef; }
   .card-flat.card-flat-indigo {
-    background-color: #6776ca;
-    border: 1px solid #606fc7;
+    background-color: #3f51b5;
     color: #d1d6ef; }
   .card-flat.card-flat-blue {
-    background-color: #5bb1f6;
-    border: 1px solid #51adf6;
+    background-color: #2196f3;
     color: #e3f2fd; }
   .card-flat.card-flat-light-blue {
-    background-color: #38bffd;
-    border: 1px solid #2ebcfc;
+    background-color: #03a9f4;
     color: #c5ecfe; }
   .card-flat.card-flat-cyan {
-    background-color: #12e4ff;
-    border: 1px solid #08e3ff;
+    background-color: #00bcd4;
     color: #a1f4ff; }
   .card-flat.card-flat-teal {
-    background-color: #00d3bf;
-    border: 1px solid #00c9b6;
+    background-color: #009688;
     color: #63fff0; }
   .card-flat.card-flat-green {
-    background-color: #75c378;
-    border: 1px solid #6ec071;
+    background-color: #4caf50;
     color: #d9eeda; }
   .card-flat.card-flat-light-green {
-    background-color: #a8d278;
-    border: 1px solid #a4d070;
+    background-color: #8bc34a;
     color: #edf6e3; }
   .card-flat.card-flat-lime {
-    background-color: #dae56d;
-    border: 1px solid #d8e464;
+    background-color: #cddc39;
     color: #f9fbe6; }
   .card-flat.card-flat-yellow {
-    background-color: #fff178;
-    border: 1px solid #fff06e;
+    background-color: #ffeb3b;
     color: white; }
   .card-flat.card-flat-amber {
-    background-color: #ffd044;
-    border: 1px solid #ffce3a;
+    background-color: #ffc107;
     color: #fff4d3; }
   .card-flat.card-flat-orange {
-    background-color: #ffb13d;
-    border: 1px solid #ffad33;
+    background-color: #ff9800;
     color: #ffeacc; }
   .card-flat.card-flat-deep-orange {
-    background-color: #ff865f;
-    border: 1px solid #ff7e55;
+    background-color: #ff5722;
     color: #fff2ee; }
   .card-flat.card-flat-brown {
-    background-color: #9f705f;
-    border: 1px solid #996b5b;
+    background-color: #795548;
     color: #d5c0b8; }
   .card-flat.card-flat-grey {
-    background-color: #bdbdbd;
-    border: 1px solid #b8b8b8;
+    background-color: #9e9e9e;
     color: white; }
   .card-flat.card-flat-blue-grey {
-    background-color: #819ba8;
-    border: 1px solid #7b96a3;
+    background-color: #607d8b;
     color: #d5dee2; }
   .card-flat.card-flat-black {
-    background-color: #1f1f1f;
-    border: 1px solid #1a1a1a;
+    background-color: #000000;
     color: white; }
 
 @media only screen and (max-width: 992px) {
@@ -10034,10 +10006,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   border-color: #648391;
   color: #fff; }
 
+.input-field.col label {
+  left: 0; }
+
 @media only screen and (max-width: 992px) {
-  .col .validate + label {
+  .validate + label {
     width: auto !important; }
-  .col .input-field.col label {
+  .input-field.col label {
     left: 0; } }
 
 .row {

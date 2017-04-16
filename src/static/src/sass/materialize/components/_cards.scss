@@ -1,5 +1,5 @@
 .card-panel {
-  margin: 0.25rem 0;
+  margin: 0.7rem 0;
   padding: 1rem;
 }
 
@@ -8,8 +8,6 @@
   @extend .z-depth-0;
 
   border: 1px solid $light-color;
-  margin: 0.25rem 0;
-  padding: 1rem;
 
   &.card-flat-primary {
     @include card-flat-variat($primary-color);

@@ -4,8 +4,7 @@
  * se puede ajustar el fondo y el texto.
  */
 @mixin card-flat-variat($color) {
-  background-color: lighten($color, 12%);
-  border: 1px solid lighten($color, 10%);
+  background-color: $color;
 
   @if $color == #000000 {
     $color: #fff;
