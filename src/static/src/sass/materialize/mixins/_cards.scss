@@ -5,6 +5,7 @@
  */
 @mixin card-flat-variat($color) {
   background-color: $color;
+  border: none;
 
   @if $color == #000000 {
     $color: #fff;

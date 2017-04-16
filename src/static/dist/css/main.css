@@ -9896,81 +9896,107 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   border: 1px solid #eeeeee; }
   .card-flat.card-flat-primary {
     background-color: #455a64;
+    border: none;
     color: #aebfc7; }
   .card-flat.card-flat-secondary {
     background-color: #648391;
+    border: none;
     color: #dbe3e6; }
   .card-flat.card-flat-success {
     background-color: #4CAF50;
+    border: none;
     color: #d9eeda; }
   .card-flat.card-flat-info {
     background-color: #2196F3;
+    border: none;
     color: #e3f2fd; }
   .card-flat.card-flat-warning {
     background-color: #ff9800;
+    border: none;
     color: #ffeacc; }
   .card-flat.card-flat-error {
     background-color: #F44336;
+    border: none;
     color: #fff8f7; }
   .card-flat.card-flat-red {
     background-color: #f44336;
+    border: none;
     color: #fff8f7; }
   .card-flat.card-flat-pink {
     background-color: #e91e63;
+    border: none;
     color: #fbd8e4; }
   .card-flat.card-flat-purple {
     background-color: #9c27b0;
+    border: none;
     color: #e6b5ee; }
   .card-flat.card-flat-deep-purple {
     background-color: #673ab7;
+    border: none;
     color: #daceef; }
   .card-flat.card-flat-indigo {
     background-color: #3f51b5;
+    border: none;
     color: #d1d6ef; }
   .card-flat.card-flat-blue {
     background-color: #2196f3;
+    border: none;
     color: #e3f2fd; }
   .card-flat.card-flat-light-blue {
     background-color: #03a9f4;
+    border: none;
     color: #c5ecfe; }
   .card-flat.card-flat-cyan {
     background-color: #00bcd4;
+    border: none;
     color: #a1f4ff; }
   .card-flat.card-flat-teal {
     background-color: #009688;
+    border: none;
     color: #63fff0; }
   .card-flat.card-flat-green {
     background-color: #4caf50;
+    border: none;
     color: #d9eeda; }
   .card-flat.card-flat-light-green {
     background-color: #8bc34a;
+    border: none;
     color: #edf6e3; }
   .card-flat.card-flat-lime {
     background-color: #cddc39;
+    border: none;
     color: #f9fbe6; }
   .card-flat.card-flat-yellow {
     background-color: #ffeb3b;
+    border: none;
     color: white; }
   .card-flat.card-flat-amber {
     background-color: #ffc107;
+    border: none;
     color: #fff4d3; }
   .card-flat.card-flat-orange {
     background-color: #ff9800;
+    border: none;
     color: #ffeacc; }
   .card-flat.card-flat-deep-orange {
     background-color: #ff5722;
+    border: none;
     color: #fff2ee; }
   .card-flat.card-flat-brown {
     background-color: #795548;
+    border: none;
     color: #d5c0b8; }
   .card-flat.card-flat-grey {
     background-color: #9e9e9e;
+    border: none;
     color: white; }
   .card-flat.card-flat-blue-grey {
     background-color: #607d8b;
+    border: none;
     color: #d5dee2; }
   .card-flat.card-flat-black {
     background-color: #000000;
+    border: none;
     color: white; }
 
 @media only screen and (max-width: 992px) {
