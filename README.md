@@ -9,9 +9,6 @@ Para los templates en los forms usa `src/apps/templateforms`, una alternativa se
 
 **TODO:** Ver [https://docs.djangoproject.com/en/1.11/ref/forms/renderers/](https://docs.djangoproject.com/en/1.11/ref/forms/renderers/)
 
-En prodcción requiere de `nodejs` y `bower` por los recursos (fuentes, imágenes, etc), pero los
-archivos que se generan com `gulpfile.js` en dev, los pasa a prod, por lo que no require de "compilación".
-
 # Instalación
 
 Crear un entorno virtual con `virtualenvwrapper` y crear el proyecto.
@@ -98,8 +95,6 @@ Editar `./package.json` para los paquetes de **nodejs**
 ### gulpfile.js
 
 * `gulp`: Unifica y minifica los archivos `.js` y `.scss` desarrollo y producción.
-* `gulp dev`: Unifica y minifica los archivos `.js` y `.scss` en desarrollo.
-* `gulp prod`: Unifica y minifica los archivos `.js` y `.scss` en producción.
 * `gulp watches`: Unifica, minifica y escucha archivos `.js` y `.scss` en desarrollo locales.
 * `gulp watch:styles`: Unifica, minifica y escucha archivos `.scss` en desarrollo locales.
 * `gulp watch:scripts`: Unifica, minifica y escucha archivos `.js` en desarrollo locales.

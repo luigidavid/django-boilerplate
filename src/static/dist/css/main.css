@@ -11567,6 +11567,9 @@ main {
       .btn-social a:hover.envelope {
         color: #455a64; }
 
+.input-field label {
+  margin-left: 0.6rem; }
+
 ul.errorlist {
   margin: 0;
   padding: 0; }
