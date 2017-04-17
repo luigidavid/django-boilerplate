@@ -1,6 +1,6 @@
 .card-panel {
-  margin: 0.7rem 0;
   padding: 1rem;
+  margin: 0.6rem 0;
 }
 
 .card-flat {
@@ -31,86 +31,6 @@
 
   &.card-flat-error {
     @include card-flat-variat($error-color);
-  }
-
-  &.card-flat-red {
-    @include card-flat-variat(#f44336);
-  }
-
-  &.card-flat-pink {
-    @include card-flat-variat(#e91e63);
-  }
-
-  &.card-flat-purple {
-    @include card-flat-variat(#9c27b0);
-  }
-
-  &.card-flat-deep-purple {
-    @include card-flat-variat(#673ab7);
-  }
-
-  &.card-flat-indigo {
-    @include card-flat-variat(#3f51b5);
-  }
-
-  &.card-flat-blue {
-    @include card-flat-variat(#2196f3);
-  }
-
-  &.card-flat-light-blue {
-    @include card-flat-variat(#03a9f4);
-  }
-
-  &.card-flat-cyan {
-    @include card-flat-variat(#00bcd4);
-  }
-
-  &.card-flat-teal {
-    @include card-flat-variat(#009688);
-  }
-
-  &.card-flat-green {
-    @include card-flat-variat(#4caf50);
-  }
-
-  &.card-flat-light-green {
-    @include card-flat-variat(#8bc34a);
-  }
-
-  &.card-flat-lime {
-    @include card-flat-variat(#cddc39);
-  }
-
-  &.card-flat-yellow {
-    @include card-flat-variat(#ffeb3b);
-  }
-
-  &.card-flat-amber {
-    @include card-flat-variat(#ffc107);
-  }
-
-  &.card-flat-orange {
-    @include card-flat-variat(#ff9800);
-  }
-
-  &.card-flat-deep-orange {
-    @include card-flat-variat(#ff5722);
-  }
-
-  &.card-flat-brown {
-    @include card-flat-variat(#795548);
-  }
-
-  &.card-flat-grey {
-    @include card-flat-variat(#9e9e9e);
-  }
-
-  &.card-flat-blue-grey {
-    @include card-flat-variat(#607d8b);
-  }
-
-  &.card-flat-black {
-    @include card-flat-variat(#000000);
   }
 }
 

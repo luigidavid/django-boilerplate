@@ -4,9 +4,9 @@
 {% block head_title %}- Home page {% endblock head_title %}
 
 {% block content %}
-  <div class="row">
+  <section class="row">
     <div class="col s12">
-      <div class="card-panel">
+      <div class="card-flat">
         <h1>Hello, world! {{ SITE.name }}</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a
           jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="col s12 m6 l4">
-      <div class="card-panel">
+      <div class="card-flat">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -25,7 +25,7 @@
     </div>
 
     <div class="col s12 m6 l4">
-      <div class="card-panel">
+      <div class="card-flat">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -35,7 +35,7 @@
     </div>
 
     <div class="col s12 m6 l4">
-      <div class="card-panel">
+      <div class="card-flat">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -43,5 +43,31 @@
         <p><a class="btn outline-primary waves-effect" href="#">View details &raquo;</a></p>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="row">
+    <div class="col s12 m6">
+      <div class="collection">
+        <div class="collection-title">Collection</div>
+        <a class="collection-item" href="#">Collection 1</a>
+        <a class="collection-item" href="#">Collection 2</a>
+        <a class="collection-item" href="#">Collection 3</a>
+        <a class="collection-item" href="#">Collection 4</a>
+        <a class="collection-item" href="#">Collection 5</a>
+        <a class="collection-item" href="#">Collection 6</a>
+      </div>
+    </div>
+
+    <div class="col s12 m6">
+      <div class="collection">
+        <div class="collection-title">Collection</div>
+        <div class="collection-item">Collection 1</div>
+        <div class="collection-item">Collection 2</div>
+        <div class="collection-item">Collection 3</div>
+        <div class="collection-item">Collection 4</div>
+        <div class="collection-item">Collection 5</div>
+        <div class="collection-item">Collection 6</div>
+      </div>
+    </div>
+  </section>
 {% endblock content %}

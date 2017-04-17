@@ -73,12 +73,11 @@
 }
 
 #toast-container .toast::after {
-  font-family: 'Material Icons';
-  content: "close";
-  -webkit-font-feature-settings: 'liga';
   color: $primary-color;
+  content: "close";
+  float: right;
+  font-family: 'Material Icons';
   font-size: 1.5rem;
   font-weight: 300;
-  float: right;
   padding-left: 1rem;
 }
