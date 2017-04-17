@@ -8983,6 +8983,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: bold;
   padding: 1rem; }
 
+.input-field label {
+  margin-left: 0.6rem; }
+
 .input-field.col label {
   left: 0; }
 
@@ -11566,9 +11569,6 @@ main {
         color: #007bb5; }
       .btn-social a:hover.envelope {
         color: #455a64; }
-
-.input-field label {
-  margin-left: 0.6rem; }
 
 ul.errorlist {
   margin: 0;
