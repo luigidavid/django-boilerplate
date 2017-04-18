@@ -7,8 +7,7 @@
   },
   "globals": {
     "$": true,
-    "jQuery": true,
-    "Materialize": true
+    "jQuery": true
   },
   "rules": {
     // Possible Errors
@@ -29,7 +28,6 @@
     // Node.js
 
     // Stylistic Issues
-    // "array-bracket-spacing": ["error", "never"],
     "brace-style": "error",
     "camelcase": ["error", { "properties": "never" }],
     "comma-spacing": ["error", { "before": false, "after": true }],
@@ -42,7 +40,6 @@
     "new-parens": "error",
     "no-inline-comments": "error",
     "no-trailing-spaces": "error",
-    // "object-curly-spacing": ["error", "never"],
     "one-var": ["error", "never"],
     "operator-linebreak": ["error", "after"],
     "quotes": ["error", "single"],

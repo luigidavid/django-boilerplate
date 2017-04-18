@@ -1,23 +1,19 @@
 @charset "UTF-8";
 
-// Colors from materialize, importante antes que las variables por si se sobre escriben.
-@import "../../../../node_modules/materialize-css/sass/components/color";
+// Bootstrap.
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
 
 // Variables
 @import "variables";
 
-// Import Materializecss
-@import "../../../../node_modules/materialize-css/sass/materialize";
-@import "materialize/main";
-
-// Import FontAwesome
+// FontAwesome
 @import "../../../../node_modules/components-font-awesome/scss/font-awesome";
+
+// Toastr
+@import "../../../../node_modules/toastr/toastr.scss";
 
 // Importante, base el primero
 @import "base";
 
-// Global
-@import "colors";
-
 // Components
-@import "components/main";
+@import "totop";

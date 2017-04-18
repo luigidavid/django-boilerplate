@@ -39,18 +39,6 @@ then
   fi
 fi
 
-# Reinstalar bower.
-read -p "¿Reinstalar Bower? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  if [ -d $PROJECT_ROOT/bower_components ]
-  then
-    rm -rf $PROJECT_ROOT/bower_components
-    echo "Eliminado directorio $PROJECT_ROOT/bower_components"
-  fi
-  bower install
-fi
-
 # Ejecutar Gulp?
 read -p "¿Ejecutar Gulp? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]

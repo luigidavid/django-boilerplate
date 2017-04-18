@@ -13,11 +13,11 @@ FOLDERS_PERMS=775
 # -rw-rw-r--
 FILES_PERMS=664
 
-# Por defecto excluye directorios bower_components(bower) y node_modules(node)
+# Por defecto excluye directorios y node_modules
 echo "Cambiando permisos de directorios $FOLDERS_PERMS"
-find $PROJECT_ROOT -type d ! -path "*/bower_components/*" ! -path "*/node_modules/*" ! -path "*/.tox/*" -exec chmod $FOLDERS_PERMS {} \;
+find $PROJECT_ROOT -type d ! -path "*/node_modules/*" ! -path "*/.tox/*" -exec chmod $FOLDERS_PERMS {} \;
 echo "Cambiando permisos de archivos $FILES_PERMS"
-find $PROJECT_ROOT -type f ! -path "*/bower_components/*" ! -path "*/node_modules/*" ! -path "*/.tox/*" -exec chmod $FILES_PERMS {} \;
+find $PROJECT_ROOT -type f ! -path "*/node_modules/*" ! -path "*/.tox/*" -exec chmod $FILES_PERMS {} \;
 
 ########################
 # Permisos de ejecución.

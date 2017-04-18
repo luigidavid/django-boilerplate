@@ -1,36 +1,6 @@
 // Font font-awesome.
 $fa-font-path: "../fonts/font-awesome/" !default;
 
-// Font fonts Roboto.
-$roboto-font-path: "../fonts/roboto/" !default;
-
-// Font Materialize Icons
-$materializeicons-font-path: "../fonts/materialize/" !default;
-
-// Colors.
-$primary-color: color("blue-grey", "darken-2") !default;
-$primary-color-light: lighten($primary-color, 15%) !default;
-$primary-color-dark: darken($primary-color, 15%) !default;
-$secondary-color: $primary-color-light !default;
-$light-color: color("grey", "lighten-3");
-
-// Links
-$link-color: color("light-blue", "darken-1") !default;
-
-// Alertas
-$success-color: color("green", "base") !default;
-$info-color: color("blue", "base") !default;
-$error-color: color("red", "base") !default;
-$warning-color: color("orange", "base") !default;
-
-// Buttons
-$button-font-size: 1.1rem !default;
-$button-height: 40px !default;
-
-// Tooltip
-$tooltip-color: color("light-blue", "darken-2");
-$tooltip-color-text: #fff;
-
 // Social colors.
 // https://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
 $facebook-color: rgb(59, 89, 152) !default;
@@ -38,3 +8,6 @@ $twitter-color: rgb(85, 172, 238) !default;
 $gplus-color: rgb(221, 75, 57) !default;
 $pinterest-color: rgb(203, 32, 39) !default;
 $linkedin-color: rgb(0, 123, 181) !default;
+
+// Override bootstrap.
+$brand-primary: #9c27b0;

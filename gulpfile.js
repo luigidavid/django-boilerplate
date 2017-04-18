@@ -33,8 +33,9 @@ const scriptsDest = './src/static/dist/js/';
  */
 const scriptsThirdSrc = [
   './node_modules/jquery/dist/jquery.js',
-  './node_modules/materialize-css/dist/js/materialize.js',
-  './node_modules/cookieconsent/src/cookieconsent.js'
+  './django-boilerplate/node_modules/bootstrap/js/src/**/*.js',
+  './node_modules/cookieconsent/src/cookieconsent.js',
+  './node_modules/toastr/toastr.js'
 ];
 
 /**
@@ -52,14 +53,7 @@ gulp.task('copy', () => {
    * Fuentes.
    *
    * Copia archivos de node_modules u otros sitios a src/static/dist/xx
-   *
-   * Material icons se ha de descargar manualmente.
-   * @ver: src/static/src/sass/_material-icons.scss.
    */
-  // Roboto de materialize.
-  gulp.src(['./node_modules/materialize-css/fonts/**/*'])
-    .pipe(gulp.dest('./src/static/dist/fonts'));
-
   // font-awesome.
   gulp.src(['./node_modules/components-font-awesome/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts/font-awesome'));

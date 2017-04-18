@@ -1,6 +1,5 @@
 {% for message in messages %}
   <script>
-    var toastContent = '<span>{{ message }}</span>';
-    Materialize.toast(toastContent, 5000, 'toast-container toast toast-{{ message.tags }}');
+    toastr['{{ message.tags }}']('{{ message }}');
   </script>
 {% endfor %}

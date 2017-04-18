@@ -12,7 +12,6 @@ __pycache__,\
 .idea,\
 .tox,\
 .vscode,\
-bower_components,\
 compose,\
 dist,\
 docs,\

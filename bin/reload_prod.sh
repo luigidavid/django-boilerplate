@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Cuando se hace un commit desde producción, con este archivo automatizara
-# procesos típicos para implementar los cambios.
-#
-# Nodejs y Bower se requiren para recursos como las fuentes
-
 source _variables.sh
 
 # Probar que se esta en el entorno de producción.
