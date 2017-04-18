@@ -1,19 +1,27 @@
 @charset "UTF-8";
 
-// Bootstrap.
-@import "../../../../node_modules/bootstrap/scss/bootstrap";
-
 // Variables
 @import "variables";
 
-// FontAwesome
+// tether.
+@import "../../../../node_modules/tether/src/css/tether";
+
+// Bootstrap.
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+// FontAwesome.
 @import "../../../../node_modules/components-font-awesome/scss/font-awesome";
 
-// Toastr
+// Toastr.
 @import "../../../../node_modules/toastr/toastr.scss";
 
-// Importante, base el primero
+// Base.
 @import "base";
 
-// Components
-@import "totop";
+// Global
+@import "components/global";
+
+// Components.
+@import "components/totop";
+@import "components/header";
+@import "components/footer";

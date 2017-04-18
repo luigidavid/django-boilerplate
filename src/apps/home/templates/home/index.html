@@ -4,70 +4,83 @@
 {% block head_title %}- Home page {% endblock head_title %}
 
 {% block content %}
-  <section class="row">
-    <div class="col s12">
-      <div class="card-flat">
+  <section class="jumbotron">
+    <h1>Hello, world! {{ SITE.name }}</h1>
+  </section>
+
+  <section class="container">
+    <section class="row">
+      <div class="col-sm-12">
         <h1>Hello, world! {{ SITE.name }}</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a
           jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-flat-success waves-effect" href="#">Learn more &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Learn more</a></p>
+        <hr>
       </div>
-    </div>
+    </section>
 
-    <div class="col s12 m6 l4">
-      <div class="card-flat">
+    <section class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
           Donec sed odio dui.</p>
-        <p><a class="btn btn-flat-info btn-rounded waves-effect" href="#">View details &raquo;</a></p>
-      </div>
-    </div>
+        <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
 
-    <div class="col s12 m6 l4">
-      <div class="card-flat">
+        <hr class="hidden-sm-up">
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
           Donec sed odio dui.</p>
-        <p><a class="btn btn-outline-error waves-effect" href="#">View details &raquo;</a></p>
-      </div>
-    </div>
+        <p><a class="btn btn-outline-success" href="#">View details &raquo;</a></p>
 
-    <div class="col s12 m6 l4">
-      <div class="card-flat">
+        <hr class="hidden-sm-up">
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
           Donec sed odio dui.</p>
-        <p><a class="btn outline-primary waves-effect" href="#">View details &raquo;</a></p>
-      </div>
-    </div>
-  </section>
+        <p><a class="btn btn-outline-warning" href="#">View details &raquo;</a></p>
 
-  <section class="row">
-    <div class="col s12 m6">
-      <div class="collection">
-        <div class="collection-title">Collection</div>
-        <a class="collection-item" href="#">Collection 1</a>
-        <a class="collection-item" href="#">Collection 2</a>
-        <a class="collection-item" href="#">Collection 3</a>
-        <a class="collection-item" href="#">Collection 4</a>
-        <a class="collection-item" href="#">Collection 5</a>
-        <a class="collection-item" href="#">Collection 6</a>
+        <hr class="hidden-sm-up">
       </div>
-    </div>
+    </section>
 
-    <div class="col s12 m6">
-      <div class="collection">
-        <div class="collection-title">Collection</div>
-        <div class="collection-item">Collection 1</div>
-        <div class="collection-item">Collection 2</div>
-        <div class="collection-item">Collection 3</div>
-        <div class="collection-item">Collection 4</div>
-        <div class="collection-item">Collection 5</div>
-        <div class="collection-item">Collection 6</div>
+    <hr class="hidden-xs-down">
+
+    <section class="row">
+      <div class="col-sm-12 col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
       </div>
-    </div>
+
+      <div class="col-sm-12 col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item justify-content-between">
+            Cras justo odio
+            <span class="badge badge-default badge-pill">14</span>
+          </li>
+          <li class="list-group-item justify-content-between">
+            Dapibus ac facilisis in
+            <span class="badge badge-default badge-pill">2</span>
+          </li>
+          <li class="list-group-item justify-content-between">
+            Morbi leo risus
+            <span class="badge badge-default badge-pill">1</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
   </section>
 {% endblock content %}

@@ -1,8 +1,12 @@
 html { color: color("grey", "darken-1"); }
 
-// Margins
-.margin { margin: 1rem !important; }
-.margin-top { margin-top: 1rem !important; }
-.margin-left { margin-left: 1rem !important; }
-.margin-right { margin-right: 1rem !important; }
-.margin-bottom { margin-bottom: 1rem !important; }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+main {
+  flex: 1 0 auto;
+}

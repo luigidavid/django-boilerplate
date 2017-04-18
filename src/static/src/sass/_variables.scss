@@ -9,5 +9,14 @@ $gplus-color: rgb(221, 75, 57) !default;
 $pinterest-color: rgb(203, 32, 39) !default;
 $linkedin-color: rgb(0, 123, 181) !default;
 
-// Override bootstrap.
-$brand-primary: #9c27b0;
+//
+// Bootstrap.
+//
+
+// Colors.
+$brand-primary: #0275d8 !default;
+$brand-secondary: lighten($brand-primary, 15%) !default;
+
+// Options.
+$enable-rounded:            false !default;
+$enable-shadows:            false !default;

@@ -33,9 +33,10 @@ const scriptsDest = './src/static/dist/js/';
  */
 const scriptsThirdSrc = [
   './node_modules/jquery/dist/jquery.js',
-  './django-boilerplate/node_modules/bootstrap/js/src/**/*.js',
-  './node_modules/cookieconsent/src/cookieconsent.js',
-  './node_modules/toastr/toastr.js'
+  './node_modules/tether/dist/js/tether.js',
+  './node_modules/bootstrap/dist/js/bootstrap.js',
+  './node_modules/toastr/toastr.js',
+  './node_modules/cookieconsent/src/cookieconsent.js'
 ];
 
 /**
