@@ -1,5 +1,6 @@
 # Archivo requirements base
 
+django-crispy-forms==1.6.1
 django-debug-toolbar==1.7.0
 Django==1.11
 markdown2==2.3.3

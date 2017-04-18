@@ -34,14 +34,15 @@ DJANGO_APPS = (
     'django.contrib.staticfiles',
 )
 
-THIRD_PARTY_APPS = ()
+THIRD_PARTY_APPS = (
+    'crispy_forms',
+)
 
 LOCAL_APPS = (
     'accounts.apps.AccountsConfig',
     'authentication.apps.AuthenticationConfig',
     'home.apps.HomeConfig',
     'pages.apps.PagesConfig',
-    'templateforms.apps.TemplateformsConfig',
     'utils.apps.UtilsConfig',
 )
 
@@ -135,3 +136,6 @@ AUTHENTICATION_BACKENDS = (
 FIXTURE_DIRS = (
     os.path.join(os.path.dirname(BASE_DIR), 'fixtures'),
 )
+
+# Crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
