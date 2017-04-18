@@ -16,7 +16,7 @@ const uglify = require('gulp-uglify');
  */
 const stylesWatch = ['./src/static/src/sass/**/*'];
 const stylesSrc = [
-  './bower_components/cookieconsent/src/styles/**/*.css',
+  './node_modules/cookieconsent/src/styles/**/*.css',
   './src/static/src/sass/main.scss'
 ];
 const stylesDest = './src/static/dist/css/';
@@ -32,9 +32,9 @@ const scriptsDest = './src/static/dist/js/';
  * Paths scripts de terceros.
  */
 const scriptsThirdSrc = [
-  './bower_components/jquery/dist/jquery.js',
-  './bower_components/materialize/dist/js/materialize.js',
-  './bower_components/cookieconsent/src/cookieconsent.js'
+  './node_modules/jquery/dist/jquery.js',
+  './node_modules/materialize-css/dist/js/materialize.js',
+  './node_modules/cookieconsent/src/cookieconsent.js'
 ];
 
 /**
@@ -51,17 +51,17 @@ gulp.task('copy', () => {
   /**
    * Fuentes.
    *
-   * Copia archivos de bower_components u otros sitios a src/static/dist/xx
+   * Copia archivos de node_modules u otros sitios a src/static/dist/xx
    *
    * Material icons se ha de descargar manualmente.
    * @ver: src/static/src/sass/_material-icons.scss.
    */
   // Roboto de materialize.
-  gulp.src(['./bower_components/materialize/fonts/**/*'])
+  gulp.src(['./node_modules/materialize-css/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts'));
 
   // font-awesome.
-  gulp.src(['./bower_components/components-font-awesome/fonts/**/*'])
+  gulp.src(['./node_modules/components-font-awesome/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts/font-awesome'));
 
   /**

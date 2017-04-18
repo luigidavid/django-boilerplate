@@ -99,10 +99,6 @@ Editar `./package.json` para los paquetes de **nodejs**
 * `gulp watch:styles`: Unifica, minifica y escucha archivos `.scss` en desarrollo locales.
 * `gulp watch:scripts`: Unifica, minifica y escucha archivos `.js` en desarrollo locales.
 
-## Bower
-
-    bower install
-
 ## Reinstalar en desarrollo.
 
 Para una reinstalación rápida en la etapa de desarrollo (**solo PostgreSQL**).
