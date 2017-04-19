@@ -1,29 +1,28 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% load templateforms %}
+{% load crispy_forms_tags %}
 
-{% block meta_description %}{% trans "Iniciar sesión en" %} {{ SITE.name }}{% endblock meta_description %}
-{% block head_title %}- {% trans "Iniciar sesión en" %} {{ SITE.name }}{% endblock head_title %}
+{% block meta_description %}Iniciar sesión{% endblock meta_description %}
+{% block head_title %}- Iniciar sesión{% endblock head_title %}
 
 {% block content %}
-  <section class="row">
-    <div class="col s12 m8 l6 offset-m2 offset-l3">
-      <h1 class="text-header">{% trans "Iniciar sesión" %}</h1>
+  <section class="jumbotron">
+    <h1>Iniciar sesión</h1>
+  </section>
 
-      <div class="card-flat">
+  <section class="container">
+    <section class="row">
+      <div class="col-xs-12 col-lg-8 offset-lg-2">
         <form method="post" action="">
           {% csrf_token %}
-          {% form form %}
+          {{ form|crispy }}
 
-          <div class="btn-group">
-            <button class="btn btn-flat-primary btn-small-block waves-effect" type="submit">{% trans "Iniciar sesión" %}</button>
-            <a class="btn btn-flat-primary btn-small-block waves-effect" href="{% url 'authentication:register' %}">{% trans "Crear cuenta" %}</a>
-            <a class="btn btn-flat btn-small-block waves-effect" href="{% url 'authentication:password_reset' %}">
-              {% trans "¿Ha olvidado su contraseña?" %}
-            </a>
-          </div>
+          <button class="btn btn-primary btn-sm-block" type="submit">Iniciar sesión</button>
+          <a class="btn btn-success btn-sm-block" href="{% url 'authentication:register' %}">Crear cuenta</a>
+          <a class="btn btn-outline-warning btn-sm-block" href="{% url 'authentication:password_reset' %}">
+            ¿Ha olvidado su contraseña?
+          </a>
         </form>
       </div>
-    </div>
+    </section>
   </section>
 {% endblock content %}

@@ -1,0 +1,17 @@
+.btn {
+  @include media-breakpoint-down(xs) {
+    &.btn-xs-block {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &.btn-sm-block {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+  }
+}

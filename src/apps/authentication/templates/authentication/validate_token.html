@@ -1,18 +1,17 @@
 {% extends "base.html" %}
-{% load i18n %}
 
-{% block meta_description %}{% trans "Cuenta creada con éxito" %}{% endblock meta_description %}
-{% block head_title %}- {% trans "Cuenta creada con éxito" %}{% endblock head_title %}
+{% block meta_description %}Cuenta creada con éxito{% endblock meta_description %}
+{% block head_title %}- Cuenta creada con éxito{% endblock head_title %}
 
 {% block content %}
-  <section class="row">
-    <div class="col s12 m8 offset-m2">
-      <h1 class="text-header">{% trans "Cuenta creada con éxito" %}</h1>
+  <section class="jumbotron">
+    <h1>Cuenta creada con éxito</h1>
+  </section>
 
-      <div class="card-flat">
-        {% url "authentication:login" as url_login %}
-        <p>{% blocktrans %}La cuenta se ha creado con éxito, ahora ya puedes <a href="{{ url_login }}">Iniciar sesión</a>{% endblocktrans %}</p>
-      </div>
+  <section class="row">
+    <div class="col-xs-12 col-lg-8 offset-lg-2">
+      <p>La cuenta se ha creado con éxito, ahora ya puedes
+        <a href="{% url 'authentication:login' %}">Iniciar sesión</a></p>
     </div>
   </section>
 {% endblock content %}

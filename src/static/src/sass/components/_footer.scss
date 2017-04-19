@@ -5,6 +5,10 @@
   color: $gray-lighter;
 
   a {
-    color: $gray-light;
+    color: $gray-lighter;
+
+    &:hover {
+      color: $gray-light;
+    }
   }
 }

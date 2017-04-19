@@ -1,0 +1,23 @@
+// Label
+.form-control-label {
+  color: darken($brand-primary, 20%);
+}
+
+// Asterisco en el label
+.asteriskField {
+  color: $brand-danger;
+
+  &::before {
+    content: ' ';
+  }
+}
+
+// El texto de help, eliminar el padding de los ul.
+// Crispy forms no añade clases.
+form {
+  small {
+    ul {
+      padding-left: 0.7rem;
+    }
+  }
+}

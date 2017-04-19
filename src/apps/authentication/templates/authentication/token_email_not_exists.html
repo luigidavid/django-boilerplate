@@ -1,21 +1,22 @@
 {% extends "base.html" %}
-{% load i18n %}
 
-{% block meta_description %}{% trans "Error cambio de Email" %}{% endblock meta_description %}
-{% block head_title %}- {% trans "Error cambio de Email" %}{% endblock head_title %}
+{% block meta_description %}Error cambio de Email{% endblock meta_description %}
+{% block head_title %}- Error cambio de Email{% endblock head_title %}
 
 {% block content %}
-  <section class="row">
-    <div class="col s12 m8 offset-m2">
-      <h1 class="text-header">{% trans "Error cambio de Email" %}</h1>
+  <section class="jumbotron">
+    <h1>Error cambio de Email</h1>
+  </section>
 
-      <div class="card-flat">
-        {% url "authentication:email_update" as email_update  %}
-        <p>{% blocktrans %}La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva <a href="{{ email_update }}">solicitud</a>.{% endblocktrans %}</p>
+  <section class="container">
+    <section class="row">
+      <div class="col-xs-12 col-lg-8 offset-lg-2">
+        <p>La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva
+          <a href="{% url 'authentication:email_update' %}">solicitud</a>.</p>
 
-        {% url "contact:contact" as contact  %}
-        <p>{% blocktrans %}Si el problema persiste, por favor ponte en <a href="{{ contact }}">contacto</a> con nosotros.{% endblocktrans %}</p>
+        <p>Si el problema persiste, por favor ponte en <a href="{% url 'contact:contact' %}">contacto</a>
+          con nosotros.</p>
       </div>
-    </div>
+    </section>
   </section>
 {% endblock content %}
