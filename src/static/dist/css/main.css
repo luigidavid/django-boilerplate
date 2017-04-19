@@ -3349,7 +3349,7 @@ a.badge:focus, a.badge:hover {
   text-decoration: none;
   cursor: pointer; }
 
-.badge-pill {
+.badge-pill, .badge.badge-pill {
   padding-right: 0.6em;
   padding-left: 0.6em; }
 
@@ -8652,6 +8652,9 @@ button {
 .z-depth-5 {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
+.badge.badge-pill {
+  border-radius: 10rem; }
+
 @media (max-width: 575px) {
   .btn.btn-xs-block {
     display: block;
@@ -8663,6 +8666,18 @@ button {
     display: block;
     margin-bottom: 0.5rem;
     width: 100%; } }
+
+.card.card-small {
+  min-height: 200px; }
+
+.card.card-medium {
+  min-height: 300px; }
+
+.card.card-large {
+  min-height: 400px; }
+
+.card .card-img-top {
+  max-height: 180px; }
 
 .footer {
   background-color: #0298ea;

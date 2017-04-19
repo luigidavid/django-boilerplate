@@ -1,0 +1,18 @@
+.card {
+  // Tamaño maximo a las cards.
+  &.card-small {
+    min-height: 200px;
+  }
+
+  &.card-medium {
+    min-height: 300px;
+  }
+
+  &.card-large {
+    min-height: 400px;
+  }
+
+  .card-img-top {
+    max-height: 180px;
+  }
+}

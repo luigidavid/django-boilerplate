@@ -1,0 +1,10 @@
+.badge {
+  // Si $enable-rounded es false, no mostrara bordes en los badges, pero en este
+  // caso si quiero que salgan los bordes.
+  &.badge-pill {
+    @extend .badge-pill;
+
+    border-radius: $badge-pill-border-radius;
+  }
+}
+
