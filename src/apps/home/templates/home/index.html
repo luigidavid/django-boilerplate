@@ -5,12 +5,14 @@
 
 {% block content %}
   <section class="jumbotron">
-    <h1>Hello, world! {{ SITE.name }}</h1>
+    <section class="container">
+      <h1>Hello, world! {{ SITE.name }}</h1>
+    </section>
   </section>
 
   <section class="container">
     <section class="row">
-      <div class="col-sm-12">
+      <div class="col-md-12">
         <h1>Hello, world! {{ SITE.name }}</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a
           jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -20,7 +22,7 @@
     </section>
 
     <section class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -30,7 +32,7 @@
         <hr class="hidden-sm-up">
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -40,7 +42,7 @@
         <hr class="hidden-sm-up">
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
           condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
@@ -81,6 +83,5 @@
         </ul>
       </div>
     </section>
-
   </section>
 {% endblock content %}

@@ -26,3 +26,36 @@ form {
     }
   }
 }
+
+/**
+ * Ejemplo:
+ * <div class="form-group input-icons icon-left">
+ *   <i class="material-icons icon icon-left">email</i>
+ *   <input class="form-control" type="email" placeholder="Enter email">
+ * </div>
+ */
+.input-icons {
+  position: relative;
+
+  &.icon-left {
+    input {
+      padding-left: 33px;
+    }
+  }
+
+  &.icon-right {
+    input {
+      padding-right: 33px;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    padding: 7px;
+    pointer-events: none;
+    color: #bdbdbd;
+
+    &.icon-left { left: 0; }
+    &.icon-right { right: 0; }
+  }
+}

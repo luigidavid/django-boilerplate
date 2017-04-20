@@ -5,12 +5,14 @@
 
 {% block content %}
   <section class="jumbotron">
-    <h1>Fallo en la validación</h1>
+    <section class="container">
+      <h1>Fallo en la validación</h1>
+    </section>
   </section>
 
   <section class="container">
     <section class="row">
-      <div class="col-xs-12 col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2">
         <p>La validación no ha sido posible, quizá haya caducado. Intenta en crear de nuevo una
           <a href="{% url 'authentication:register' %}">cuenta</a> y si ves que el problema continua,
           por favor ponte en <a href="{% url 'contact:contact' %}">contacto</a> con nosotros.</p>

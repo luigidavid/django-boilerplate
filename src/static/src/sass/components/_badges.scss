@@ -1,4 +1,8 @@
 .badge {
+  // Ajusta un poquito mejor los badges.
+  padding-top: 0.32rem;
+  vertical-align: middle;
+
   // Si $enable-rounded es false, no mostrara bordes en los badges, pero en este
   // caso si quiero que salgan los bordes.
   &.badge-pill {

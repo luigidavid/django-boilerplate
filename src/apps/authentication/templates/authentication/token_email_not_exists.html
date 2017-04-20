@@ -5,12 +5,14 @@
 
 {% block content %}
   <section class="jumbotron">
-    <h1>Error cambio de Email</h1>
+    <section class="container">
+      <h1>Error cambio de Email</h1>
+    </section>
   </section>
 
   <section class="container">
     <section class="row">
-      <div class="col-xs-12 col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2">
         <p>La validación para cambiar el email no existe o ha caducado, prueba a hacer una nueva
           <a href="{% url 'authentication:email_update' %}">solicitud</a>.</p>
 

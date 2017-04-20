@@ -23,10 +23,8 @@ logs/*
 !logs/.keep
 
 # media
-src/media/local/*
-!src/media/local/.keep
-src/media/test/*
-!src/media/test/.keep
+src/media/local/
+src/media/test/
 
 # Editors and IDEs #
 ####################

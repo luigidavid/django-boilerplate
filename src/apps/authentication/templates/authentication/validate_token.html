@@ -5,11 +5,13 @@
 
 {% block content %}
   <section class="jumbotron">
-    <h1>Cuenta creada con éxito</h1>
+    <section class="container">
+      <h1>Cuenta creada con éxito</h1>
+    </section>
   </section>
 
   <section class="row">
-    <div class="col-xs-12 col-lg-8 offset-lg-2">
+    <div class="col-lg-8 offset-lg-2">
       <p>La cuenta se ha creado con éxito, ahora ya puedes
         <a href="{% url 'authentication:login' %}">Iniciar sesión</a></p>
     </div>

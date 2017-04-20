@@ -13,7 +13,10 @@
   </button>
 
   <a class="navbar-brand" href="{% url 'home_page' %}">
-    <img src="{% static 'logo.png' %}" alt="{{ SITE.name }} Logo" height="30" class="d-inline-block align-top">
+    <img class="d-inline-block align-top"
+         src="{% static 'logo.png' %}"
+         alt="{{ SITE.name }} Logo"
+         height="30">
     {{ SITE.name }}
   </a>
 
@@ -25,7 +28,6 @@
     </ul>
 
     <ul class="navbar-nav">
-      {# Usuario autenticado. #}
       {% if user.is_authenticated %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"
@@ -38,17 +40,24 @@
             <i class="fa fa-user" aria-hidden="true"></i> {{ user.username }}
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="{% url 'accounts:profile' %}"><i class="fa fa-user" aria-hidden="true"></i> Mi cuenta</a>
-            <a class="dropdown-item" href="{% url 'authentication:logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i> Terminar sesión</a>
+            <a class="dropdown-item" href="{% url 'accounts:profile' %}">
+              <i class="fa fa-user" aria-hidden="true"></i> Mi cuenta
+            </a>
+            <a class="dropdown-item" href="{% url 'authentication:logout' %}">
+              <i class="fa fa-sign-out" aria-hidden="true"></i> Terminar sesión
+            </a>
           </div>
         </li>
       {% else %}
-        {# Usuario anónimo. #}
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'authentication:register' %}"><i class="fa fa-user-plus" aria-hidden="true"></i> Registro</a>
+          <a class="nav-link" href="{% url 'authentication:register' %}">
+            <i class="fa fa-user-plus" aria-hidden="true"></i> Registro
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'authentication:login' %}"><i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar sesión</a>
+          <a class="nav-link" href="{% url 'authentication:login' %}">
+            <i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar sesión
+          </a>
         </li>
       {% endif %}
     </ul>
