@@ -567,7 +567,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
+  color: #757575;
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
@@ -2392,7 +2392,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #292b2c;
+  color: #757575;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2697,7 +2697,8 @@ tbody.collapse.show {
     .custom-controls-stacked .custom-control + .custom-control {
       margin-left: 0; }
 
-.custom-select {
+.custom-select, select,
+.select {
   display: inline-block;
   max-width: 100%;
   height: calc(2.25rem + 2px);
@@ -2710,17 +2711,21 @@ tbody.collapse.show {
   border: 1px solid rgba(0, 0, 0, 0.15);
   -moz-appearance: none;
   -webkit-appearance: none; }
-  .custom-select:focus {
+  .custom-select:focus, select:focus,
+  .select:focus {
     border-color: #55c2fd;
     outline: none; }
-    .custom-select:focus::-ms-value {
+    .custom-select:focus::-ms-value, select:focus::-ms-value,
+    .select:focus::-ms-value {
       color: #464a4c;
       background-color: #fff; }
-  .custom-select:disabled {
+  .custom-select:disabled, select:disabled,
+  .select:disabled {
     color: #636c72;
     cursor: not-allowed;
     background-color: #eceeef; }
-  .custom-select::-ms-expand {
+  .custom-select::-ms-expand, select::-ms-expand,
+  .select::-ms-expand {
     opacity: 0; }
 
 .custom-select-sm {
@@ -3502,7 +3507,7 @@ a.badge:focus, a.badge:hover {
     text-decoration: none;
     background-color: #f7f7f9; }
   .list-group-item-action:active {
-    color: #292b2c;
+    color: #757575;
     background-color: #eceeef; }
 
 .list-group-item {
@@ -8616,14 +8621,11 @@ button.toast-close-button {
     padding: 15px 15px 15px 50px;
     width: 25em; } }
 
-html {
-  color: color("grey", "darken-1"); }
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding-top: 58px; }
+  padding-top: 54px; }
 
 main {
   flex: 1 0 auto; }
@@ -8631,41 +8633,22 @@ main {
 button {
   cursor: pointer; }
 
+@media (max-width: 575px) {
+  .px-xs-none {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+
 .z-depth-0 {
   box-shadow: none !important; }
 
 .z-depth-1, .navbar {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
-
-.z-depth-1-half {
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
-
-.z-depth-2 {
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
-
-.z-depth-3 {
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
-
-.z-depth-4 {
-  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
-
-.z-depth-5 {
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 .badge.badge-pill {
   border-radius: 10rem; }
 
-@media (max-width: 575px) {
-  .btn.btn-xs-block {
-    display: block;
-    margin-bottom: 0.5rem;
-    width: 100%; } }
-
-@media (max-width: 767px) {
-  .btn.btn-sm-block {
-    display: block;
-    margin-bottom: 0.5rem;
-    width: 100%; } }
+.badge a {
+  text-decoration: none; }
 
 @media (max-width: 575px) {
   .btn.btn-xs-block {
@@ -8745,6 +8728,10 @@ button {
     .footer a:hover {
       color: #636c72; }
 
+select option,
+.select option {
+  padding: 0.5rem; }
+
 .form-control-label {
   color: #01466c; }
 
@@ -8755,6 +8742,31 @@ button {
 
 form small ul {
   padding-left: 0.7rem; }
+
+/**
+ * Añade un icono derecho y/o izquierdo en el input.
+ *
+ * Ejemplo:
+ * <div class="form-group input-icons icon-left">
+ *   <i class="material-icons icon icon-left">email</i>
+ *   <input class="form-control" type="email" placeholder="Enter email">
+ * </div>
+ */
+.input-icons {
+  position: relative; }
+  .input-icons.icon-left input {
+    padding-left: 33px; }
+  .input-icons.icon-right input {
+    padding-right: 33px; }
+  .input-icons .icon {
+    position: absolute;
+    padding: 7px;
+    pointer-events: none;
+    color: #bdbdbd; }
+    .input-icons .icon.icon-left {
+      left: 0; }
+    .input-icons .icon.icon-right {
+      right: 0; }
 
 /**
  * Los archivos se han de actualizar manualmente desde
@@ -8829,12 +8841,12 @@ form small ul {
   width: 46px; }
   .to-top::before {
     color: #446e9b;
-    content: "\f106";
-    font-family: "FontAwesome";
-    font-size: 36px;
-    left: 12px;
+    content: "\E316";
+    font-family: "Material Icons";
+    font-size: 40px;
+    left: 4px;
     position: relative;
-    top: -5px; }
+    top: -6px; }
   .to-top:hover {
     background: #0288d1;
     cursor: pointer; }

@@ -1,10 +1,8 @@
-html { color: color("grey", "darken-1"); }
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding-top: 56px;
+  padding-top: 54px;
 }
 
 main {
@@ -13,4 +11,12 @@ main {
 
 button {
   cursor: pointer;
+}
+
+@include media-breakpoint-down(xs) {
+  // Eliminar paddings izquierdo y derecho en xs.
+  .px-xs-none {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }

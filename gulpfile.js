@@ -54,6 +54,9 @@ gulp.task('copy', () => {
    * Fuentes.
    *
    * Copia archivos de node_modules u otros sitios a src/static/dist/xx
+   *
+   * Material icons se ha de descargar manualmente.
+   * @ver: src/static/src/sass/_material-icons.scss.
    */
   // font-awesome.
   gulp.src(['./node_modules/components-font-awesome/fonts/**/*'])

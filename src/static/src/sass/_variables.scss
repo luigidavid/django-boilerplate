@@ -17,6 +17,7 @@ $linkedin-color: rgb(0, 123, 181) !default;
 //
 
 // Colors.
+$body-color: #757575 !default;
 $brand-primary: #0288d1 !default;
 $brand-secondary: lighten($brand-primary, 5%) !default;
 
@@ -29,4 +30,3 @@ $tooltip-bg: $brand-primary;
 $tooltip-color: #fff;
 $tooltip-padding-y: 0.5rem;
 $tooltip-padding-x: $tooltip-padding-y;
-

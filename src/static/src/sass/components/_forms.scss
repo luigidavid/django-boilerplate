@@ -1,9 +1,16 @@
 // Los select por defecto, mostrarlos como .custom-select.
-select {
+// crispy forms añade la clase .select.
+// Añade un poco mas de padding entre las opciones.
+select,
+.select {
   @extend .custom-select;
+
+  option {
+    padding: 0.5rem;
+  }
 }
 
-// Label
+// Color del Label
 .form-control-label {
   color: darken($brand-primary, 20%);
 }
@@ -28,6 +35,8 @@ form {
 }
 
 /**
+ * Añade un icono derecho y/o izquierdo en el input.
+ *
  * Ejemplo:
  * <div class="form-group input-icons icon-left">
  *   <i class="material-icons icon icon-left">email</i>
