@@ -3,10 +3,13 @@
 {% block meta_description %}Perfil de usuario{% endblock meta_description %}
 {% block title %}- Perfil de usuario{% endblock title %}
 
-{% block content %}
+{% block page_title %}
   <section class="jumbotron">
     <div class="container">
       <h1>Perfil de usuario {{ user.username }}</h1>
     </div>
   </section>
+{% endblock page_title %}
+
+{% block content %}
 {% endblock content %}
