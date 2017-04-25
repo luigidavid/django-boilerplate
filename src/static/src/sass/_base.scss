@@ -13,6 +13,15 @@ button {
   cursor: pointer;
 }
 
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 @include media-breakpoint-down(xs) {
   // Eliminar paddings izquierdo y derecho en xs.
   .px-xs-none {

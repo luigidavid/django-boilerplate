@@ -567,7 +567,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #757575;
+  color: #424242;
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
@@ -2392,7 +2392,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #757575;
+  color: #424242;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3354,7 +3354,7 @@ a.badge:focus, a.badge:hover {
   text-decoration: none;
   cursor: pointer; }
 
-.badge-pill, .badge.badge-pill {
+.badge-pill {
   padding-right: 0.6em;
   padding-left: 0.6em; }
 
@@ -3507,7 +3507,7 @@ a.badge:focus, a.badge:hover {
     text-decoration: none;
     background-color: #f7f7f9; }
   .list-group-item-action:active {
-    color: #757575;
+    color: #424242;
     background-color: #eceeef; }
 
 .list-group-item {
@@ -8633,6 +8633,13 @@ main {
 button {
   cursor: pointer; }
 
+.hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
 @media (max-width: 575px) {
   .px-xs-none {
     padding-left: 0 !important;
@@ -8641,14 +8648,18 @@ button {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, .navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+.z-depth-1 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
 
-.badge.badge-pill {
-  border-radius: 10rem; }
+.z-depth-2, .navbar {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.12); }
 
-.badge a {
-  text-decoration: none; }
+.badge {
+  padding-top: 0.34rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+  .badge a {
+    text-decoration: none; }
 
 @media (max-width: 575px) {
   .btn.btn-xs-block {
@@ -8661,6 +8672,16 @@ button {
     display: block;
     margin-bottom: 0.5rem;
     width: 100%; } }
+
+.btn.btn-flat {
+  background: none !important;
+  border: none;
+  padding: 0;
+  color: #424242 !important; }
+
+.btn.btn-xs {
+  padding: 0.18rem 0.45rem;
+  font-size: 0.675rem; }
 
 .btn-social {
   display: inline-block; }
@@ -8724,9 +8745,10 @@ button {
   margin-top: 1rem;
   color: #eceeef; }
   .footer a {
-    color: #eceeef; }
+    color: #eceeef;
+    text-decoration: none; }
     .footer a:hover {
-      color: #636c72; }
+      color: #0278b8; }
 
 select option,
 .select option {
@@ -8739,6 +8761,12 @@ select option,
   color: #d9534f; }
   .asteriskField::before {
     content: ' '; }
+
+.help-block {
+  color: #d9534f;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  margin-top: 0.3rem; }
 
 form small ul {
   padding-left: 0.7rem; }
@@ -8768,6 +8796,9 @@ form small ul {
     .input-icons .icon.icon-right {
       right: 0; }
 
+.jumbotron {
+  color: #0288d1; }
+
 /**
  * Los archivos se han de actualizar manualmente desde
  * https://github.com/google/material-design-icons/tree/master/iconfont
@@ -8788,7 +8819,7 @@ form small ul {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   /* Preferred icon size */
   display: inline-block;
   line-height: 1;

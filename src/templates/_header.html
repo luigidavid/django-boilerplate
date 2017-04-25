@@ -31,32 +31,32 @@
       {% if user.is_authenticated %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"
-             href="http://example.com"
+             href="{% url 'accounts:profile' %}"
              id="navbarDropdownMenuLink"
              data-toggle="dropdown"
              aria-haspopup="true"
              aria-expanded="false"
           >
-            <i class="fa fa-user" aria-hidden="true"></i> {{ user.username }}
+            <i class="material-icons">person</i> {{ user.username }}
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="{% url 'accounts:profile' %}">
-              <i class="fa fa-user" aria-hidden="true"></i> Mi cuenta
+              <i class="material-icons">person</i> Mi cuenta
             </a>
             <a class="dropdown-item" href="{% url 'authentication:logout' %}">
-              <i class="fa fa-sign-out" aria-hidden="true"></i> Terminar sesión
+              <i class="material-icons">exit_to_app</i> Terminar sesión
             </a>
           </div>
         </li>
       {% else %}
         <li class="nav-item">
           <a class="nav-link" href="{% url 'authentication:register' %}">
-            <i class="fa fa-user-plus" aria-hidden="true"></i> Registro
+            <i class="material-icons">person_add</i> Registro
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% url 'authentication:login' %}">
-            <i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar sesión
+            <i class="material-icons">person</i> Iniciar sesión
           </a>
         </li>
       {% endif %}

@@ -1,15 +1,8 @@
 .badge {
   // Ajusta un poquito mejor los badges.
-  // padding-top: 0.52rem;
-  // vertical-align: middle;
-
-  // Si $enable-rounded es false, no mostrara bordes en los badges, pero en este
-  // caso si quiero que salgan los bordes.
-  &.badge-pill {
-    @extend .badge-pill;
-
-    border-radius: $badge-pill-border-radius;
-  }
+  padding-top: 0.34rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 
   // Elimina la decoración en los links dentro del badge.
   a {

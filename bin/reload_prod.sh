@@ -25,18 +25,18 @@ then
   $CRON_ROOT/postgres_db_backup.sh
 fi
 
-# Ejecutar migrate.
-read -p "¿Ejecutar migrate? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  $PROJECT_ROOT/prod_manage.py migrate
-fi
-
 # Actualizar pip.
 read -p "¿Actualizar pip? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   pip install -r $PROJECT_ROOT/requirements/prod.txt
+fi
+
+# Ejecutar migrate.
+read -p "¿Ejecutar migrate? (y/[N]) " yn
+if [ "$yn" == "y" -o "$yn" == "Y" ]
+then
+  $PROJECT_ROOT/prod_manage.py migrate
 fi
 
 # Eliminar directorio de collectstatic.

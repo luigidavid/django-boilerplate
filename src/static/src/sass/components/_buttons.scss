@@ -14,6 +14,23 @@
       width: 100%;
     }
   }
+
+  // Un boton como simple texto.
+  &.btn-flat {
+    background: none !important;
+    border: none;
+    padding: 0;
+    color: $body-color !important;
+  }
+
+  &.btn-xs {
+    @include button-size(
+      $btn-padding-y-sm - 0.07rem,
+      $btn-padding-x-sm - 0.05rem,
+      $font-size-sm - 0.2rem,
+      $btn-border-radius-sm
+    );
+  }
 }
 
 // Botones sociales (share)

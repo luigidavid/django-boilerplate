@@ -24,6 +24,13 @@ select,
   }
 }
 
+.help-block {
+  color: $red;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+}
+
 // El texto de help, eliminar el padding de los ul.
 // Crispy forms no añade clases.
 form {
