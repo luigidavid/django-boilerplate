@@ -17,6 +17,7 @@
     "gulp-uglify": "^2.1.2",
     "htmlhint": "^0.9.13",
     "jquery": "^3.2.1",
+    "roboto-fontface": "^0.7.0",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "toastr": "^2.1.2"

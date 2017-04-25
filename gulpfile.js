@@ -62,6 +62,10 @@ gulp.task('copy', () => {
   gulp.src(['./node_modules/components-font-awesome/fonts/**/*'])
     .pipe(gulp.dest('./src/static/dist/fonts/font-awesome'));
 
+  // Roboto fonts.
+  gulp.src(['./node_modules/roboto-fontface/fonts/Roboto/*'])
+    .pipe(gulp.dest('./src/static/dist/fonts/roboto'));
+
   /**
    * Imágenes.
    *
