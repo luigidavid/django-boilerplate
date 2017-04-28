@@ -8,13 +8,13 @@
           {% if page_obj.has_previous %}
             <li class="page-item">
               <a class="page-link" href="{% previous_pagination %}">
-                <i class="material-icons">keyboard_arrow_left</i> Anterior
+                <i class="material-icons md-3">keyboard_arrow_left</i> Anterior
               </a>
             </li>
           {% else %}
             <li class="page-item disabled">
               <a class="page-link" href="#">
-                <i class="material-icons">keyboard_arrow_left</i> Anterior
+                <i class="material-icons md-3">keyboard_arrow_left</i> Anterior
               </a>
             </li>
           {% endif %}
@@ -28,13 +28,13 @@
           {% if page_obj.has_next %}
             <li class="page-item">
               <a class="page-link" href="{% next_pagination %}">
-                Siguiente <i class="material-icons">keyboard_arrow_right</i>
+                Siguiente <i class="material-icons md-3">keyboard_arrow_right</i>
               </a>
             </li>
           {% else %}
             <li class="page-item disabled">
               <a class="page-link" href="#">
-                Siguiente <i class="material-icons">keyboard_arrow_right</i>
+                Siguiente <i class="material-icons md-3">keyboard_arrow_right</i>
               </a>
             </li>
           {% endif %}

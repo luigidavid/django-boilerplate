@@ -1,8 +1,8 @@
 // Los select por defecto, mostrarlos como .custom-select.
 // crispy forms añade la clase .select.
 // Añade un poco mas de padding entre las opciones.
-select,
-.select {
+.select,
+.selectmultiple {
   @extend .custom-select;
 
   option {

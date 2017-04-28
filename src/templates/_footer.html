@@ -1,9 +1,45 @@
 <footer class="footer">
   <section class="container">
-    <section class="row">
-      <div class="col-lg-6">
-        <h5>Get started</h5>
-        <ul class="list-unstyled">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <ul class="list-unstyled links">
+          {# Todos los usuarios #}
+          <li>
+            <a href="#">
+              <i class="material-icons">add</i> Añadir algo
+            </a>
+          </li>
+
+          {# Usuarios logueados #}
+          {% if user.is_authenticated %}
+            <li>
+              <a href="{% url 'accounts:profile' %}">
+                <i class="material-icons">person</i> Mi cuenta
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'authentication:logout' %}">
+                <i class="material-icons">exit_to_app</i> Terminar sesión
+              </a>
+            </li>
+          {% else %}
+            {# Usuarios anónimos #}
+            <li>
+              <a href="{% url 'authentication:login' %}?next={{ request.get_full_path }}">
+                <i class="material-icons">person</i> Iniciar sesión
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'authentication:register' %}">
+                <i class="material-icons">person_add</i> Registrar
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <ul class="list-unstyled links">
           <li><a href="#">Lorem ipsum</a></li>
           <li><a href="#">Lorem ipsum</a></li>
           <li><a href="#">Lorem ipsum</a></li>
@@ -11,10 +47,36 @@
           <li><a href="#">Lorem ipsum</a></li>
         </ul>
       </div>
-      <div class="col-lg-6">
-        <h5>About us</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+
+      <div class="col-md-6 col-lg-4">
+        <!-- Compartir con las redes -->
+        <section class="row mt-4">
+          <div class="col-md-12">
+            <div class="share-icons">
+              <a class="facebook" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u={{ PROTOCOL }}{{ request.get_host }}&amp;title={{ SITE.name }}', '', 'width=500,height=300');">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              </a>
+              <a class="gplus" onclick="window.open('https://plus.google.com/share?url={{ PROTOCOL }}{{ request.get_host }}', '', 'width=500,height=300');">
+                <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+              </a>
+              <a class="twitter" onclick="window.open('http://twitter.com/intent/tweet?status={{ SITE.name }}+{{ PROTOCOL }}{{ request.get_host }}', '', 'width=500,height=300');">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
+              <a class="twitter" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url={{ PROTOCOL }}{{ request.get_host }}&amp;title={{ SITE.name }}&amp;source={{ SITE.domain }}', '', 'width=500,height=300');">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </section><!-- Compartir con las redes -->
       </div>
-    </section>
+    </div>
+  </section>
+
+  <section class="row copy">
+    <div class="col-md-12">
+      <section class="container">
+        &copy; 2017-{% now "Y" %} {{ SITE.domain }} - Salvador Nicolas &lt;snicoper@gmail.com&gt;
+      </section>
+    </div>
   </section>
 </footer>

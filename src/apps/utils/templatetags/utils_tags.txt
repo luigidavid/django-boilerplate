@@ -39,5 +39,5 @@ def markdown_format(text, safe=False):
         markdown2.markdown(
             text,
             extras=['fenced-code-blocks']
-        ).replace('<ul>', '<ul class="browser-default ul-default">')
+        )
     )

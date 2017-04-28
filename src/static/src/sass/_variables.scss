@@ -31,6 +31,9 @@ $brand-secondary: lighten($brand-primary, 5%) !default;
 $enable-rounded: false !default;
 $enable-shadows: false !default;
 
+// Links.
+$link-hover-decoration: none !default;
+
 // tooltip
 $tooltip-bg: $brand-primary;
 $tooltip-color: #fff;

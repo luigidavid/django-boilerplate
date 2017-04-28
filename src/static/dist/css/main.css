@@ -617,7 +617,7 @@ a {
   text-decoration: none; }
   a:focus, a:hover {
     color: #015785;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -2309,7 +2309,7 @@ fieldset[disabled] a.btn {
     border-color: transparent; }
   .btn-link:focus, .btn-link:hover {
     color: #015785;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent; }
   .btn-link:disabled {
     color: #636c72; }
@@ -2697,8 +2697,8 @@ tbody.collapse.show {
     .custom-controls-stacked .custom-control + .custom-control {
       margin-left: 0; }
 
-.custom-select, select,
-.select {
+.custom-select, .select,
+.selectmultiple {
   display: inline-block;
   max-width: 100%;
   height: calc(2.25rem + 2px);
@@ -2711,21 +2711,21 @@ tbody.collapse.show {
   border: 1px solid rgba(0, 0, 0, 0.15);
   -moz-appearance: none;
   -webkit-appearance: none; }
-  .custom-select:focus, select:focus,
-  .select:focus {
+  .custom-select:focus, .select:focus,
+  .selectmultiple:focus {
     border-color: #55c2fd;
     outline: none; }
-    .custom-select:focus::-ms-value, select:focus::-ms-value,
-    .select:focus::-ms-value {
+    .custom-select:focus::-ms-value, .select:focus::-ms-value,
+    .selectmultiple:focus::-ms-value {
       color: #464a4c;
       background-color: #fff; }
-  .custom-select:disabled, select:disabled,
-  .select:disabled {
+  .custom-select:disabled, .select:disabled,
+  .selectmultiple:disabled {
     color: #636c72;
     cursor: not-allowed;
     background-color: #eceeef; }
-  .custom-select::-ms-expand, select::-ms-expand,
-  .select::-ms-expand {
+  .custom-select::-ms-expand, .select::-ms-expand,
+  .selectmultiple::-ms-expand {
     opacity: 0; }
 
 .custom-select-sm {
@@ -5989,10 +5989,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .text-white {
   color: #fff !important; }
 
-.text-muted {
+.text-muted, .text-value {
   color: #636c72 !important; }
 
-a.text-muted:focus, a.text-muted:hover {
+a.text-muted:focus, a.text-value:focus, a.text-muted:hover, a.text-value:hover {
   color: #4b5257 !important; }
 
 .text-primary {
@@ -8665,6 +8665,16 @@ button {
 .cursor-pointer {
   cursor: pointer; }
 
+::selection {
+  background: #0298ea;
+  /* WebKit/Blink Browsers */
+  color: #fff; }
+
+::-moz-selection {
+  background: #0298ea;
+  /* Gecko Browsers */
+  color: #fff; }
+
 @media (max-width: 575px) {
   .px-xs-none {
     padding-left: 0 !important;
@@ -8673,7 +8683,7 @@ button {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1 {
+.z-depth-1, .dropdown-menu {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
 
 .z-depth-2, .navbar {
@@ -8760,6 +8770,21 @@ button {
 .card .card-img-top {
   max-height: 180px; }
 
+.dropdown-menu {
+  border: 0;
+  padding: 0; }
+  .dropdown-menu .dropdown-item {
+    padding: 8px 1rem; }
+    .dropdown-menu .dropdown-item i {
+      margin-right: 1rem; }
+  .dropdown-menu .dropdown-divider {
+    padding: 0;
+    margin: 0; }
+  @media (max-width: 767px) {
+    .dropdown-menu:hover {
+      max-height: 350px;
+      overflow-y: scroll; } }
+
 .footer {
   background-color: #0298ea;
   padding: 1rem;
@@ -8770,9 +8795,28 @@ button {
     text-decoration: none; }
     .footer a:hover {
       color: #0278b8; }
+  .footer ul.links li {
+    margin-top: 0.4rem; }
+    .footer ul.links li a {
+      font-size: 0.9rem; }
+    .footer ul.links li i {
+      margin-right: 0.4rem; }
+  .footer .copy {
+    background-color: #0288d1;
+    bottom: -15px;
+    color: #fff;
+    font-size: 0.8rem;
+    left: 0;
+    padding: 0.8rem 0.8rem 0.6rem;
+    position: relative; }
+  .footer .share-icons a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer; }
 
-select option,
-.select option {
+.select option,
+.selectmultiple option {
   padding: 0.5rem; }
 
 .form-control-label {
@@ -8880,6 +8924,10 @@ form small ul {
     color: white; }
     .material-icons.md-light.md-inactive {
       color: rgba(255, 255, 255, 0.3); }
+
+.text-value {
+  font-size: 0.9rem;
+  text-align: right; }
 
 .to-top {
   background: rgba(0, 0, 0, 0.3);

@@ -18,18 +18,18 @@ then
   git pull origin $BRANCH_PROD
 fi
 
-# Backup database
-read -p "¿Backup database? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  $CRON_ROOT/postgres_db_backup.sh
-fi
-
 # Actualizar pip.
 read -p "¿Actualizar pip? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
   pip install -r $PROJECT_ROOT/requirements/prod.txt
+fi
+
+# Backup database
+read -p "¿Backup database? (y/[N]) " yn
+if [ "$yn" == "y" -o "$yn" == "Y" ]
+then
+  $CRON_ROOT/postgres_db_backup.sh
 fi
 
 # Ejecutar migrate.
