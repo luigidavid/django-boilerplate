@@ -8689,6 +8689,29 @@ button {
 .z-depth-2, .navbar {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.12); }
 
+@media (min-width: 768px) {
+  .alert.alert-icon {
+    position: relative;
+    padding-left: 35px; }
+    .alert.alert-icon::before {
+      position: absolute;
+      font-family: "Material Icons";
+      font-size: 1.6rem;
+      left: 5px;
+      top: 6px; }
+    .alert.alert-icon.alert-success::before {
+      content: "\E86C";
+      color: #5cb85c; }
+    .alert.alert-icon.alert-info::before {
+      content: "\E88E";
+      color: #5bc0de; }
+    .alert.alert-icon.alert-warning::before {
+      content: "\E002";
+      color: #f0ad4e; }
+    .alert.alert-icon.alert-danger::before {
+      content: "\E000";
+      color: #d9534f; } }
+
 .badge a {
   text-decoration: none; }
 
