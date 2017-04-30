@@ -39,3 +39,10 @@ button {
     padding-right: 0 !important;
   }
 }
+
+@include media-breakpoint-down(md) {
+  // En <= md usar todo el ancho de la ventana.
+  .container {
+    width: 98%;
+  }
+}

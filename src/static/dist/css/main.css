@@ -8680,6 +8680,10 @@ button {
     padding-left: 0 !important;
     padding-right: 0 !important; } }
 
+@media (max-width: 991px) {
+  .container {
+    width: 98%; } }
+
 .z-depth-0 {
   box-shadow: none !important; }
 
