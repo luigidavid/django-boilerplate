@@ -2,13 +2,6 @@ Estructura que utilizo para crear practicas con Django con una base ya hecha.
 
 Requiere Django >= 1.11 y Python 3.
 
-Utiliza [Materializecss](http://materializecss.com/) como framework css.
-
-Para los templates en los forms usa `src/apps/templateforms`, una alternativa seria
-[https://github.com/viewflow/django-material](https://github.com/viewflow/django-material)
-
-**TODO:** Ver [https://docs.djangoproject.com/en/1.11/ref/forms/renderers/](https://docs.djangoproject.com/en/1.11/ref/forms/renderers/)
-
 # Instalación
 
 Crear un entorno virtual con `virtualenvwrapper` y crear el proyecto.
