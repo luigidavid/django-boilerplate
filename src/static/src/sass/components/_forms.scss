@@ -66,10 +66,11 @@ form {
   }
 
   .icon {
-    position: absolute;
+    color: #bdbdbd;
     padding: 7px;
     pointer-events: none;
-    color: #bdbdbd;
+    position: absolute;
+    z-index: 4;
 
     &.icon-left { left: 0; }
     &.icon-right { right: 0; }
