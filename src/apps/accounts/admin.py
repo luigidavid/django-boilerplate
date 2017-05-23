@@ -16,7 +16,7 @@ class UserAdmin(AuthUserAdmin):
             'fields': ('username', 'password')
         }),
         (_('Información personal'), {
-            'fields': ('first_name', 'last_name', 'email', 'slug')
+            'fields': ('first_name', 'last_name', 'email')
         }),
         (_('Permisos'), {
             'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')
