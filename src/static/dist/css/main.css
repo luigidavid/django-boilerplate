@@ -8879,10 +8879,11 @@ form small ul {
   .input-icons.icon-right input {
     padding-right: 33px; }
   .input-icons .icon {
-    position: absolute;
+    color: #bdbdbd;
     padding: 7px;
     pointer-events: none;
-    color: #bdbdbd; }
+    position: absolute;
+    z-index: 4; }
     .input-icons .icon.icon-left {
       left: 0; }
     .input-icons .icon.icon-right {
