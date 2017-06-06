@@ -13,3 +13,17 @@ AUTH_REGEX_USERNAME = getattr(settings, 'AUTH_REGEX_USERNAME', regex_username)
 
 # Mínimo caracteres en username.
 AUTH_MIN_LENGTH_USERNAME = getattr(settings, 'AUTH_MIN_LENGTH_USERNAME', 5)
+
+# usernames black list
+AUTH_USERNAME_BLACKLIST = getattr(
+    settings,
+    'AUTH_USERNAME_BLACKLIST',
+    [
+        'admin',
+        'superadmin',
+        'superuser',
+        'anonimous',
+        'anonimo',
+        'staff'
+    ]
+)

@@ -69,12 +69,16 @@ class RegisterUserForm(forms.ModelForm):
     def clean_username(self):
         """Prueba que no exista en la db accounts.User.
 
+        Prueba que el nombre de usuario no sea uno en AUTH_USERNAME_BLACKLIST.
+
         RegisterUser al ser un campo unique, ya se encarga de no tener un
         username igual.
         """
         username = self.cleaned_data['username']
         if UserModel.objects.filter(username=username):
             raise forms.ValidationError(ugettext('El usuario ya existe'))
+        if username.lower() in auth_settings.AUTH_USERNAME_BLACKLIST:
+            raise forms.ValidationError('Nombre de usuario no valido')
         return username
 
     def clean_email(self):
