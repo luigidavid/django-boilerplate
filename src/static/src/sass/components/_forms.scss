@@ -24,6 +24,16 @@
   }
 }
 
+// Errores a nivel de form.
+form {
+  .alert-block {
+    ul {
+      padding: 0.4rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
 .help-block {
   color: $red;
   font-size: 0.8rem;
