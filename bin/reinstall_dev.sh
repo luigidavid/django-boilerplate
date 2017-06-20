@@ -50,17 +50,17 @@ fi
 read -p "¿Restaurar la base de datos? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
+  psql -U postgres -c "DROP DATABASE IF EXISTS $DATABASE_NAME"
+  echo "Eliminada base de datos $DATABASE_NAME"
+  psql -U postgres -c "CREATE DATABASE $DATABASE_NAME WITH OWNER $DATABASE_USER"
+  echo "Creada base de datos $DATABASE_NAME WITH OWNER $DATABASE_USER"
+
   # Eliminar directorios migrations, quitar cuando se pasa a prod.
   read -p "¿Eliminar directorios migrations? (y/[N]) " yn
   if [ "$yn" == "y" -o "$yn" == "Y" ]
   then
     source $BIN_ROOT/delete_migrations.sh
   fi
-
-  psql -U postgres -c "DROP DATABASE IF EXISTS $DATABASE_NAME"
-  echo "Eliminada base de datos $DATABASE_NAME"
-  psql -U postgres -c "CREATE DATABASE $DATABASE_NAME WITH OWNER $DATABASE_USER"
-  echo "Creada base de datos $DATABASE_NAME WITH OWNER $DATABASE_USER"
 
   $PROJECT_ROOT/manage.py makemigrations
   $PROJECT_ROOT/manage.py migrate

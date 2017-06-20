@@ -39,21 +39,11 @@ then
   $PROJECT_ROOT/prod_manage.py migrate
 fi
 
-# Eliminar directorio de collectstatic.
-read -p "¿Eliminar directorio de collectstatic? (y/[N]) " yn
-if [ "$yn" == "y" -o "$yn" == "Y" ]
-then
-  if [ -d $SRC_ROOT/staticfiles ]
-  then
-    rm -rf $SRC_ROOT/staticfiles
-  fi
-fi
-
 # Ejecutar collectstatic.
 read -p "¿Ejecutar collectstatic? (y/[N]) " yn
 if [ "$yn" == "y" -o "$yn" == "Y" ]
 then
-  $PYTHON_EXEC $PROJECT_ROOT/prod_manage.py collectstatic
+  $PYTHON_EXEC $PROJECT_ROOT/prod_manage.py collectstatic --clear --noinput
 fi
 
 # Reiniciar gunicorn.

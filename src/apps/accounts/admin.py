@@ -25,3 +25,9 @@ class UserAdmin(AuthUserAdmin):
             'fields': ('last_login', 'date_joined')
         }),
     )
+    add_fieldsets = (
+        (None, {
+            'classes': ('wide',),
+            'fields': ('username', 'email', 'password1', 'password2')
+        }),
+    )
